@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
 
-  let dist_path = "../ciecode.es-ghpages/";
+  let dist_path = "../ciecode.es/";
 
   grunt.initConfig({
     copy: {

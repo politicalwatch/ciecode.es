@@ -37,11 +37,14 @@ var item = function() {
         <h3><%= item.title %></h3>
           <ul class="xs-simple-tag fundpress-simple-tag">
             <% for(var tagindex=0; tagindex<item.tags.length; tagindex++) { %>
-            <li><i class="fa fa-tag color-green"></i> <%= item.tags[tagindex] %></li>
+              <li><i class="fa fa-tag color-green"></i> <%= item.tags[tagindex] %></li>
             <% } %>
           </ul>
           <ul class="xs-list-item-icon-text">
-                  <li><i class="fa fa-user-circle fa-2x color-green"></i>Javier Pérez</li>
+            <% for(var authorindex=0; authorindex<item.authors.length; authorindex++) { %>
+            <li><i class="fa fa-user-circle fa-2x color-green"></i><%= item.authors[authorindex] %></li>
+            <% } %>
+
           </ul>
         <p><%= item.description %></p>
       </div>

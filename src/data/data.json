@@ -12,7 +12,7 @@
           "description": "Lorem fistrum amatomaa pecador a peich sexuarl mamaar. Pecador ese pedazo de al ataquerl no te digo trigo por no llamarte Rodrigor la caidita a gramenawer ahorarr tiene musho peligro te va a hasé pupitaa.",
           "image": "product/products-1.jpg",
           "date": "01/07/2018",
-          "authors": [],
+          "authors": ["Javier Pérez", "María Vega"],
           "tags": ["politica", "sociedad"],
           "file": ""
         },
@@ -22,7 +22,7 @@
           "description": "Lorem fistrum amatomaa pecador a peich sexuarl mamaar. Pecador ese pedazo de al ataquerl no te digo trigo por no llamarte Rodrigor la caidita a gramenawer ahorarr tiene musho peligro te va a hasé pupitaa.",
           "image": "product/products-1.jpg",
           "date": "03/04/2017",
-          "authors": [],
+          "authors": ["Javier Pérez"],
           "tags": ["politica"],
           "file": ""
         }

@@ -1,0 +1,101 @@
+<% include common/start %>
+
+<% include common/header %>
+
+
+<!-- welcome section -->
+<!--breadcumb start here-->
+<section class="xs-inner-welcome-section fundpress-inner-welcome-section fundpress-inner-bg-1 parallax-window" data-parallax="scroll" data-image-src="<%= global.folderName %>/assets/images/background/about_us_bg.png">
+  <div class="xs-solid-overlay xs-bg-black"></div>
+  <div class="container">
+    <div class="fundpress-inner-welcome-content">
+      <h2 class="color-white">Investigación</h2>
+      <ul class="xs-breadcumb fundpress-breadcumb">
+        <li><a href="index.html" class="color-white"> Home /</a> Investigación</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!--breadcumb end here--><!-- End welcome section -->
+
+<% if (data.reports.items.length > 0) { %>
+<!-- cause matters -->
+<section id="cause-matters" class="waypoint-tigger xs-section-padding">
+  <div class="container">
+
+    <div class="xs-section-heading row xs-margin-0">
+      <div class="fundpress-heading-title xs-padding-0 col-md-9 col-xl-9">
+        <h2 class="color-navy-blue">Todos los informes, libres para ti</h2>
+        <span class="xs-separetor dashed-separetor fundpress-separetor"></span>
+        <p>Lorem fistrum amatomaa pecador a peich sexuarl mamaar. Pecador ese pedazo de al ataquerl no te digo trigo por no llamarte Rodrigor la caidita a gramenawer ahorarr tiene musho peligro te va a hasé pupitaa.</p>
+      </div><!-- .fundpress-heading-title .xs-col-9 END -->
+    </div><!-- .xs-section-heading .fundpress-section-heading .xs-spilit-container END -->
+
+    <% if (data.reports.tags.length > 0) { %>
+    <div class="xs-tab-wraper fundpress-tab-wraper">
+      <div class="fundpress-tab-nav xs-tab-nav">
+        <ul class="nav nav-tabs" role="tablist">
+          <% for(var tagindex=0; tagindex<data.reports.tags.length; tagindex++) { %>
+          <li class="nav-item">
+            <a class="nav-link <% if (tagindex == 0) { %> active <% } %>" href="#<%= data.reports.tags[tagindex] %>" role="tab" data-toggle="tab"><%= data.reports.tags[tagindex] %></a>
+          </li>
+          <% } %>
+        </ul>
+
+
+      </div><!-- .xs-isotope-nav .fundpress-isotope-nav END -->
+
+      <div class="tab-content">
+
+        <%
+        var getResearchItemByTag = function(items, tag) {
+          return items.filter(function(item) {
+            return item.tags.indexOf(tag) != -1;
+           }).sort(function(a,b) { return a.date > b.date;  });
+        }
+        %>
+
+        <% for(var tagindex=0; tagindex<data.reports.tags.length; tagindex++) { %>
+          <div role="tabpanel" class="tab-pane fade in <% if (tagindex == 0) { %> active <% } %> show" id="<%= data.reports.tags[tagindex] %>">
+          <div class="row">
+          <% var items = getResearchItemByTag(data.reports.items, data.reports.tags[tagindex]); %>
+          <% for(var itemindex=0; itemindex<items.length; itemindex++) { %>
+            <div class="col-lg-4">
+              <div class="fundpress-grid-item-content">
+                <div class="fundpress-item-header xs-mb-30">
+                  <img src="<%= global.folderName %>/assets/images/<%= items[itemindex].image %>" alt="">
+                </div>
+                <div class="fundpress-item-content">
+                  <ul class="xs-simple-tag fundpress-simple-tag">
+                    <% for(var tagindexalt=0; tagindexalt<items[itemindex].tags.length; tagindexalt++) { %>
+                    <li><%= items[itemindex].tags[tagindexalt] %></li>
+                    <% } %>
+                  </ul>
+                  <a href="<%= items[itemindex].id %>" class="d-block color-navy-blue fundpress-post-title"><%= items[itemindex].title %></a>
+                  <!-- <ul class="xs&#45;list&#45;with&#45;content fundpress&#45;list&#45;item&#45;content"> -->
+                  <!--   <li>$15,280<span>Pledged</span></li> -->
+                  <!--   <li><span class="number&#45;percentage&#45;count">65%</span><span>Funded</span></li> -->
+                  <!--   <li>50<span>Days to go</span></li> -->
+                  <!-- </ul> -->
+                </div>
+              </div>
+            </div>
+          <% } %>
+          </div>
+          </div>
+
+        <% } %>
+
+      </div>
+    </div>
+    <% } %>
+  </div>
+</section>    <!-- End cause matters -->
+<% } %>
+
+
+
+<% include common/footer %>
+
+<% include common/end %>
+

@@ -8,5 +8,22 @@
     "title": "Sobre el CIECODE",
     "description": "",
     "keywords": ""
+  },
+  "research": {
+    "title": "Investigación",
+    "description": "",
+    "keywords": ""
+  },
+  "research/lorem-ipsum": {
+    "title": "Investigación sobre Lorem Ipsum",
+    "description": "",
+    "keywords": "",
+    "id": "lorem-ipsum"
+  },
+  "research/ipsum-dolor": {
+    "title": "Investigación sobre Ipsum Lorem",
+    "description": "",
+    "keywords": "",
+    "id": "ipsum-dolor"
   }
 }

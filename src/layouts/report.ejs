@@ -1,0 +1,72 @@
+<% include common/start %>
+
+<% include common/header %>
+
+<%
+var item = function() {
+    return data.reports.items.filter(function(item) {
+      return item.id == meta.id;
+    })[0];
+  }();
+%>
+
+
+<!-- welcome section -->
+<!--breadcumb start here-->
+<section class="xs-inner-welcome-section fundpress-inner-welcome-section fundpress-inner-bg-1 parallax-window" data-parallax="scroll" data-image-src="<%= global.folderName %>/assets/images/background/about_us_bg.png">
+  <div class="xs-solid-overlay xs-bg-black"></div>
+  <div class="container">
+    <div class="fundpress-inner-welcome-content">
+      <h2 class="color-white"><%= item.title %></h2>
+      <ul class="xs-breadcumb fundpress-breadcumb">
+        <li><a href="#" class="color-white"> Home /</a> <a href="#" class="color-white"> Investigación /</a></li> <%= item.title %>
+      </ul>
+    </div>
+  </div>
+</section>
+<!--breadcumb end here--><!-- End welcome section -->
+
+
+
+<main class="xs-all-content-wrapper">
+<!-- team member details section -->
+<section class="xs-team-member-details-section fundpress-team-member-details-section xs-content-section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12 col-lg-8">
+        <h3><%= item.title %></h3>
+          <ul class="xs-simple-tag fundpress-simple-tag">
+            <% for(var tagindex=0; tagindex<item.tags.length; tagindex++) { %>
+            <li><i class="fa fa-tag color-green"></i> <%= item.tags[tagindex] %></li>
+            <% } %>
+          </ul>
+          <ul class="xs-list-item-icon-text">
+                  <li><i class="fa fa-user-circle fa-2x color-green"></i>Javier Pérez</li>
+          </ul>
+        <p><%= item.description %></p>
+      </div>
+      <div class="col-md-5 col-sm-12 col-lg-4">
+        <div class="xs-team-member-info-details text-center">
+          <div class="xs-item-header xs-content-padding">
+            <div class="xs-mb-30 xs-extra-css">
+              <a href="#" class="xs-btn btn text-uppercase btn-primary">Download this report</a>
+            </div>
+          </div>
+          <div class="xs-team-member-bio-avatar xs-box-shadow text-center">
+            <img src="<%= global.folderName %>/assets/images/<%= item.image %>" alt="">
+            </div><!-- xs-team-member-info  -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+
+<% include common/footer %>
+
+<% include common/end %>
+
+

@@ -18,6 +18,64 @@
 </section>
 <!--breadcumb end here--><!-- End welcome section -->
 
+<main class="xs-all-content-wrapper">
+<!-- about us side by side image version 1 -->
+<section class="xs-bg fundpress-text-with-image-side-by-side-3 xs-content-section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="xs-box-shadow-2 xs-background-popup-wraper">
+          <img src="<%= global.folderName %>/assets/images/features_1.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="fundpress-side-by-side-image-with-text fundpress-side-by-side-image-with-text-v2">
+          <div class="xs-inner-title fundpress-inner-title">
+            <h2 class="color-navy-blue xs-mb-20">We Watch Politics</h2>
+          </div>
+          <p class="xs-content-description fundpress-content-description xs-mb-20">With both live crowdfunding campaigns and innovative products shipping, there’s no better place to start the hunt for cool and clever innovations that surprise and delight. Indiegogo is where new launches.</p>
+
+          <h3 class="color-green xs-post-title fundpress-post-title xs-mb-20">Be a part of emerging tech, design, and much more</h3>
+
+          <p class="xs-content-description fundpress-content-description xs-mb-30">New to crowdfunding? Welcome! With Indiegogo's crowdfunding and Demand campaigns, there's no better place to discover ingenious products just as they emerge from the minds of creative entrepreneurs around the.</p>
+          <a href="#" class="xs-btn green-btn">explore our projects</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>	<!-- about us side by side image version 1 end -->
+
+<!-- popular campaigns -->
+<section id="popular-campaigns" class="xs-gray-bg waypoint-tigger xs-section-padding">
+  <div class="container">
+    <div class="xs-section-heading row xs-margin-0">
+      <div class="fundpress-heading-title xs-padding-0 col-xl-9 col-md-9">
+        <h2 class="color-navy-blue">Our projects</h2>
+        <span class="xs-separetor dashed-separetor fundpress-separetor"></span>
+        <p>FundPress has built a platform focused on aiding entrepreneurs, startups, and companies raise capital from anyone.</p>
+      </div><!-- .xs-heading-title .fundpress-heading-title .xs-col-9 END -->
+    </div><!-- .xs-section-heading .fundpress-section-heading .xs-spilit-container END -->
+    <div class="row">
+      <% for(var projectindex=0; projectindex<data.projects.length; projectindex++) { %>
+        <div class="col-md-6">
+          <div class="xs-box-shadow fundpress-popular-item xs-bg-white">
+            <div class="fundpress-item-header">
+              <img src="<%= global.folderName %>/assets/images/<%= data.projects[projectindex].image %>" alt="">
+            </div><!-- .xs-item-header .fundpress-item-header END -->
+            <div class="fundpress-item-content xs-content-padding bg-color-white">
+              <a href="<%= global.folderName %>/political-watch/<%= data.projects[projectindex].id %>" class="d-block color-navy-blue fundpress-post-title"><%= data.projects[projectindex].title %></a>
+              <div class="fundpress-text-content">
+                <p class="text-black"><%= data.projects[projectindex].description %></p>
+              </div>
+            </div><!-- .fundpress-item-content END -->
+          </div>
+        </div>
+        <% } %>
+    </div>
+  </div>
+</section>    <!-- End popular campaigns -->
+
+</main>
 
 
 <% include common/footer %>

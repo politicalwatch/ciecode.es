@@ -16,10 +16,12 @@ module.exports = function(grunt) {
     },
     sass: {
       dist: {
-        // files: {
-        //   src: ["src/assets/sass/style.scss"],
-        //   dest: [dist_path + "assets/css/style.css"],
-        // }
+        options: {
+          sourceMap: true
+        },
+        files: {
+          "../ciecode.es/assets/css/style.css": "src/assets/sass/style.scss"
+        }
       }
     },
     ejs_static: {
@@ -54,11 +56,11 @@ module.exports = function(grunt) {
     },
     watch: {
       datachanges: {
-        files: ["src/data/**/*.json", "src/layouts/**/*.ejs", "src/assets/sass/*.scss"],
+        files: ["src/data/**/*.json", "src/layouts/**/*.ejs"],
         tasks: ["ejs_static:dist"]
       },
       sasschanges: {
-        files: ["src/assets/sass/scss"],
+        files: ["src/assets/sass/*.scss"],
         tasks: ["sass:dist"]
       }
     }

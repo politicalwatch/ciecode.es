@@ -400,7 +400,7 @@
 
 .fundpress-icon-with-square-service {
 	padding: 40px 20px;
-	background-color: #012270;
+	background-color: lighten($v2-dark-navy-blue, 3%);
 	box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
 	min-height: 287px;
 	@include flex-position(flex, center, flex-start);
@@ -766,7 +766,7 @@
 	}
 	.fundpress-inner-welcome-content {
 		position: relative;
-		padding: 340px 0 240px;
+		padding: 200px 0 100px;
 		z-index: 101;
 		h2 {
 			@extend .bold;
@@ -1617,6 +1617,40 @@
 .fundpress-menu-v2 .nav-menu .submenu-indicator-chevron {
 	border-color: transparent $color-white $color-white transparent;
 }
+
+.btn-primary ,
+.btn-outline-primary {
+        font-size: em(14px);
+        @extend .medium;
+        background-color: $color-ciecode-red;
+        padding: 17px 55px;
+        text-transform: uppercase;
+}
+.btn-outline-primary {
+        border-color: $color-ciecode-red;
+        color: $color-white;
+        background-color: transparent;
+        box-shadow: $primary-shadow;
+        padding: 15px 34px;
+        border-width: 2px;
+}
+.btn-secondary ,
+.btn-outline-secondary {
+        font-size: em(14px);
+        @extend .medium;
+        background-color: $color-ciecode-blue;
+        padding: 17px 55px;
+        text-transform: uppercase;
+}
+.btn-outline-secondary {
+        border-color: $color-ciecode-blue;
+        color: $color-white;
+        background-color: transparent;
+        box-shadow: $primary-shadow;
+        padding: 15px 34px;
+        border-width: 2px;
+}
+                
 // welcome version 2
 .fundpress-welcome-content-v2 {
 	height: 862px;
@@ -1643,24 +1677,6 @@
 				font-size: 0.563em;
 				color: #B5BCD8;
 			}
-		}
-	}
-	.xs-btn-wraper {
-		.btn-primary ,
-		.btn-outline-primary {
-			font-size: em(14px);
-			@extend .medium;
-			background-color: $v2-color-blue;
-			padding: 17px 55px;
-			text-transform: uppercase;
-		}
-		.btn-outline-primary {
-			border-color: #273468;
-			color: $color-white;
-			background-color: transparent;
-			box-shadow: $primary-shadow;
-			padding: 15px 34px;
-			border-width: 2px;
 		}
 	}
 }
@@ -2107,7 +2123,7 @@
 	}
 	.fundpress-footer-bottom-v2 {
 		padding: 40px 0;
-		background-color: darken($v2-dark-navy-blue, 2.5%);
+		background-color: darken($v2-dark-navy-blue, 2%);
 	}
 }
 

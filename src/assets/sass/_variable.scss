@@ -1,10 +1,17 @@
+// our colors
+$color-ciecode-red: #CA2727;
+$color-ciecode-green: #78CA27;
+$color-ciecode-blue: #27CACA;
+$color-ciecode-blue-dark: #031111;
+
 // default color set
-$color-green: #4CC899;
-$color-green-light: #42B992;
-$color-green-light-2: #56d8ad;
-$color-green-light-3: #3AC798;
-$color-navy-blue: #041D57;
-$color-navy-blue-light: #062C8B;
+$color-green: $color-ciecode-red;
+$color-green-light: lighten($color-ciecode-red, 3%);
+$color-green-light-2: lighten($color-ciecode-red, 7%);
+$color-green-light-3: lighten($color-ciecode-red, 10%);
+$color-navy-blue: $color-ciecode-blue-dark;
+$color-navy-blue-light: $color-ciecode-blue;
+
 $color-dark-pink: #F8005E;
 $color-semi-black: #222222;
 $color-sky-blue: #3E5A97;
@@ -56,8 +63,8 @@ $iconFont: 'FontAwesome';
 $iconFont2: 'iconfont';
 
 // version 2 color
-$v2-color-blue: #1B70F0;
-$v2-dark-navy-blue: #050C24;
+$v2-color-blue: $color-ciecode-blue;
+$v2-dark-navy-blue: $color-ciecode-blue-dark;
 $v2-ash-color: #615F5F;
 
 // version 3 color

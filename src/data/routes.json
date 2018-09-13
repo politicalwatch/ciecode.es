@@ -13,6 +13,14 @@
       {"src/data/meta.json": "about"}
     ]
   },
+  "political-watch": {
+    "path_to_layout": "src/layouts/political-watch.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "political-watch"},
+      {"src/data/data.json": "political-watch"}
+    ]
+  },
   "research": {
     "path_to_layout": "src/layouts/research.ejs",
     "path_to_data": [

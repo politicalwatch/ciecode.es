@@ -1738,6 +1738,12 @@
 .fundpress-icon-with-square-service-v2 {
 	text-align: center;
 	margin-bottom: 50px;
+        img {
+          margin-bottom: 40px;
+          position: relative;
+          width: 40%;
+          height: 40%;
+        }
 	i {
 		font-size: em(60px);
 		color: $v2-dark-navy-blue;

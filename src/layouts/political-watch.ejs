@@ -46,7 +46,7 @@
 </section>	<!-- about us side by side image version 1 end -->
 
 <!-- popular campaigns -->
-<section id="popular-campaigns" class="xs-gray-bg waypoint-tigger xs-section-padding">
+<section id="popular-campaigns" class="xs-gray-bg waypoint-tigger xs-section-padding" data-scrollax-parent="true">
   <div class="container">
     <div class="xs-section-heading row xs-margin-0">
       <div class="fundpress-heading-title xs-padding-0 col-xl-9 col-md-9">
@@ -57,7 +57,7 @@
     </div><!-- .xs-section-heading .fundpress-section-heading .xs-spilit-container END -->
     <div class="row">
       <% for(var projectindex=0; projectindex<data.projects.length; projectindex++) { %>
-        <div class="col-md-6">
+        <div class="col-md-6 wow fadeInUp" data-wow-duration="1s">
           <div class="xs-box-shadow fundpress-popular-item xs-bg-white">
             <div class="fundpress-item-header">
               <img src="<%= global.folderName %>/assets/images/<%= data.projects[projectindex].image %>" alt="">

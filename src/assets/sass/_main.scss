@@ -1634,6 +1634,9 @@
         padding: 15px 34px;
         border-width: 2px;
 }
+.btn-outline-primary:hover {
+  border-color: #fff;
+}
 .btn-secondary ,
 .btn-outline-secondary {
         font-size: em(14px);
@@ -1649,6 +1652,9 @@
         box-shadow: $primary-shadow;
         padding: 15px 34px;
         border-width: 2px;
+}
+.btn-outline-secondary:hover {
+  border-color: #fff;
 }
                 
 // welcome version 2

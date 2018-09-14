@@ -11,7 +11,7 @@
     <div class="fundpress-inner-welcome-content">
       <h2 class="color-white">Investigación</h2>
       <ul class="xs-breadcumb fundpress-breadcumb">
-        <li><a href="index.html" class="color-white"> Home /</a> <strong>Investigación</strong></li>
+        <li><a href="<%= global.folderName %>" class="color-white"> Home /</a> <strong>Investigación</strong></li>
       </ul>
     </div>
   </div>
@@ -68,10 +68,12 @@
                 <div class="fundpress-item-content">
                   <ul class="xs-simple-tag fundpress-simple-tag">
                     <% for(var tagindexalt=0; tagindexalt<items[itemindex].tags.length; tagindexalt++) { %>
-                    <li><%= items[itemindex].tags[tagindexalt] %></li>
+                    <li class="color-blue"><%= items[itemindex].tags[tagindexalt] %></li>
                     <% } %>
                   </ul>
                   <a href="<%= items[itemindex].id %>" class="d-block color-navy-blue fundpress-post-title"><%= items[itemindex].title %></a>
+                  <p><%= items[itemindex].abstract %></p>
+                  <a href="<%= items[itemindex].id %>" class="color-green bold">Check this report <i class="fa fa-arrow-circle-right"></i></a>
                   <!-- <ul class="xs&#45;list&#45;with&#45;content fundpress&#45;list&#45;item&#45;content"> -->
                   <!--   <li>$15,280<span>Pledged</span></li> -->
                   <!--   <li><span class="number&#45;percentage&#45;count">65%</span><span>Funded</span></li> -->

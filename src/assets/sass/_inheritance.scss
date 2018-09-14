@@ -42,12 +42,21 @@
 .xs-pink-bg {
 	background-color: #7b1fa2;
 }
+.xs-blue-bg {
+	background-color: $v2-color-blue;
+}
 
 .color-pink {
 	color: $color-dark-pink;
 }
 .color-green {
 	color: $color-green !important;
+}
+.color-blue {
+	color: $v2-color-blue !important;
+}
+.color-navy {
+	color: $v2-dark-navy-blue !important;
 }
 .color-semi-black {
 	color: $color-semi-black !important;
@@ -63,6 +72,12 @@
 }
 .color-white {
 	color: $color-white;
+}
+.color-navy {
+  color: $v2-dark-navy-blue;
+}
+.color-blue {
+  color: $v2-color-blue;
 }
 .xs-section-padding {
 	padding: 120px 0;

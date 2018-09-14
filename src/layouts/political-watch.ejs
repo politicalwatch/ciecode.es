@@ -11,7 +11,7 @@
     <div class="fundpress-inner-welcome-content">
       <h2 class="color-white">Political Watch</h2>
       <ul class="xs-breadcumb fundpress-breadcumb">
-        <li><a href="index.html" class="color-white"> Home /</a> <strong>Political Watch</strong></li>
+        <li><a href="<%= global.folderName %>" class="color-white"> Home /</a> <strong>Political Watch</strong></li>
       </ul>
     </div>
   </div>
@@ -38,7 +38,6 @@
           <h3 class="color-green xs-post-title fundpress-post-title xs-mb-20">Be a part of emerging tech, design, and much more</h3>
 
           <p class="xs-content-description fundpress-content-description xs-mb-30">New to crowdfunding? Welcome! With Indiegogo's crowdfunding and Demand campaigns, there's no better place to discover ingenious products just as they emerge from the minds of creative entrepreneurs around the.</p>
-          <a href="#" class="xs-btn green-btn">explore our projects</a>
         </div>
       </div>
     </div>
@@ -46,7 +45,7 @@
 </section>	<!-- about us side by side image version 1 end -->
 
 <!-- popular campaigns -->
-<section id="popular-campaigns" class="xs-gray-bg waypoint-tigger xs-section-padding" data-scrollax-parent="true">
+<section id="popular-campaigns" class="xs-gray-bg waypoint-tigger" data-scrollax-parent="true">
   <div class="container">
     <div class="xs-section-heading row xs-margin-0">
       <div class="fundpress-heading-title xs-padding-0 col-xl-9 col-md-9">
@@ -66,6 +65,7 @@
               <a href="<%= global.folderName %>/political-watch/<%= data.projects[projectindex].id %>" class="d-block color-navy-blue fundpress-post-title"><%= data.projects[projectindex].title %></a>
               <div class="fundpress-text-content">
                 <p class="text-black"><%= data.projects[projectindex].description %></p>
+                <a href="<%= data.projects[projectindex].id %>" class="color-green bold">Check this project <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div><!-- .fundpress-item-content END -->
           </div>

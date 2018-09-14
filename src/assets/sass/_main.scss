@@ -2167,3 +2167,18 @@
 		padding-top: 0;
 	}
 }
+
+.xs-sync-slider-wraper {
+  img, iframe {
+    padding-bottom: 30px;
+  }
+}
+
+pre {
+  a {
+    color: $color-ciecode-blue-dark;
+    &:hover, &:active, &:visited {
+      color: $color-ciecode-blue-dark;
+    }
+  }
+}

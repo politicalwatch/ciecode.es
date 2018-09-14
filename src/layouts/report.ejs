@@ -19,7 +19,7 @@ var item = function() {
     <div class="fundpress-inner-welcome-content">
       <h2 class="color-white"><%= item.title %></h2>
       <ul class="xs-breadcumb fundpress-breadcumb">
-        <li><a href="#" class="color-white"> Home /</a> <a href="#" class="color-white"> Investigación /</a> <strong><%= item.title %></strong></li>
+        <li><a href="<%= global.folderName %>" class="color-white"> Home /</a> <a href="/<%= global.folderName %>/research" class="color-white"> Investigación /</a> <strong><%= item.title %></strong></li>
       </ul>
     </div>
   </div>
@@ -34,25 +34,25 @@ var item = function() {
   <div class="container">
     <div class="row">
       <div class="col-md-7 col-sm-12 col-lg-8">
-        <h3><%= item.title %></h3>
+        <h3 class="color-navy"><%= item.title %></h3>
           <ul class="xs-simple-tag fundpress-simple-tag">
             <% for(var tagindex=0; tagindex<item.tags.length; tagindex++) { %>
-              <li><i class="fa fa-tag color-green"></i> <%= item.tags[tagindex] %></li>
+              <li><i class="fa fa-tag color-blue"></i> <%= item.tags[tagindex] %></li>
             <% } %>
           </ul>
           <ul class="xs-list-item-icon-text">
             <% for(var authorindex=0; authorindex<item.authors.length; authorindex++) { %>
-            <li><i class="fa fa-user-circle fa-2x color-green"></i><%= item.authors[authorindex] %></li>
+            <li><i class="fa fa-user-circle fa-2x color-blue"></i><%= item.authors[authorindex] %></li>
             <% } %>
-
           </ul>
+        <p class="bold"><%= item.abstract %></p>
         <p><%= item.description %></p>
       </div>
       <div class="col-md-5 col-sm-12 col-lg-4">
         <div class="xs-team-member-info-details text-center">
           <div class="xs-item-header xs-content-padding">
             <div class="xs-mb-30 xs-extra-css">
-              <a href="#" class="xs-btn btn text-uppercase btn-secondary">Download this report</a>
+              <a href="#" class="xs-btn btn text-uppercase btn-primary">Download this report</a>
             </div>
           </div>
           <div class="xs-team-member-bio-avatar xs-box-shadow text-center">

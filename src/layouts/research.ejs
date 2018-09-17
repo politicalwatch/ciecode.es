@@ -47,9 +47,8 @@
 
 <% if (data.reports.items.length > 0) { %>
 <!-- cause matters -->
-<section id="cause-matters" class="waypoint-tigger xs-section-padding">
+<section id="cause-matters" class="xs-gray-bg waypoint-tigger xs-section-padding">
   <div class="container">
-
     <div class="xs-section-heading row xs-margin-0">
       <div class="fundpress-heading-title xs-padding-0 col-md-9 col-xl-9">
         <h2 class="color-navy-blue">Todos los informes, libres para ti</h2>
@@ -87,7 +86,7 @@
           <div class="row">
           <% var items = getResearchItemByTag(data.reports.items, data.reports.tags[tagindex]); %>
           <% for(var itemindex=0; itemindex<items.length; itemindex++) { %>
-            <div class="col-lg-4">
+            <div class="col-md-3">
               <div class="fundpress-grid-item-content">
                 <div class="fundpress-item-header xs-mb-30">
                   <img src="<%= global.folderName %>/assets/images/<%= items[itemindex].image %>" alt="">

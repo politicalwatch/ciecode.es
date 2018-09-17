@@ -53,28 +53,28 @@
       {"src/data/data.json": "political-watch"}
     ]
   },
-  "research": {
+  "investigacion": {
     "path_to_layout": "src/layouts/research.ejs",
     "path_to_data": [
       "src/data/global.json",
-      {"src/data/meta.json": "research"},
-      {"src/data/data.json": "research"}
+      {"src/data/meta.json": "investigacion"},
+      {"src/data/data.json": "investigacion"}
     ]
   },
-  "research/lorem-ipsum": {
+  "investigacion/lorem-ipsum": {
     "path_to_layout": "src/layouts/report.ejs",
     "path_to_data": [
       "src/data/global.json",
-      {"src/data/meta.json": "research/lorem-ipsum"},
-      {"src/data/data.json": "research"}
+      {"src/data/meta.json": "investigacion/lorem-ipsum"},
+      {"src/data/data.json": "investigacion"}
     ]
   },
-  "research/ipsum-dolor": {
+  "investigacion/ipsum-dolor": {
     "path_to_layout": "src/layouts/report.ejs",
     "path_to_data": [
       "src/data/global.json",
-      {"src/data/meta.json": "research/ipsum-dolor"},
-      {"src/data/data.json": "research"}
+      {"src/data/meta.json": "investigacion/ipsum-dolor"},
+      {"src/data/data.json": "investigacion"}
     ]
   }
 }

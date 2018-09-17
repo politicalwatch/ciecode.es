@@ -34,18 +34,18 @@
     "description": "",
     "keywords": ""
   },
-  "research": {
+  "investigacion": {
     "title": "Investigación",
     "description": "",
     "keywords": ""
   },
-  "research/lorem-ipsum": {
+  "investigacion/lorem-ipsum": {
     "title": "Investigación sobre Lorem Ipsum",
     "description": "",
     "keywords": "",
     "id": "lorem-ipsum"
   },
-  "research/ipsum-dolor": {
+  "investigacion/ipsum-dolor": {
     "title": "Investigación sobre Ipsum Lorem",
     "description": "",
     "keywords": "",

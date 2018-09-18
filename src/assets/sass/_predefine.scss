@@ -44,8 +44,7 @@ textarea,
 textarea:hover,
 textarea:focus,
 textarea:active {
-	-moz-outline: none;
-	outline: none;
+        outline: 3px dashed $color-ciecode-blue;
 }
 img:not([draggable]),
 embed,
@@ -59,11 +58,13 @@ a {
 	outline: 0;
 }
 a:active,
-a:focus,
+a:focus {
+  text-decoration: none;
+  outline: 3px dashed $color-ciecode-blue;
+}
 a:hover,
 a:visited {
-	text-decoration: none;
-	outline: 0;
+  text-decoration: none;
 }
 img {
 	border: none;

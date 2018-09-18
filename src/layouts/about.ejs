@@ -18,6 +18,7 @@
 <!--breadcumb end here--><!-- End welcome section -->
 
 <main class="xs-all-content-wrapper">
+
 <!-- about us promo -->
 <section class="xs-about-us-promo-section xs-content-section-padding fundpress-about-us-promo-section">
   <div class="container">
@@ -107,61 +108,142 @@
   </div>
 </div>	<!-- about us simple promo text end -->
 
-<!-- about us side by side image version 1 -->
-<section class="xs-gray-bg fundpress-text-with-image-side-by-side-1">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 col-lg-6">
-        <div class="xs-box-shadow-2">
-          <img src="<%= global.folderName %>/assets/images/happy_people.jpg" alt="" class="img-100">
-        </div>
-      </div>
-      <div class="col-md-12 col-lg-6">
-        <div class="fundpress-side-by-side-image-with-text">
-          <h5 class="color-green">Our Vission</h5>
-          <div class="xs-inner-title fundpress-inner-title">
-            <h2 class="color-navy-blue">FundPress is the World's #1 Personal Fundraising Website.</h2>
-          </div>
-          <ul class="xs-list-item-icon-text xs-side-by-side-list">
-            <li><i class="fa fa-check color-green"></i>Mobile-Friendly Campaigns</li>
-            <li><i class="fa fa-check color-green"></i>No deadlines or goal requirements</li>
-            <li><i class="fa fa-check color-green"></i>Keep every donation you receive</li>
-            <li><i class="fa fa-check color-green"></i>5-Minute Email Support</li>
-          </ul>
-          <p>But thanks to the kindness of hundreds of people, Harding has just started at Manchester university. Her story gained traction, and a supporter, Sonia Joy Sarre, a school secretary, was moved to create a campaign.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>	<!-- about us side by side image version 1 end -->
-
-<!-- about us side by side image version 2 -->
-<section class="xs-bg xs-content-section-padding fundpress-text-with-image-side-by-side-2" style="background-image: url(<%= global.folderName %>/assets/images/icons-background-1.png);">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 col-lg-6">
-        <div class="fundpress-side-by-side-image-with-text padding-right-100">
-          <h5 class="color-green">Our Mission</h5>
-          <div class="xs-inner-title fundpress-inner-title">
-            <h2 class="color-navy-blue">Crowdfunding campaigns has never been that easy</h2>
-          </div>
-          <p>We built FundPress to help bring creative projects to life. We measure our success as a company by how well we achieve that mission, not by the size of our profits. That’s why, in 2015, we became a Benefit Corporation.</p>
-        </div>
-      </div>
-      <div class="col-md-12 col-lg-6">
-        <div class="xs-box-shadow-2">
-          <img src="<%= global.folderName %>/assets/images/heppy_people_2.jpg" class="img-100" alt="">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>	<!-- about us side by side image version 2 end -->
-
 <!-- square service -->
 <section  class="xs-square-service-section xs-navy-blue-bg fundpress-square-service-section">
   <div class="container">
     <div class="fundpress-section-heading fundpress-heading-title fundpress-heading-title-v2 content-left">
-      <h2 class="color-white">Asking for money is hard. FundPress makes it easier. </h2>
+      <h2 class="color-white">Our highlights</h2>
+    </div><!-- .xs-heading-title .fundpress-heading-title-v2 .fundpress-heading-title END -->
+    <div class="row">
+      <div class="col-md-6 col-sm-12 col-lg-3">
+        <div class="fundpress-icon-with-square-service">
+          <!-- <img src="<%= global.folderName %>/assets/images/icon&#45;1.png" alt=""> -->
+          <h6 class="color-green">2011</h6>
+          <h6 class="color-white">Free & Simple Setup.</h6>
+          <p>Start fundraising in minutes. No goal requirements, no deadlines.  </p>
+        </div><!-- .fundpress-icon-with-square-service END -->
+      </div>
+      <div class="col-md-6 col-sm-12 col-lg-3">
+        <div class="fundpress-icon-with-square-service">
+          <h6 class="color-green">2011</h6>
+          <h6 class="color-white">Free & Simple Setup.</h6>
+          <p>Join the millions who have raised more than $2 billion on FundPress.</p>
+        </div><!-- .fundpress-icon-with-square-service END -->
+      </div>
+      <div class="col-md-6 col-sm-12 col-lg-3">
+        <div class="fundpress-icon-with-square-service">
+          <h6 class="color-green">2011</h6>
+          <h6 class="color-white">Free & Simple Setup.</h6>
+          <p>Our campaign coaches will answer your questions in 5 minutes, day or night.</p>
+        </div><!-- .fundpress-icon-with-square-service END -->
+      </div>
+      <div class="col-md-6 col-sm-12 col-lg-3">
+        <div class="fundpress-icon-with-square-service">
+          <h6 class="color-green">2011</h6>
+          <h6 class="color-white">Free & Simple Setup.</h6>
+          <p>The GoFundMe Guarantee protects your donations and supporters. </p>
+        </div><!-- .fundpress-icon-with-square-service END -->
+      </div>
+    </div>
+  </div>
+</section>	<!-- End square service -->
+
+<% if (data.team.length > 0) { %>
+<!-- team section -->
+<section class="xs-gray-bg xs-team-section fundpress-team-section xs-section-padding">
+  <div class="container">
+    <div class="xs-section-heading row xs-margin-0">
+      <div class="fundpress-heading-title xs-padding-0 col-md-9 col-xl-9">
+        <h2 class="color-navy-blue">Meet with our team</h2>
+        <span class="xs-separetor dashed-separetor fundpress-separetor"></span>
+        <p>No matter how many times your amazing, absolutely brilliant</p>
+      </div><!-- .xs-heading-title .fundpress-heading-title .xs-col-9 END -->
+    </div><!-- .xs-section-heading .fundpress-section-heading .xs-spilit-container END -->
+    <div class="row">
+      <% for (var teamindex=0; teamindex<data.team.length; teamindex++) { %>
+      <div class="col-md-3">
+        <div class="xs-box-shadow  fundpress-single-team-member">
+          <div class="fundpress-item-header ">
+            <img src="<%= global.folderName %>/assets/images/avatar/<%= data.team[teamindex].photo %>" alt="">
+            <div class="xs-hover-content fundpress-hover-content text-center">
+              <ul class="xs-social-list fundpress-social-list xs-social-list-v2">
+                <% if (data.team[teamindex].twitter != "") { %>
+                <li><a href="<%= data.team[teamindex].twitter %>" class="color-twitter full-round" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <% } %>
+                <% if (data.team[teamindex].linkedin != "") { %>
+                <li><a href="<%= data.team[teamindex].linkedin %>" class="color-linkedin full-round" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <% } %>
+                <% if (data.team[teamindex].github != "") { %>
+                <li><a href="<%= data.team[teamindex].github %>" class="color-linkedin full-round" target="_blank"><i class="fa fa-github"></i></a></li>
+                <% } %>
+              </ul>
+            </div>
+          </div>
+          <!--fundpress-item-header-->
+          <div class="xs-item-footer xs-content-padding bg-color-white  fundpress-team-details text-center">
+            <a href="#" class="color-navy-blue">
+              <%= data.team[teamindex].name %>
+            </a>
+            <h5 class="color-green"><%= data.team[teamindex].title %></h5>
+          </div>
+        </div>
+      </div>
+      <% } %>
+    </div>
+  </div>
+</section>	<!-- team section end -->
+<% } %>
+
+<!-- contact details section -->
+<section class="xs-content-section-padding fundpress-contact-details-section xs-contact-details-section">
+  <div class="container">
+    <div class="fundpress-heading-title xs-mb-60">
+      <h2 class="color-navy-blue xs-mb-0">Dónde estamos</h2>
+    </div><!-- .xs-heading-title .fundpress-heading-title END -->
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="fundpress-contact-details">
+          <div class="xs-box-shadow xs-mb-40 fundpress-widnow-wraper">
+            <div class="fundpress-window-back">
+              <img src="<%= global.folderName %>/assets/images/contact/contact-info-img-1.png" alt="">
+            </div>
+          </div>
+          <!-- xs-box-shadow xs-mb-40 fundpress-widnow-wraper -->
+          <ul class="xs-list-item-icon-text">
+            <li><i class="fa fa-phone color-green"></i>+88 00 11 22 33</li>
+            <li><i class="fa fa-envelope-o color-green"></i>name@yourdomain.com</li>
+            <li><i class="fa fa-map-marker color-green"></i>Welington City, Beside Pull, Australia</li>
+          </ul>
+        </div>
+        <!-- fundpress-contact-details -->
+      </div>
+      <div class="col-md-6">
+        <div class="fundpress-contact-details">
+          <div class="xs-box-shadow xs-mb-40 fundpress-widnow-wraper">
+            <div class="fundpress-window-back">
+              <img src="<%= global.folderName %>/assets/images/contact/contact-info-img-2.png" alt="">
+            </div>
+          </div>
+          <!-- xs-box-shadow xs-mb-40 fundpress-widnow-wraper -->
+          <ul class="xs-list-item-icon-text">
+            <li><i class="fa fa-phone color-green"></i>+09 56 43 768</li>
+            <li><i class="fa fa-envelope-o color-green"></i>name@yourdomain.com</li>
+            <li><i class="fa fa-map-marker color-green"></i>10/A, Hesting City, USA</li>
+          </ul>
+        </div>
+        <!-- fundpress-contact-details -->
+      </div>
+    </div>
+  </div>
+</section>	<!-- End contact details section -->
+
+
+<!-- square service -->
+<section  class="xs-square-service-section-alt fundpress-square-service-section">
+  <div class="container">
+    <div class="fundpress-section-heading fundpress-heading-title fundpress-heading-title-v2 content-left">
+      <h2 class="color-navy-blue xs-mb-0">Alianzas estratégicas</h2>
     </div><!-- .xs-heading-title .fundpress-heading-title-v2 .fundpress-heading-title END -->
     <div class="row">
       <div class="col-md-6 col-sm-12 col-lg-3">
@@ -196,263 +278,6 @@
   </div>
 </section>	<!-- End square service -->
 
-<!-- team section -->
-<section class="xs-gray-bg xs-team-section fundpress-team-section xs-section-padding">
-  <div class="container">
-    <div class="xs-section-heading row xs-margin-0">
-      <div class="fundpress-heading-title xs-padding-0 col-md-9 col-xl-9">
-        <h2 class="color-navy-blue">Meet with our team</h2>
-        <span class="xs-separetor dashed-separetor fundpress-separetor"></span>
-        <p>No matter how many times your amazing, absolutely brilliant</p>
-      </div><!-- .xs-heading-title .fundpress-heading-title .xs-col-9 END -->
-      <div class="xs-btn-wraper xs-padding-0 col-xl-3 col-md-3 d-flex-center-end">
-        <a href="#" class="xs-btn round-btn navy-blue-btn">Team</a>
-      </div><!-- .xs-btn-wraper .d-flex-center-end .xs-col-3 END -->
-    </div><!-- .xs-section-heading .fundpress-section-heading .xs-spilit-container END -->
-    <div class="row">
-      <div class="col-md-3">
-        <div class="xs-box-shadow  fundpress-single-team-member">
-          <div class="fundpress-item-header ">
-            <img src="<%= global.folderName %>/assets/images/avatar/team-1.jpg" alt="">
-            <div class="xs-hover-content fundpress-hover-content text-center">
-              <ul class="xs-social-list fundpress-social-list xs-social-list-v2">
-                <li><a href="" class="color-facebook full-round"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="" class="color-twitter full-round"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="" class="color-dribbble full-round"><i class="fa fa-dribbble"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <!--fundpress-item-header -->
-          <div class="xs-item-footer xs-content-padding bg-color-white  fundpress-team-details text-center">
-            <a href="#" class="color-navy-blue">
-              Kene Williamson
-            </a>
-            <h5 class="color-green">Founder</h5>
-          </div>
-          <!-- 
-            xs-item-footer 
-            xs-content-padding 
-            bg-color-white 
-            fundpress-team-details 
-            text-center
-          -->
-        </div>
-        <!-- 
-          xs-box-shadow 
-          fundpress-single-team-member
-        -->
-      </div>
-      <div class="col-md-3">
-        <div class="xs-box-shadow  fundpress-single-team-member">
-          <div class="fundpress-item-header ">
-            <img src="<%= global.folderName %>/assets/images/avatar/team-2.jpg" alt="">
-            <div class="xs-hover-content fundpress-hover-content text-center">
-              <ul class="xs-social-list fundpress-social-list xs-social-list-v2">
-                <li><a href="" class="color-facebook full-round"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="" class="color-twitter full-round"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="" class="color-dribbble full-round"><i class="fa fa-dribbble"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <!--fundpress-item-header -->
-          <div class="xs-item-footer xs-content-padding bg-color-white  fundpress-team-details text-center">
-            <a href="#" class="color-navy-blue">
-              Thomas Muller
-            </a>
-            <h5 class="color-green">C E O</h5>
-          </div>
-          <!-- 
-            xs-item-footer 
-            xs-content-padding 
-            bg-color-white 
-            fundpress-team-details 
-            text-center
-          -->
-        </div>
-        <!-- 
-          xs-box-shadow 
-          fundpress-single-team-member
-        -->
-      </div>
-      <div class="col-md-3">
-        <div class="xs-box-shadow  fundpress-single-team-member">
-          <div class="fundpress-item-header ">
-            <img src="<%= global.folderName %>/assets/images/avatar/team-3.jpg" alt="">
-            <div class="xs-hover-content fundpress-hover-content text-center">
-              <ul class="xs-social-list fundpress-social-list xs-social-list-v2">
-                <li><a href="" class="color-facebook full-round"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="" class="color-twitter full-round"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="" class="color-dribbble full-round"><i class="fa fa-dribbble"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <!--fundpress-item-header -->
-          <div class="xs-item-footer xs-content-padding bg-color-white  fundpress-team-details text-center">
-            <a href="#" class="color-navy-blue">
-              Arian Roben
-            </a>
-            <h5 class="color-green">Volunteer</h5>
-          </div>
-          <!-- 
-            xs-item-footer 
-            xs-content-padding 
-            bg-color-white 
-            fundpress-team-details 
-            text-center
-          -->
-        </div>
-        <!-- 
-          xs-box-shadow 
-          fundpress-single-team-member
-        -->
-      </div>
-      <div class="col-md-3">
-        <div class="xs-box-shadow  fundpress-single-team-member">
-          <div class="fundpress-item-header ">
-            <img src="<%= global.folderName %>/assets/images/avatar/team-4.jpg" alt="">
-            <div class="xs-hover-content fundpress-hover-content text-center">
-              <ul class="xs-social-list fundpress-social-list xs-social-list-v2">
-                <li><a href="" class="color-facebook full-round"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="" class="color-twitter full-round"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="" class="color-dribbble full-round"><i class="fa fa-dribbble"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <!--fundpress-item-header-->
-          <div class="xs-item-footer xs-content-padding bg-color-white  fundpress-team-details text-center">
-            <a href="#" class="color-navy-blue">
-              Pencil Henrics
-            </a>
-            <h5 class="color-green">Volunteer</h5>
-          </div>
-          <!-- 
-            xs-item-footer 
-            xs-content-padding 
-            bg-color-white 
-            fundpress-team-details 
-            text-center
-          -->
-        </div>
-        <!-- 
-          xs-box-shadow 
-          fundpress-single-team-member
-        -->
-      </div>
-    </div>
-  </div>
-</section>	<!-- team section end -->
-
-<!-- contact details section -->
-<section class="xs-content-section-padding fundpress-contact-details-section xs-contact-details-section">
-  <div class="container">
-    <div class="fundpress-heading-title text-center xs-mb-60">
-      <h2 class="color-navy-blue xs-mb-0">We everywhere for support you</h2>
-    </div><!-- .xs-heading-title .fundpress-heading-title END -->
-
-    <div class="row">
-      <div class="col-md-4">
-        <div class="fundpress-contact-details">
-          <div class="xs-box-shadow xs-mb-40 fundpress-widnow-wraper">
-            <div class="fundpress-window-top">
-              <div id="xs-multiple-map-1" class="xs-map"></div>
-            </div>
-            <div class="fundpress-window-back">
-              <img src="<%= global.folderName %>/assets/images/contact/contact-info-img-1.png" alt="">
-            </div>
-            <div class="fundpress-window-nav">
-              <a href="#" class="fundpress-window-opener">
-                <i class="fa fa-angle-right"></i>
-              </a>
-            </div>
-          </div>
-          <!-- xs-box-shadow xs-mb-40 fundpress-widnow-wraper -->
-          <ul class="xs-list-item-icon-text">
-            <li><i class="fa fa-phone color-green"></i>+88 00 11 22 33</li>
-            <li><i class="fa fa-envelope-o color-green"></i>name@yourdomain.com</li>
-            <li><i class="fa fa-map-marker color-green"></i>Welington City, Beside Pull, Australia</li>
-          </ul>
-        </div>
-        <!-- fundpress-contact-details -->
-      </div>
-      <div class="col-md-4">
-        <div class="fundpress-contact-details">
-          <div class="xs-box-shadow xs-mb-40 fundpress-widnow-wraper">
-            <div class="fundpress-window-top">
-              <div id="xs-multiple-map-2" class="xs-map"></div>
-            </div>
-            <div class="fundpress-window-back">
-              <img src="<%= global.folderName %>/assets/images/contact/contact-info-img-2.png" alt="">
-            </div>
-            <div class="fundpress-window-nav">
-              <a href="#" class="fundpress-window-opener">
-                <i class="fa fa-angle-right"></i>
-              </a>
-            </div>
-          </div>
-          <!-- xs-box-shadow xs-mb-40 fundpress-widnow-wraper -->
-          <ul class="xs-list-item-icon-text">
-            <li><i class="fa fa-phone color-green"></i>+09 56 43 768</li>
-            <li><i class="fa fa-envelope-o color-green"></i>name@yourdomain.com</li>
-            <li><i class="fa fa-map-marker color-green"></i>10/A, Hesting City, USA</li>
-          </ul>
-        </div>
-        <!-- fundpress-contact-details -->
-      </div>
-      <div class="col-md-4">
-        <div class="fundpress-contact-details">
-          <div class="xs-box-shadow xs-mb-40 fundpress-widnow-wraper">
-            <div class="fundpress-window-top">
-              <div id="xs-multiple-map-3" class="xs-map"></div>
-            </div>
-            <div class="fundpress-window-back">
-              <img src="<%= global.folderName %>/assets/images/contact/contact-info-img-3.png" alt="">
-            </div>
-            <div class="fundpress-window-nav">
-              <a href="#" class="fundpress-window-opener">
-                <i class="fa fa-angle-right"></i>
-              </a>
-            </div>
-          </div>
-          <!-- xs-box-shadow xs-mb-40 fundpress-widnow-wraper -->
-          <ul class="xs-list-item-icon-text">
-            <li><i class="fa fa-phone color-green"></i>+00 876 54 34</li>
-            <li><i class="fa fa-envelope-o color-green"></i>name@yourdomain.com</li>
-            <li><i class="fa fa-map-marker color-green"></i>Protus Thom, Prekunak, Africa</li>
-          </ul>
-        </div>
-        <!-- fundpress-contact-details -->
-      </div>
-    </div>
-  </div>
-</section>	<!-- End contact details section -->
-
-
-<!-- sponsor section -->
-<section class="xs-gray-bg xs-bg xs-section-padding fundpress-sponsor-section" style="background-image: url(<%= global.folderName %>/assets/images/background/sponsor_section_bg.jpg);">
-  <div class="xs-solid-overlay xs-bg-white"></div>
-  <div class="container fundpress-partners-wraper">
-    <div class="fundpress-heading-title">
-      <h2 class="color-navy-blue xs-mb-0">Alianzas estratégicas</h2>
-    </div><!-- .xs-heading-title .fundpress-heading-title END -->
-    <div class="content-center">
-      <ul class="fundpress-partners">
-        <li><a href="#" class="full-round fundpress-single-partner"><img src="<%= global.folderName %>/assets/images/partner/partner-1.png" alt=""></a></li>
-        <li><a href="#" class="full-round fundpress-single-partner"><img src="<%= global.folderName %>/assets/images/partner/partner-2.png" alt=""></a></li>
-        <li><a href="#" class="full-round fundpress-single-partner"><img src="<%= global.folderName %>/assets/images/partner/partner-3.png" alt=""></a></li>
-        <li><a href="#" class="full-round fundpress-single-partner"><img src="<%= global.folderName %>/assets/images/partner/partner-4.png" alt=""></a></li>
-      </ul><!-- .fundpress-partners END -->
-    </div>
-    <div class="content-center">
-      <ul class="fundpress-partners">
-        <li><a href="#" class="full-round fundpress-single-partner"><img src="<%= global.folderName %>/assets/images/partner/partner-5.png" alt=""></a></li>
-        <li><a href="#" class="full-round fundpress-single-partner"><img src="<%= global.folderName %>/assets/images/partner/partner-6.png" alt=""></a></li>
-        <li><a href="#" class="full-round fundpress-single-partner"><img src="<%= global.folderName %>/assets/images/partner/partner-7.png" alt=""></a></li>
-        <li><a href="#" class="full-round fundpress-single-partner"><img src="<%= global.folderName %>/assets/images/partner/partner-8.png" alt=""></a></li>
-        <li><a href="#" class="full-round fundpress-single-partner"><img src="<%= global.folderName %>/assets/images/partner/partner-9.png" alt=""></a></li>
-      </ul><!-- .fundpress-partners END -->
-    </div>
-  </div>
-</section>	<!-- End sponsor section -->
 </main>
 
 <% include common/footer %>

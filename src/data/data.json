@@ -1,4 +1,33 @@
 {
+  "about": {
+    "team": [
+      {
+        "name": "Javier Pérez",
+        "title": "Director",
+        "photo": "javipe.jpg",
+        "twitter": "https://twitter.com/javipe_ciecode",
+        "linkedin": "",
+        "github": ""
+      },
+      {
+        "name": "María Vega",
+        "title": "Comunicación",
+        "photo": "mariavega.jpg",
+        "twitter": "https://twitter.com/mariavpaul",
+        "linkedin": "",
+        "github": ""
+      },
+      {
+        "name": "Pablo Martín",
+        "title": "Tecnología",
+        "photo": "pr3ssh.jpg",
+        "twitter": "https://twitter.com/pr3ssh",
+        "linkedin": "",
+        "github": "https://github.com/pr3ssh"
+      }
+    ]
+
+  },
   "political-watch": {
     "projects": [
         {

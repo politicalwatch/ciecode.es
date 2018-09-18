@@ -131,7 +131,7 @@
 						margin: 0 5px 0 0;
 					}
 					&.xs-btn {
-						padding: 17px 47px;
+						padding: 12px 20px;
 						color: $color-white;
 						background-color: $color-green;
 						border: 0;
@@ -397,6 +397,15 @@
 	}
 }
   
+.xs-square-service-section-alt {
+  background-color: $color-gray-2;
+  .fundpress-icon-with-square-service {
+      background-color: $color-white;
+      p {
+        color: $v2-dark-navy-blue;
+      }
+  }
+}
 
 .fundpress-icon-with-square-service {
 	padding: 40px 20px;
@@ -414,6 +423,11 @@
 	img {
 		margin: 0 0 40px;
 	}
+        h6 {
+            font-size: em(20px);
+            @extend .semi-bold;
+            margin: 0 0 15px;
+        }
 	a {
 		font-size: em(20px);
 		@extend .semi-bold;

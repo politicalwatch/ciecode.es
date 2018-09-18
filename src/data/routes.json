@@ -6,11 +6,12 @@
       {"src/data/meta.json": "home"}
     ]
   },
-  "about": {
+  "quienes-somos": {
     "path_to_layout": "src/layouts/about.ejs",
     "path_to_data": [
       "src/data/global.json",
-      {"src/data/meta.json": "about"}
+      {"src/data/meta.json": "about"},
+      {"src/data/data.json": "about"}
     ]
   },
   "political-watch": {

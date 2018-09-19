@@ -34,25 +34,25 @@
           "id": "parlamento2030",
           "title": "Parlamento 2030",
           "abstract": "Herramienta de seguimiento de actividad parlamentaria relacionada con la Agenda 2030.",
-          "image": "projects/placeholder.jpg"
+          "image": "projects/parlamento2030.png"
         },
         {
           "id": "tipi-ciudadano",
           "title": "Tipi Ciudadano",
           "abstract": "Herramienta de seguimiento de la actividad parlamentaria relacionada con la lucha contra la pobreza y la desigualdad.",
-          "image": "projects/placeholder.jpg"
+          "image": "projects/tipiciudadano.png"
         },
         {
           "id": "proyecto-avizor",
           "title": "Proyecto Avizor",
           "abstract": "Proyecto de análisis del trabajo parlamentario relevante para el desarrollo internacional.",
-          "image": "projects/placeholder.jpg"
+          "image": "projects/avizor.png"
         },
         {
           "id": "que-paso-con",
           "title": "¿Qué pasó con eso eso que aprobó el Congreso?",
           "abstract": "Proyecto de transparencia sobre el cumplimiento del Ejecutivo de las iniciativas aprobadas por el Congreso de los Diputados.",
-          "image": "projects/placeholder.jpg"
+          "image": "projects/quepasocon.png"
         }
 
     ]

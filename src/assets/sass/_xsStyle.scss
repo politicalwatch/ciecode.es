@@ -2246,6 +2246,15 @@
 	.owl-item  {
 		&.active {
 			.xs-welcome-wraper {
+                          h2 {
+                            span {
+                              background-image: linear-gradient(120deg, ligthen($color-green, 5%) 0%, $color-green 100%);
+                              background-repeat: no-repeat;
+                              background-size: 100% 0.4em;
+                              background-position: 0 85%;
+                              transition: background-size 0.25s ease-in;
+                            }
+                          }
 				h2 ,
 				.xs-skill-bar-v2 ,
 				.fundpress-welcome-list-content ,

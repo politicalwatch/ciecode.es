@@ -1680,6 +1680,13 @@
 		font-size: em(62px);
 		margin-bottom: 40px;
 		font-weight: 700;
+          span {
+            background-image: linear-gradient(120deg, lighten($color-green, 5%) 0%, $color-green 100%);
+            background-repeat: no-repeat;
+            background-size: 100% 0.4em;
+            background-position: 0 85%;
+            transition: background-size 0.25s ease-in;
+          }
 	}
 	.fundpress-welcome-list-content {
 		margin-bottom: 50px;

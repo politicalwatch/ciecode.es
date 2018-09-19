@@ -34,8 +34,6 @@ li {
 	-webkit-tap-highlight-color: transparent;
 	-moz-outline-: none;
 }
-a:focus,
-a:active,
 input,
 input:hover,
 input:focus,
@@ -44,7 +42,7 @@ textarea,
 textarea:hover,
 textarea:focus,
 textarea:active {
-        outline: 3px dashed $color-ciecode-blue;
+        /* outline: 3px dashed $color-ciecode-blue; */
 }
 img:not([draggable]),
 embed,
@@ -60,7 +58,7 @@ a {
 a:active,
 a:focus {
   text-decoration: none;
-  outline: 3px dashed $color-ciecode-blue;
+  /* outline: 3px dashed $color-ciecode-blue; */
 }
 a:hover,
 a:visited {

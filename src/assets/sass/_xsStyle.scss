@@ -590,11 +590,8 @@
 	&.xs-bg-black {
 		background-color: rgba($color-black, .2);
 	}
-	&.xs-bg-black.double-alpha {
-		background-color: rgba($color-black, .4);
-	}
 	&.xs-bg-navy-blue {
-		background-color: rgba($color-navy-blue, .9);
+		background-color: rgba($color-navy-blue, .7);
 	}
 	&.xs-bg-white {
 		background-color: rgba($color-white, .9);

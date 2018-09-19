@@ -1963,9 +1963,9 @@
 	background-size: cover;
 	.xs-solid-overlay{
 		@extend .transition;
-		&.xs-bg-black {
-			background-color: rgba($color-black, .2);
-		}
+                &.xs-bg-navy-blue-light {
+                        background-color: rgba($color-navy-blue, .5);
+                }
 	}
 	.fundpress-product-hover-content-v2 {
 		position: relative;
@@ -1998,9 +1998,9 @@
 			opacity: 1;
 		}
 		.xs-solid-overlay{
-			&.xs-bg-black {
-				background-color: rgba($color-black, .5);
-			}
+                    &.xs-bg-navy-blue-light {
+                            background-color: rgba($color-navy-blue, .7);
+                    }
 		}
 	}
 }

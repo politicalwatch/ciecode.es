@@ -412,7 +412,7 @@
 	background-color: lighten($v2-dark-navy-blue, 3%);
 	box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
 	min-height: 287px;
-	@include flex-position(flex, center, flex-start);
+	@include flex-position(flex, top, flex-start);
 	flex-direction: column;
 	@extend .transition;
 	position: relative;

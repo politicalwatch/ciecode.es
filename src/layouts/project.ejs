@@ -33,6 +33,7 @@ var item = function() {
     <div class="row">
       <div class="col-md-12 col-sm-12 col-lg-7">
         <div class="xs-sync-slider-wraper xs-mb-50">
+          <img src="<%= global.folderName %>/assets/images/projects/<%= item.id %>/<%= item.thumbnail %>" alt="">
           <% if (item.images.length > 0) { %>
           <% for(var imageindex=0; imageindex<item.images.length; imageindex++) { %>
             <img src="<%= global.folderName %>/assets/images/projects/<%= item.id %>/<%= item.images[imageindex] %>" alt="">

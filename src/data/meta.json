@@ -17,22 +17,26 @@
   "political-watch/parlamento2030": {
     "title": "Parlamento 2030",
     "description": "",
-    "keywords": ""
+    "keywords": "",
+    "id": "parlamento2030"
   },
   "political-watch/tipi-ciudadano": {
     "title": "Tipi Ciudadano",
     "description": "",
-    "keywords": ""
+    "keywords": "",
+    "id": "tipi-ciudadano"
   },
   "political-watch/proyecto-avizor": {
     "title": "Proyecto Avizor",
     "description": "",
-    "keywords": ""
+    "keywords": "",
+    "id": "proyecto-avizor"
   },
   "political-watch/que-paso-con": {
     "title": "¿Qué paso con eso que aprobó el Congreso?",
     "description": "",
-    "keywords": ""
+    "keywords": "",
+    "id": "que-paso-con"
   },
   "investigacion": {
     "title": "Investigación",

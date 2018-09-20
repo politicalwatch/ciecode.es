@@ -2,15 +2,24 @@
 
 <% include common/header %>
 
+<%
+var item = function() {
+    return data.projects.filter(function(item) {
+      return item.id == meta.id;
+    })[0];
+  }();
+%>
+
+
 <!-- welcome section -->
 <!--breadcumb start here-->
-<section class="xs-inner-welcome-section fundpress-inner-welcome-section fundpress-inner-bg-1 parallax-window" data-parallax="scroll" data-image-src="<%= global.folderName %>/assets/images/background/details-bg.jpg">
+<section class="xs-inner-welcome-section fundpress-inner-welcome-section fundpress-inner-bg-1 parallax-window" data-parallax="scroll" data-image-src="<%= global.folderName %>/assets/images/background/<%= item.background %>">
   <div class="xs-solid-overlay xs-bg-black"></div>
   <div class="container">
     <div class="fundpress-inner-welcome-content xs-inner-welcome-content">
-      <h2 class="color-white">Tipi Ciudadano</h2>
+      <h2 class="color-white"><%= item.title %></h2>
       <ul class="xs-breadcumb fundpress-breadcumb">
-        <li><a href="<%= global.folderName %>" class="color-white">Inicio /</a> <a href="<%= global.folderName %>/political-watch" class="color-white">Political Watch /</a> Tipi Ciudadano</li>
+        <li><a href="<%= global.folderName %>" class="color-white">Inicio /</a> <a href="<%= global.folderName %>/political-watch" class="color-white">Political Watch /</a> <%= item.title %></li>
       </ul>
     </div>
   </div>
@@ -24,64 +33,48 @@
     <div class="row">
       <div class="col-md-12 col-sm-12 col-lg-7">
         <div class="xs-sync-slider-wraper xs-mb-50">
-          <img src="<%= global.folderName %>/assets/images/projects/tipi-ciudadano-1.png" alt="">
-          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/131597102?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+          <% if (item.images.length > 0) { %>
+          <% for(var imageindex=0; imageindex<item.images.length; imageindex++) { %>
+            <img src="<%= global.folderName %>/assets/images/projects/<%= item.id %>/<%= item.images[imageindex] %>" alt="">
+            <% } %>
+          <% } %>
+          <!-- <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/131597102?title=0&#38;byline=0&#38;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> -->
         </div><!-- xs-sync-slider-wraper -->
-        <div class="xs-text-content-tab">
-
-          <h5 class="color-navy-blue xs-mb-30">We are a group of 41 leaders from Ascension Leadership Academy. As a team we are committed to creating a world of Freedom, Love, and Transformation.</h5>
-          <p class="xs-content-description fundpress-content-description xs-mb-30">Why I am supporting Safelight's cause... It took me a long time to admit outloud that I had been in an abusive relationship for roughly the last year an d half of my college career. I studied domestic violence/interpersonal <span class="color-navy-blue">partner violence during that time</span>, but continued to do what many people trapped in those relationships do... </p>
-          <p class="xs-content-description fundpress-content-description xs-mb-30">I"is it worth it?", "do you really think that's what love is?", and yes, even when said "you study this stuff, you know what this is, why do you let yourself go through this?"</p>
-          <h3 class="bold color-green xs-post-title fundpress-post-title xs-mb-30">Our Mission:</h3>
-          <p class="xs-content-description fundpress-content-description xs-mb-30">To raise $85,000 by October 14, 2017, in support of the Coalition to Abolish Slavery and Trafficking Los Angeles (CAST LA) and it's mission to build a future where Human Trafficking exists.</p>
-          <p class="xs-content-description fundpress-content-description xs-mb-40">NYC Marathon 2016 was the most awesome race of all to date. The day was beautiful, the crowd fantastic, and I had a great day in the Big Apple even after taking a spill at Mile 13. Now, seriously ~ who breaks an arm running a marathon? And who keeps running because 'broken' didn't cross her mind? That would be me. What a learning curve!</p>
-          <h3 class="bold color-green xs-post-title fundpress-post-title xs-mb-30">Our Vission:</h3>
-          <p class="xs-content-description fundpress-content-description xs-mb-0">Why I am supporting Safelight's cause... <span class="color-green">It took me a long time to admit outloud that</span> I had been in an abusive relationship for roughly the last year an d half of my college career. I studied domestic violence/interpersonal partner violence during that time, but continued to do what many people trapped in those relationships do... I stayed; even when asked "why?", "is it worth it?", "do you really think that's what love is?", and yes, even when said "you study this stuff, you know what this is, why do you let yourself go through this?"</p>
-
-        </div><!-- xs-text-content-tab -->
       </div>
       <div class="col-md-12 col-sm-12 col-lg-5">
         <div class="xs-sidebar-wraper">
           <div class="xs-single-sidebar xs-mb-30">
             <ul class="xs-list-with-content fundpress-simple-list-content">
-              <li class="color-navy-blue bold xs-mb-20">Tipi Ciudadano<span class="color-semi-black regular text-lowercase"><pre><a href="http://tipiciudadano.es" target="_blank">www.tipiciudadano.es<a/></pre></span></li>
-            </ul><!-- xs-list-with-content fundpress-simple-list-content -->
+              <li class="color-navy-blue bold xs-mb-20"><%= item.title %></li>
+            </ul>
+            <p class="color-navy-blue xs-mb-30"><%= item.abstract %></p>
           </div>
 
           <div class="xs-single-sidebar xs-mb-50">
             <div class="xs-spilit-container">
               <div class="xs-btn-wraper">
-                <a href="http://tipiciudadano.es" class="xs-btn green-btn xs-btn-medium">Visit now</a>
+                <a href="<%= item.web %>" class="xs-btn green-btn xs-btn-medium">Visit now</a>
               </div>
-            </div><!-- xs buttons and social list -->
+            </div>
           </div>
 
+          <% if (item.support.length > 0) { %>
           <div class="xs-single-sidebar">
             <div class="xs-sidebar-title fundpress-sidebar-title xs-mb-30">
-              <h3 class="color-navy-blue">Support This Project</h3>
+              <h3 class="color-navy-blue">Colabora con este proyecto</h3>
             </div>
             <div class="xs-info-card xs-blue-bg fundpress-info-card xs-box-shadow color-white wow fadeInUp" data-wow-duration="1.8s">
-              <h3 class="xs-mb-30">Pledge $700 or more</h3>
-              <h4 class="xs-mb-20">Trainer Special</h4>
-              <p class="xs-mb-20 xs-content-description fundpress-content-description">Ten XpeedX Smart Systems beautifully packaged individually for each of your trainees (will retail for $1380 for ten). </p>
-              <span class="xs-mb-40">Free access to DynoLife App.</span>
-              <div class="xs-spilit-container">
-                <div class="xs-info-card-times">
-                  <h5>Estimated Delivery</h5>
-                  <h6>20Th Jun 2017</h6>
-                </div>
-                <div class="xs-info-card-times">
-                  <h5>Ships To</h5>
-                  <h6>Anywhere in the world</h6>
-                </div>
-              </div>
+          <% for(var supportindex=0; supportindex<item.support.length; supportindex++) { %>
+          <h4 class="xs-mb-20"><i class="fa fa-check"></i> <%= item.support[supportindex] %></h4>
+            <% } %>
             </div>
           </div>
+          <% } %>
         </div>
       </div>
     </div>
   </div>
-</section>	<!-- End fund details -->
+</section>
 
 </main>
 

@@ -33,26 +33,50 @@
         {
           "id": "parlamento2030",
           "title": "Parlamento 2030",
+          "web": "http://parlamento2030.es",
           "abstract": "Herramienta de seguimiento de actividad parlamentaria relacionada con la Agenda 2030.",
-          "image": "projects/parlamento2030.png"
+          "thumbnail": "parlamento2030.png",
+          "background": "parlamento2030.png",
+          "images": [],
+          "support": [
+            "Periodistas de datos",
+            "Fact ckeckers"
+          ]
         },
         {
           "id": "tipi-ciudadano",
           "title": "Tipi Ciudadano",
+          "web": "http://tipiciudadano.es",
           "abstract": "Herramienta de seguimiento de la actividad parlamentaria relacionada con la lucha contra la pobreza y la desigualdad.",
-          "image": "projects/tipiciudadano.png"
+          "thumbnail": "tipiciudadano.png",
+          "background": "tipiciudadano.png",
+          "images": [
+            "tipi-ciudadano-1.png"
+          ],
+          "support": [
+            "Periodistas de datos",
+            "Fact ckeckers"
+          ]
         },
         {
           "id": "proyecto-avizor",
           "title": "Proyecto Avizor",
+          "web": "http://proyectoavizor.es",
           "abstract": "Proyecto de análisis del trabajo parlamentario relevante para el desarrollo internacional.",
-          "image": "projects/avizor.png"
+          "thumbnail": "proyectoavizor.png",
+          "background": "proyectoavizor.png",
+          "images": [],
+          "support": []
         },
         {
           "id": "que-paso-con",
           "title": "¿Qué pasó con eso eso que aprobó el Congreso?",
+          "web": "https://unmundosalvadorsoler.org/ciecode/avizor/quepasocon/",
           "abstract": "Proyecto de transparencia sobre el cumplimiento del Ejecutivo de las iniciativas aprobadas por el Congreso de los Diputados.",
-          "image": "projects/quepasocon.png"
+          "thumbnail": "quepasocon.png",
+          "background": "quepasocon.png",
+          "images": [],
+          "support": []
         }
 
     ]

@@ -65,9 +65,10 @@ var item = function() {
               <h3 class="color-navy-blue">Colabora con este proyecto</h3>
             </div>
             <div class="xs-info-card xs-blue-bg fundpress-info-card xs-box-shadow color-white wow fadeInUp" data-wow-duration="1.8s">
-          <% for(var supportindex=0; supportindex<item.support.length; supportindex++) { %>
-          <h4 class="xs-mb-20"><i class="fa fa-check"></i> <%= item.support[supportindex] %></h4>
-            <% } %>
+              <h5>Necesitamos:</h5>
+              <% for(var supportindex=0; supportindex<item.support.length; supportindex++) { %>
+                <h4 class="xs-mb-20"><i class="fa fa-check"></i> <%= item.support[supportindex] %></h4>
+              <% } %>
             </div>
           </div>
           <% } %>

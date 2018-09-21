@@ -24,6 +24,38 @@
         "twitter": "https://twitter.com/pr3ssh",
         "linkedin": "",
         "github": "https://github.com/pr3ssh"
+      },
+      {
+        "name": "Ramiro Viñuales",
+        "title": "Fundraiser",
+        "photo": "avatar_9.jpg",
+        "twitter": "",
+        "linkedin": "",
+        "github": ""
+      },
+      {
+        "name": "Teresa Caverro",
+        "title": "Investigadora",
+        "photo": "avatar_5.jpg",
+        "twitter": "",
+        "linkedin": "",
+        "github": ""
+      },
+      {
+        "name": "Isabel Kreisler",
+        "title": "Invstigadora",
+        "photo": "avatar_8.jpg",
+        "twitter": "",
+        "linkedin": "",
+        "github": ""
+      },
+      {
+        "name": "Gonzalo Fanjul",
+        "title": "Investigador",
+        "photo": "avatar_2.jpg",
+        "twitter": "https://twitter.com/GonzaloFanjul",
+        "linkedin": "",
+        "github": ""
       }
     ]
 

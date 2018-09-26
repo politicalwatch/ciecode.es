@@ -69,7 +69,11 @@
           "abstract": "Herramienta de seguimiento de actividad parlamentaria relacionada con la Agenda 2030.",
           "thumbnail": "parlamento2030.png",
           "background": "parlamento2030.png",
-          "images": [],
+          "images": [
+            "parlamento2030-1.png",
+            "parlamento2030-2.png",
+            "parlamento2030-3.png"
+          ],
           "support": [
             "Periodistas de datos",
             "Fact ckeckers"
@@ -83,7 +87,11 @@
           "thumbnail": "tipiciudadano.png",
           "background": "tipiciudadano.png",
           "images": [
-            "tipi-ciudadano-1.png"
+            "tipi-ciudadano-1.png",
+            "tipi-ciudadano-2.png",
+            "tipi-ciudadano-3.png",
+            "tipi-ciudadano-4.png",
+            "tipi-ciudadano-5.png"
           ],
           "support": [
             "Periodistas de datos",
@@ -97,7 +105,10 @@
           "abstract": "Proyecto de análisis del trabajo parlamentario relevante para el desarrollo internacional.",
           "thumbnail": "proyectoavizor.png",
           "background": "proyectoavizor.png",
-          "images": [],
+          "images": [
+            "proyectoavizor-1.png",
+            "proyectoavizor-2.png"
+          ],
           "support": []
         },
         {
@@ -107,7 +118,10 @@
           "abstract": "Proyecto de transparencia sobre el cumplimiento del Ejecutivo de las iniciativas aprobadas por el Congreso de los Diputados.",
           "thumbnail": "quepasocon.png",
           "background": "quepasocon.png",
-          "images": [],
+          "images": [
+            "quepasocon-1.png",
+            "quepasocon-2.png"
+          ],
           "support": []
         }
 

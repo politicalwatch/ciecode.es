@@ -87,7 +87,6 @@
           "thumbnail": "tipiciudadano.png",
           "background": "tipiciudadano.png",
           "images": [
-            "tipi-ciudadano-1.png",
             "tipi-ciudadano-2.png",
             "tipi-ciudadano-3.png",
             "tipi-ciudadano-4.png",
@@ -113,7 +112,7 @@
         },
         {
           "id": "que-paso-con",
-          "title": "¿Qué pasó con eso eso que aprobó el Congreso?",
+          "title": "¿Qué pasó con eso que aprobó el Congreso?",
           "web": "https://unmundosalvadorsoler.org/ciecode/avizor/quepasocon/",
           "abstract": "Proyecto de transparencia sobre el cumplimiento del Ejecutivo de las iniciativas aprobadas por el Congreso de los Diputados.",
           "thumbnail": "quepasocon.png",

@@ -14,6 +14,13 @@
       {"src/data/data.json": "about"}
     ]
   },
+  "creditos": {
+    "path_to_layout": "src/layouts/credits.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "credits"}
+    ]
+  },
   "political-watch": {
     "path_to_layout": "src/layouts/political-watch.ejs",
     "path_to_data": [
@@ -62,19 +69,267 @@
       {"src/data/data.json": "investigacion"}
     ]
   },
-  "investigacion/lorem-ipsum": {
+  "investigacion/informe-avizor-2013": {
     "path_to_layout": "src/layouts/report.ejs",
     "path_to_data": [
       "src/data/global.json",
-      {"src/data/meta.json": "investigacion/lorem-ipsum"},
+      {"src/data/meta.json": "investigacion/informe-avizor-2013"},
       {"src/data/data.json": "investigacion"}
     ]
   },
-  "investigacion/ipsum-dolor": {
+  "investigacion/parlamentos-abiertos-a-la-sociedad-participacion-y-monitorizacion": {
     "path_to_layout": "src/layouts/report.ejs",
     "path_to_data": [
       "src/data/global.json",
-      {"src/data/meta.json": "investigacion/ipsum-dolor"},
+      {"src/data/meta.json": "investigacion/parlamentos-abiertos-a-la-sociedad-participacion-y-monitorizacion"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/cuadernos-junio": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/cuadernos-junio"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/informe-avizor-2013-completo": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/informe-avizor-2013-completo"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/perspectivas-sobre-comercio-y-desarrollo-en-el-mundo-post-2015": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/perspectivas-sobre-comercio-y-desarrollo-en-el-mundo-post-2015"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/analisis-de-la-politica-espanola-de-internacionalizacion-de-empresas-desde-la-coherencia-de-politicas-para-el-desarrollo": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/analisis-de-la-politica-espanola-de-internacionalizacion-de-empresas-desde-la-coherencia-de-politicas-para-el-desarrollo"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/acuerdos-internacionales-de-inversion-y-ddhh": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/acuerdos-internacionales-de-inversion-y-ddhh"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/libro-blanco-comercio-y-desarrollo": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/libro-blanco-comercio-y-desarrollo"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/repensando-la-marca-espana": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/repensando-la-marca-espana"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/libro-blanco-pildora-migraciones": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/libro-blanco-pildora-migraciones"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/el-mito,-el-drama-y-la-oportunidad-social": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/el-mito,-el-drama-y-la-oportunidad-social"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/libro-blanco-cambio-climatico": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/libro-blanco-cambio-climatico"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/libro-blanco-construccion-de-la-paz": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/libro-blanco-construccion-de-la-paz"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/libro-blanco-fiscalidad-justa": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/libro-blanco-fiscalidad-justa"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/libro-blanco-aod": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/libro-blanco-aod"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/libro-blanco-gobernanza-global": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/libro-blanco-gobernanza-global"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/informe-avizor-2014": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/informe-avizor-2014"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/anexos-informe-avizor-2014": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/anexos-informe-avizor-2014"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/base-de-datos-del-proyecto-avizor-2012,-2013-y-2014": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/base-de-datos-del-proyecto-avizor-2012,-2013-y-2014"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/gobernanza,-participacion-y-rendicion-de-cuentas-para-el-desarrollo-sostenible.": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/gobernanza,-participacion-y-rendicion-de-cuentas-para-el-desarrollo-sostenible."},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-analisis-completo": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-analisis-completo"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-resumen-ejecutivo": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-resumen-ejecutivo"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-ciudadanos": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-ciudadanos"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-unidos-podemos": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-unidos-podemos"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-partido-popular": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-partido-popular"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-psoe": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-psoe"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/equidad-para-los-ninos-el-caso-de-espana": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/equidad-para-los-ninos-el-caso-de-espana"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/using-the-ttip-momentum-to-modernise-the-eu-approach-to-the-global-investment-policy-regime": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/using-the-ttip-momentum-to-modernise-the-eu-approach-to-the-global-investment-policy-regime"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/la-nueva-ciudadania-necesaria": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/la-nueva-ciudadania-necesaria"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/la-capacidad-del-congreso-de-los-diputados-espanol-para": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/la-capacidad-del-congreso-de-los-diputados-espanol-para"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/methodology-for-iias-analysis_cgd_cdi-index_2017-by-ciecode": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/methodology-for-iias-analysis_cgd_cdi-index_2017-by-ciecode"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/america-central-impacto-del-cambio-": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/america-central-impacto-del-cambio-"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/analisis-de-acuerdos-internacionales-de-inversion": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/analisis-de-acuerdos-internacionales-de-inversion"},
       {"src/data/data.json": "investigacion"}
     ]
   }

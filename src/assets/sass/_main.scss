@@ -345,7 +345,7 @@
 	@extend .semi-bold;
 	margin: 0 0 20px 0;
 	@extend .transition;
-	line-height: 1.67;
+	line-height: 1.1;
 	letter-spacing: -0.2px;
 	word-spacing: 1px;
 	&:hover {
@@ -2202,5 +2202,23 @@ pre {
     &:hover, &:active, &:visited {
       color: $color-ciecode-blue-dark;
     }
+  }
+}
+
+#report, #credits {
+  a {
+    color: $color-green;
+  }
+  .xs-btn {
+    color: $color-white;
+  }
+}
+
+main {
+  a:hover {
+    text-decoration: underline;
+  }
+  .xs-btn:hover {
+    text-decoration: none;
   }
 }

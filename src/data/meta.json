@@ -9,6 +9,11 @@
     "description": "",
     "keywords": ""
   },
+  "credits": {
+    "title": "Créditos de las imágenes",
+    "description": "",
+    "keywords": ""
+  },
   "political-watch": {
     "title": "Political Watch",
     "description": "",
@@ -43,16 +48,202 @@
     "description": "",
     "keywords": ""
   },
-  "investigacion/lorem-ipsum": {
-    "title": "Investigación sobre Lorem Ipsum",
+  "investigacion/informe-avizor-2013": {
+    "id": "informe-avizor-2013",
+    "title": "Informe Avizor 2013",
     "description": "",
-    "keywords": "",
-    "id": "lorem-ipsum"
+    "keywords": ""
   },
-  "investigacion/ipsum-dolor": {
-    "title": "Investigación sobre Ipsum Lorem",
+  "investigacion/parlamentos-abiertos-a-la-sociedad-participacion-y-monitorizacion": {
+    "id": "parlamentos-abiertos-a-la-sociedad-participacion-y-monitorizacion",
+    "title": "Parlamentos abiertos a la sociedad: participación y monitorización",
     "description": "",
-    "keywords": "",
-    "id": "ipsum-dolor"
+    "keywords": ""
+  },
+  "investigacion/cuadernos-junio": {
+    "id": "cuadernos-junio",
+    "title": "Cuadernos junio",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/informe-avizor-2013-completo": {
+    "id": "informe-avizor-2013-completo",
+    "title": "Informe Avizor 2013 completo",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/perspectivas-sobre-comercio-y-desarrollo-en-el-mundo-post-2015": {
+    "id": "perspectivas-sobre-comercio-y-desarrollo-en-el-mundo-post-2015",
+    "title": "Perspectivas sobre comercio y desarrollo en el mundo post 2015",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/analisis-de-la-politica-espanola-de-internacionalizacion-de-empresas-desde-la-coherencia-de-politicas-para-el-desarrollo": {
+    "id": "analisis-de-la-politica-espanola-de-internacionalizacion-de-empresas-desde-la-coherencia-de-politicas-para-el-desarrollo",
+    "title": "Análisis de la política española de la internacionalización de empresas desde la coherencia de políticas para el desarrollo",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/acuerdos-internacionales-de-inversion-y-ddhh": {
+    "id": "acuerdos-internacionales-de-inversion-y-ddhh",
+    "title": "Acuerdos internacionales de inversión y derechos humanos",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/libro-blanco-comercio-y-desarrollo": {
+    "id": "libro-blanco-comercio-y-desarrollo",
+    "title": "Libro blanco: comercio y desarrollo",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/repensando-la-marca-espana": {
+    "id": "repensando-la-marca-espana",
+    "title": "Repensando la Marca España",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/libro-blanco-pildora-migraciones": {
+    "id": "libro-blanco-pildora-migraciones",
+    "title": "Libro blanco: píldora sobre migraciones",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/el-mito,-el-drama-y-la-oportunidad-social": {
+    "id": "el-mito,-el-drama-y-la-oportunidad-social",
+    "title": "El mito, el drama y la oportunidad social",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/libro-blanco-cambio-climatico": {
+    "id": "libro-blanco-cambio-climatico",
+    "title": "Libro blanco: cambio climático",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/libro-blanco-construccion-de-la-paz": {
+    "id": "libro-blanco-construccion-de-la-paz",
+    "title": "Libro blanco: construcción de la paz",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/libro-blanco-fiscalidad-justa": {
+    "id": "libro-blanco-fiscalidad-justa",
+    "title": "Libro blanco: discalidad justa",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/libro-blanco-aod": {
+    "id": "libro-blanco-aod",
+    "title": "Libro blanco: AOD",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/libro-blanco-gobernanza-global": {
+    "id": "libro-blanco-gobernanza-global",
+    "title": "Libro blanco: gobernanza global",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/informe-avizor-2014": {
+    "id": "informe-avizor-2014",
+    "title": "Informe Avizor 2014",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/anexos-informe-avizor-2014": {
+    "id": "anexos-informe-avizor-2014",
+    "title": "Anexos Informe Avizor 2014",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/base-de-datos-del-proyecto-avizor-2012,-2013-y-2014": {
+    "id": "base-de-datos-del-proyecto-avizor-2012,-2013-y-2014",
+    "title": "Base de datos del Proyecto Avizor 2012, 2013 y 2014",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/gobernanza,-participacion-y-rendicion-de-cuentas-para-el-desarrollo-sostenible.": {
+    "id": "gobernanza,-participacion-y-rendicion-de-cuentas-para-el-desarrollo-sostenible.",
+    "title": "Gobernanza participación y rendición de cuentas para el desarrollo sostenible",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-analisis-completo": {
+    "id": "ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-analisis-completo",
+    "title": "Ochos meses de actividad parlamentaria en cooperación internacional para el desarrollo (análisis completo)",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-resumen-ejecutivo": {
+    "id": "ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-resumen-ejecutivo",
+    "title": "Ochos meses de actividad parlamentaria en cooperación internacional para el desarrollo (resumen ejecutivo)",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-ciudadanos": {
+    "id": "ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-ciudadanos",
+    "title": "Ochos meses de actividad parlamentaria en cooperación internacional para el desarrollo (Ciudadanos)",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-unidos-podemos": {
+    "id": "ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-unidos-podemos",
+    "title": "Ochos meses de actividad parlamentaria en cooperación internacional para el desarrollo (Unidos Podemos)",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-partido-popular": {
+    "id": "ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-partido-popular",
+    "title": "Ochos meses de actividad parlamentaria en cooperación internacional para el desarrollo (Partido Popular)",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-psoe": {
+    "id": "ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-psoe",
+    "title": "Ochos meses de actividad parlamentaria en cooperación internacional para el desarrollo (PSOE)",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/equidad-para-los-ninos-el-caso-de-espana": {
+    "id": "equidad-para-los-ninos-el-caso-de-espana",
+    "title": "Equidad para los niños en el caso de España",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/using-the-ttip-momentum-to-modernise-the-eu-approach-to-the-global-investment-policy-regime": {
+    "id": "using-the-ttip-momentum-to-modernise-the-eu-approach-to-the-global-investment-policy-regime",
+    "title": "Using the TTIP momentum to modernise the EU approach to the global investment policy regime",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/la-nueva-ciudadania-necesaria": {
+    "id": "la-nueva-ciudadania-necesaria",
+    "title": "La nueva ciudadanía necesaria",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/la-capacidad-del-congreso-de-los-diputados-espanol-para": {
+    "id": "la-capacidad-del-congreso-de-los-diputados-espanol-para",
+    "title": "La capacidad del Congreso cd los Diputados esoañol",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/methodology-for-iias-analysis_cgd_cdi-index_2017-by-ciecode": {
+    "id": "methodology-for-iias-analysis_cgd_cdi-index_2017-by-ciecode",
+    "title": "Methodolofy for IIAS analysis CGD CDI index 2017 by CIECODE",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/america-central-impacto-del-cambio-": {
+    "id": "america-central-impacto-del-cambio-",
+    "title": "América central impacto del cambio",
+    "description": "",
+    "keywords": ""
+  },
+  "investigacion/analisis-de-acuerdos-internacionales-de-inversion": {
+    "id": "analisis-de-acuerdos-internacionales-de-inversion",
+    "title": "Análisis de acuerdos internacionales de inversión",
+    "description": "",
+    "keywords": ""
   }
 }

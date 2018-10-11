@@ -10,16 +10,15 @@ var item = function() {
   }();
 %>
 
-
 <!-- welcome section -->
 <!--breadcumb start here-->
-<section class="xs-inner-welcome-section fundpress-inner-welcome-section fundpress-inner-bg-1 parallax-window" data-parallax="scroll" data-image-src="<%= global.folderName %>/assets/images/background/pattern.jpg">
+<section class="xs-inner-welcome-section fundpress-inner-welcome-section fundpress-inner-bg-1 parallax-window" data-parallax="scroll" data-image-src="<%= global.folderName %>/assets/images/background/report.png">
   <div class="xs-solid-overlay xs-bg-black"></div>
   <div class="container">
     <div class="fundpress-inner-welcome-content">
-      <h2 class="color-white"><%= item.title %></h2>
+      <h2 class="color-white"><%= item.link_title %></h2>
       <ul class="xs-breadcumb fundpress-breadcumb">
-        <li><a href="<%= global.folderName %>" class="color-white">Inicio /</a> <a href="/<%= global.folderName %>/research" class="color-white"> Investigación /</a> <strong><%= item.title %></strong></li>
+        <li><a href="<%= global.folderName %>" class="color-white">Inicio /</a> <a href="<%= global.folderName %>/investigacion" class="color-white"> Investigación /</a> <strong><%= item.link_title %></strong></li>
       </ul>
     </div>
   </div>
@@ -28,7 +27,7 @@ var item = function() {
 
 
 
-<main class="xs-all-content-wrapper">
+<main id="report" class="xs-all-content-wrapper">
 <!-- team member details section -->
 <section class="xs-team-member-details-section fundpress-team-member-details-section xs-content-section-padding">
   <div class="container">
@@ -37,26 +36,27 @@ var item = function() {
         <h3 class="color-navy"><%= item.title %></h3>
           <ul class="xs-simple-tag fundpress-simple-tag">
             <% for(var tagindex=0; tagindex<item.tags.length; tagindex++) { %>
-              <li><i class="fa fa-tag color-blue"></i> <%= item.tags[tagindex] %></li>
+            <li><i class="fa fa-tag color-blue"></i> <%= item.tags[tagindex] %></li>
             <% } %>
           </ul>
-          <ul class="xs-list-item-icon-text">
-            <% for(var authorindex=0; authorindex<item.authors.length; authorindex++) { %>
-            <li><i class="fa fa-user-circle fa-2x color-blue"></i><%= item.authors[authorindex] %></li>
-            <% } %>
-          </ul>
-        <p class="bold"><%= item.abstract %></p>
-        <p><%= item.description %></p>
+          <p>Autoras/es: <span class="bold"><%= item.authors.join(", ") %></span></p>
+          <!-- <ul class="xs&#45;list&#45;item&#45;icon&#45;text"> -->
+          <!--   <% for(var authorindex=0; authorindex<item.authors.length; authorindex++) { %> -->
+          <!--   <li><i class="fa fa&#45;user&#45;circle fa&#45;2x color&#45;blue"></i><%= item.authors[authorindex] %></li> -->
+          <!--   <% } %> -->
+          <!-- </ul> -->
+          <p>Año: <span class="bold"><%= item.date.year %></span></p>
+        <p><%- item.text %></p>
       </div>
       <div class="col-md-5 col-sm-12 col-lg-4">
         <div class="xs-team-member-info-details text-center">
           <div class="xs-item-header xs-content-padding">
             <div class="xs-mb-30 xs-extra-css">
-              <a href="#" class="xs-btn btn text-uppercase btn-primary">Download this report</a>
+              <a href="<%= global.folderName %>/assets/documents/<%= item.document %>" class="xs-btn btn text-uppercase btn-primary">Download this report</a>
             </div>
           </div>
-          <div class="xs-team-member-bio-avatar xs-box-shadow text-center">
-            <img src="<%= global.folderName %>/assets/images/<%= item.image %>" alt="">
+          <div class="xs-team-member-bio-avatar text-center">
+            <img src="<%= global.folderName %>/assets/images/reports/<%= item.cover %>" alt="">
             </div><!-- xs-team-member-info  -->
           </div>
         </div>

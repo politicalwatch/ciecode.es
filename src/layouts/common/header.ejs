@@ -21,7 +21,7 @@
         </ul>
         <div class="xs-navs-button">
           <ul class="xs-icon-with-text fundpress-icon-menu">
-            <li class="d-block d-lg-none d-xl-block"><a href="#" class="xs-btn green-btn">Haz una donación</a></li>
+            <li class="d-block d-lg-none d-xl-block"><a href="" data-toggle="modal" data-target=".bd-example-modal-lg" class="xs-btn green-btn">Haz una donación</a></li>
           </ul>
         </div>
       </div><!-- .nav-menus-wrapper END -->
@@ -30,9 +30,6 @@
 </header>
 <!-- header version inner menu closed -->
 
-<div id="preloader">
-  <div class="spinner">
-    <div class="double-bounce1"></div>
-    <div class="double-bounce2"></div>
-  </div>
-</div><!-- #preloader --
+<% include preloader %>
+
+<% include donate %>

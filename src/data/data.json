@@ -29,22 +29,14 @@
         "name": "Ramiro Viñuales",
         "title": "Fundraiser",
         "photo": "avatar_9.jpg",
-        "twitter": "",
+        "twitter": "https://twitter.com/ramirovinuales",
         "linkedin": "",
         "github": ""
       },
       {
         "name": "Teresa Caverro",
         "title": "Investigadora",
-        "photo": "avatar_5.jpg",
-        "twitter": "",
-        "linkedin": "",
-        "github": ""
-      },
-      {
-        "name": "Isabel Kreisler",
-        "title": "Invstigadora",
-        "photo": "avatar_8.jpg",
+        "photo": "teresacavero.jpg",
         "twitter": "",
         "linkedin": "",
         "github": ""
@@ -52,8 +44,16 @@
       {
         "name": "Gonzalo Fanjul",
         "title": "Investigador",
-        "photo": "avatar_2.jpg",
+        "photo": "gonzalofanjul.jpg",
         "twitter": "https://twitter.com/GonzaloFanjul",
+        "linkedin": "",
+        "github": ""
+      },
+      {
+        "name": "Isabel Kreisler",
+        "title": "Invstigadora",
+        "photo": "Isabelkreisler.jpg",
+        "twitter": "",
         "linkedin": "",
         "github": ""
       }
@@ -134,30 +134,642 @@
         "politica",
         "sociedad"
       ],
-      "items": [
-        {
-          "id": "lorem-ipsum",
-          "title": "Lorem ipsum",
-          "abstract": "Lorem fistrum amatomaa pecador a peich sexuarl mamaar. Pecador ese pedazo de al ataquerl no te digo trigo",
-          "description": "Lorem fistrum amatomaa pecador a peich sexuarl mamaar. Pecador ese pedazo de al ataquerl no te digo trigo por no llamarte Rodrigor la caidita a gramenawer ahorarr tiene musho peligro te va a hasé pupitaa.",
-          "image": "reports/placeholder.png",
-          "date": "01/07/2018",
-          "authors": ["Javier Pérez", "María Vega"],
-          "tags": ["politica", "sociedad"],
-          "file": ""
+      "items":
+[
+    {
+        "authors": [
+            "Javier Pérez González",
+            "Alba Gutiérrez Fraile"
+        ],
+        "cover": "Informe-Avizor-2013.jpg",
+        "date": {
+            "full": "01/04/2014",
+            "year": "2014"
         },
-        {
-          "id": "ipsum-dolor",
-          "title": "Ipsum dolor",
-          "abstract": "Lorem fistrum amatomaa pecador a peich sexuarl mamaar. Pecador ese pedazo de al ataquerl no te digo trigo",
-          "description": "Lorem fistrum amatomaa pecador a peich sexuarl mamaar. Pecador ese pedazo de al ataquerl no te digo trigo por no llamarte Rodrigor la caidita a gramenawer ahorarr tiene musho peligro te va a hasé pupitaa.",
-          "image": "reports/placeholder.png",
-          "date": "03/04/2017",
-          "authors": ["Javier Pérez"],
-          "tags": ["politica"],
-          "file": ""
-        }
-      ]
+        "document": "",
+        "id": "informe-avizor-2013",
+        "link_title": "Informe Avizor 2013",
+        "tags": [
+            "",
+            ""
+        ],
+        "text": "El Informe Avizor 2013 actualiza las principales variables sobre la actividad parlamentaria española, el desarrollo internacional y la lucha contra la pobreza, que ya fueron analizadas en el primer informe anual en 2012. Revisa, además, los avances realizados para superar las debilidades estructurales y de organización parlamentaria que se han dado en 2013 e introduce una importante novedad respecto a las conclusiones del informe de 2012: el análisis del cumplimiento por parte del Gobierno de los compromisos adquiridos en sede parlamentaria. Por segundo año consecutivo el CIECODE pretende facilitar, a través del Proyecto Avizor y de su informe anual, el control ciudadano y la exigencia de responsabilidades a los representantes políticos; aportando transparencia e información sobre el trabajo que desempeñan como paso previo y necesario para la acción y el activismo ciudadano.",
+        "title": "Informe Avizor 2013: un año de seguimiento de la actividad parlamentaria en materia de desarrollo"
+    },
+    {
+        "authors": [
+            "Alba Gutiérrez Fraile"
+        ],
+        "cover": "ImpactoActividadParlamentaria.png",
+        "date": {
+            "full": "01/12/2013",
+            "year": "2013"
+        },
+        "document": "",
+        "id": "parlamentos-abiertos-a-la-sociedad-participacion-y-monitorizacion",
+        "link_title": "Parlamentos abiertos a la sociedad Participación y monitorización",
+        "tags": [
+            "",
+            ""
+        ],
+        "text": "Las llamadas Parliamentary Monitoring Organizations (PMO) son un fenómeno relativamente nuevo y desconocido que ha proliferado en la última década. Las PMO se presentan como organizaciones y redes de activismo político centradas en impulsar una mayor transparencia y rendición de cuentas de los parlamentos y de sus procesos de toma de decisiones. En Septiembre de 2012 parte de estas organizaciones aprobaron La Declaración sobre Transparencia Parlamentaria con el objetivo de generar un mayor compromiso en favor de la transparencia y la participación ciudadana en el trabajo parlamentario.",
+        "title": "Impacto de la actividad parlamentaria en la lucha contra la pobreza"
+    },
+    {
+        "authors": [
+            "Alba Gutiérrez Fraile"
+        ],
+        "cover": "Respuesta-de-Espana-a-los-retos-del-desarrollo.jpg",
+        "date": {
+            "full": "01/06/2013",
+            "year": "2013"
+        },
+        "document": "",
+        "id": "cuadernos-junio",
+        "link_title": "Cuadernos Junio",
+        "tags": [
+            "",
+            ""
+        ],
+        "text": "La intensificación de los procesos de globalización ha traído una serie de retos y desafíos a escala mundial relacionados con el cambio climático, las deficiencias del sistema alimentario global, la crisis energética, la creciente presión sobre recursos naturales escasos o la expansión de situaciones de violencia estructural. Todos estos desafíos están configurando una nueva forma de pobreza y desigualdad, aumentando la situación de vulnerabilidad a la que se ven expuestas las personas.",
+        "title": "El Congreso de los Diputados: Análisis de su papel en la respuesta de España a los retos y problemas del Desarrollo Internacional"
+    },
+    {
+        "authors": [
+            "Javier Pérez González",
+            "Alba Gutiérrez Fraile"
+        ],
+        "cover": "Informe-Avizor-2012.jpg",
+        "date": {
+            "full": "01/02/2013",
+            "year": "2013"
+        },
+        "document": "",
+        "id": "informe-avizor-2013-completo",
+        "link_title": "Informe Avizor 2013 Completo",
+        "tags": [
+            "",
+            ""
+        ],
+        "text": "Ni la clase política ni la credibilidad del Parlamento español pasan por su mejor momento. Una parte mayoritaria de la sociedad considera que los grupos políticos equivocan sus prioridades en un sistema parlamentario rígido y opaco que carece de mecanismos creíbles de rendición de cuentas. Se percibe que la pobreza y la desigualdad –dos problemas crecientes cuyas raíces difícilmente distinguen entre países ricos y pobres- están siendo conscientemente ignoradas por una maquinaria que ahoga la iniciativa individual de los parlamentarios más comprometidos. A los ojos de una mayoría, nuestro sistema político está gravemente enfermo.",
+        "title": "Informe Avizor 2012: un año de seguimiento de la actividad parlamentaria en materia de desarrollo"
+    },
+    {
+        "authors": [
+            "Javier Pérez González"
+        ],
+        "cover": "Perspectivas-sobre-comercio-y-desarrollo-en-el-mundo-post-2015.jpg",
+        "date": {
+            "full": "01/02/2014",
+            "year": "2014"
+        },
+        "document": "",
+        "id": "perspectivas-sobre-comercio-y-desarrollo-en-el-mundo-post-2015",
+        "link_title": "Perspectivas sobre comercio y desarrollo en el mundo post-2015",
+        "tags": [
+            "",
+            ""
+        ],
+        "text": "Desde el año 2000 los países en desarrollo han aumentado su presencia y relevancia en el comercio internacional, lo que les ha permitido mantener altas tasas medias de crecimiento económico. Sin embargo, este crecimiento no se ha traducido en una correlativa reducción de sus niveles de pobreza y desigualdad. El nuevo acuerdo global del desarrollo post-2015 tiene el reto de aunar en una misma agenda los objetivos de erradicación de la pobreza, crecimiento inclusivo y sostenibilidad ambiental. En este nuevo contexto, el sistema comercial internacional debe promover y no limitar, como ha ocurrido en las últimas décadas, la capacidad de los países en desarrollo para adoptar las políticas necesarias para impulsar un desarrollo que genere empleo digno, que garantice la protección social de la población y del medio ambiente, que reduzca las desigualdades y que esté al servicio de las personas y de los colectivos más desfavorecidos.",
+        "title": "Perspectivas sobre comercio y desarrollo en el mundo post-2015"
+    },
+    {
+        "authors": [
+            "Javier Pérez González"
+        ],
+        "cover": "Politica-Espana-de-internacionalizacion-de-la-empresa.jpg",
+        "date": {
+            "full": "20/04/2015",
+            "year": "2015"
+        },
+        "document": "",
+        "id": "analisis-de-la-politica-espanola-de-internacionalizacion-de-empresas-desde-la-coherencia-de-politicas-para-el-desarrollo",
+        "link_title": "Análisis de la Política española de Internacionalización de Empresas desde la Coherencia de Políticas para el Desarrollo",
+        "tags": [
+            "",
+            ""
+        ],
+        "text": "El objeto de esta investigación es la Política Española de Internacionalización de la Empresa. A través del análisis de los siete ámbitos de la acción pública española que conforman esta política, la investigación examina la medida en que estos ámbitos son diseñados e implementados incorporando criterios de desarrollo humano. Esta investigación forma parte del proyecto “Coherencia de políticas para el desarrollo en tres políticas españolas” impulsado por la Plataforma 2015 y más, en el que participan el Instituto Complutense de Estudios Internacionales (ICEI), el Centro de Investigación y Estudios sobre Comercio y Desarrollo (CIECODE), la Fundación IPADE y el Observatorio de la Deuda en la Globalización (ODG) y que aborda, además de la internacionalización de las empresas españolas, la política diplomática y la energética.",
+        "title": "La coherencia de políticas para el desarrollo en la Política Española de Internacionalización de la Empresa."
+    },
+    {
+        "authors": [
+            "Javier Pérez González"
+        ],
+        "cover": "incorporacion-DDHH-y-fomento-desarrollo-humano.jpg",
+        "date": {
+            "full": "01/11/2013",
+            "year": "2013"
+        },
+        "document": "",
+        "id": "acuerdos-internacionales-de-inversion-y-ddhh",
+        "link_title": "Acuerdos internacionales de inversión y DDHH",
+        "tags": [
+            "",
+            ""
+        ],
+        "text": "Los Acuerdos de Promoción y Protección Recíproca de Inversiones (APPRI) son tratados que ofrecen seguridad jurídica y protección al inversor extranjero frente a la mayor parte de los riesgos que puedan acontecer en el país donde invierten. NNUU ha mostrado su preocupación por la desmesurada protección que los APPRI dispensan a los intereses de los inversores extranjeros frente al interés general de los países en los que se establecen y por las limitaciones que imponen al espacio político del que éstos gozan para promover el desarrollo humano y garantizar el respeto de los derechos humanos. Esta investigación analiza las principales características de los 61 APPRI que España tiene en vigor, pone éstas en el contexto de las propuestas del Plan Nacional de Empresas y Derechos Humanos y realiza una comparativa respecto a las mejores prácticas internacionales en esta materia. El análisis permite afirmar que España ha incorporado de forma muy débil en sus acuerdos APPRI el contenido necesario para fomentar una IED respetuosa con los derechos humanos y promotora de desarrollo humano.",
+        "title": "La incorporación de la protección de los derechos humanos y el fomento del desarrollo humano en los Acuerdos de Protección y Promoción Recíproca de Inversiones de España con países emergentes y en desarrollo."
+    },
+    {
+        "authors": [
+            "Javier Pérez González"
+        ],
+        "cover": "EspanaComercioDesarrollo.jpg",
+        "date": {
+            "full": "01/07/2012",
+            "year": "2012"
+        },
+        "document": "",
+        "id": "libro-blanco-comercio-y-desarrollo",
+        "link_title": "Libro Blanco: Comercio y Desarrollo",
+        "tags": [
+            "",
+            ""
+        ],
+        "text": "Hasta la fecha, España no ha conseguido compatibilizar la defensa de sus intereses comerciales con el cumplimiento de sus compromisos en materia de desarrollo y lucha contra la pobreza. España ha considerado este dilema como una disyuntiva, resuelto mediante una obcecada defensa de los intereses empresariales nacionales. Los cinco grandes retos globales del desarrollo (seguridad alimentaria, migraciones, recursos naturales escasos, estados frágiles y financiación del desarrollo) sirven de hilo conductor de este artículo. En él se ofrecen recomendaciones concretas para la agenda comercial del nuevo Gobierno mostrando que, en numerosas ocasiones, la opción más responsable, sostenible y justa no es incompatible con la promoción de los intereses comerciales particulares de España.",
+        "title": "España, comercio y desarrollo: lo que hace, lo que dice que hace y lo que debería hacer."
+    },
+    {
+        "authors": [
+            "Javier Pérez González",
+            "Iliana Olivié"
+        ],
+        "cover": "marca-espana.jpg",
+        "date": {
+            "full": "01/02/2013",
+            "year": "2013"
+        },
+        "document": "",
+        "id": "repensando-la-marca-espana",
+        "link_title": "Repensando la Marca España",
+        "tags": [
+            "",
+            ""
+        ],
+        "text": "Seminario que sirvió de foro de reflexión acerca del proyecto gubernamental Marca España y la posibilidad de que este pudiera ampliarse temáticamente en lo horizontal (incluyendo cooperación al desarrollo) y analíticamente en lo vertical (matizando y profundizando en las relaciones entre empresas y marca y en cómo conecta todo ello con el impacto de la Inversión Extranjera Directa española en el desarrollo) para integrar de forma estratégica y coherente los distintos objetivos de la acción exterior (política exterior, apoyo a la internacionalización de la empresa y promoción del desarrollo internacional). El seminario contó con la participación de más de 40 personalidades españolas y extranjeras del mundo académico, económico y político, así como de representantes de organizaciones y redes de la sociedad civil.",
+        "title": "Seminario Repensando Marca España: ¿qué lugar para el desarrollo, la inversión extranjera directa y la cooperación al desarrollo?"
+    },
+    {
+        "authors": [
+            "Gonzalo Fanjul Suárez"
+        ],
+        "cover": "rigor-mortis.jpg",
+        "date": {
+            "full": "01/05/2012",
+            "year": "2012"
+        },
+        "document": "",
+        "id": "libro-blanco-pildora-migraciones",
+        "link_title": "Libro Blanco: Píldora migraciones",
+        "tags": [
+            "",
+            ""
+        ],
+        "text": "El carácter cerrado y unilateral de las políticas migratorias de los países ricos tiene consecuencias negativas para todas las partes involucradas en el proceso migratorio: regiones de origen, países de destino y los propios emigrantes. La reforma de este modelo no sólo liberaría recursos sin precedentes para el desarrollo, sino que ayudaría a conformar sociedades más seguras y economías más prósperas  en países de destino como España.",
+        "title": "Rigor Mortis. La rigidez de las políticas migratorias y sus efectos sobre el interés común "
+    },
+    {
+        "authors": [
+            "Gonzalo Fanjul Suárez",
+            "Ángela Fanjul",
+            "Sonia Garrido",
+            "Marcela Zulueta"
+        ],
+        "cover": "MitoDramaOportunidad.jpg",
+        "date": {
+            "full": "01/02/2014",
+            "year": "2014"
+        },
+        "document": "",
+        "id": "el-mito,-el-drama-y-la-oportunidad-social",
+        "link_title": "El mito, el drama y la oportunidad social",
+        "tags": [
+            "",
+            ""
+        ],
+        "text": "La inmigración irregular condena al sufrimiento a decenas de millones de personas en todo el mundo y enfrenta a las sociedades de acogida a importantes dilemas éticos. Sus causas están enraizadas en un modelo migratorio excesivamente rígido que perjudica\ta los emigrantes y reduce los beneficios para los países de origen y acogida. En el caso de España y Europa, la transformación de este modelo exige reformas nacionales y la construcción de una verdadera Política Migratoria Europea que incrementen las oportunidades y distribuyan los riesgos del proceso. Este documento presenta el argumento de +Social para la reforma.",
+        "title": "El Mito, el drama y la oportunidad. Propuestas para un modelo migratorio más justo e inteligente "
+    },
+    {
+        "authors": [
+            "Isabel Kreisler",
+            "Álvaro López-Peña"
+        ],
+        "cover": "politicas-climatica-y-de-desarrollo.jpg",
+        "date": {
+            "full": "01/11/2011",
+            "year": "2011"
+        },
+        "document": "",
+        "id": "libro-blanco-cambio-climatico",
+        "link_title": "Libro Blanco: Cambio climático",
+        "tags": [
+            "",
+            ""
+        ],
+        "text": "El reto que el cambio climático supone para la comunidad internacional es mayúsculo. Los científicos estiman probable que la temperatura global del planeta aumente en torno a 4°C de cara al 2050, en ausencia de políticas agresivas para remediarlo. Se impone, de manera urgente, un cambio radical en los patrones de producción y consumo de la energía, apostando a fondo por el ahorro energético y las energías renovables. La comunidad internacional se ha comprometido con el principio de “responsabilidades compartidas pero diferenciadas” en la lucha contra el cambio climático y con el fomento de la adaptación en los países más vulnerables.",
+        "title": "España, en la confluencia de sus políticas climática y de desarrollo."
+    },
+    {
+        "authors": [
+            "Jesús A.  Núñez Villaverde"
+        ],
+        "cover": "la-construccion-de-la-paz.jpg",
+        "date": {
+            "full": "01/11/2011",
+            "year": "2011"
+        },
+        "document": "",
+        "id": "libro-blanco-construccion-de-la-paz",
+        "link_title": "Libro Blanco: Construcción de la paz",
+        "tags": [
+            "",
+            ""
+        ],
+        "text": "Tanto desde la perspectiva individual como colectiva, la satisfacción de las necesidades básicas y la seguridad son dos aspiraciones universales. Para la cooperación al desarrollo, en clave de seguridad humana, esos deben igualmente los dos pilares centrales sobre los que edificar un mundo más justo, más seguro y más sostenible. La construcción de la paz‐ que incluye elementos sociales, políticos, económicos y de seguridad‐ busca crear y/o potenciar mecanismos que permitan resolver los conflictos por vías pacíficas.",
+        "title": "España, la construcción de la paz y los retos del desarrollo "
+    },
+    {
+        "authors": [
+            "Deborah Itriago"
+        ],
+        "cover": "fiscalidad-justa.jpg",
+        "date": {
+            "full": "01/11/2011",
+            "year": "2011"
+        },
+        "document": "",
+        "id": "libro-blanco-fiscalidad-justa",
+        "link_title": "Libro Blanco: Fiscalidad Justa",
+        "tags": [
+            "",
+            ""
+        ],
+        "text": "Con el fin de ser capaces de obtener los recursos suficientes para garantizar los servicios públicos (como educación y salud para todos) y para reducir la desigualdad, los países pobres necesitan recaudar más impuestos y hacerlo sobre la base de impuestos progresivos y justos. Hasta ahora, la política tributaria en los países en desarrollo ha estado fuertemente influenciada por el FMI y las élites nacionales. En muchos casos esto ha tenido un impacto negativo dado el gran énfasis puesto en impuestos indirectos regresivos como el IVA y los extensos incentivos fiscales para las empresas. Por otra parte, en el ámbito internacional, deben hacerse reformas profundas que eviten la fuga de recursos vitales para los países en desarrollo. ",
+        "title": "España y la construcción de fiscalidad justa para el desarrollo."
+    },
+    {
+        "authors": [
+            "José María Larrú"
+        ],
+        "cover": "la-aod-espanola.jpg",
+        "date": {
+            "full": "01/10/2011",
+            "year": "2011"
+        },
+        "document": "",
+        "id": "libro-blanco-aod",
+        "link_title": "Libro Blanco: AOD",
+        "tags": [
+            "",
+            ""
+        ],
+        "text": "Pese al fuerte incremento cuantitativo de la AOD española entre 2005‐08, especialmente por la vía multilateral, continúan las debilidades estructurales señaladas ya desde hace tiempo. La AOD, bien coordinada, puede jugar un papel complementario a otras fuentes de financiación del desarrollo (inversión extranjera, remesas) y, bajo coherencia de políticas, en la sostenibilidad ambiental, las migraciones, la seguridad alimentaria y en el fortalecimiento de los estados frágiles. Para que la AOD española contribuya a ello, las principales propuestas que se hacen son: crear marcos de asociación   con fecha y estrategia de salida; realizar una evaluación de los Organismos Multilaterales que permita su selectividad; e impulsar la educación para el desarrollo desde la cooperación descentralizada. En suma, frente a un modelo de ideología, ignorancia e inercia se propone uno basado en la transparencia, los resultados y la experimentación innovadora.",
+        "title": "La AOD española: diagnóstico sobre su calidad y cantidad."
+    },
+    {
+        "authors": [
+            "Manuel de Rocha Vázquez",
+            "Érika Rodríguez Pinzón"
+        ],
+        "cover": "gobernanza-global.jpg",
+        "date": {
+            "full": "01/09/2011",
+            "year": "2011"
+        },
+        "document": "",
+        "id": "libro-blanco-gobernanza-global",
+        "link_title": "Libro Blanco: Gobernanza global",
+        "tags": [
+            "",
+            ""
+        ],
+        "text": "La reforma y fortalecimiento del sistema de gobernanza multilateral para gestionar de manera eficaz y democrática los problemas de la globalización, es uno de los grandes retos a los que se enfrenta la comunidad internacional. Este documento aborda algunos de los principales desafíos en la creación de esa gobernanza, desde un punto de vista de desarrollo, analizando el papel potencial que el próximo gobierno español podría jugar en su solución.",
+        "title": "Gobernanza global e instituciones multilaterales. Hacia una política de desarrollo global sostenible."
+    },
+    {
+        "authors": [
+            "Javier Pérez González",
+            "Alba Gutiérrez Fraile"
+        ],
+        "cover": "Informe-Avizor-2014.jpg",
+        "date": {
+            "full": "14/05/2015",
+            "year": "2015"
+        },
+        "document": "",
+        "id": "informe-avizor-2014",
+        "link_title": "Informe Avizor 2014",
+        "tags": [
+            "",
+            ""
+        ],
+        "text": "<p>Por tercer año consecutivo el CIECODE pretende facilitar, a través del informe anual del Proyecto Avizor, el control ciudadano y la exigencia de responsabilidades a los representantes políticos; aportando transparencia e información sobre el trabajo que desempeñan como paso previo y necesario para la acción y el activismo ciudadano.</p><p> El Informe Avizor 2014 actualiza las principales variables sobre la actividad parlamentaria española, el desarrollo internacional y la lucha contra la pobreza, que ya fueron analizadas en las dos primeras ediciones. Revisa sucintamente los avances realizados para superar las debilidades estructurales y de organización parlamentaria y actualiza el análisis sobre el cumplimiento por parte del Gobierno de los compromisos adquiridos en sede parlamentaria. </p>",
+        "title": "Informe Avizor 2014: un año de seguimiento de la actividad parlamentaria en materia de desarrollo y lucha contra la pobreza"
+    },
+    {
+        "authors": [
+            "Equipo Avizor"
+        ],
+        "cover": "Anexo-Informe-Avizor-2014.jpg",
+        "date": {
+            "full": "13/05/2015",
+            "year": "2015"
+        },
+        "document": "",
+        "id": "anexos-informe-avizor-2014",
+        "link_title": "Anexos Informe Avizor 2014",
+        "tags": [
+            "",
+            ""
+        ],
+        "text": "<p>En este documento podrás encontrar información detallada del análisis Avizor 2014 más allá de los principales titulares del informe. Este anexo contiene tablas y gráficos de la actividad en el Congreso de los Diputados de los siete grupos parlamentarios.</p>",
+        "title": "Anexos Informe Avizor 2014"
+    },
+    {
+        "authors": [
+            "Equipo Avizor"
+        ],
+        "cover": "bbdd-Informe-Avizor-2014.jpg",
+        "date": {
+            "full": "12/05/2015",
+            "year": "2015"
+        },
+        "document": "",
+        "id": "base-de-datos-del-proyecto-avizor-2012,-2013-y-2014",
+        "link_title": "Base de datos del Proyecto Avizor 2012, 2013 y 2014",
+        "tags": [
+            "sociedad"
+        ],
+        "text": "<p>Por nuestro compromiso con la transparencia ponemos a disposición de los usuarios la base de datos completa del Proyecto Avizor desde el inicio de la legislatura. En la base de datos encontrarás toda la información de la actividad parlamentaria registrada en estos tres años por el equipo Avizor que es la base para llevar a cabo nuestros análisis. Con más de 2300 iniciativas parlamentarias esta base de datos refleja la actividad del Congreso de los Diputados en la lucha contra la pobreza y promoción del desarrollo.</p>",
+        "title": "Base de datos del Proyecto Avizor 2012, 2013 y 2014"
+    },
+    {
+        "authors": [
+            "Javier Pérez González",
+            "Alba Gutiérrez Fraile",
+            "Miguel Ángel Vázquez",
+            "Juana Bengoa"
+        ],
+        "cover": "PortadaGobernanza.jpg",
+        "date": {
+            "full": "01/10/2015",
+            "year": "2015"
+        },
+        "document": "",
+        "id": "gobernanza,-participacion-y-rendicion-de-cuentas-para-el-desarrollo-sostenible.",
+        "link_title": "Gobernanza, Participación y Rendición de cuentas para el desarrollo sostenible.",
+        "tags": [
+            "sociedad"
+        ],
+        "text": "<p>Poner en marcha y hacer viables los contenidos de la Declaración de Naciones Unidas sobre la Agenda Post-2015 va a requerir de una alta participación ciudadana y de una amplia movilización social. Desarrollar el compromiso de la comunidad internacional con los Objetivos de Desarrollo Sostenible (ODS) como bienes públicos globales implica profundos cambios en el ámbito internacional, regional y local. Cambios profundamente relacionados con la política. Sin embargo, ¿se trata de una Agenda verdaderamente transformadora? ¿Cuenta con instrumentos y mecanismos para abordar los grandes cambios sistémicos necesarios y para rendir cuentas sobre ellos ante la ciudadanía?</p>",
+        "title": "Gobernanza, Participación y Rendición de cuentas para el desarrollo sostenible."
+    },
+    {
+        "authors": [
+            "Javier Pérez González"
+        ],
+        "cover": "Ocho_Meses_de_Actividad.jpg",
+        "date": {
+            "full": "01/03/2017",
+            "year": "2017"
+        },
+        "document": "",
+        "id": "ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-analisis-completo",
+        "link_title": "Ocho meses de actividad parlamentaria en Cooperación Internacional para el Desarrollo: Análisis completo",
+        "tags": [
+            "politica"
+        ],
+        "text": "Gracias a los datos suministrados por el escáner parlamentario del proyecto TIPI (<a href=\"http://www.tipiciudadano.es\">www.tipiciudadano.es</a>) hemos analizado los primeros ochos meses de actividad parlamentaria en materia de Cooperación Internacional para el Desarrollo: las principales iniciativas, los partidos más activos, las tendencias... En este documento podrás acceder al análisis completo",
+        "title": "Ocho meses de actividad parlamentaria en Cooperación Internacional para el Desarrollo: Análisis completo"
+    },
+    {
+        "authors": [
+            "Javier Pérez González"
+        ],
+        "cover": "Ocho_Meses_de_Actividad.jpg",
+        "date": {
+            "full": "01/03/2017",
+            "year": "2017"
+        },
+        "document": "",
+        "id": "ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-resumen-ejecutivo",
+        "link_title": "Ocho meses de actividad parlamentaria en Cooperación Internacional para el Desarrollo: Resumen Ejecutivo",
+        "tags": [
+            "politica"
+        ],
+        "text": "Gracias a los datos suministrados por el escáner parlamentario del proyecto TIPI (<a href=\"http://www.tipiciudadano.es\">www.tipiciudadano.es</a>) hemos analizado los primeros ochos meses de actividad parlamentaria en materia de Cooperación Internacional para el Desarrollo: las principales iniciativas, los partidos más activos, las tendencias... En este documento podrás acceder a las principales conclusiones",
+        "title": "Ocho meses de actividad parlamentaria en Cooperación Internacional para el Desarrollo: Resumen Ejecutivo"
+    },
+    {
+        "authors": [
+            "Javier Pérez González"
+        ],
+        "cover": "Ocho_Meses_de_Actividad.jpg",
+        "date": {
+            "full": "01/03/2017",
+            "year": "2017"
+        },
+        "document": "",
+        "id": "ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-ciudadanos",
+        "link_title": "Ocho meses de actividad parlamentaria en Cooperación Internacional para el Desarrollo: Ciudadanos",
+        "tags": [
+            "politica"
+        ],
+        "text": "Gracias a los datos suministrados por el escáner parlamentario del proyecto TIPI (<a href=\"http://www.tipiciudadano.es\">www.tipiciudadano.es</a>) hemos analizado los primeros ochos meses de actividad parlamentaria en materia de Cooperación Internacional para el Desarrollo: las principales iniciativas, los partidos más activos, las tendencias... En este documento podrás acceder a un breve resumen de la actividad desempeñada por el Grupo parlamentario de Ciudadanos",
+        "title": "Ocho meses de actividad parlamentaria en Cooperación Internacional para el Desarrollo: Ciudadanos"
+    },
+    {
+        "authors": [
+            "Javier Pérez González"
+        ],
+        "cover": "Ocho_Meses_de_Actividad.jpg",
+        "date": {
+            "full": "01/03/2017",
+            "year": "2017"
+        },
+        "document": "",
+        "id": "ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-unidos-podemos",
+        "link_title": "Ocho meses de actividad parlamentaria en Cooperación Internacional para el Desarrollo: Unidos Podemos",
+        "tags": [
+            "politica"
+        ],
+        "text": "Gracias a los datos suministrados por el escáner parlamentario del proyecto TIPI (<a href=\"http://www.tipiciudadano.es\">www.tipiciudadano.es</a>) hemos analizado los primeros ochos meses de actividad parlamentaria en materia de Cooperación Internacional para el Desarrollo: las principales iniciativas, los partidos más activos, las tendencias... En este documento podrás acceder a un breve resumen de la actividad desempeñada por el Grupo parlamentario de Unidos Podemos",
+        "title": "Ocho meses de actividad parlamentaria en Cooperación Internacional para el Desarrollo: Unidos Podemos"
+    },
+    {
+        "authors": [
+            "Javier Pérez González"
+        ],
+        "cover": "Ocho_Meses_de_Actividad.jpg",
+        "date": {
+            "full": "01/03/2017",
+            "year": "2017"
+        },
+        "document": "",
+        "id": "ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-partido-popular",
+        "link_title": "Ocho meses de actividad parlamentaria en Cooperación Internacional para el Desarrollo: Partido Popular",
+        "tags": [
+            "politica"
+        ],
+        "text": "Gracias a los datos suministrados por el escáner parlamentario del proyecto TIPI (<a href=\"http://www.tipiciudadano.es\">www.tipiciudadano.es</a>) hemos analizado los primeros ochos meses de actividad parlamentaria en materia de Cooperación Internacional para el Desarrollo: las principales iniciativas, los partidos más activos, las tendencias... En este documento podrás acceder a un breve resumen de la actividad desempeñada por el Grupo parlamentario del Partido Popular",
+        "title": "Ocho meses de actividad parlamentaria en Cooperación Internacional para el Desarrollo: Partido Popular"
+    },
+    {
+        "authors": [
+            "Javier Pérez González"
+        ],
+        "cover": "Ocho_Meses_de_Actividad.jpg",
+        "date": {
+            "full": "01/03/2017",
+            "year": "2017"
+        },
+        "document": "",
+        "id": "ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-psoe",
+        "link_title": "Ocho meses de actividad parlamentaria en Cooperación Internacional para el Desarrollo: PSOE",
+        "tags": [
+            "sociedad"
+        ],
+        "text": "Gracias a los datos suministrados por el escáner parlamentario del proyecto TIPI (<a href=\"http://www.tipiciudadano.es\">www.tipiciudadano.es</a>) hemos analizado los primeros ochos meses de actividad parlamentaria en materia de Cooperación Internacional para el Desarrollo: las principales iniciativas, los partidos más activos, las tendencias... En este documento podrás acceder a un breve resumen de la actividad desempeñada por el Grupo parlamentario socialista",
+        "title": "Ocho meses de actividad parlamentaria en Cooperación Internacional para el Desarrollo: PSOE"
+    },
+    {
+        "authors": [
+            "Javier Pérez González",
+            "Gonzalo Fanjul Suárez",
+            "Miriam Segovia"
+        ],
+        "cover": "equidad_para_los_ninos.jpg",
+        "date": {
+            "full": "01/04/2016",
+            "year": "2016"
+        },
+        "document": "",
+        "id": "equidad-para-los-ninos-el-caso-de-espana",
+        "link_title": "Equidad para los niños: el caso de España",
+        "tags": [
+            "sociedad"
+        ],
+        "text": "Este informe, escrito por Gonzalo Fanjul y CIECODE para UNICEF Comité Español sobre la base de la información contenida en la edición número 13 del Report Card de UNICEF permite comprender los retos que enfrentan España y otros países de nuestro entorno en un vínculo tan delicado como el que se establece entre la pobreza infantil y la desigualdad y las oportunidades de revertir esta situación en los próximos años con el empuje político de la agenda del desarrollo 2030, una tímida recuperación económica y un cambio en el panorama político y social. En el capítulo \"Desigualdad, infancia y debate político en España\" se analiza el comportamiento de los partidos políticos y grupos parlamentarios españoles a lo largo de la X legislatura, así como sus propuestas para los próximos años.",
+        "title": "Equidad para los niños: el caso de España"
+    },
+    {
+        "authors": [
+            "Javier Pérez González"
+        ],
+        "cover": "eu_trade_policy.jpg",
+        "date": {
+            "full": "01/11/2016",
+            "year": "2016"
+        },
+        "document": "",
+        "id": "using-the-ttip-momentum-to-modernise-the-eu-approach-to-the-global-investment-policy-regime",
+        "link_title": "USING THE TTIP MOMENTUM TO MODERNISE THE EU APPROACH TO THE GLOBAL INVESTMENT POLICY REGIME",
+        "tags": [
+            "sociedad"
+        ],
+        "text": "Si hay un asunto relacionado con el comercial internacional sobre el que existe consenso entre todos los actores relevantes, este es que el régimen global de inversiones está obsoleto y necesitado de una urgente y profunda revisión para asegurar que responde al interés general y que es compatible con los principios y valores de la UE. Este artículo, publicado como parte de la monografía \"Different Glances at EU Trade Policy\" del CIDOB, sitúa este debate en el contexto de la reciente estrategia \"Comercio para Todos\" de la Comisión Europea y de las negociaciones del tratado TTIP entre Estados Unidos y la UE, que han provocado un mayor conocimiento e interés de estas temáticas por parte de un mayor número de ciudadanos europeos.",
+        "title": "Using the TTIP momentum to modernise the EU approach to the global investment policy regime"
+    },
+    {
+        "authors": [
+            "Javier Pérez González",
+            "Miguel Ángel Vázquez",
+            "Ramiro Viñuales"
+        ],
+        "cover": "informe_espana_2016.jpg",
+        "date": {
+            "full": "01/12/2016",
+            "year": "2016"
+        },
+        "document": "",
+        "id": "la-nueva-ciudadania-necesaria",
+        "link_title": "La Nueva Ciudadanía Necesaria",
+        "tags": [
+            "politica"
+        ],
+        "text": "Este artículo, publicado en la edición 2016 del Informe España de la Fundación Encuentro, ofrece una reflexión sobre la nueva forma de ejercer la ciudadanía que ha ido cobrando protagonismo en la sociedad española a lo largo del último lustro, sobre si es relevante y si tiene capacidad de consolidarse en el futuro. Para ello, realiza un recorrido por los contextos en los que surge esta nueva ciudadanía, con un claro protagonismo del 15-M y sus ecos en las nuevas formas de organización ciudadana. También repasa los principales aportes, innovaciones y retos que conlleva esta nueva forma de entender el ejercicio de la ciudadanía. Por último, relaciona todo lo analizado con el contexto global en el que habrá de desarrollarse, en un intento por intuir las repercusiones que puede alcanzar la nueva ciudadanía en el escenario global y la responsabilidad que ésta tiene en la construcción de un futuro más justo, sostenible, democrático y participado.",
+        "title": "La Nueva Ciudadanía Necesaria"
+    },
+    {
+        "authors": [
+            "Javier Pérez González",
+            "Miriam Segovia"
+        ],
+        "cover": "la_capacidad_del_congreso.jpg",
+        "date": {
+            "full": "01/04/2017",
+            "year": "2017"
+        },
+        "document": "",
+        "id": "la-capacidad-del-congreso-de-los-diputados-espanol-para",
+        "link_title": "La capacidad del Congreso de los Diputados español para",
+        "tags": [
+            "politica"
+        ],
+        "text": "La Agenda 2030 para el Desarrollo Sostenible, hace imprescindible que la Coherencia de Políticas para el Desarrollo (CPD) se convierta en el principio vertebrador de los planes de Gobierno de todos los Estados en los próximos quince años. Los Parlamentos nacionales serán esenciales para que los Estados puedan adquirir el compromiso ambicioso y a largo plazo que esta agenda requiere. Partiendo del análisis del Proyecto Avizor, este artículo ha querido cuestionar si, en el actual panorama político español, existen especiales trabas y dificultades para promover con éxito las iniciativas políticas que serán necesarias para que España pueda implementar con éxito los compromisos adquiridos en la nueva Agenda 2030.",
+        "title": "La capacidad del Congreso de los Diputados español para impulsar la incorporación del enfoque de Coherencia de Políticas para el Desarrollo"
+    },
+    {
+        "authors": [
+            "Javier Pérez González"
+        ],
+        "cover": "Compromiso_con_el_Desarrollo_v.jpg",
+        "date": {
+            "full": "01/10/2017",
+            "year": "2017"
+        },
+        "document": "",
+        "id": "methodology-for-iias-analysis_cgd_cdi-index_2017-by-ciecode",
+        "link_title": "Methodology for IIAs analysis_CGD_CDI Index_2017 by CIECODE",
+        "tags": [
+            "politica"
+        ],
+        "text": "El CIECODE ha desarrollado una metodología para analizar la inclusión del enfoque de desarrollo sostenible en los Acuerdos Internacionales de Inversión (IIAs). Por encargo del Centre for Global Development, en 2017 hemos aplicado esta metodología para analizar más de 300 IIAs celebrados entre países desarrollados y países en desarrollo durante los últimos 15 años. Los resultados han sido incorporados al famoso Índice de Compromiso con el Desarrollo (CDI) de esta organización, accesible en: <a href=\"https://www.cgdev.org/commitment-development-index-2017\"> https://www.cgdev.org/commitment-development-index-2017</a>. Puedes descargar la metodología <a href=\"https://unmundosalvadorsoler.org/_Files/cie/Methodology%20for%20IIAs%20analysis_CGD_CDI%20Index_2017%20by%20CIECODE.pdf\"> aquí </a>y la completa base de datos con los resultados del análisis <a href=\"https://docs.google.com/spreadsheets/d/1Yy1AmSmpCvTMDDH6_6L1cz4KHnRPYa5DLBVoa687IUI/edit?usp=sharing\"> aquí</a>. <br><br>CIECODE has developed a methodology to analyze whether a sustainable development approach has been included in International Investment Agreements (IIAs). Under the orders of the Center for Global Development, in 2017 we applied this methodology in the analysis of more than 300 IIAs, signed between developed and developing countries in the last 15 years. The results have been incorporated to the well-known Commitment to Development Idex (CDI) of this organization, which is available here: <a href=\"https://www.cgdev.org/commitment-development-index-2017\"> https://www.cgdev.org/commitment-development-index-2017</a>. You can download the detailed Methodology <a href=\"https://unmundosalvadorsoler.org/_Files/cie/Methodology%20for%20IIAs%20analysis_CGD_CDI%20Index_2017%20by%20CIECODE.pdf\"> here</a> and the entire database with the results of the analysis <a href=\"https://docs.google.com/spreadsheets/d/1Yy1AmSmpCvTMDDH6_6L1cz4KHnRPYa5DLBVoa687IUI/edit?usp=sharing\"> here</a>.",
+        "title": "Análisis de Acuerdos Internacionales de Inversión para el Índice de Compromiso con el Desarrollo 2017 del Centre for Global Development"
+    },
+    {
+        "authors": [
+            "Javier Pérez González",
+            "Teresa Cavero"
+        ],
+        "cover": "America_Central_Impacto_del_cambio_climatico.png",
+        "date": {
+            "full": "01/07/2016",
+            "year": "2016"
+        },
+        "document": "",
+        "id": "america-central-impacto-del-cambio-",
+        "link_title": "América\tCentral:\tImpacto\tdel\tcambio\t",
+        "tags": [
+            "politica"
+        ],
+        "text": "Desde hace más de una década, la inseguridad alimentaria derivada del cambio climático por un lado, y los crecientes niveles de desigualdad y violencia por otro, están generando una crisis que avanza lentamente a lo largo del corredor seco centroamericano, y que afecta por distintas vías a la resiliencia de las familias, las comunidades e instituciones de la región. Este estudio, realizado por investigadores de CIECODE para Oxfam, en primer lugar analiza la evolución de estos factores en cuatro países centroamericanos (El Salvador, Guatemala, Honduras y Nicaragua); en segundo lugar, evalúa cómo estos factores afectan de manera directa o indirecta a la resiliencia; y en tercer lugar, realiza una valoración de la capacidad política e institucional de los cuatro países y de la región en su conjunto para hacer frente a esta crisis. <br><br> Anexos: <br> <a href=\"https://unmundosalvadorsoler.org/_Files/cie/Anexo I Mapas de distribución de impactos_CIECODE.pdf\"> - Anexo 1: Mapas de distribución de impactos por países </a> <br> <a href=\"https://unmundosalvadorsoler.org/_Files/cie/Anexo II Resumen de la matriz de politicas_CIECODE.pdf\"> - Anexo 2: Resumen de la matriz de políticas relevantes </a> <br> <a href=\"https://unmundosalvadorsoler.org/_Files/cie/Anexo III Fichas de país_CIECODE.pdf\"> - Anexo 3: Fichas-país </a> <br> <a href=\"https://unmundosalvadorsoler.org/_Files/cie/Anexo IV Bibliografía_CIECODE.pdf\"> - Anexo 4: Bibliografía </a><br><br>Matriz de políticas públicas relevantes para la resiliencia en la región (con link a:  <a href=\"https://docs.google.com/spreadsheets/d/1h2CX3x209XKf41lj0UrEBNfbtRgVLP5so8KNylHRaw/edit?usp=sharing\"> https://docs.google.com/spreadsheets/d/1h2CX3x209XKf41lj0UrEBNfbtRgVLP5so8KNylHRaw/edit?usp=sharing </a> ). ",
+        "title": "América Central: Impacto del cambio climático, la desigualdad y la violencia sobre la resiliencia de la religión"
+    },
+    {
+        "authors": [
+            "Javier Pérez González",
+            "Lorenza Scarinci"
+        ],
+        "cover": "Centre_for_Global_Development.jpg",
+        "date": {
+            "full": "01/09/2018",
+            "year": "2018"
+        },
+        "document": "",
+        "id": "analisis-de-acuerdos-internacionales-de-inversion",
+        "link_title": "Análisis de acuerdos internacionales de inversión",
+        "tags": [
+            "politica",
+            "sociedad"
+        ],
+        "text": "<p>El CIECODE ha desarrollado una metodología para analizar la inclusión del enfoque de desarrollo sostenible en los Acuerdos Internacionales de Inversión (IIAs). Por encargo del Centre for Global Development, desde 2016 hemos aplicado esta metodología para analizar más de 320 IIAs celebrados entre países desarrollados y países en desarrollo durante los últimos 18 años. Los resultados han sido incorporados al famoso Índice de Compromiso con el Desarrollo (CDI) de esta organización, accesible en: <a href=\"https://www.cgdev.org/commitment-development-index-2018\">https://www.cgdev.org/commitment-development-index-2018</a>. Puedes descargar la metodología <a href=\"https://www.cgdev.org/sites/default/files/CDI-2018-methodology.pdf\">aquí</a> la completa base de datos del índice <a href=\"https://drive.google.com/drive/u/1/folders/0B167nw-gSVHRcXhILXg0RjM3Vmc\">aquí</a> y los resultados del análisis de CIECODE de los acuerdos de inversión <a href=\"https://docs.google.com/spreadsheets/d/1qbfZGM6-SbTzjpJTs-PQ29KI8PCLN5xB3p99hu60CHI/edit?usp=sharing\">aquí</a>. </p><p>CIECODE has developed a methodology to analyze whether a sustainable development approach has been included in International Investment Agreements (IIAs). Under the orders of the Center for Global Development, since 2016 we have applied this methodology in the analysis of more than 320 IIAs, signed between developed and developing countries in the last 18 years. The results have been incorporated to the well-known Commitment to Development Idex (CDI) of this organization, which is available here: <a href=\"https://www.cgdev.org/commitment-development-index-2018\">https://www.cgdev.org/commitment-development-index-2018</a>. You can download the detailed Methodology here, the entire database with the results of the Index <a href=\"https://drive.google.com/drive/u/1/folders/0B167nw-gSVHRcXhILXg0RjM3Vmc\">here</a> and the results of CIECODE's analysis of the investment agreements <a href=\"https://docs.google.com/spreadsheets/d/1qbfZGM6-SbTzjpJTs-PQ29KI8PCLN5xB3p99hu60CHI/edit?usp=sharing\">here</a>.</p>",
+        "title": "Análisis de Acuerdos Internacionales de Inversión para el Índice de Compromiso con el Desarrollo 2018 del Centre for Global Development"
+    }
+]
+
     }
   }
 }

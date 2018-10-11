@@ -34,9 +34,6 @@ var item = function() {
       <div class="col-md-12 col-sm-12 col-lg-7">
         <div class="xs-sync-slider-wraper xs-mb-50">
           <div class="owl-carousel xs-sync-slider-preview xs-mb-10">
-            <div class="xs-sync-slider-preview-content">
-              <img src="<%= global.folderName %>/assets/images/projects/<%= item.id %>/<%= item.thumbnail %>" alt="">
-            </div>
             <% if (item.images.length > 0) { %>
               <% for(var imageindex=0; imageindex<item.images.length; imageindex++) { %>
                 <div class="xs-sync-slider-preview-content">
@@ -46,9 +43,6 @@ var item = function() {
             <% } %>
           </div>
           <div class="owl-carousel xs-sync-slider-thumb">
-            <div class="xs-sync-slider-thumb-content">
-              <img src="<%= global.folderName %>/assets/images/projects/<%= item.id %>/<%= item.thumbnail %>" alt="">
-            </div>
             <% if (item.images.length > 0) { %>
               <% for(var imageindex=0; imageindex<item.images.length; imageindex++) { %>
                 <div class="xs-sync-slider-thumb-content">

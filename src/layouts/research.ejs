@@ -91,24 +91,20 @@ var normalize_tag = function(tag) {
           <div class="row">
           <% var items = getResearchItemByTag(data.reports.items, data.reports.tags[tagindex]); %>
           <% for(var itemindex=0; itemindex<items.length; itemindex++) { %>
-            <div class="col-md-3">
+            <div class="col-md-3 research-item">
               <div class="fundpress-grid-item-content">
-                <div class="fundpress-item-header xs-mb-30">
-                  <img src="<%= global.folderName %>/assets/images/reports/<%= items[itemindex].cover %>" alt="">
+                <div class="fundpress-item-header xs-mb-30 text-center wrap-img">
+                  <a href="<%= items[itemindex].id %>" class="d-block color-navy-blue fundpress-post-title">
+                    <img src="<%= global.folderName %>/assets/images/reports/<%= items[itemindex].cover %>" alt="">
+                    </a>
                 </div>
                 <div class="fundpress-item-content">
+                  <a href="<%= items[itemindex].id %>" class="d-block color-navy-blue fundpress-post-title"><%= items[itemindex].link_title %></a>
                   <ul class="xs-simple-tag fundpress-simple-tag">
                     <% for(var tagindexalt=0; tagindexalt<items[itemindex].tags.length; tagindexalt++) { %>
-                    <li class="color-blue"><%= items[itemindex].tags[tagindexalt] %></li>
+                    <li><small><i class="fa fa-tag color-blue"></i> <%= items[itemindex].tags[tagindexalt] %></small></li>
                     <% } %>
                   </ul>
-                  <a href="<%= items[itemindex].id %>" class="d-block color-navy-blue fundpress-post-title"><%= items[itemindex].link_title %></a>
-                  <a href="<%= items[itemindex].id %>" class="color-green bold">Ver este informe <i class="fa fa-arrow-circle-right"></i></a>
-                  <!-- <ul class="xs&#45;list&#45;with&#45;content fundpress&#45;list&#45;item&#45;content"> -->
-                  <!--   <li>$15,280<span>Pledged</span></li> -->
-                  <!--   <li><span class="number&#45;percentage&#45;count">65%</span><span>Funded</span></li> -->
-                  <!--   <li>50<span>Days to go</span></li> -->
-                  <!-- </ul> -->
                 </div>
               </div>
             </div>

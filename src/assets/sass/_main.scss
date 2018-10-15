@@ -2222,3 +2222,17 @@ main {
     text-decoration: none;
   }
 }
+
+.research-item, .people-item {
+  padding-bottom: 30px;
+}
+.research-item {
+  .wrap-img {
+    height: 135px;
+    overflow: hidden;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+}

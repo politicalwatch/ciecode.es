@@ -2,6 +2,12 @@
 
 <% include common/header %>
 
+<%
+var normalize_tag = function(tag) {
+  return tag.trim().split(' ').map(t => { return t[0];  }).join("");
+}
+%>
+
 
 <!-- welcome section -->
 <!--breadcumb start here-->
@@ -62,7 +68,7 @@
         <ul class="nav nav-tabs" role="tablist">
           <% for(var tagindex=0; tagindex<data.reports.tags.length; tagindex++) { %>
           <li class="nav-item">
-            <a class="nav-link <% if (tagindex == 0) { %> active <% } %>" href="#<%= data.reports.tags[tagindex] %>" role="tab" data-toggle="tab"><%= data.reports.tags[tagindex] %></a>
+            <a class="nav-link <% if (tagindex == 0) { %> active <% } %>" href="#<%= normalize_tag(data.reports.tags[tagindex]) %>" role="tab" data-toggle="tab"><%= data.reports.tags[tagindex] %></a>
           </li>
           <% } %>
         </ul>
@@ -76,12 +82,12 @@
         var getResearchItemByTag = function(items, tag) {
           return items.filter(function(item) {
             return item.tags.indexOf(tag) != -1;
-           }).sort(function(a,b) { return a.date > b.date;  });
+           }).sort(function(a,b) { return a.date.full > b.date.full;  });
         }
         %>
 
         <% for(var tagindex=0; tagindex<data.reports.tags.length; tagindex++) { %>
-          <div role="tabpanel" class="tab-pane fade in <% if (tagindex == 0) { %> active <% } %> show" id="<%= data.reports.tags[tagindex] %>">
+          <div role="tabpanel" class="tab-pane fade in <% if (tagindex == 0) { %> active <% } %> show" id="<%= normalize_tag(data.reports.tags[tagindex]) %>">
           <div class="row">
           <% var items = getResearchItemByTag(data.reports.items, data.reports.tags[tagindex]); %>
           <% for(var itemindex=0; itemindex<items.length; itemindex++) { %>

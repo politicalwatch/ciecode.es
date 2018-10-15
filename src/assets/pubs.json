@@ -10,7 +10,7 @@
 		"cover_path" : "Informe-Avizor-2013.jpg",
 		"destination_uri" : "Informe_Avizor_2013.pdf",
 		"authors" : ["Javier Pérez González", "Alba Gutiérrez Fraile"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "Political Watch", "Congreso de los Diputados", "Proyecto Avizor"]
 	},
 	{
 		"id" : 2,
@@ -23,7 +23,7 @@
 		"cover_path" : "ImpactoActividadParlamentaria.png",
 		"destination_uri" : "Impacto-de-la-actividad-parlamentaria-en-la-lucha-contra-la-pobreza-Fundacion-Alternativas.pdf",
 		"authors" : ["Alba Gutiérrez Fraile"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "Political Watch", "Congreso de los Diputados", "Proyecto Avizor"]
 	},
 	{
 		"id" : 3,
@@ -36,7 +36,7 @@
 		"cover_path" : "Respuesta-de-Espana-a-los-retos-del-desarrollo.jpg",
 		"destination_uri" : "5_cuadernos_junio2013.pdf",
 		"authors" : ["Alba Gutiérrez Fraile"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "Political Watch", "Congreso de los Diputados", "Proyecto Avizor"]
 	},
 	{
 		"id" : 4,
@@ -49,7 +49,7 @@
 		"cover_path" : "Informe-Avizor-2012.jpg",
 		"destination_uri" : "Informe_Avizor_completo.pdf",
 		"authors" : ["Javier Pérez González", "Alba Gutiérrez Fraile"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "Political Watch", "Congreso de los Diputados", "Proyecto Avizor"]
 	},
 	{
 		"id" : 5,
@@ -62,7 +62,7 @@
 		"cover_path" : "Perspectivas-sobre-comercio-y-desarrollo-en-el-mundo-post-2015.jpg",
 		"destination_uri" : "Perspectivas-sobre-comercio-y-desarrollo-en-el-mundo-post-2015.pdf",
 		"authors" : ["Javier Pérez González"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "Comercio Internacional"]
 	},
 	{
 		"id" : 6,
@@ -75,7 +75,7 @@
 		"cover_path" : "Politica-Espana-de-internacionalizacion-de-la-empresa.jpg",
 		"destination_uri" : "Internacionalizacion-y-Coherencia_CIECODE-2015.pdf",
 		"authors" : ["Javier Pérez González"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "Comercio Internacional"]
 	},
 	{
 		"id" : 7,
@@ -88,7 +88,7 @@
 		"cover_path" : "incorporacion-DDHH-y-fomento-desarrollo-humano.jpg",
 		"destination_uri" : "Acuerdos-Internacionales-de-Inversion-y-DDHH-CIECODE.pdf",
 		"authors" : ["Javier Pérez González"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "Comercio Internacional"]
 	},
 	{
 		"id" : 8,
@@ -101,7 +101,7 @@
 		"cover_path" : "EspanaComercioDesarrollo.jpg",
 		"destination_uri" : "240712-Informe-CIECODE-Comercio-y-Desarrollo.pdf",
 		"authors" : ["Javier Pérez González"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "Comercio Internacional", "Libro Blanco del Desarrollo"]
 	},
 	{
 		"id" : 9,
@@ -114,7 +114,7 @@
 		"cover_path" : "marca-espana.jpg",
 		"destination_uri" : "Resumen_Repensando_Marca_Espaaa_ELCANO_CIECODE_FUNCAS.pdf",
 		"authors" : ["Javier Pérez González", "Iliana Olivié"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "Comercio Internacional"]
 	},
 	{
 		"id" : 10,
@@ -127,7 +127,7 @@
 		"cover_path" : "rigor-mortis.jpg",
 		"destination_uri" : "LB-pildora-migraciones.pdf",
 		"authors" : ["Gonzalo Fanjul Suárez"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "Migraciones", "Libro Blanco del Desarrollo"]
 	},
 	{
 		"id" : 11,
@@ -140,7 +140,7 @@
 		"cover_path" : "MitoDramaOportunidad.jpg",
 		"destination_uri" : "MitoDramaOportunidad.pdf",
 		"authors" : ["Gonzalo Fanjul Suárez", "Ángela Fanjul", "Sonia Garrido", "Marcela Zulueta"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "Migraciones"]
 	},
 	{
 		"id" : 12,
@@ -153,7 +153,7 @@
 		"cover_path" : "politicas-climatica-y-de-desarrollo.jpg",
 		"destination_uri" : "241111-Informe-CIECODE-Cambio-Climatico.pdf",
 		"authors" : ["Isabel Kreisler", "Álvaro López-Peña"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "Cambio Climático", "Libro Blanco del Desarrollo"]
 	},
 	{
 		"id" : 13,
@@ -166,7 +166,7 @@
 		"cover_path" : "la-construccion-de-la-paz.jpg",
 		"destination_uri" : "161111-Informe-CIECODE-Construccióe-la-Paz.pdf",
 		"authors" : ["Jesús A.  Núñez Villaverde"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "Libro Blanco del Desarrollo"]
 	},
 	{
 		"id" : 14,
@@ -179,7 +179,7 @@
 		"cover_path" : "fiscalidad-justa.jpg",
 		"destination_uri" : "101111-Informe-CIECODE-Fiscalidad-Justa.pdf",
 		"authors" : ["Deborah Itriago"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "Libro Blanco del Desarrollo"]
 	},
 	{
 		"id" : 15,
@@ -192,7 +192,7 @@
 		"cover_path" : "la-aod-espanola.jpg",
 		"destination_uri" : "241011-Informe-CIECODE-AOD.pdf",
 		"authors" : ["José María Larrú"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "AOD", "Libro Blanco del Desarrollo"]
 	},
 	{
 		"id" : 16,
@@ -205,7 +205,7 @@
 		"cover_path" : "gobernanza-global.jpg",
 		"destination_uri" : "201011-Informe-FINAL-Ciecode-MdelaRocha-ERodriguez.pdf",
 		"authors" : ["Manuel de Rocha Vázquez", "Érika Rodríguez Pinzón"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "Libro Blanco del Desarrollo"]
 	},
 	{
 		"id" : 17,
@@ -218,7 +218,7 @@
 		"cover_path" : "Informe-Avizor-2014.jpg",
 		"destination_uri" : "Informe_Avizor_2014.pdf",
 		"authors" : ["Javier Pérez González", "Alba Gutiérrez Fraile"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "Political Watch", "Congreso de los Diputados", "Proyecto Avizor"]
 	},
 	{
 		"id" : 18,
@@ -231,7 +231,7 @@
 		"cover_path" : "Anexo-Informe-Avizor-2014.jpg",
 		"destination_uri" : "ANEXOS_Informe_Avizor_2014.pdf",
 		"authors" : ["Equipo Avizor"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "Political Watch", "Congreso de los Diputados", "Proyecto Avizor"]
 	},
 	{
 		"id" : 19,
@@ -244,7 +244,7 @@
 		"cover_path" : "bbdd-Informe-Avizor-2014.jpg",
 		"destination_uri" : "BBDD_Avizor.xlsx",
 		"authors" : ["Equipo Avizor"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "Political Watch", "Congreso de los Diputados", "Proyecto Avizor"]
 	},
 	{
 		"id" : 20,
@@ -257,7 +257,7 @@
 		"cover_path" : "PortadaGobernanza.jpg",
 		"destination_uri" : "Volonteurope-Development-Report_SP_final.pdf",
 		"authors" : ["Javier Pérez González", "Alba Gutiérrez Fraile", "Miguel Ángel Vázquez", "Juana Bengoa"],
-                "tags": ["", ""]
+                "tags": ["Ciudadanía Activa"]
 	},
 	{
 		"id" : 22,
@@ -270,7 +270,7 @@
 		"cover_path" : "Ocho_Meses_de_Actividad.jpg",
 		"destination_uri" : "8-meses-de-actividad-parlamentaria-en-Cooperaciól-Desarrollo-Anásis-completo.pdf",
 		"authors" : ["Javier Pérez González"],
-                "tags": ["", ""]
+                "tags": ["Political Watch", "Congreso de los Diputados"]
 	},
 	{
 		"id" : 23,
@@ -283,7 +283,7 @@
 		"cover_path" : "Ocho_Meses_de_Actividad.jpg",
 		"destination_uri" : "8-meses-de-actividad-parlamentaria-en-Cooperaciól-Desarrollo-Resumen-ejecutivo.pdf",
 		"authors" : ["Javier Pérez González"],
-                "tags": ["", ""]
+                "tags": ["Political Watch", "Congreso de los Diputados"]
 	},
 	{
 		"id" : 24,
@@ -296,7 +296,7 @@
 		"cover_path" : "Ocho_Meses_de_Actividad.jpg",
 		"destination_uri" : "8-meses-de-actividad-parlamentaria-en-Cooperaciól-Desarrollo-Ciudadanos.pdf",
 		"authors" : ["Javier Pérez González"],
-                "tags": ["", ""]
+                "tags": ["Political Watch", "Congreso de los Diputados"]
 	},
 	{
 		"id" : 25,
@@ -309,7 +309,7 @@
 		"cover_path" : "Ocho_Meses_de_Actividad.jpg",
 		"destination_uri" : "8-meses-de-actividad-parlamentaria-en-Cooperaciól-Desarrollo-Unidos-Podemos.pdf",
 		"authors" : ["Javier Pérez González"],
-                "tags": ["", ""]
+                "tags": ["Political Watch", "Congreso de los Diputados"]
 	},
 	{
 		"id" : 26,
@@ -322,7 +322,7 @@
 		"cover_path" : "Ocho_Meses_de_Actividad.jpg",
 		"destination_uri" : "8-meses-de-actividad-parlamentaria-en-Cooperaciól-Desarrollo-Partido-Popular.pdf",
 		"authors" : ["Javier Pérez González"],
-                "tags": ["", ""]
+                "tags": ["Political Watch", "Congreso de los Diputados"]
 	},
 	{
 		"id" : 27,
@@ -335,7 +335,7 @@
 		"cover_path" : "Ocho_Meses_de_Actividad.jpg",
 		"destination_uri" : "8-meses-de-actividad-parlamentaria-en-Cooperaciól-Desarrollo-PSOE.pdf",
 		"authors" : ["Javier Pérez González"],
-                "tags": ["", ""]
+                "tags": ["Political Watch", "Congreso de los Diputados"]
 	},
 	{
 		"id" : 28,
@@ -348,7 +348,7 @@
 		"cover_path" : "equidad_para_los_ninos.jpg",
 		"destination_uri" : "equidad_para_los_ninos_el_caso_de_espana.pdf",
 		"authors" : ["Javier Pérez González", "Gonzalo Fanjul Suárez", "Miriam Segovia"],
-                "tags": ["", ""]
+                "tags": ["Political Watch", "Congreso de los Diputados", "Infancia"]
 	},
 	{
 		"id" : 29,
@@ -361,7 +361,7 @@
 		"cover_path" : "eu_trade_policy.jpg",
 		"destination_uri" : "using_the_ttip_momentum.pdf",
 		"authors" : ["Javier Pérez González"],
-                "tags": ["", ""]
+                "tags": ["Comercio Internacional"]
 	},
 	{
 		"id" : 30,
@@ -374,7 +374,7 @@
 		"cover_path" : "informe_espana_2016.jpg",
 		"destination_uri" : "la_nueva_ciudadania_necesaria.pdf",
 		"authors" : ["Javier Pérez González", "Miguel Ángel Vázquez", "Ramiro Viñuales"],
-                "tags": ["", ""]
+                "tags": ["Ciudadanía Activa"]
 	},
 	{
 		"id" : 31,
@@ -387,7 +387,7 @@
 		"cover_path" : "la_capacidad_del_congreso.jpg",
 		"destination_uri" : "Capacidad-Congreso-Diputados-para-impulsar-Coherencia-de-Polícas-CIECODE.pdf",
 		"authors" : ["Javier Pérez González", "Miriam Segovia"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "Political Watch", "Congreso de los Diputados", "Proyecto Avizor"]
 	},
 	{
 		"id" : 32,
@@ -400,7 +400,7 @@
 		"cover_path" : "Compromiso_con_el_Desarrollo_v.jpg",
 		"destination_uri" : "Methodology-for-IIAs-analysis_CGD_CDI-Index_2017-by-CIECODE.pdf",
 		"authors" : ["Javier Pérez González"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "Comercio Internacional"]
 	},
 	{
 		"id" : 33,
@@ -413,7 +413,7 @@
 		"cover_path" : "America_Central_Impacto_del_cambio_climatico.png",
 		"destination_uri" : "America-Central-Impactos-en-resiliencia-CIECODE.pdf",
 		"authors" : ["Javier Pérez González", "Teresa Cavero"],
-                "tags": ["", ""]
+                "tags": ["Cambio Climático", "Migraciones"]
 	},
 	{
 		"id" : 34,
@@ -422,10 +422,10 @@
 		"text" : "<p>El CIECODE ha desarrollado una metodología para analizar la inclusión del enfoque de desarrollo sostenible en los Acuerdos Internacionales de Inversión (IIAs). Por encargo del Centre for Global Development, desde 2016 hemos aplicado esta metodología para analizar más de 320 IIAs celebrados entre países desarrollados y países en desarrollo durante los últimos 18 años. Los resultados han sido incorporados al famoso Índice de Compromiso con el Desarrollo (CDI) de esta organización, accesible en: <a href=\"https://www.cgdev.org/commitment-development-index-2018\">https://www.cgdev.org/commitment-development-index-2018</a>. Puedes descargar la metodología <a href=\"https://www.cgdev.org/sites/default/files/CDI-2018-methodology.pdf\">aquí</a> la completa base de datos del índice <a href=\"https://drive.google.com/drive/u/1/folders/0B167nw-gSVHRcXhILXg0RjM3Vmc\">aquí</a> y los resultados del análisis de CIECODE de los acuerdos de inversión <a href=\"https://docs.google.com/spreadsheets/d/1qbfZGM6-SbTzjpJTs-PQ29KI8PCLN5xB3p99hu60CHI/edit?usp=sharing\">aquí</a>. </p><p>CIECODE has developed a methodology to analyze whether a sustainable development approach has been included in International Investment Agreements (IIAs). Under the orders of the Center for Global Development, since 2016 we have applied this methodology in the analysis of more than 320 IIAs, signed between developed and developing countries in the last 18 years. The results have been incorporated to the well-known Commitment to Development Idex (CDI) of this organization, which is available here: <a href=\"https://www.cgdev.org/commitment-development-index-2018\">https://www.cgdev.org/commitment-development-index-2018</a>. You can download the detailed Methodology here, the entire database with the results of the Index <a href=\"https://drive.google.com/drive/u/1/folders/0B167nw-gSVHRcXhILXg0RjM3Vmc\">here</a> and the results of CIECODE's analysis of the investment agreements <a href=\"https://docs.google.com/spreadsheets/d/1qbfZGM6-SbTzjpJTs-PQ29KI8PCLN5xB3p99hu60CHI/edit?usp=sharing\">here</a>.</p>",
 		"date" : "2018-09-01 00:00:00",
 		"lastModif_date" : "2018-09-20 08:54:58",
-		"link_title" : "Análisis de acuerdos internacionales de inversión",
+		"link_title" : "Análisis de Acuerdos Internacionales de Inversión",
 		"cover_path" : "Centre_for_Global_Development.jpg",
 		"destination_uri" : "International-Investment-Agreements-database-analyzed-for-CGDs-Commitment-to-Development-Index-2018-version.xlsx",
 		"authors" : ["Javier Pérez González", "Lorenza Scarinci"],
-                "tags": ["", ""]
+                "tags": ["Coherencia de Políticas", "Comercio Internacional"]
 	}
 ]

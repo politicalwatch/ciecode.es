@@ -46,6 +46,9 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.xs-background-popup-wraper {
 		margin-bottom: 30px;
 	}
+        .fundpress-single-team-member {
+                text-align: center;
+        }
 	/*menus*/
 	.xs-menus .nav-menus-wrapper {
 		flex-direction: column;
@@ -130,7 +133,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	}
 	/*menu*/
 	.fundpress-menu-v2 .nav-menu li a {
-		color: #050C24;
+		color: #ffffff;
 	}
 	/* welcome */
 	.fundpress-welcome-content-v2 .fundpress-welcome-list-content li {
@@ -262,7 +265,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 		margin-bottom: 20px;
 	}
 	.fundpress-menu-v2 .nav-menu li a {
-		color: #050C24;
+		color: #ffffff;
 	}
 	/*footer*/
 	.xs-footer-section.xs-fixed-footer.xs_footer_sticky {
@@ -435,7 +438,9 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	}
 	/*index version 2 welcome */
 	.fundpress-welcome-content-v2 h2 {
-		font-size: 3.42857em;
+		font-size: 2.5em;
+                margin-top: 100px;
+                margin-bottom: 100px;
 	}
 	.fundpress-welcome-content-v2 .fundpress-welcome-list-content li {
 		margin-right: 0;
@@ -512,6 +517,10 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.xs_nav-portrait .submenu-indicator-chevron {
 		border-color: transparent rgb(49, 49, 49) rgb(49, 49, 49) transparent !important;
 	}
+        .fundpress-single-footer-v2-content {
+          padding: 0px;
+          width: calc(100% - 30px);
+        }
 }
 
 

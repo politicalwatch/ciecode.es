@@ -5,6 +5,7 @@
         "name": "Javier Pérez",
         "title": "Director",
         "photo": "javipe.jpg",
+        "email": "javier.perez@ciecode.es",
         "twitter": "https://twitter.com/javipe_ciecode",
         "linkedin": "",
         "github": ""
@@ -13,6 +14,7 @@
         "name": "María Vega",
         "title": "Comunicación",
         "photo": "mariavega.jpg",
+        "email": "maria.vega@ciecode.es",
         "twitter": "https://twitter.com/mariavpaul",
         "linkedin": "",
         "github": ""
@@ -21,6 +23,7 @@
         "name": "Pablo Martín",
         "title": "Tecnología",
         "photo": "pr3ssh.jpg",
+        "email": "pablo.martin@ciecode.es",
         "twitter": "https://twitter.com/pr3ssh",
         "linkedin": "",
         "github": "https://github.com/pr3ssh"
@@ -29,6 +32,7 @@
         "name": "Ramiro Viñuales",
         "title": "Fundraiser",
         "photo": "ramiro.jpg",
+        "email": "ramiro.vinuales@ciecode.es",
         "twitter": "https://twitter.com/ramirovinuales",
         "linkedin": "",
         "github": ""
@@ -37,6 +41,7 @@
         "name": "Teresa Caverro",
         "title": "Investigadora",
         "photo": "teresacavero.jpg",
+        "email": "",
         "twitter": "",
         "linkedin": "",
         "github": ""
@@ -45,14 +50,16 @@
         "name": "Gonzalo Fanjul",
         "title": "Investigador",
         "photo": "gonzalofanjul.jpg",
+        "email": "",
         "twitter": "https://twitter.com/GonzaloFanjul",
         "linkedin": "",
         "github": ""
       },
       {
         "name": "Isabel Kreisler",
-        "title": "Invstigadora",
+        "title": "Investigadora",
         "photo": "isabelkreisler.jpg",
+        "email": "",
         "twitter": "",
         "linkedin": "",
         "github": ""

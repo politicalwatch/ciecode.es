@@ -64,8 +64,13 @@
         "linkedin": "",
         "github": ""
       }
+    ],
+    "highlights": [
+      {"title": "Publicación del Libro Blanco de la Política Española de Desarrollo", "date": "enero 2012", "icon": "book"},
+      {"title": "Primera edición de los Premios Avizor", "date": "febrero 2013", "icon": "trophy"},
+      {"title": "Lanzamiento de la herramienta Tipi Ciudadano", "date": "noviembre 2014", "icon": "laptop"},
+      {"title": "Parlamento2030 en el Plan de Acción para la Implementación de la Agenda 2030", "date": "julio 2018", "icon": "exchange"}
     ]
-
   },
   "political-watch": {
     "projects": [

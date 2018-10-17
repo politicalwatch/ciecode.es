@@ -104,35 +104,17 @@
       <h2 class="color-white">Algunos de nuestros hitos</h2>
     </div><!-- .xs-heading-title .fundpress-heading-title-v2 .fundpress-heading-title END -->
     <div class="row">
-      <div class="col-md-6 col-sm-12 col-lg-3">
-        <div class="fundpress-icon-with-square-service">
-          <!-- <img src="<%= global.folderName %>/assets/images/icon&#45;1.png" alt=""> -->
-          <h6 class="color-green">Abril 2011</h6>
-          <h6 class="color-white">Creación de CIECODE</h6>
-          <p></p>
-        </div><!-- .fundpress-icon-with-square-service END -->
-      </div>
-      <div class="col-md-6 col-sm-12 col-lg-3">
-        <div class="fundpress-icon-with-square-service">
-          <h6 class="color-green">Enero 2012</h6>
-          <h6 class="color-white">Publicación del Libro Blanco de la Política Española de Desarrollo</h6>
-          <p></p>
-        </div><!-- .fundpress-icon-with-square-service END -->
-      </div>
-      <div class="col-md-6 col-sm-12 col-lg-3">
-        <div class="fundpress-icon-with-square-service">
-          <h6 class="color-green">Febrero 2013</h6>
-          <h6 class="color-white">Primera edición de Premios Avizor</h6>
-          <p></p>
-        </div><!-- .fundpress-icon-with-square-service END -->
-      </div>
-      <div class="col-md-6 col-sm-12 col-lg-3">
-        <div class="fundpress-icon-with-square-service">
-          <h6 class="color-green">2011</h6>
-          <h6 class="color-white">Free & Simple Setup.</h6>
-          <p></p>
-        </div><!-- .fundpress-icon-with-square-service END -->
-      </div>
+      <% for (var highlightindex=0; highlightindex<data.highlights.length; highlightindex++) { %>
+        <div class="col-md-6 col-sm-12 col-lg-3 highlight">
+          <div class="fundpress-icon-with-square-service">
+            <i class="fa fa-<%= data.highlights[highlightindex].icon %> fa-4x"></i>
+            <br/>
+            <h6 class="color-green"><%= data.highlights[highlightindex].date %></h6>
+            <h6 class="color-white"><%= data.highlights[highlightindex].title %></h6>
+            <p></p>
+          </div><!-- .fundpress-icon-with-square-service END -->
+        </div>
+      <% } %>
     </div>
   </div>
 </section>	<!-- End square service -->

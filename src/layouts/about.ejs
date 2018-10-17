@@ -222,34 +222,16 @@
       <span class="xs-separetor dashed-separetor fundpress-separetor"></span>
     </div><!-- .xs-heading-title .fundpress-heading-title-v2 .fundpress-heading-title END -->
     <div class="row">
-      <div class="col-md-6 col-sm-12 col-lg-3">
-        <div class="fundpress-icon-with-square-service">
-          <img src="<%= global.folderName %>/assets/images/icon-1.png" alt="">
-          <a href="#" class="color-white">Free & Simple Setup. </a>
-          <p>Start fundraising in minutes. No goal requirements, no deadlines.  </p>
-        </div><!-- .fundpress-icon-with-square-service END -->
-      </div>
-      <div class="col-md-6 col-sm-12 col-lg-3">
-        <div class="fundpress-icon-with-square-service">
-          <img src="<%= global.folderName %>/assets/images/icon-2.png" alt="">
-          <a href="#" class="color-white">Most Money Raised.</a>
-          <p>Join the millions who have raised more than $2 billion on FundPress.</p>
-        </div><!-- .fundpress-icon-with-square-service END -->
-      </div>
-      <div class="col-md-6 col-sm-12 col-lg-3">
-        <div class="fundpress-icon-with-square-service">
-          <img src="<%= global.folderName %>/assets/images/icon-3.png" alt="">
-          <a href="#" class="color-white">Expert Advice, 24/7.</a>
-          <p>Our campaign coaches will answer your questions in 5 minutes, day or night.</p>
-        </div><!-- .fundpress-icon-with-square-service END -->
-      </div>
-      <div class="col-md-6 col-sm-12 col-lg-3">
-        <div class="fundpress-icon-with-square-service">
-          <img src="<%= global.folderName %>/assets/images/icon-4.png" alt="">
-          <a href="#" class="color-white">Safety. Guaranteed.</a>
-          <p>The GoFundMe Guarantee protects your donations and supporters. </p>
-        </div><!-- .fundpress-icon-with-square-service END -->
-      </div>
+      <% for (var partnerindex=0; partnerindex<data.partners.length; partnerindex++) { %>
+        <div class="col-md-6 col-sm-12 col-lg-3 partner-item">
+          <div class="fundpress-icon-with-square-service">
+            <a href="<%= data.partners[partnerindex].url %>" target="_blank">
+              <img src="<%= global.folderName %>/assets/images/partners/<%= data.partners[partnerindex].logo %>" alt="">
+              <p><%= data.partners[partnerindex].name %></p>
+            </a>
+          </div><!-- .fundpress-icon-with-square-service END -->
+        </div>
+      <% } %>
     </div>
   </div>
 </section>	<!-- End square service -->

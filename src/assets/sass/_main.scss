@@ -2223,7 +2223,7 @@ main {
   }
 }
 
-.research-item, .people-item {
+.research-item, .people-item, .partner-item {
   padding-bottom: 30px;
 }
 .research-item {
@@ -2236,9 +2236,23 @@ main {
     height: auto;
   }
 }
-
 .highlight {
   i {
     color: $color-white;
+  }
+}
+.partner-item {
+  .fundpress-icon-with-square-service {
+    min-height: 0;
+    padding: 20px;
+    a {
+      font-size: 1em;
+      img {
+        margin: 0 0 20px;
+      }
+      p {
+        line-height: 1;
+      }
+    }
   }
 }

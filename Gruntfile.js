@@ -10,6 +10,7 @@ module.exports = function(grunt) {
           {expand: true, cwd: "src/assets/fonts/", src: ["*"], dest: dist_path + "assets/fonts/"},
           {expand: true, cwd: "src/assets/css/", src: ["**/*.css"], dest: dist_path + "assets/css/"},
           {expand: true, cwd: "src/assets/js/", src: ["**/*.js"], dest: dist_path + "assets/js/"},
+          {expand: true, cwd: "src/assets/documents/", src: ["**/*"], dest: dist_path + "assets/documents/"},
           {expand: true, cwd: "src/", src: ["robots.txt"], dest: dist_path}
         ]
       }

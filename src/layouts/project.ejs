@@ -13,13 +13,13 @@ var item = function() {
 
 <!-- welcome section -->
 <!--breadcumb start here-->
-<section class="xs-inner-welcome-section fundpress-inner-welcome-section fundpress-inner-bg-1 parallax-window" data-parallax="scroll" data-image-src="<%= global.folderName %>/assets/images/background/<%= item.background %>">
+<section class="xs-inner-welcome-section fundpress-inner-welcome-section fundpress-inner-bg-1 parallax-window" data-parallax="scroll" data-image-src="<%= global.folderName %>assets/images/background/<%= item.background %>">
   <div class="xs-solid-overlay xs-bg-black"></div>
   <div class="container">
     <div class="fundpress-inner-welcome-content xs-inner-welcome-content">
       <h2 class="color-white"><%= item.title %></h2>
       <ul class="xs-breadcumb fundpress-breadcumb">
-        <li><a href="<%= global.folderName %>" class="color-white">Inicio /</a> <a href="<%= global.folderName %>/political-watch" class="color-white">Political Watch /</a> <strong><%= item.title %></strong></li>
+        <li><a href="<%= global.folderName %>" class="color-white">Inicio /</a> <a href="<%= global.folderName %>political-watch" class="color-white">Political Watch /</a> <strong><%= item.title %></strong></li>
       </ul>
     </div>
   </div>
@@ -37,7 +37,7 @@ var item = function() {
             <% if (item.images.length > 0) { %>
               <% for(var imageindex=0; imageindex<item.images.length; imageindex++) { %>
                 <div class="xs-sync-slider-preview-content">
-                  <img src="<%= global.folderName %>/assets/images/projects/<%= item.id %>/<%= item.images[imageindex] %>" alt="">
+                  <img src="<%= global.folderName %>assets/images/projects/<%= item.id %>/<%= item.images[imageindex] %>" alt="">
                 </div>
               <% } %>
             <% } %>
@@ -46,7 +46,7 @@ var item = function() {
             <% if (item.images.length > 0) { %>
               <% for(var imageindex=0; imageindex<item.images.length; imageindex++) { %>
                 <div class="xs-sync-slider-thumb-content">
-                  <img src="<%= global.folderName %>/assets/images/projects/<%= item.id %>/<%= item.images[imageindex] %>" alt="">
+                  <img src="<%= global.folderName %>assets/images/projects/<%= item.id %>/<%= item.images[imageindex] %>" alt="">
                 </div>
               <% } %>
             <% } %>

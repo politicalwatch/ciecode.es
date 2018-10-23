@@ -7,6 +7,9 @@ module.exports = function(grunt) {
       dist: {
         files: [
           {expand: true, cwd: "src/assets/images/", src: ["**/*"], dest: dist_path + "assets/images/"},
+          {expand: true, cwd: "src/assets/", src: ["**/*.png"], dest: dist_path + "assets/"},
+          {expand: true, cwd: "src/assets/", src: ["**/*.ico"], dest: dist_path + "assets/"},
+          {expand: true, cwd: "src/assets/", src: ["manifest.json"], dest: dist_path + "assets/"},
           {expand: true, cwd: "src/assets/fonts/", src: ["*"], dest: dist_path + "assets/fonts/"},
           {expand: true, cwd: "src/assets/css/", src: ["**/*.css"], dest: dist_path + "assets/css/"},
           {expand: true, cwd: "src/assets/js/", src: ["**/*.js"], dest: dist_path + "assets/js/"},

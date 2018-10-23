@@ -37,7 +37,7 @@ var item = function() {
             <% if (item.images.length > 0) { %>
               <% for(var imageindex=0; imageindex<item.images.length; imageindex++) { %>
                 <div class="xs-sync-slider-preview-content">
-                  <img src="<%= global.folderName %>assets/images/projects/<%= item.id %>/<%= item.images[imageindex] %>" alt="">
+                  <img src="<%= global.folderName %>assets/images/projects/<%= item.id %>/<%= item.images[imageindex] %>" alt="Captura de pantalla de <%= item.title %>">
                 </div>
               <% } %>
             <% } %>
@@ -46,7 +46,7 @@ var item = function() {
             <% if (item.images.length > 0) { %>
               <% for(var imageindex=0; imageindex<item.images.length; imageindex++) { %>
                 <div class="xs-sync-slider-thumb-content">
-                  <img src="<%= global.folderName %>assets/images/projects/<%= item.id %>/<%= item.images[imageindex] %>" alt="">
+                  <img src="<%= global.folderName %>assets/images/projects/<%= item.id %>/<%= item.images[imageindex] %>" alt="Miniatura de captura de pantalla de <%= item.title %>">
                 </div>
               <% } %>
             <% } %>

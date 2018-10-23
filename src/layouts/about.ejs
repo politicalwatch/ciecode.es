@@ -31,7 +31,7 @@
       </div>
       <div class="col-md-6">
         <div class="fundpress-about-promo-image">
-          <img src="<%= global.folderName %>assets/images/conferencia-director.jpg" alt="">
+          <img src="<%= global.folderName %>assets/images/conferencia-director.jpg" alt="Foto del director de CIECODE, Javier Pérez">
         </div>
       </div>
     </div>
@@ -57,7 +57,7 @@
       <div class="row">
         <div class="col-md-10 col-sm-12 col-lg-6 content-center">
           <div class="fundpress-popup-image xs-box-shadow">
-            <img src="<%= global.folderName %>assets/images/ciecode-event.jpg" alt="">
+            <img src="<%= global.folderName %>assets/images/ciecode-event.jpg" alt="Foto del evento de presentación de TIPI Ciudadano en septiembre de 2015">
           </div>
         </div>
       </div>
@@ -130,7 +130,7 @@
       <div class="col-md-3 people-item">
         <div class="xs-box-shadow  fundpress-single-team-member">
           <div class="fundpress-item-header text-center">
-            <img src="<%= global.folderName %>assets/images/team/<%= data.team[teamindex].photo %>" alt="">
+            <img src="<%= global.folderName %>assets/images/team/<%= data.team[teamindex].photo %>" alt="Foto de <%= data.team[teamindex].name %>">
             <div class="xs-hover-content fundpress-hover-content text-center">
               <ul class="xs-social-list fundpress-social-list xs-social-list-v2">
                 <% if (data.team[teamindex].email != "") { %>
@@ -176,7 +176,7 @@
         <div class="fundpress-contact-details">
           <div class="xs-box-shadow xs-mb-40 fundpress-widnow-wraper">
             <div class="fundpress-window-back">
-              <img src="<%= global.folderName %>assets/images/daniel-alvarez-sanchez-diaz-474861-unsplash.jpg" alt="">
+              <img src="<%= global.folderName %>assets/images/daniel-alvarez-sanchez-diaz-474861-unsplash.jpg" alt="Foto de Madrid">
             </div>
           </div>
           <h5>Madrid</h5>
@@ -195,7 +195,7 @@
         <div class="fundpress-contact-details">
           <div class="xs-box-shadow xs-mb-40 fundpress-widnow-wraper">
             <div class="fundpress-window-back">
-              <img src="<%= global.folderName %>assets/images/silvia-orduna-huelva.jpg" alt="">
+              <img src="<%= global.folderName %>assets/images/silvia-orduna-huelva.jpg" alt="Foto de Huelva">
             </div>
           </div>
           <h5>Huelva</h5>
@@ -222,7 +222,7 @@
         <div class="col-md-6 col-sm-12 col-lg-3 partner-item">
           <div class="fundpress-icon-with-square-service">
             <a href="<%= data.partners[partnerindex].url %>" target="_blank">
-              <img src="<%= global.folderName %>assets/images/partners/<%= data.partners[partnerindex].logo %>" alt="">
+              <img src="<%= global.folderName %>assets/images/partners/<%= data.partners[partnerindex].logo %>" alt="Logo de <%= data.partners[partnerindex].name %>">
               <p><%= data.partners[partnerindex].name %></p>
             </a>
           </div><!-- .fundpress-icon-with-square-service END -->
@@ -237,5 +237,3 @@
 <% include common/footer %>
 
 <% include common/end %>
-
-

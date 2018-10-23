@@ -10,5 +10,9 @@
   "phone": "+34 91 731 48 73",
   "email": "info@ciecode.es",
   "emailhuelva": "info@ciecode.es",
-  "web": "ciecode.es"
+  "web": "ciecode.es",
+  "GAnalytics": {
+    "trackingID": "UA-127864699-1",
+    "url": "ciecode.es"
+  }
 }

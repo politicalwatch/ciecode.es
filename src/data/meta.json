@@ -1,249 +1,249 @@
 {
   "home": {
-    "title": "Think Tank",
-    "description": "",
-    "keywords": ""
+    "title": "Think and Do Tank",
+    "description": "CIECODE es el think tan español especializado en coherencia y desarrollo",
+    "keywords": "think-tank, coherencia, desarrollo, comercio, transparencia, política, pobreza, Congreso de los Diputados, Political Watch"
   },
   "about": {
     "title": "Quiénes somos",
-    "description": "",
-    "keywords": ""
+    "description": "CIECODE tiene un equipo especializado en coherencia, desarrollo y soluciones tecnológicas innovadoras",
+    "keywords": "investigador, investigadores, coherencia, política, desarrollo, pobreza, tecnología, innovación social, innovación social tecnológica"
   },
   "credits": {
     "title": "Créditos de las imágenes",
-    "description": "",
-    "keywords": ""
+    "description": "créditos de las imágenes utilizadas",
+    "keywords": "imágenes"
   },
   "political-watch": {
     "title": "Political Watch",
-    "description": "",
-    "keywords": ""
+    "description": "Political Watch es la plataforma de CIECODE para la innovación tecnológica en la monitorización y vigilancia ciudadana de la política",
+    "keywords": "Política, innovación, monitorización, Congreso de los Diputados, pobreza, factcheking, big data, CIECODE"
   },
   "political-watch/parlamento2030": {
     "title": "Parlamento 2030",
-    "description": "",
-    "keywords": "",
+    "description": "Herramienta de monitorización y vigilancia de la actividad del Congreso relacionada con la Agenda 2030 y los ODS ",
+    "keywords": "Agenda 2030, Congreso de los Diputados, Objetivos de Desarrollo Sostenible, ODS, metas, ONU, facthecking, tecnología, innovación, diputados, CIECODE",
     "id": "parlamento2030"
   },
   "political-watch/tipi-ciudadano": {
     "title": "Tipi Ciudadano",
-    "description": "",
-    "keywords": "",
+    "description": "Herramienta de monitorización y vigilancia de la actividad del Congreso de los Diputados en la lucha contra la pobreza y la desigualdad,",
+    "keywords": "Congreso, tecnología, vigilancia, monitorización, pobreza, desigualdad, CIECODE",
     "id": "tipi-ciudadano"
   },
   "political-watch/proyecto-avizor": {
     "title": "Proyecto Avizor",
-    "description": "",
-    "keywords": "",
+    "description": "Proyecto de seguimiento de la actividad parlamentaria relacionada con el desarrollo internacional",
+    "keywords": "Avizor, Premio Avizor, diputado, diputada, lucha contra la pobreza, puntos avizor",
     "id": "proyecto-avizor"
   },
   "political-watch/que-paso-con": {
     "title": "¿Qué paso con eso que aprobó el Congreso?",
-    "description": "",
-    "keywords": "",
+    "description": "Vigilancia del cumplimiento del Gobierno de las iniciativas de orientación política aprobadas en el Congreso",
+    "keywords": "Congreso, Gobierno, cumplimiento, vigilancia, monitorización, Proposición no de Ley, PNL, facthecking",
     "id": "que-paso-con"
   },
   "investigacion": {
     "title": "Investigación",
-    "description": "",
-    "keywords": ""
+    "description": "Investigación para el cambio social en la lucha contra la pobreza y por el desarrollo sostenible",
+    "keywords": "investigación, informe, desarrollo sostenible, políticas comerciales, comercio, internacionalización de empresas, inversión extranjera, derechos humanos, migraciones, participación ciudadana, Congreso de los Diputados, Agenda 2030, Objetivos de Desarrollo Sostenible, ODS"
   },
   "investigacion/informe-avizor-2013": {
     "id": "informe-avizor-2013",
     "title": "Informe Avizor 2013",
-    "description": "",
-    "keywords": ""
+    "description": "Informe Avizor 2013 sobre la actividad parlamentaria con impacto en el desarrollo internacional",
+    "keywords": "Avizor, informe, desarrollo internacional, coherencia de políticas para el desarrollo, congreso de los diputados"
   },
   "investigacion/parlamentos-abiertos-a-la-sociedad-participacion-y-monitorizacion": {
     "id": "parlamentos-abiertos-a-la-sociedad-participacion-y-monitorizacion",
     "title": "Parlamentos abiertos a la sociedad: participación y monitorización",
-    "description": "",
-    "keywords": ""
+    "description": "Informe Parlamentos abiertos a la sociedad: participación y monitorización",
+    "keywords": "informe, parlamento, monitorización, participación, ciudadanía, sociedad, transparencia"
   },
-  "investigacion/cuadernos-junio": {
-    "id": "cuadernos-junio",
-    "title": "Cuadernos junio",
-    "description": "",
-    "keywords": ""
+  "investigacion/congreso-diputados-respuesta-retos-desarrollo": {
+    "id": "congreso-diputados-respuesta-retos-desarrollo",
+    "title": "Congreso de los Diputados: respuesta a los retos de desarrollo",
+    "description": "Informe El Congreso de los Diputados: Análisis de su papel en la respuesta de España a los retos y problemas del Desarrollo Internacional",
+    "keywords": "Avizor, informe, desarrollo internacional, coherencia de políticas para el desarrollo, congreso de los diputados"
   },
   "investigacion/informe-avizor-2013-completo": {
     "id": "informe-avizor-2013-completo",
     "title": "Informe Avizor 2013 completo",
-    "description": "",
-    "keywords": ""
+    "description": "Informe Avizor 2013 completo",
+    "keywords": "Avizor, informe, desarrollo internacional, coherencia de políticas para el desarrollo, congreso de los diputados"
   },
   "investigacion/perspectivas-sobre-comercio-y-desarrollo-en-el-mundo-post-2015": {
     "id": "perspectivas-sobre-comercio-y-desarrollo-en-el-mundo-post-2015",
     "title": "Perspectivas sobre comercio y desarrollo en el mundo post 2015",
-    "description": "",
-    "keywords": ""
+    "description": "Informe Perspectivas sobre comercio y desarrollo en el mundo post 2015",
+    "keywords": "Comercio, desarrollo, 2015, internacionalización, España"
   },
   "investigacion/analisis-de-la-politica-espanola-de-internacionalizacion-de-empresas-desde-la-coherencia-de-politicas-para-el-desarrollo": {
     "id": "analisis-de-la-politica-espanola-de-internacionalizacion-de-empresas-desde-la-coherencia-de-politicas-para-el-desarrollo",
     "title": "Análisis de la política española de la internacionalización de empresas desde la coherencia de políticas para el desarrollo",
-    "description": "",
-    "keywords": ""
+    "description": "Análisis de la política española de la internacionalización de empresas desde la coherencia de políticas para el desarrollo",
+    "keywords": "internacionalización de empresas, comercio, desarrollo, desarrollo internacional, coherencia de políticas para el desarrollo"
   },
   "investigacion/acuerdos-internacionales-de-inversion-y-ddhh": {
     "id": "acuerdos-internacionales-de-inversion-y-ddhh",
     "title": "Acuerdos internacionales de inversión y derechos humanos",
-    "description": "",
-    "keywords": ""
+    "description": "Acuerdos internacionales de inversión y derechos humanos",
+    "keywords": "Acuerdos internacionales de inversión, APPRI, BIT, derechos humanos, metodología, Center for Global Development, Commitment to development Index"
   },
   "investigacion/libro-blanco-comercio-y-desarrollo": {
     "id": "libro-blanco-comercio-y-desarrollo",
     "title": "Libro blanco: comercio y desarrollo",
-    "description": "",
-    "keywords": ""
+    "description": "Libro blanco: comercio y desarrollo",
+    "keywords": "Libro Blanco, coherencia de políticas para el desarrollo, comercio, internacionalización, pobreza"
   },
   "investigacion/repensando-la-marca-espana": {
     "id": "repensando-la-marca-espana",
     "title": "Repensando la Marca España",
-    "description": "",
-    "keywords": ""
+    "description": "Informe Repensando la Marca España",
+    "keywords": "Marca España, internacionalización de empresas, derechos humanos, política exterior, imagen exterior, España"
   },
   "investigacion/libro-blanco-pildora-migraciones": {
     "id": "libro-blanco-pildora-migraciones",
     "title": "Libro blanco: píldora sobre migraciones",
-    "description": "",
-    "keywords": ""
+    "description": "Capítulo sobre migraciones del Libro Blanco",
+    "keywords": "migraciones, Libro Blanco, coherencia de políticas para el desarrollo, comercio, cooperación para el desarrollo, pobreza"
   },
-  "investigacion/el-mito,-el-drama-y-la-oportunidad-social": {
-    "id": "el-mito,-el-drama-y-la-oportunidad-social",
+  "investigacion/el-mito-el-drama-y-la-oportunidad-social": {
+    "id": "el-mito-el-drama-y-la-oportunidad-social",
     "title": "El mito, el drama y la oportunidad social",
-    "description": "",
-    "keywords": ""
+    "description": "El mito, el drama y la oportunidad social",
+    "keywords": "migración, pobreza, coherencia de políticas para el desarrollo, cooperación para el desarrollo"
   },
   "investigacion/libro-blanco-cambio-climatico": {
     "id": "libro-blanco-cambio-climatico",
     "title": "Libro blanco: cambio climático",
-    "description": "",
-    "keywords": ""
+    "description": "Capítulo sobre cambio climático del libro blanco",
+    "keywords": "Cambio climático, Libro Blanco, coherencia de políticas para el desarrollo, comercio, cooperación para el desarrollo, pobreza"
   },
   "investigacion/libro-blanco-construccion-de-la-paz": {
     "id": "libro-blanco-construccion-de-la-paz",
     "title": "Libro blanco: construcción de la paz",
-    "description": "",
-    "keywords": ""
+    "description": "Capítulo sobre construcción de paz del Libro Blanco",
+    "keywords": "Construcción de paz, Libro Blanco, coherencia de políticas para el desarrollo, comercio, cooperación para el desarrollo, pobreza"
   },
   "investigacion/libro-blanco-fiscalidad-justa": {
     "id": "libro-blanco-fiscalidad-justa",
-    "title": "Libro blanco: discalidad justa",
-    "description": "",
-    "keywords": ""
+    "title": "Libro blanco: fiscalidad justa",
+    "description": "Capítulo sobre fiscalidad justa del Libro Blanco",
+    "keywords": "Fiscalidad, Libro Blanco, coherencia de políticas para el desarrollo, comercio, cooperación para el desarrollo, pobreza"
   },
   "investigacion/libro-blanco-aod": {
     "id": "libro-blanco-aod",
     "title": "Libro blanco: AOD",
-    "description": "",
-    "keywords": ""
+    "description": "Capítulo sobro AOD del Libro Blanco",
+    "keywords": "Ayuda Oficial al Desarrollo, AOD, Libro Blanco, coherencia de políticas para el desarrollo, comercio, cooperación para el desarrollo, pobreza"
   },
   "investigacion/libro-blanco-gobernanza-global": {
     "id": "libro-blanco-gobernanza-global",
     "title": "Libro blanco: gobernanza global",
-    "description": "",
-    "keywords": ""
+    "description": "Capítulo sobre gobernanza global del Libro Blanco",
+    "keywords": "Gobernanza global, Libro Blanco, coherencia de políticas para el desarrollo, comercio, cooperación para el desarrollo, pobreza"
   },
   "investigacion/informe-avizor-2014": {
     "id": "informe-avizor-2014",
     "title": "Informe Avizor 2014",
-    "description": "",
-    "keywords": ""
+    "description": "Informe Avizor 2014 sobre la actividad parlamentaria con impacto en el desarrollo internacional",
+    "keywords": "Avizor, informe avizor, desarrollo internacional, coherencia de políticas para el desarrollo, congreso de los diputados"
   },
   "investigacion/anexos-informe-avizor-2014": {
     "id": "anexos-informe-avizor-2014",
     "title": "Anexos Informe Avizor 2014",
-    "description": "",
-    "keywords": ""
+    "description": "Anexos del nforme Avizor 2013 sobre la actividad parlamentaria con impacto en el desarrollo internacional",
+    "keywords": "Avizor, informe avizor, desarrollo internacional, coherencia de políticas para el desarrollo, congreso de los diputados"
   },
-  "investigacion/base-de-datos-del-proyecto-avizor-2012,-2013-y-2014": {
-    "id": "base-de-datos-del-proyecto-avizor-2012,-2013-y-2014",
+  "investigacion/base-de-datos-del-proyecto-avizor-2012-2013-y-2014": {
+    "id": "base-de-datos-del-proyecto-avizor-2012-2013-y-2014",
     "title": "Base de datos del Proyecto Avizor 2012, 2013 y 2014",
-    "description": "",
-    "keywords": ""
+    "description": "Base de datos del Proyecto Avizor 2012, 2013 y 2014",
+    "keywords": "Base de datos, Avizor, informe avizor, desarrollo internacional, coherencia de políticas para el desarrollo, congreso de los diputados"
   },
-  "investigacion/gobernanza,-participacion-y-rendicion-de-cuentas-para-el-desarrollo-sostenible.": {
-    "id": "gobernanza,-participacion-y-rendicion-de-cuentas-para-el-desarrollo-sostenible.",
+  "investigacion/gobernanza-participacion-y-rendicion-de-cuentas-para-el-desarrollo-sostenible": {
+    "id": "gobernanza-participacion-y-rendicion-de-cuentas-para-el-desarrollo-sostenible",
     "title": "Gobernanza participación y rendición de cuentas para el desarrollo sostenible",
-    "description": "",
-    "keywords": ""
+    "description": "Análisis sobre la gobernanza, la participación de la ciudadanía y la rendición de cuentas de la Agenda 2030",
+    "keywords": "Agenda 2030, ODS, Objetivos de Desarrollo Sostenible, gobernanza, ciudadanía, participación, rendición de cuentas"
   },
   "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-analisis-completo": {
     "id": "ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-analisis-completo",
     "title": "Ochos meses de actividad parlamentaria en cooperación internacional para el desarrollo (análisis completo)",
-    "description": "",
-    "keywords": ""
+    "description": "Análisis de actividad parlamentaria en cooperación internacional para el desarrollo",
+    "keywords": "Actividad parlamentaria, vigilancia, monitorización, Congreso de los Diputados, cooperación internacional"
   },
   "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-resumen-ejecutivo": {
     "id": "ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-resumen-ejecutivo",
     "title": "Ochos meses de actividad parlamentaria en cooperación internacional para el desarrollo (resumen ejecutivo)",
-    "description": "",
-    "keywords": ""
+    "description": "Resumen ejecutivo del análisis de ochos meses de actividad parlamentaria en cooperación internacional para el desarrollo",
+    "keywords": "Actividad parlamentaria, vigilancia, monitorización, Congreso de los Diputados, cooperación internacional"
   },
   "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-ciudadanos": {
     "id": "ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-ciudadanos",
     "title": "Ochos meses de actividad parlamentaria en cooperación internacional para el desarrollo (Ciudadanos)",
-    "description": "",
-    "keywords": ""
+    "description": "Análisis de actividad parlamentaria de Ciudadanos en cooperación internacional para el desarrollo",
+    "keywords": "Ciudadanos, Cs, Actividad parlamentaria, vigilancia, monitorización, Congreso de los Diputados, cooperación internacional"
   },
   "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-unidos-podemos": {
     "id": "ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-unidos-podemos",
     "title": "Ochos meses de actividad parlamentaria en cooperación internacional para el desarrollo (Unidos Podemos)",
-    "description": "",
-    "keywords": ""
+    "description": "Análisis de actividad parlamentaria de Unidos Podemos en cooperación internacional para el desarrollo",
+    "keywords": "Unidos Podemos, Podemos, Izquierda Unida, Actividad parlamentaria, vigilancia, monitorización, Congreso de los Diputados, cooperación internacional"
   },
   "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-partido-popular": {
     "id": "ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-partido-popular",
     "title": "Ochos meses de actividad parlamentaria en cooperación internacional para el desarrollo (Partido Popular)",
-    "description": "",
-    "keywords": ""
+    "description": "Análisis de actividad parlamentaria de Partido Popular en cooperación internacional para el desarrollo",
+    "keywords": "Partido Popular, PP, Actividad parlamentaria, vigilancia, monitorización, Congreso de los Diputados, cooperación internacional"
   },
   "investigacion/ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-psoe": {
     "id": "ocho-meses-de-actividad-parlamentaria-en-cooperacion-internacional-para-el-desarrollo-psoe",
     "title": "Ochos meses de actividad parlamentaria en cooperación internacional para el desarrollo (PSOE)",
-    "description": "",
-    "keywords": ""
+    "description": "Análisis de actividad parlamentaria de PSOE en cooperación internacional para el desarrollo",
+    "keywords": "PSOE, Partido Socialista, Actividad parlamentaria, vigilancia, monitorización, Congreso de los Diputados, cooperación internacional"
   },
   "investigacion/equidad-para-los-ninos-el-caso-de-espana": {
     "id": "equidad-para-los-ninos-el-caso-de-espana",
     "title": "Equidad para los niños en el caso de España",
-    "description": "",
-    "keywords": ""
+    "description": "Informe para UNICEF sobre desigualdad en la infancia en España",
+    "keywords": "Infancia, desigualdad, equidad, España, UNICEF"
   },
-  "investigacion/using-the-ttip-momentum-to-modernise-the-eu-approach-to-the-global-investment-policy-regime": {
-    "id": "using-the-ttip-momentum-to-modernise-the-eu-approach-to-the-global-investment-policy-regime",
-    "title": "Using the TTIP momentum to modernise the EU approach to the global investment policy regime",
-    "description": "",
-    "keywords": ""
+  "investigacion/ttip—modernizar-enfoque-regimen-acuerdos-inversion": {
+    "id": "ttip—modernizar-enfoque-regimen-acuerdos-inversion",
+    "title": "TTIP: Modernizar el enfoque de la UE en el régimen global de inversiones",
+    "description": "Aprovechar la atención al TTIP para modernizar la posición de la UE en el régimen global de inversiones",
+    "keywords": "TTIP, Acuerdos bilaterales de inversión, APPRI, BIT, UNCTAD, UE, Unión Europea, coerción, inversión internacional, inversión extranjera directa"
   },
   "investigacion/la-nueva-ciudadania-necesaria": {
     "id": "la-nueva-ciudadania-necesaria",
     "title": "La nueva ciudadanía necesaria",
-    "description": "",
-    "keywords": ""
+    "description": "Análisis sobre la nueva forma de ejercer la ciudadanía tras el 15M para el Informe España 2016",
+    "keywords": "Ciudadanía, participación, transparencia, ciudadanía activa, 15M, Informe España"
   },
-  "investigacion/la-capacidad-del-congreso-de-los-diputados-espanol-para": {
-    "id": "la-capacidad-del-congreso-de-los-diputados-espanol-para",
-    "title": "La capacidad del Congreso cd los Diputados esoañol",
-    "description": "",
-    "keywords": ""
+  "investigacion/capacidad-congreso-incorporar-enfoque-coherecia-politicas-desarrollo": {
+    "id": "capacidad-congreso-incorporar-enfoque-coherecia-politicas-desarrollo",
+    "title": "La capacidad del Congreso de los Diputados español impulsar la incorporación del enfoque de Coherencia de Políticas para el Desarrollo",
+    "description": "Análisis de la capacidad del Congreso de los Diputados para impulsar la incorporación del enfoque de Coherencia de Políticas para el Desarrollo",
+    "keywords": "Congreso de los Diputados, Coherencia de Políticas, Desarrollo sostenible, diputados, política"
   },
-  "investigacion/methodology-for-iias-analysis_cgd_cdi-index_2017-by-ciecode": {
-    "id": "methodology-for-iias-analysis_cgd_cdi-index_2017-by-ciecode",
-    "title": "Methodolofy for IIAS analysis CGD CDI index 2017 by CIECODE",
-    "description": "",
-    "keywords": ""
+  "investigacion/metodologia-acuerdos-inversion-analisis-cgd-ciecode": {
+    "id": "metodologia-acuerdos-inversion-analisis-cgd-ciecode",
+    "title": "Análisis de Acuerdos Internacionales de Inversión para el Índice de Compromiso con el Desarrollo 2017 del Centre for Global Development",
+    "description": "Metodología para el análisis de Acuerdos Internacionales de Inversión para el Center for Global Development",
+    "keywords": "Metodología, Acuerdos Internacionales de Inversión, CGD, CDI Index, BIT, APPRI, IIA, Commitment to Development Index, comercio, inversión privada, inversión extranjera directa"
   },
-  "investigacion/america-central-impacto-del-cambio-": {
-    "id": "america-central-impacto-del-cambio-",
+  "investigacion/america-central-resiliencia": {
+    "id": "america-central-resiliencia",
     "title": "América central impacto del cambio",
-    "description": "",
-    "keywords": ""
+    "description": "Análisis del impacto del cambio climático, la desigualdad y la violencia sobre la resiliencia de América Central",
+    "keywords": "América Central, resistencia, cambio climático, desigualdad, violencia, El Salvador, Guatemala, Honduras, Nicaragua"
   },
   "investigacion/analisis-de-acuerdos-internacionales-de-inversion": {
     "id": "analisis-de-acuerdos-internacionales-de-inversion",
     "title": "Análisis de acuerdos internacionales de inversión",
-    "description": "",
-    "keywords": ""
+    "description": "Análisis de acuerdos internacionales de inversión",
+    "keywords": "Acuerdos Internacionales de Inversión, CGD, CDI Index, BIT, APPRI, IIA, Commitment to Development Index, comercio, inversión privada, inversión extranjera directa"
   }
 }

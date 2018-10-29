@@ -223,8 +223,8 @@
             "year": "2013"
           },
           "document": "5_cuadernos_junio2013.pdf",
-          "id": "cuadernos-junio",
-          "link_title": "Cuadernos Junio",
+          "id": "congreso-diputados-respuesta-retos-desarrollo",
+          "link_title": "Congreso de los Diputados: respuesta a los retos de desarrollo",
           "tags": [
             "Coherencia de Políticas",
             "Political Watch",
@@ -386,7 +386,7 @@
             "year": "2014"
           },
           "document": "MitoDramaOportunidad.pdf",
-          "id": "el-mito,-el-drama-y-la-oportunidad-social",
+          "id": "el-mito-el-drama-y-la-oportunidad-social",
           "link_title": "El mito, el drama y la oportunidad social",
           "tags": [
             "Coherencia de Políticas",
@@ -547,7 +547,7 @@
             "year": "2015"
           },
           "document": "BBDD_Avizor.xlsx",
-          "id": "base-de-datos-del-proyecto-avizor-2012,-2013-y-2014",
+          "id": "base-de-datos-del-proyecto-avizor-2012-2013-y-2014",
           "link_title": "Base de datos del Proyecto Avizor 2012, 2013 y 2014",
           "tags": [
             "Coherencia de Políticas",
@@ -571,7 +571,7 @@
             "year": "2015"
           },
           "document": "Volonteurope-Development-Report_SP_final.pdf",
-          "id": "gobernanza,-participacion-y-rendicion-de-cuentas-para-el-desarrollo-sostenible.",
+          "id": "gobernanza-participacion-y-rendicion-de-cuentas-para-el-desarrollo-sostenible",
           "link_title": "Gobernanza, Participación y Rendición de cuentas para el desarrollo sostenible.",
           "tags": [
             "Ciudadanía Activa"
@@ -725,13 +725,13 @@
             "year": "2016"
           },
           "document": "using_the_ttip_momentum.pdf",
-          "id": "using-the-ttip-momentum-to-modernise-the-eu-approach-to-the-global-investment-policy-regime",
-          "link_title": "USING THE TTIP MOMENTUM TO MODERNISE THE EU APPROACH TO THE GLOBAL INVESTMENT POLICY REGIME",
+          "id": "ttip—modernizar-enfoque-regimen-acuerdos-inversion",
+          "link_title": "TTIP: Modernizar el enfoque de la UE en el régimen global de inversiones",
           "tags": [
             "Comercio Internacional"
           ],
           "text": "Si hay un asunto relacionado con el comercial internacional sobre el que existe consenso entre todos los actores relevantes, este es que el régimen global de inversiones está obsoleto y necesitado de una urgente y profunda revisión para asegurar que responde al interés general y que es compatible con los principios y valores de la UE. Este artículo, publicado como parte de la monografía \"Different Glances at EU Trade Policy\" del CIDOB, sitúa este debate en el contexto de la reciente estrategia \"Comercio para Todos\" de la Comisión Europea y de las negociaciones del tratado TTIP entre Estados Unidos y la UE, que han provocado un mayor conocimiento e interés de estas temáticas por parte de un mayor número de ciudadanos europeos.",
-          "title": "Using the TTIP momentum to modernise the EU approach to the global investment policy regime"
+          "title": "TTIP: Modernizar el enfoque de la UE en el régimen global de inversiones"
         },
         {
           "authors": [
@@ -764,8 +764,8 @@
             "year": "2017"
           },
           "document": "Capacidad-Congreso-Diputados-para-impulsar-Coherencia-de-Polícas-CIECODE.pdf",
-          "id": "la-capacidad-del-congreso-de-los-diputados-espanol-para",
-          "link_title": "La capacidad del Congreso de los Diputados español para",
+          "id": "capacidad-congreso-incorporar-enfoque-coherecia-politicas-desarrollo",
+          "link_title": "La capacidad del Congreso de los Diputados español impulsar la incorporación del enfoque de Coherencia de Políticas para el Desarrollo",
           "tags": [
             "Coherencia de Políticas",
             "Political Watch",
@@ -785,8 +785,8 @@
             "year": "2017"
           },
           "document": "Methodology-for-IIAs-analysis_CGD_CDI-Index_2017-by-CIECODE.pdf",
-          "id": "methodology-for-iias-analysis_cgd_cdi-index_2017-by-ciecode",
-          "link_title": "Methodology for IIAs analysis_CGD_CDI Index_2017 by CIECODE",
+          "id": "metodologia-acuerdos-inversion-analisis-cgd-ciecode",
+          "link_title": "Análisis de Acuerdos Internacionales de Inversión para el Índice de Compromiso con el Desarrollo 2017 del Centre for Global Development",
           "tags": [
             "Coherencia de Políticas",
             "Comercio Internacional"
@@ -805,7 +805,7 @@
             "year": "2016"
           },
           "document": "America-Central-Impactos-en-resiliencia-CIECODE.pdf",
-          "id": "america-central-impacto-del-cambio-",
+          "id": "america-central-resiliencia",
           "link_title": "América Central: Impacto del cambio",
           "tags": [
             "Cambio Climático",

@@ -1190,4 +1190,13 @@ if ($('#xs-maps').length > 0) {
 		});
 	}
 }
+
+// Animate FSS section
+$('#fss-header a').mouseover(function() {
+  $('#fss-header a i').show();
+});
+$('#fss-header a').mouseout(function() {
+  $('#fss-header a i').hide();
+});
+
 })(jQuery);

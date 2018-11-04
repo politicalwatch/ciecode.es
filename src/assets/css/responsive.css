@@ -12,7 +12,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	}
 	/* menus */
 	.fundpress-menu .nav-menu li {
-		margin: 0 30px 0 0;
+		/* margin: 0 30px 0 0; */
 	}
 	.fundpress-menu .nav-menu {
 		width: 70%;
@@ -43,6 +43,9 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.fundpress-contact-details ,
 	.xs-text-tab-content ,
 	.fundpress-team-member-details-content ,
+        .fundpress-header-main-version {
+          top: 30px;
+        }
 	.xs-background-popup-wraper {
 		margin-bottom: 30px;
 	}
@@ -548,3 +551,5 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	}
 }
 
+@media (min-width:408px){.hidden-lg{display:none!important}}
+@media (max-width:408px){.hidden-xs{display:none!important}}

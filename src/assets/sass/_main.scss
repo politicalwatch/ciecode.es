@@ -5,7 +5,7 @@
 // nav bar style default by Fundpress
 .fundpress-header-main-version {
 	position: absolute;
-	top: 0;
+	top: $menu-size-min-10;
 	left: 0;
 	width: 100%;
 	z-index: 9999;
@@ -2256,4 +2256,36 @@ main {
       }
     }
   }
+}
+
+#fss-header {
+  background-color: $color-fss-red;
+  background-image: -webkit-linear-gradient(left,$color-fss-red,$color-ciecode-red);
+  background-image: -moz-linear-gradient(left,$color-fss-red,$color-ciecode-red);
+  background-image: -o-linear-gradient(left,$color-fss-red,$color-ciecode-red);
+  background-image: -ms-linear-gradient(left,$color-ciecode-red,$color-fss-red);
+  width: 100%;
+  height: $menu-size;
+  line-height: $menu-size;
+  z-index: 1001;
+  p {
+    font-size: 13px;
+    text-align: left;
+    a {
+      font-style: italic;
+      color: $color-white;
+      img {
+        height: $menu-size;
+        width: auto;
+      }
+    }
+    #language-selector {
+      float: right;
+      color: $color-white;
+    }
+  }
+}
+
+.hide {
+  display: none;
 }

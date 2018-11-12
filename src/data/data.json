@@ -316,6 +316,26 @@
         },
         {
           "authors": [
+            "Javier Pérez González",
+            "Gonzalo Fanjul Suárez"
+          ],
+          "cover": "LibroBlanco.png",
+          "date": {
+            "full": "31/01/2012",
+            "year": "2012"
+          },
+          "document": "Libro_Blanco_Desarrollo_CIECODE.pdf",
+          "id": "libro-blanco-desarrollo",
+          "link_title": "Libro blanco de la política española de desarrollo",
+          "tags": [
+            "Coherencia de Políticas",
+            "Libro Blanco del Desarrollo"
+          ],
+          "text": "<p>La promoción de un orden internacional más justo y sostenible no sólo es compatible con la defensa de los intereses de España, sino que en muchas ocasiones se convierte en la forma más inteligente y eficaz de lograrlos. CIECODE publicó <strong>“Hacia un Libro Blanco de la política española de desarrollo”</strong> a principios de 2012 y ofrece 22 propuestas políticas que el Gobierno debería priorizar en su agenda de lucha contra la pobreza y promoción del desarrollo, así como una metodología que permite determinar la contribución de cada una de ellas a los objetivos estratégicos de la acción exterior española: el fortalecimiento de nuestra posición y credibilidad en el escenario internacional, el fomento de entornos más seguros o la promoción de la estabilidad económica y el empleo en España.</p><p>Con esta investigación que culminó en la elaboración de este informe, el CIECODE pone a disposición de las instituciones españolas un análisis de la política exterior española e insta al Gobierno de España a que ponga en marcha un proceso abierto, valiente y riguroso de elaboración de un “Libro Blanco del Desarrollo”. Este documento representaría un importante paso hacia una gestión moderna de su acción exterior y hacia otra manera de hacer política, una que contribuya al mismo tiempo y de forma eficaz a la construcción de un mundo con menos pobreza y desigualdad y de un futuro más próspero, sostenible y seguro para España.</p><p>A pesar del tiempo transcurrido, el análisis y las propuestas de este informe son de absoluta vigencia y actualidad.</p><p>En la elaboración de este proyecto, el CIECODE contó con algunos de los más reconocidos expertos nacionales para analizar los principales retos globales del desarrollo y las políticas domésticas españolas con mayor impacto en los países en desarrollo. El resultado fueron siete informes que ofrecen análisis profundos, argumentos valientes y, sobre todo, ideas innovadoras para el futuro de la política exterior española.</p>",
+          "title": "Libro blanco de la política española de desarrollo"
+        },
+        {
+          "authors": [
             "Javier Pérez González"
           ],
           "cover": "EspanaComercioDesarrollo.jpg",

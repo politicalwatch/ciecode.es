@@ -251,5 +251,11 @@
     "title": "El reto de la coherencia de políticas para el desarrollo en la Agenda 2030",
     "description": "El CIDOB (Centre d'Informació i Documentació Internacionals a Barcelona) publica este documento que recoge las conclusiones del seminario «La coherencia de políticas ante los nuevos retos del desarrollo», celebrado en CIDOB el 28 de junio de 2018, en colaboración con la Dirección General de Cooperación al Desarrollo del Departamento de Acción Exterior, Relaciones Institucionales y Transparencia de la Generalitat de Cataluña.",
     "keywords": "Coherencia de políticas, Objetivos de Desarrollo Sostenible, ODS, metas, ONU, desarrollo sostenible"
+  },
+  "investigacion/libro-blanco-desarrollo": {
+    "id": "libro-blanco-desarrollo",
+    "title": "Libro blanco de la política española de desarrollo",
+    "description": "Libro blanco de la política española de desarrollo",
+    "keywords": "Libro Blanco, coherencia de políticas para el desarrollo, pobreza"
   }
 }

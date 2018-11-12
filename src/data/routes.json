@@ -340,5 +340,13 @@
       {"src/data/meta.json": "investigacion/reto-coherencia-politicas-desarrollo-agenda-2030"},
       {"src/data/data.json": "investigacion"}
     ]
+  },
+  "investigacion/libro-blanco-desarrollo": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/libro-blanco-desarrollo"},
+      {"src/data/data.json": "investigacion"}
+    ]
   }
 }

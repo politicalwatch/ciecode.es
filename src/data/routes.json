@@ -332,5 +332,13 @@
       {"src/data/meta.json": "investigacion/analisis-de-acuerdos-internacionales-de-inversion"},
       {"src/data/data.json": "investigacion"}
     ]
+  },
+  "investigacion/reto-coherencia-politicas-desarrollo-agenda-2030": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/reto-coherencia-politicas-desarrollo-agenda-2030"},
+      {"src/data/data.json": "investigacion"}
+    ]
   }
 }

@@ -157,6 +157,7 @@
       "tags": [
         "Coherencia de Políticas",
         "Political Watch",
+        "Agenda 2030",
         "Ciudadanía Activa",
         "Congreso de los Diputados",
         "Polétika",
@@ -833,6 +834,28 @@
           ],
           "text": "<p>El CIECODE ha desarrollado una metodología para analizar la inclusión del enfoque de desarrollo sostenible en los Acuerdos Internacionales de Inversión (IIAs). Por encargo del Centre for Global Development, desde 2016 hemos aplicado esta metodología para analizar más de 320 IIAs celebrados entre países desarrollados y países en desarrollo durante los últimos 18 años. Los resultados han sido incorporados al famoso Índice de Compromiso con el Desarrollo (CDI) de esta organización, accesible en: <a href=\"https://www.cgdev.org/commitment-development-index-2018\">https://www.cgdev.org/commitment-development-index-2018</a>. Puedes descargar la metodología <a href=\"https://www.cgdev.org/sites/default/files/CDI-2018-methodology.pdf\">aquí</a> la completa base de datos del índice <a href=\"https://drive.google.com/drive/u/1/folders/0B167nw-gSVHRcXhILXg0RjM3Vmc\">aquí</a> y los resultados del análisis de CIECODE de los acuerdos de inversión <a href=\"https://docs.google.com/spreadsheets/d/1qbfZGM6-SbTzjpJTs-PQ29KI8PCLN5xB3p99hu60CHI/edit?usp=sharing\">aquí</a>. </p><p>CIECODE has developed a methodology to analyze whether a sustainable development approach has been included in International Investment Agreements (IIAs). Under the orders of the Center for Global Development, since 2016 we have applied this methodology in the analysis of more than 320 IIAs, signed between developed and developing countries in the last 18 years. The results have been incorporated to the well-known Commitment to Development Idex (CDI) of this organization, which is available here: <a href=\"https://www.cgdev.org/commitment-development-index-2018\">https://www.cgdev.org/commitment-development-index-2018</a>. You can download the detailed Methodology here, the entire database with the results of the Index <a href=\"https://drive.google.com/drive/u/1/folders/0B167nw-gSVHRcXhILXg0RjM3Vmc\">here</a> and the results of CIECODE's analysis of the investment agreements <a href=\"https://docs.google.com/spreadsheets/d/1qbfZGM6-SbTzjpJTs-PQ29KI8PCLN5xB3p99hu60CHI/edit?usp=sharing\">here</a>.</p>",
           "title": "Análisis de Acuerdos Internacionales de Inversión para el Índice de Compromiso con el Desarrollo 2018 del Centre for Global Development"
+        },
+        {
+          "authors": [
+            "Anna Ayuso (CIDOB)",
+            "Javier Pérez González",
+            "Iliana Olivié (Real Instituto Elcano)",
+            "Natalia Millán (Universidad Pontificia de Comillas)"
+          ],
+          "cover": "PolicyBrief-CIDOB-Oct2018.png",
+          "date": {
+            "full": "31/10/2018",
+            "year": "2018"
+          },
+          "document": "16_POLICY_BRIEF_CIDOB_CAST.pdf",
+          "id": "reto-coherencia-politicas-desarrollo-agenda-2030",
+          "link_title": "El reto de la coherencia de políticas para el desarrollo en la Agenda 2030",
+          "tags": [
+            "Coherencia de Políticas",
+            "Agenda 2030"
+          ],
+          "text": "<p>El CIDOB (Centre d'Informació i Documentació Internacionals a Barcelona) <a href='https://www.cidob.org/es/publicaciones/serie_de_publicacion/cidob_policy_brief/el_reto_de_la_coherencia_de_politicas_para_el_desarrollo_en_la_agenda_2030' target='_blank'>publica este documento</a> que recoge las conclusiones del seminario <a href='https://www.cidob.org/actividades/temas/desarrollo/la_coherencia_de_politicas_ante_los_nuevos_retos_del_desarrollo' target='_blank''>«La coherencia de políticas ante los nuevos retos del desarrollo»</a>, celebrado en CIDOB el 28 de junio de 2018, en colaboración con la Dirección General de Cooperación al Desarrollo del Departamento de Acción Exterior, Relaciones Institucionales y Transparencia de la Generalitat de Cataluña. En este encuentro se analizaron los nuevos retos de la visión holística que demanda la incorporación de la coherencia de políticas para el desarrollo (CPD) en las políticas públicas, que ya llevaba décadas en la agenda de cooperación internacional, pero que con la aprobación de la Agenda 2030 y su inclusión explícita entre las metas de los Objetivos de Desarrollo Sostenible, concretamente en el ODS 17, ha supuesto un nuevo reto para los países comprometidos con la nueva agenda global de desarrollo de forma integral y no sólo para la cooperación internacional.</p>",
+          "title": "El reto de la coherencia de políticas para el desarrollo en la Agenda 2030"
         }
       ]
     }

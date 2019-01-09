@@ -11,8 +11,13 @@
   },
   "credits": {
     "title": "Créditos de las imágenes",
-    "description": "créditos de las imágenes utilizadas",
-    "keywords": "imágenes"
+    "description": "Créditos de las imágenes utilizadas",
+    "keywords": "imágenes, images, créditos, credits"
+  },
+  "donate": {
+    "title": "Haz una donación",
+    "description": "Haz una donación a CIECODE",
+    "keywords": "donación, donate"
   },
   "political-watch": {
     "title": "Political Watch",

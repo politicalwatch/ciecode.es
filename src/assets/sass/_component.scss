@@ -258,30 +258,28 @@
 	background-color: #5EAEEC;
 }
 
-.xs-modal {
-	.tab-content {
-                h5 {
-                        text-align: center;
-                }
-		p {
-			font-size: em(12px);
-                        text-align: center;
-		}
-                pre {
-                  display: block;
-                  margin-top: 1.5rem;
-                  margin-bottom: 1.5rem;
-                  font-size: 1.1rem;
-                  text-align: center;
-                  font-weight: bold;
-                }
-                a {
-                  color: $color-green;
-                  &:hover {
-                    text-decoration: underline;
-                  }
-                }
-	}
+.xs-modal, #donate {
+        h5 {
+                text-align: center;
+        }
+        p {
+                font-size: em(12px);
+                text-align: center;
+        }
+        pre {
+          display: block;
+          margin-top: 1.5rem;
+          margin-bottom: 1.5rem;
+          font-size: 1.1rem;
+          text-align: center;
+          font-weight: bold;
+        }
+        a {
+          color: $color-green;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
 }
 
 

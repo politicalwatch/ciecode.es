@@ -1,0 +1,41 @@
+<% include common/start %>
+
+<% include common/header %>
+
+<!-- welcome section -->
+<!--breadcumb start here-->
+<section class="xs-inner-welcome-section fundpress-inner-welcome-section fundpress-inner-bg-1 parallax-window" data-parallax="scroll" data-image-src="<%= global.folderName %>assets/images/background/common.png">
+  <div class="xs-solid-overlay xs-bg-navy-blue"></div>
+  <div class="container">
+    <div class="fundpress-inner-welcome-content">
+      <h2 class="color-white">Haz una donación</h2>
+      <ul class="xs-breadcumb fundpress-breadcumb">
+        <li><a href="<%= global.folderName %>" class="color-white">Inicio /</a> <strong>Haz una donación</strong></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!--breadcumb end here--><!-- End welcome section -->
+
+<main id="donate" class="xs-all-content-wrapper">
+<section class="xs-about-us-promo-section xs-content-section-padding fundpress-about-us-promo-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 offset-sm-2 text-center">
+        <div class="xs-info-card">
+          <% include common/donate-info %>
+        </div>
+        <hr/>
+        <div class="xs-info-card">
+          <% include common/donate-info-more %>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+
+<% include common/footer %>
+
+<% include common/end %>

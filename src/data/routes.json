@@ -21,6 +21,13 @@
       {"src/data/meta.json": "credits"}
     ]
   },
+  "donar": {
+    "path_to_layout": "src/layouts/donate.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "donate"}
+    ]
+  },
   "political-watch": {
     "path_to_layout": "src/layouts/political-watch.ejs",
     "path_to_data": [

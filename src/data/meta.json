@@ -25,7 +25,7 @@
     "keywords": "Política, innovación, monitorización, Congreso de los Diputados, pobreza, factcheking, big data, CIECODE"
   },
   "political-watch/parlamento2030": {
-    "title": "Parlamento 2030",
+    "title": "Parlamento2030",
     "description": "Herramienta de monitorización y vigilancia de la actividad del Congreso relacionada con la Agenda 2030 y los ODS ",
     "keywords": "Agenda 2030, Congreso de los Diputados, Objetivos de Desarrollo Sostenible, ODS, metas, ONU, facthecking, tecnología, innovación, diputados, CIECODE",
     "id": "parlamento2030"
@@ -35,6 +35,12 @@
     "description": "Herramienta de monitorización y vigilancia de la actividad del Congreso de los Diputados en la lucha contra la pobreza y la desigualdad,",
     "keywords": "Congreso, tecnología, vigilancia, monitorización, pobreza, desigualdad, CIECODE",
     "id": "tipi-ciudadano"
+  },
+  "political-watch/poletika": {
+    "title": "Poletika",
+    "description": "Política + Ética: Sigue de cerca los compromisos contra la desiguadad.",
+    "keywords": "política, ética, compromisos, desiguadad, España, CIECODE",
+    "id": "poletika"
   },
   "political-watch/proyecto-avizor": {
     "title": "Proyecto Avizor",

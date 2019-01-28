@@ -52,6 +52,14 @@
       {"src/data/data.json": "political-watch"}
     ]
   },
+  "political-watch/poletika": {
+    "path_to_layout": "src/layouts/project.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "political-watch/poletika"},
+      {"src/data/data.json": "political-watch"}
+    ]
+  },
   "political-watch/proyecto-avizor": {
     "path_to_layout": "src/layouts/project.ejs",
     "path_to_data": [

@@ -60,6 +60,14 @@
       {"src/data/data.json": "political-watch"}
     ]
   },
+  "political-watch/open-manifesto-project": {
+    "path_to_layout": "src/layouts/project.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "political-watch/open-manifesto-project"},
+      {"src/data/data.json": "political-watch"}
+    ]
+  },
   "political-watch/proyecto-avizor": {
     "path_to_layout": "src/layouts/project.ejs",
     "path_to_data": [

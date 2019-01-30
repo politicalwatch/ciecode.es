@@ -42,6 +42,12 @@
     "keywords": "política, ética, compromisos, desiguadad, España, CIECODE",
     "id": "poletika"
   },
+  "political-watch/open-manifesto-project": {
+    "title": "Open Manifesto Project",
+    "description": "Estándar abierto centrado en el ciudadano para los programas electorales",
+    "keywords": "política, elecciones, programas electorales, estándar, open source, código fuente abierto, análisis de programas electorales",
+    "id": "open-manifesto-project"
+  },
   "political-watch/proyecto-avizor": {
     "title": "Proyecto Avizor",
     "description": "Proyecto de seguimiento de la actividad parlamentaria relacionada con el desarrollo internacional",

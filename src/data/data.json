@@ -141,6 +141,23 @@
         ]
       },
       {
+        "id": "open-manifesto-project",
+        "title": "Open Manifesto Project",
+        "web": "https://www.researchgate.net/project/Open-manifesto-project",
+        "abstract": "Estándar abierto centrado en el ciudadano para los programas electorales",
+        "thumbnail": "open-manifesto-project.png",
+        "background": "openmanifestoproject.png",
+        "images": [
+          "open-manifesto-project.png"
+        ],
+        "support": [
+          "Programadores",
+          "Reutilizadores de datos",
+          "Visualizadores de datos",
+          "Activistas"
+        ]
+      },
+      {
         "id": "proyecto-avizor",
         "title": "Proyecto Avizor",
         "web": "http://proyectoavizor.es",

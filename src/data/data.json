@@ -7,15 +7,15 @@
         "photo": "javipe.jpg",
         "email": "javier.perez@ciecode.es",
         "twitter": "https://twitter.com/javipe_ciecode",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/javierperezgonzalez",
         "github": ""
       },
       {
-        "name": "María Vega",
-        "title": "Comunicación",
-        "photo": "mariavega.jpg",
-        "email": "maria.vega@ciecode.es",
-        "twitter": "https://twitter.com/mariavpaul",
+        "name": "Irene Martín",
+        "title": "Investigadora",
+        "photo": ".jpg",
+        "email": "irene.martin@ciecode.es",
+        "twitter": "https://twitter.com/IreneMart_",
         "linkedin": "",
         "github": ""
       },
@@ -27,6 +27,15 @@
         "twitter": "https://twitter.com/pr3ssh",
         "linkedin": "",
         "github": "https://github.com/pr3ssh"
+      },
+      {
+        "name": "Belén Agüero",
+        "title": "Investigadora",
+        "photo": ".jpg",
+        "email": "belen.aguero@ciecode.es",
+        "twitter": "",
+        "linkedin": "",
+        "github": ""
       },
       {
         "name": "Ramiro Viñuales",
@@ -60,6 +69,15 @@
         "title": "Investigadora",
         "photo": "isabelkreisler.jpg",
         "email": "isabel.kreisler@ciecode.es",
+        "twitter": "",
+        "linkedin": "",
+        "github": ""
+      },
+      {
+        "name": "Javier Rodríguez",
+        "title": "Colaborador",
+        "photo": ".jpg",
+        "email": "",
         "twitter": "",
         "linkedin": "",
         "github": ""

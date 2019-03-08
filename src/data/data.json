@@ -112,11 +112,10 @@
         "thumbnail": "tipi-ciudadano.png",
         "background": "tipiciudadano.png",
         "images": [
+          "tipi-ciudadano-1.png",
           "tipi-ciudadano-2.png",
           "tipi-ciudadano-3.png",
-          "tipi-ciudadano-4.png",
-          "tipi-ciudadano-5.png",
-          "tipi-ciudadano-6.png"
+          "tipi-ciudadano-4.png"
         ],
         "support": [
           "Periodistas de datos",
@@ -131,7 +130,9 @@
         "thumbnail": "poletika.png",
         "background": "poletika.png",
         "images": [
-          "poletika.png"
+          "poletika-1.png",
+          "poletika-2.png",
+          "poletika-3.png"
         ],
         "support": [
           "Periodistas",

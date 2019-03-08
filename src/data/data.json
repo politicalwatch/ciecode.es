@@ -2,85 +2,217 @@
   "about": {
     "team": [
       {
+        "id": "javier-perez",
         "name": "Javier Pérez",
         "title": "Director",
-        "photo": "javipe.jpg",
+        "photo": "javi.jpg",
+        "photoalt": "javi.jpg",
         "email": "javier.perez@ciecode.es",
         "twitter": "https://twitter.com/javipe_ciecode",
+        "twittername": "@javipe_ciecode",
+        "github": "",
         "linkedin": "https://www.linkedin.com/in/javierperezgonzalez",
-        "github": ""
+        "web": "",
+        "phone": "+34 686 297 947",
+        "bio": [
+          ""
+        ],
+        "quote": {
+          "text": "",
+          "author": ""
+        }
       },
       {
+        "id": "irene-martin",
         "name": "Irene Martín",
         "title": "Investigadora",
-        "photo": ".jpg",
+        "photo": "irene.jpg",
+        "photoalt": "irene.jpg",
         "email": "irene.martin@ciecode.es",
         "twitter": "https://twitter.com/IreneMart_",
-        "linkedin": "",
-        "github": ""
+        "twittername": "@IreneMart_",
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/irene-mart%C3%ADn-mart%C3%ADnez-35973676/?locale=en_US",
+        "web": "",
+        "phone": "",
+        "bio": [
+          ""
+        ],
+        "quote": {
+          "text": "",
+          "author": ""
+        }
       },
       {
+        "id": "pablo-martin",
         "name": "Pablo Martín",
-        "title": "Tecnología",
+        "title": "Tecnología y Datos",
         "photo": "pr3ssh.jpg",
+        "photoalt": "pr3ssh-alt.jpg",
         "email": "pablo.martin@ciecode.es",
         "twitter": "https://twitter.com/pr3ssh",
+        "twittername": "@pr3ssh",
+        "github": "https://github.com/pr3ssh",
         "linkedin": "",
-        "github": "https://github.com/pr3ssh"
+        "web": "http://pr3ssh.net",
+        "phone": "",
+        "bio": [
+          "Hacker Cívico. Estudié Ingeniería Informática y Máster en Tecnologías Informáticas Avanzadas en la Universidad de Huelva con especialización en Minería de Datos y Aprendizaje Automático. Responsable tecnológico de #PoliticalWatch. Previamente socio trabajador de la cooperativa de software libre Enreda y cofundador de la asociación ciudadana Openkratio (pro transparencia y participación). Me considero un hacktivista pro datos abiertos, soberanía tecnológica y economía social y solidaria."
+        ],
+        "quote": {
+          "text": "Sé curioso, lee mucho, intenta cosas nuevas. Creo que lo que mucha gente califica como inteligencia, no es más que curiosidad",
+          "author": "Aaron Swartz"
+        }
       },
       {
+        "id": "belen-aguero",
         "name": "Belén Agüero",
         "title": "Investigadora",
-        "photo": ".jpg",
+        "photo": "belen.jpg",
+        "photoalt": "belen.jpg",
         "email": "belen.aguero@ciecode.es",
         "twitter": "",
+        "twittername": "",
+        "github": "",
         "linkedin": "",
-        "github": ""
+        "web": "",
+        "phone": "",
+        "bio": [
+          "Investigadora. Licenciada en Relaciones Internacionales de formación, actualmente trabajando en mi tesis doctoral sobre la Acción Internacional de las Ciudades en la localización de la Agenda 2030 y la implementación de políticas públicas coherentes. Trabajo como voluntaria en United Explanations, convencida de la importancia de la difusión libre y abierta del conocimiento como una herramienta para entender lo que nos pasa y desde allí comenzar a cambiar la realidad. Colaboro además con otras organizaciones como INCIDEM y realizo trabajos de consultoría en temáticas de sostenibilidad y gobiernos locales."
+        ],
+        "quote": {
+          "text": "Esperar no transforma",
+          "author": "Magalí Tajes"
+        }
       },
       {
+        "id": "ramiro-vinuales",
         "name": "Ramiro Viñuales",
         "title": "Fundraiser",
         "photo": "ramiro.jpg",
+        "photoalt": "ramiro.jpg",
         "email": "ramiro.vinuales@ciecode.es",
         "twitter": "https://twitter.com/ramirovinuales",
+        "twittername": "@ramirovinuales",
+        "github": "",
         "linkedin": "",
-        "github": ""
+        "web": "",
+        "phone": "",
+        "bio": [
+          ""
+        ],
+        "quote": {
+          "text": "",
+          "author": ""
+        }
       },
       {
+        "id": "teresa-cavero",
         "name": "Teresa Cavero",
         "title": "Investigadora",
         "photo": "teresacavero.jpg",
+        "photoalt": "teresacavero.jpg",
         "email": "teresa.cavero@ciecode.es",
         "twitter": "",
+        "twittername": "",
+        "github": "",
         "linkedin": "",
-        "github": ""
+        "web": "",
+        "phone": "",
+        "bio": [
+          ""
+        ],
+        "quote": {
+          "text": "",
+          "author": ""
+        }
       },
       {
+        "id": "gonzalo-fanjul",
         "name": "Gonzalo Fanjul",
         "title": "Investigador",
         "photo": "gonzalofanjul.jpg",
+        "photoalt": "gonzalofanjul.jpg",
         "email": "gonzalo.fanjul@ciecode.es",
         "twitter": "https://twitter.com/GonzaloFanjul",
+        "twittername": "@GonzaloFanjul",
+        "github": "",
         "linkedin": "",
-        "github": ""
+        "web": "https://porcausa.org",
+        "phone": "",
+        "bio": [
+          ""
+        ],
+        "quote": {
+          "text": "",
+          "author": ""
+        }
       },
       {
+        "id": "isabel-kreisler",
         "name": "Isabel Kreisler",
         "title": "Investigadora",
         "photo": "isabelkreisler.jpg",
+        "photoalt": "isabelkreisler.jpg",
         "email": "isabel.kreisler@ciecode.es",
         "twitter": "",
+        "twittername": "",
+        "github": "",
         "linkedin": "",
-        "github": ""
+        "github": "",
+        "web": "",
+        "phone": "",
+        "bio": [
+          ""
+        ],
+        "quote": {
+          "text": "",
+          "author": ""
+        }
       },
       {
+        "id": "inaki-gonzalo",
+        "name": "Iñaki Gonzalo",
+        "title": "Becario investigador",
+        "photo": "inaki.jpg",
+        "photoalt": "inaki.jpg",
+        "email": "",
+        "twitter": "https://twitter.com/inaki_gdlb",
+        "twittername": "@inaki_gdlb",
+        "github": "",
+        "linkedin": "",
+        "github": "",
+        "web": "",
+        "phone": "",
+        "bio": [
+          "Estudiante de doble grado en Relaciones Internacionales y Traducción e Interpretación. Interesado en seguridad internacional y desarrollo. Los viajes que desde pequeño he hecho por América Latina, Europa y Norteamérica me han enseñado a valorar la diversidad y a no soportar la desigualdad. Mediocre pero feliz con todos los deportes que practico: rugby, correr, montaña y aventuras. Coordinador y monitor en un grupo Scout en Madrid, y entrenador de rugby para adolescentes, trabajo de voluntario para devolver el esfuerzo que un día otras personas voluntarias pusieron en darme bellas experiencias y aprendizajes. Becario en CIECODE, pues mi vida laboral está aún por llegar."
+        ],
+        "quote": {
+          "text": "La indiferencia es el peso muerto de la Historia",
+          "author": "Antonio Gramsci"
+        }
+      },
+      {
+        "id": "javier-rodriguez",
         "name": "Javier Rodríguez",
         "title": "Colaborador",
-        "photo": ".jpg",
+        "photo": "cat.jpg",
+        "photoalt": "cat.jpg",
         "email": "",
         "twitter": "",
+        "twittername": "",
+        "github": "",
         "linkedin": "",
-        "github": ""
+        "github": "",
+        "web": "",
+        "phone": "",
+        "bio": [
+          ""
+        ],
+        "quote": {
+          "text": "",
+          "author": ""
+        }
       }
     ],
     "highlights": [

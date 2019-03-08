@@ -130,27 +130,30 @@
       <div class="col-md-3 people-item">
         <div class="xs-box-shadow  fundpress-single-team-member">
           <div class="fundpress-item-header text-center">
-            <img src="<%= global.folderName %>assets/images/team/<%= data.team[teamindex].photo %>" alt="Foto de <%= data.team[teamindex].name %>">
-            <div class="xs-hover-content fundpress-hover-content text-center">
-              <ul class="xs-social-list fundpress-social-list xs-social-list-v2">
-                <% if (data.team[teamindex].email != "") { %>
-                <li><a href="mailto:<%= data.team[teamindex].email %>" class="color-linkedin full-round" target="_blank"><i class="fa fa-envelope"></i></a></li>
-                <% } %>
-                <% if (data.team[teamindex].twitter != "") { %>
-                <li><a href="<%= data.team[teamindex].twitter %>" class="color-twitter full-round" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                <% } %>
-                <% if (data.team[teamindex].linkedin != "") { %>
-                <li><a href="<%= data.team[teamindex].linkedin %>" class="color-linkedin full-round" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                <% } %>
-                <% if (data.team[teamindex].github != "") { %>
-                <li><a href="<%= data.team[teamindex].github %>" class="color-linkedin full-round" target="_blank"><i class="fa fa-github"></i></a></li>
-                <% } %>
-              </ul>
-            </div>
+            <a href="<%= global.folderName %>quienes-somos/<%= data.team[teamindex].id %>" class="color-navy-blue" title="Accede al perfil de <%= data.team[teamindex].name %>">
+            <img class="team-member-photo-alt hide" src="<%= global.folderName %>assets/images/team/<%= data.team[teamindex].photoalt %>">
+            <img class="team-member-photo" src="<%= global.folderName %>assets/images/team/<%= data.team[teamindex].photo %>" alt="Foto de <%= data.team[teamindex].name %>">
+            </a>
+            <!-- <div class="xs&#45;hover&#45;content fundpress&#45;hover&#45;content text&#45;center"> -->
+            <!--   <ul class="xs&#45;social&#45;list fundpress&#45;social&#45;list xs&#45;social&#45;list&#45;v2"> -->
+            <!--     <% if (data.team[teamindex].email != "") { %> -->
+            <!--     <li><a href="mailto:<%= data.team[teamindex].email %>" class="color&#45;linkedin full&#45;round" target="_blank"><i class="fa fa&#45;envelope"></i></a></li> -->
+            <!--     <% } %> -->
+            <!--     <% if (data.team[teamindex].twitter != "") { %> -->
+            <!--     <li><a href="<%= data.team[teamindex].twitter %>" class="color&#45;twitter full&#45;round" target="_blank"><i class="fa fa&#45;twitter"></i></a></li> -->
+            <!--     <% } %> -->
+            <!--     <% if (data.team[teamindex].linkedin != "") { %> -->
+            <!--     <li><a href="<%= data.team[teamindex].linkedin %>" class="color&#45;linkedin full&#45;round" target="_blank"><i class="fa fa&#45;linkedin"></i></a></li> -->
+            <!--     <% } %> -->
+            <!--     <% if (data.team[teamindex].github != "") { %> -->
+            <!--     <li><a href="<%= data.team[teamindex].github %>" class="color&#45;linkedin full&#45;round" target="_blank"><i class="fa fa&#45;github"></i></a></li> -->
+            <!--     <% } %> -->
+            <!--   </ul> -->
+            <!-- </div> -->
           </div>
           <!--fundpress-item-header-->
           <div class="xs-item-footer xs-content-padding bg-color-white  fundpress-team-details text-center">
-            <a href="#" class="color-navy-blue">
+            <a href="<%= global.folderName %>quienes-somos/<%= data.team[teamindex].id %>" class="color-navy-blue" title="Accede al perfil de <%= data.team[teamindex].name %>">
               <%= data.team[teamindex].name %>
             </a>
             <h5 class="color-green"><%= data.team[teamindex].title %></h5>

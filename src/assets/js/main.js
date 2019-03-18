@@ -1199,4 +1199,16 @@ $('#fss-header a').mouseout(function() {
   $('#fss-header a i').hide();
 });
 
+
+// Custom JS to implement image hover on team members
+$('.team-member-photo').mouseenter(function() {
+  $(this).addClass("hide");
+  $(this).prev().removeClass("hide");
+});
+$('.team-member-photo-alt').mouseleave(function() {
+  $(this).addClass("hide");
+  $(this).next().removeClass("hide");
+});
+
+
 })(jQuery);

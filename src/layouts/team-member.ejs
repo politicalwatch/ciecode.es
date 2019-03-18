@@ -1,0 +1,95 @@
+<% include common/start %>
+
+<% include common/header %>
+
+
+<%
+var item = function() {
+return data.team.filter(function(item) {
+return item.id == meta.id;
+})[0];
+}();
+%>
+
+
+<!-- welcome section -->
+<!--breadcumb start here-->
+<section class="xs-inner-welcome-section fundpress-inner-welcome-section fundpress-inner-bg-1 parallax-window" data-parallax="scroll" data-image-src="<%= global.folderName %>assets/images/background/common.png">
+  <div class="xs-solid-overlay xs-bg-navy-blue"></div>
+  <div class="container">
+    <div class="fundpress-inner-welcome-content">
+      <h2 class="color-white"><%= item.name %></h2>
+      <ul class="xs-breadcumb fundpress-breadcumb">
+        <li><a href="<%= global.folderName %>" class="color-white">Inicio /</a> <a href="<%= global.folderName %>quienes-somos" class="color-white">Quiénes somos /</a> <strong><%= item.name %></strong></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!--breadcumb end here--><!-- End welcome section -->
+
+<main id="team-member" class="xs-all-content-wrapper">
+  <section class="xs-about-us-promo-section xs-content-section-padding fundpress-about-us-promo-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 col-sm-12 col-lg-4">
+          <div class="xs-team-member-info-details">
+            <div class="xs-team-member-bio-avatar xs-box-shadow ">
+              <img src="<%= global.folderName %>assets/images/team/<%= item.photo %>" alt="">
+            </div><!-- xs-team-member-bio-avatar xs-box-shadow  -->
+            <div class="xs-item-footer xs-content-padding ">
+              <div class="xs-mb-30 fundpress-team-details text-left xs-extra-css">
+                <h2 class="color-navy-blue">
+                  <%= item.name %>
+                </h2>
+                <h5 class="color-green">
+                  <%= item.title %>
+                </h5>
+              </div>
+
+              <ul class="xs-list-item-icon-text">
+                <% if (item.phone != "") { %>
+                <li><a href="tel:<%= item.phone %>" class="color-green" target="_blank"><i class="fa fa-phone"></i> <%= item.phone %></a></li>
+                <% } %>
+                <% if (item.email != "") { %>
+                <li><a href="mailto:<%= item.email %>" class="color-green" target="_blank"><i class="fa fa-envelope"></i> <%= item.email %></a></li>
+                <% } %>
+                <% if (item.web != "") { %>
+                <li><a href="<%= item.web %>" class="color-green" target="_blank"><i class="fa fa-globe"></i> <%= item.web %></a></li>
+                <% } %>
+                <% if (item.twitter != "") { %>
+                <li><a href="<%= item.twitter %>" class="color-green" target="_blank"><i class="fa fa-twitter"></i> <%= item.twittername %></a></li>
+                <% } %>
+                <% if (item.linkedin != "") { %>
+                <li><a href="<%= item.linkedin %>" class="color-green" target="_blank"><i class="fa fa-linkedin"></i> <%= item.name %></a></li>
+                <% } %>
+                <% if (item.github != "") { %>
+                <li><a href="<%= item.github %>" class="color-green" target="_blank"><i class="fa fa-github"></i> <%= item.name %></a></li>
+                <% } %>
+              </ul>
+            </div><!-- xs-item-footer xs-content-padding bg-color-white  fundpress-team-details text-left xs-extra-css -->
+          </div><!-- xs-team-member-info-details -->
+        </div>
+        <div class="col-md-7 col-sm-12 col-lg-8">
+          <div class="fundpress-team-member-details-content">
+            <% for (var index=0; index<item.bio.length; index++) { %>
+            <p class="xs-mb-40 xs-content-description fundpress-content-description"><%= item.bio[index] %></p>
+            <% } %>
+            
+            <% if (item.quote.text != "") { %>
+            <blockquote class="xs-blockquote xs-mb-0 color-navy-blue xs-extra-css xs-content-padding fundpress-blockquote text-center">
+              &laquo;<%= item.quote.text %>&raquo;
+              <br/>
+              <small>&mdash;<%= item.quote.author %> </small>
+            </blockquote><!-- xs-blockquote xs-mb-0 color-white xs-extra-css xs-box-shadow xs-content-padding fundpress-blockquote xs-navy-blue-bg text-center -->
+            <% } %>
+          </div><!-- xs-team-member-details-content fundpress-team-member-details-content -->
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<% include common/footer %>
+
+<% include common/end %>

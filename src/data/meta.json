@@ -9,6 +9,66 @@
     "description": "CIECODE tiene un equipo especializado en coherencia, desarrollo y soluciones tecnológicas innovadoras para el cambio social",
     "keywords": "investigador, investigadores, coherencia, política, desarrollo, pobreza, tecnología, innovación social, innovación social tecnológica"
   },
+  "about/javier-perez": {
+    "title": "Javier Pérez",
+    "description": "",
+    "keywords": "",
+    "id": "javier-perez"
+  },
+  "about/irene-martin": {
+    "title": "Irene Martín",
+    "description": "",
+    "keywords": "",
+    "id": "irene-martin"
+  },
+  "about/pablo-martin": {
+    "title": "Pablo Martín",
+    "description": "",
+    "keywords": "",
+    "id": "pablo-martin"
+  },
+  "about/belen-aguero": {
+    "title": "Belén Agüero",
+    "description": "",
+    "keywords": "",
+    "id": "belen-aguero"
+  },
+  "about/ramiro-vinuales": {
+    "title": "Ramiro Viñuales",
+    "description": "",
+    "keywords": "",
+    "id": "ramiro-vinuales"
+  },
+  "about/teresa-cavero": {
+    "title": "Teresa Cavero",
+    "description": "",
+    "keywords": "",
+    "id": "teresa-cavero"
+  },
+  "about/gonzalo-fanjul": {
+    "title": "Gonzalo Fanjul",
+    "description": "",
+    "keywords": "",
+    "id": "gonzalo-fanjul"
+  },
+  "about/isabel-kreisler": {
+    "title": "Isabel Kreisler",
+    "description": "",
+    "keywords": "",
+    "id": "isabel-kreisler"
+  },
+  "about/javier-rodriguez": {
+    "title": "Javier Rodríguez",
+    "description": "",
+    "keywords": "",
+    "id": "javier-rodriguez"
+  },
+  "about/inaki-gonzalo": {
+    "title": "Iñaki Gonzalo",
+    "description": "",
+    "keywords": "",
+    "id": "inaki-gonzalo"
+  },
   "credits": {
     "title": "Créditos de las imágenes",
     "description": "Créditos de las imágenes utilizadas",
@@ -18,6 +78,11 @@
     "title": "Haz una donación",
     "description": "Haz una donación a CIECODE",
     "keywords": "donación, donate"
+  },
+  "press": {
+    "title": "Apariciones en prensa",
+    "description": "Listado de todas las apariciones de CIECODE en prensa u otras webs",
+    "keywords": "press, prensa, medios de comunicación"
   },
   "political-watch": {
     "title": "Political Watch",

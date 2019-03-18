@@ -14,6 +14,86 @@
       {"src/data/data.json": "about"}
     ]
   },
+  "quienes-somos/javier-perez": {
+    "path_to_layout": "src/layouts/team-member.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "about/javier-perez"},
+      {"src/data/data.json": "about"}
+    ]
+  },
+  "quienes-somos/irene-martin": {
+    "path_to_layout": "src/layouts/team-member.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "about/irene-martin"},
+      {"src/data/data.json": "about"}
+    ]
+  },
+  "quienes-somos/pablo-martin": {
+    "path_to_layout": "src/layouts/team-member.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "about/pablo-martin"},
+      {"src/data/data.json": "about"}
+    ]
+  },
+  "quienes-somos/belen-aguero": {
+    "path_to_layout": "src/layouts/team-member.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "about/belen-aguero"},
+      {"src/data/data.json": "about"}
+    ]
+  },
+  "quienes-somos/ramiro-vinuales": {
+    "path_to_layout": "src/layouts/team-member.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "about/ramiro-vinuales"},
+      {"src/data/data.json": "about"}
+    ]
+  },
+  "quienes-somos/teresa-cavero": {
+    "path_to_layout": "src/layouts/team-member.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "about/teresa-cavero"},
+      {"src/data/data.json": "about"}
+    ]
+  },
+  "quienes-somos/gonzalo-fanjul": {
+    "path_to_layout": "src/layouts/team-member.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "about/gonzalo-fanjul"},
+      {"src/data/data.json": "about"}
+    ]
+  },
+  "quienes-somos/isabel-kreisler": {
+    "path_to_layout": "src/layouts/team-member.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "about/isabel-kreisler"},
+      {"src/data/data.json": "about"}
+    ]
+  },
+  "quienes-somos/javier-rodriguez": {
+    "path_to_layout": "src/layouts/team-member.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "about/javier-rodriguez"},
+      {"src/data/data.json": "about"}
+    ]
+  },
+  "quienes-somos/inaki-gonzalo": {
+    "path_to_layout": "src/layouts/team-member.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "about/inaki-gonzalo"},
+      {"src/data/data.json": "about"}
+    ]
+  },
   "creditos": {
     "path_to_layout": "src/layouts/credits.ejs",
     "path_to_data": [
@@ -26,6 +106,14 @@
     "path_to_data": [
       "src/data/global.json",
       {"src/data/meta.json": "donate"}
+    ]
+  },
+  "prensa": {
+    "path_to_layout": "src/layouts/press.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "press"},
+      {"src/data/data.json": "press"}
     ]
   },
   "political-watch": {

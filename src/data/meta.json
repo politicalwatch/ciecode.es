@@ -79,6 +79,11 @@
     "description": "Haz una donación a CIECODE",
     "keywords": "donación, donate"
   },
+  "press": {
+    "title": "Apariciones en prensa",
+    "description": "Listado de todas las apariciones de CIECODE en prensa u otras webs",
+    "keywords": "press, prensa, medios de comunicación"
+  },
   "political-watch": {
     "title": "Political Watch",
     "description": "Political Watch es la plataforma de CIECODE para la innovación tecnológica en la monitorización y vigilancia ciudadana de la política",

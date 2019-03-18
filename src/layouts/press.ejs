@@ -1,0 +1,96 @@
+<% include common/start %>
+
+<% include common/header %>
+
+<%
+var months = {
+  "01": "ENE",
+  "02": "FEB",
+  "03": "MAR",
+  "04": "ABR",
+  "05": "MAY",
+  "06": "JUN",
+  "07": "JUL",
+  "08": "AGO",
+  "09": "SEP",
+  "10": "OCT",
+  "11": "NOV",
+  "12": "DIC",
+}
+
+function getYear(date) {
+  return date.split('/')[2].substr(2,4);
+}
+
+function getMonth(date) {
+  return months[date.split('/')[1]];
+}
+
+function getDay(date) {
+  return parseInt(date.split('/')[0]);
+}
+
+%>
+
+<!-- welcome section -->
+<!--breadcumb start here-->
+<section class="xs-inner-welcome-section fundpress-inner-welcome-section fundpress-inner-bg-1 parallax-window" data-parallax="scroll" data-image-src="<%= global.folderName %>assets/images/background/common.png">
+  <div class="xs-solid-overlay xs-bg-navy-blue"></div>
+  <div class="container">
+    <div class="fundpress-inner-welcome-content">
+      <h2 class="color-white"> En prensa</h2>
+      <ul class="xs-breadcumb fundpress-breadcumb">
+        <li><a href="<%= global.folderName %>" class="color-white">Inicio /</a> <strong>En prensa</strong></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!--breadcumb end here--><!-- End welcome section -->
+
+<main id="press" class="xs-all-content-wrapper">
+  <div class="xs-blog-details xs-content-section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="xs-blog-details-wrapper"> 
+          <% for (var index=0; index<data.articles.length; index++) { %>
+            <article class="post format-gallery hentry">
+              <div class="post-body xs-content-padding xs-style-border">
+                <div class="entry-header row xs-mb-30">
+                  <div class="col-md-2 xs-padding-0">
+                    <div class="post-meta">
+                      <div class="xs-post-meta-date xs-mb-30">
+                        <span class="post-meta-date xs-navy-blue-bg color-white xs-border-radius"><b>'<%= getYear(data.articles[index].date) %></b> <%= getDay(data.articles[index].date) %> <%= getMonth(data.articles[index].date) %></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-10 xs-padding-0">
+                    <h2 class="entry-title xs-mb-20 xs-post-entry-title">
+                      <a href="<%= data.articles[index].url %>" target="_blank" class="color-navy-blue bold"><%= data.articles[index].title %></a>
+                    </h2>
+                    <div class="post-meta xs-mb-20 xs-post-meta-list">
+                      <span class="post-cat xs-font-alt">
+                        <i class="fa fa-globe"></i> <%= data.articles[index].source %>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          <% } %>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <a href="https://medium.com/ciecode" target="_blank">
+            <img src="<%= global.folderName %>assets/images/visita-blog.png" alt="Visita nuestro blog">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+<% include common/footer %>
+
+<% include common/end %>

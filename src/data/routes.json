@@ -108,6 +108,14 @@
       {"src/data/meta.json": "donate"}
     ]
   },
+  "prensa": {
+    "path_to_layout": "src/layouts/press.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "press"},
+      {"src/data/data.json": "press"}
+    ]
+  },
   "political-watch": {
     "path_to_layout": "src/layouts/political-watch.ejs",
     "path_to_data": [

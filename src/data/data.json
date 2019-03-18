@@ -36,11 +36,11 @@
         "web": "",
         "phone": "",
         "bio": [
-          ""
+          "Estudié Psicología y un Máster en Necesidades, Derechos y Cooperación al desarrollo en infancia. Previamente he trabajo en varios proyectos de cooperación al desarrollo desde Madrid y Londres y he formado parte del departamento de Campañas y Ciudadanía de Oxfam Intermón. Soy feminista y gran defensora del poder de la ciudadanía para generar cambios."
         ],
         "quote": {
-          "text": "",
-          "author": ""
+          "text": "No estoy aceptando las cosas que no puedo cambiar, estoy cambiando las cosas que no puedo aceptar",
+          "author": "Angela Davis"
         }
       },
       {
@@ -48,7 +48,7 @@
         "name": "Pablo Martín",
         "title": "Tecnología y Datos",
         "photo": "pr3ssh.jpg",
-        "photoalt": "pr3ssh-alt.jpg",
+        "photoalt": "pr3ssh.jpg",
         "email": "pablo.martin@ciecode.es",
         "twitter": "https://twitter.com/pr3ssh",
         "twittername": "@pr3ssh",
@@ -196,8 +196,8 @@
         "id": "javier-rodriguez",
         "name": "Javier Rodríguez",
         "title": "Colaborador",
-        "photo": "cat.jpg",
-        "photoalt": "cat.jpg",
+        "photo": "javier-rodriguez.png",
+        "photoalt": "javier-rodriguez.png",
         "email": "",
         "twitter": "",
         "twittername": "",

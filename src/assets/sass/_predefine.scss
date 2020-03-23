@@ -73,6 +73,9 @@ ul , li {
 	padding: 0;
 	list-style: none
 }
+ol.list li {
+  list-style-type: decimal;
+}
 .clear-both:before,
 .clear-both:after {
 	display: table;

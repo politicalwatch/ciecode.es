@@ -339,5 +339,17 @@
     "title": "Libro blanco de la política española de desarrollo",
     "description": "Libro blanco de la política española de desarrollo",
     "keywords": "Libro Blanco, coherencia de políticas para el desarrollo, pobreza"
+  },
+  "investigacion/analisis-calidad-democratica-espana-2020": {
+    "id": "analisis-calidad-democratica-espana-2020",
+    "title": "Análisis de la calidad democrática en España 2020",
+    "description": "Análisis de la calidad democrática en España 2020",
+    "keywords": "calidad democrática, España, partidos políticos"
+  },
+  "investigacion/webreport/analisis-calidad-democratica-espana-2020": {
+    "id": "webreport-analisis-calidad-democratica-espana-2020",
+    "title": "Breve análisis sobre el abordaje de la calidad democrática por los partidos políticos en España",
+    "description": "Breve análisis sobre el abordaje de la calidad democrática por los partidos políticos en España",
+    "keywords": "calidad democrática, España, partidos políticos"
   }
 }

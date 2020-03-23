@@ -459,5 +459,20 @@
       {"src/data/meta.json": "investigacion/libro-blanco-desarrollo"},
       {"src/data/data.json": "investigacion"}
     ]
+  },
+  "investigacion/analisis-calidad-democratica-espana-2020": {
+    "path_to_layout": "src/layouts/report.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/analisis-calidad-democratica-espana-2020"},
+      {"src/data/data.json": "investigacion"}
+    ]
+  },
+  "investigacion/webreport/analisis-calidad-democratica-espana-2020": {
+    "path_to_layout": "src/layouts/webreport/analisis-calidad-democratica-espana-2020.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "investigacion/webreport/analisis-calidad-democratica-espana-2020"}
+    ]
   }
 }

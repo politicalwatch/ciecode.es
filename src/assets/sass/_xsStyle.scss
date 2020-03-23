@@ -2378,3 +2378,24 @@
     text-decoration: none !important;
   }
 }
+
+.xs-webreport {
+  p {
+    text-align: justify;
+  text-justify: inter-word;
+  }
+  a {
+    color: $color-green;
+  }
+  .btn-primary {
+    color: white;
+  }
+  .year {
+    text-align: center;
+    span {
+      padding: 5px 15px;
+      background-color: $color-green;
+      color: white;
+    }
+  }
+}

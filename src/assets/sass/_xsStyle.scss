@@ -686,6 +686,24 @@
 	}
 }
 
+// xs icon with text (one column)
+.xs-list-item-icon-text-1-col {
+	&.xs-side-by-side-list {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		li {
+			display: inline-block;
+		}
+	}
+	li {
+		color: $color-navy-blue;
+		margin: 0 0 10px;
+		line-height: 1.2;
+	}
+	i {
+		padding: 0 8px 0 0;
+	}
+}
 
 // xs block quote
 .xs-blockquote {

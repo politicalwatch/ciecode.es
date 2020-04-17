@@ -5,6 +5,7 @@
         "id": "javier-perez",
         "name": "Javier Pérez",
         "title": "Director",
+        "title_en": "Director",
         "photo": "javi.jpg",
         "photoalt": "javi.jpg",
         "email": "javier.perez@ciecode.es",
@@ -23,30 +24,10 @@
         }
       },
       {
-        "id": "irene-martin",
-        "name": "Irene Martín",
-        "title": "Investigadora",
-        "photo": "irene.jpg",
-        "photoalt": "irene.jpg",
-        "email": "irene.martin@ciecode.es",
-        "twitter": "https://twitter.com/IreneMart_",
-        "twittername": "@IreneMart_",
-        "github": "",
-        "linkedin": "https://www.linkedin.com/in/irene-mart%C3%ADn-mart%C3%ADnez-35973676/?locale=en_US",
-        "web": "",
-        "phone": "",
-        "bio": [
-          "Investigadora. Licenciada en Psicología por la Universidad Complutense y  Máster en Necesidades, Derechos y Cooperación al desarrollo en infancia. Comencé mi andadura laboral en el campo de las migraciones y posteriormente en consultoría de cooperación  al desarrollo en Madrid y Londres. Más recientemente he formado parte del departamento de Campañas y Ciudadanía de Oxfam Intermón  como fiel defensora del poder de la ciudadanía para generar cambios. Mis áreas de especialización son la igualdad de género y temas relacionados con open advocacy. Mi inquietud por aprender es incansable, soy feminista y una gran enamorada de Asia."
-        ],
-        "quote": {
-          "text": "No estoy aceptando las cosas que no puedo cambiar, estoy cambiando las cosas que no puedo aceptar",
-          "author": "Angela Davis"
-        }
-      },
-      {
         "id": "pablo-martin",
         "name": "Pablo Martín",
-        "title": "Tecnología y Datos",
+        "title": "Director tecnológico",
+        "title_en": "CTO",
         "photo": "pr3ssh.jpg",
         "photoalt": "pr3ssh.jpg",
         "email": "pablo.martin@ciecode.es",
@@ -65,9 +46,32 @@
         }
       },
       {
+        "id": "irene-martin",
+        "name": "Irene Martín",
+        "title": "Investigadora",
+        "title_en": "Researcher",
+        "photo": "irene.jpg",
+        "photoalt": "irene.jpg",
+        "email": "irene.martin@ciecode.es",
+        "twitter": "https://twitter.com/IreneMart_",
+        "twittername": "@IreneMart_",
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/irene-mart%C3%ADn-mart%C3%ADnez-35973676/?locale=en_US",
+        "web": "",
+        "phone": "",
+        "bio": [
+          "Investigadora. Licenciada en Psicología por la Universidad Complutense y  Máster en Necesidades, Derechos y Cooperación al desarrollo en infancia. Comencé mi andadura laboral en el campo de las migraciones y posteriormente en consultoría de cooperación  al desarrollo en Madrid y Londres. Más recientemente he formado parte del departamento de Campañas y Ciudadanía de Oxfam Intermón  como fiel defensora del poder de la ciudadanía para generar cambios. Mis áreas de especialización son la igualdad de género y temas relacionados con open advocacy. Mi inquietud por aprender es incansable, soy feminista y una gran enamorada de Asia."
+        ],
+        "quote": {
+          "text": "No estoy aceptando las cosas que no puedo cambiar, estoy cambiando las cosas que no puedo aceptar",
+          "author": "Angela Davis"
+        }
+      },
+      {
         "id": "belen-aguero",
         "name": "Belén Agüero",
         "title": "Investigadora",
+        "title_en": "Researcher",
         "photo": "belen.jpg",
         "photoalt": "belen.jpg",
         "email": "belen.aguero@ciecode.es",
@@ -89,6 +93,7 @@
         "id": "ramiro-vinuales",
         "name": "Ramiro Viñuales",
         "title": "Fundraiser",
+        "title_en": "Fundraiser",
         "photo": "ramiro.jpg",
         "photoalt": "ramiro.jpg",
         "email": "ramiro.vinuales@ciecode.es",
@@ -109,7 +114,8 @@
       {
         "id": "teresa-cavero",
         "name": "Teresa Cavero",
-        "title": "Investigadora",
+        "title": "Investigadora Asociada",
+        "title_en": "Associated Researcher",
         "photo": "teresacavero.jpg",
         "photoalt": "teresacavero.jpg",
         "email": "teresa.cavero@ciecode.es",
@@ -130,7 +136,8 @@
       {
         "id": "gonzalo-fanjul",
         "name": "Gonzalo Fanjul",
-        "title": "Investigador",
+        "title": "Investigador Asociado",
+        "title_en": "Associated Researcher",
         "photo": "gonzalofanjul.jpg",
         "photoalt": "gonzalofanjul.jpg",
         "email": "gonzalo.fanjul@ciecode.es",
@@ -151,7 +158,8 @@
       {
         "id": "isabel-kreisler",
         "name": "Isabel Kreisler",
-        "title": "Investigadora",
+        "title": "Investigadora Asociada",
+        "title_en": "Associated Researcher",
         "photo": "isabelkreisler.jpg",
         "photoalt": "isabelkreisler.jpg",
         "email": "isabel.kreisler@ciecode.es",
@@ -174,6 +182,7 @@
         "id": "inaki-gonzalo",
         "name": "Iñaki Gonzalo",
         "title": "Becario investigador",
+        "title_en": "Junior Researcher",
         "photo": "inaki.jpg",
         "photoalt": "inaki.jpg",
         "email": "",
@@ -196,6 +205,7 @@
         "id": "javier-rodriguez",
         "name": "Javier Rodríguez",
         "title": "Colaborador",
+        "title_en": "Collaborator",
         "photo": "javier-rodriguez.png",
         "photoalt": "javier-rodriguez.png",
         "email": "",
@@ -220,8 +230,14 @@
     "highlights": [
       {"title": "Publicación del Libro Blanco de la Política Española de Desarrollo", "date": "enero 2012", "icon": "book"},
       {"title": "Primera edición de los Premios Avizor", "date": "febrero 2013", "icon": "trophy"},
-      {"title": "Lanzamiento de la herramienta Tipi Ciudadano", "date": "noviembre 2014", "icon": "laptop"},
-      {"title": "Parlamento2030 en el Plan de Acción para la Implementación de la Agenda 2030", "date": "julio 2018", "icon": "exchange"}
+      {"title": "Lanzamiento de la herramienta Tipi Ciudadano", "date": "septiembre 2015", "icon": "laptop"},
+      {"title": "Acuerdos para implementar Parlamento 2030 en España, Andorra y Paraguay", "date": "diciembre 2019", "icon": "exchange"}
+    ],
+    "highlights_en": [
+      {"title": "Publication of the White Book on the Spanish Development Policy", "date": "January 2012", "icon": "book"},
+      {"title": "First edition of the Avizor Awards", "date": "February 2013", "icon": "trophy"},
+      {"title": "Launch of the Tipi Ciudadano Tool", "date": "September 2015", "icon": "laptop"},
+      {"title": "Agreements to implement Parlamento2030 in Spain, Andorra and Paraguay", "date": "December 2019", "icon": "exchange"}
     ],
     "partners": [
       {"name": "The PCSD Partnership - OCDE", "logo": "logooecd_en.png", "url": "http://www.oecd.org/pcd/thepcsdpartnership.htm"},

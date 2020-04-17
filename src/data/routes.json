@@ -14,6 +14,14 @@
       {"src/data/data.json": "about"}
     ]
   },
+  "about-us": {
+    "path_to_layout": "src/layouts/about-en.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "about-us"},
+      {"src/data/data.json": "about"}
+    ]
+  },
   "quienes-somos/javier-perez": {
     "path_to_layout": "src/layouts/team-member.ejs",
     "path_to_data": [

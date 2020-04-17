@@ -860,7 +860,7 @@ ul, li {
   display: grid;
   grid-template-columns: repeat(2, 1fr); }
   .xs-list-item-icon-text.xs-side-by-side-list li {
-    display: inline-block; }
+    display: inline-block; padding: 5px; }
 
 .xs-list-item-icon-text li {
   color: #041D57;

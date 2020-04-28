@@ -242,14 +242,15 @@
     "partners": [
       {"name": "The PCSD Partnership - OCDE", "logo": "logooecd_en.png", "url": "http://www.oecd.org/pcd/thepcsdpartnership.htm"},
       {"name": "Global Partnership for Sustainable Development Data", "logo": "logo-gpsdd-dark.svg", "url": "http://www.data4sdgs.org/"},
-      {"name": "Polétika", "logo": "poletika.jpg", "url": "http://www.poletika.org/"},
+      {"name": "Polétika | Política + Ética", "logo": "poletika.jpg", "url": "http://www.poletika.org/"},
       {"name": "REEDES", "logo": "reedes_logo3.jpg", "url": "http://reedes.org/"},
       {"name": "Coalición Proacceso", "logo": "CPA_logo_small1.jpg", "url": "https://www.proacceso.org/"},
       {"name": "OpeningParliament.org", "logo": "opening-parliament.png", "url": "https://www.openingparliament.org/"},
       {"name": "Cátedra Govern Obert de la Universitat Politècnica de València", "logo": "marcaUPV_home61.png", "url": "http://www.upv.es/contenidos/CATGO/"},
       {"name": "Observatorio del Derecho a la Alimentación de España", "logo": "oda.png", "url": "https://www.derechoalimentacion.org/"},
       {"name": "Center for Global Development", "logo": "cgd.png", "url": "https://www.cgdev.org/"},
-      {"name": "Universidad Pontificia de Comillas", "logo": "upcomillas.png", "url": "https://www.comillas.edu/es/"}
+      {"name": "Universidad Pontificia de Comillas", "logo": "upcomillas.png", "url": "https://www.comillas.edu/es/"},
+      {"name": "Smartly | Emprendedorismo Social en ODS", "logo": "smartly.png", "url": "https://www.insmartly.com/"}
     ]
   },
   "press": {

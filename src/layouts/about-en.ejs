@@ -103,7 +103,6 @@
             <li><i class="fa fa-check color-green"></i> Monitoring and access to information: focused on the development and implementation of innovative technologies of political monitoring and accountability to give public and free access to this information. This line of work is led by  the area called Political Watch.</li>
             <li><i class="fa fa-check color-green"></i> Research for social change: focused on the impact analysis of public policies on sustainable development and proposal of innovative solutions.</li>
           </ul>
-          
           </p>
         </div>
       </div>
@@ -111,27 +110,44 @@
   </div>
 </div>	<!-- about us simple promo text end -->
 
-<!-- square service -->
-<section  class="xs-square-service-section xs-navy-blue-bg fundpress-square-service-section">
-  <div class="container">
-    <div class="fundpress-section-heading fundpress-heading-title fundpress-heading-title-v2 content-left">
-      <h2 class="color-white">Some of our highlights</h2>
-    </div><!-- .xs-heading-title .fundpress-heading-title-v2 .fundpress-heading-title END -->
+<section class="xs-side-by-side-product-v2">
+  <div class="container-fluid">
     <div class="row">
-      <% for (var highlightindex=0; highlightindex<data.highlights_en.length; highlightindex++) { %>
-        <div class="col-md-6 col-sm-12 col-lg-3 highlight">
-          <div class="fundpress-icon-with-square-service">
-            <i class="fa fa-<%= data.highlights_en[highlightindex].icon %> fa-4x"></i>
-            <br/>
-            <h6 class="color-green"><%= data.highlights_en[highlightindex].date %></h6>
-            <h6 class="color-white"><%= data.highlights_en[highlightindex].title %></h6>
-            <p></p>
-          </div><!-- .fundpress-icon-with-square-service END -->
-        </div>
-      <% } %>
+      <div class="col-md-12 col-lg-6 xs-padding-0">
+        <div class="fundpress-full-width-wraper-v2 small" style="background-image: url(<%= global.folderName %>assets/images/background/patrick-perkins-ETRPjvb0KM0-unsplash.jpg)">
+          <div class="fundpress-product-hover-content-v2">
+            <div class="fundpress-sub-title">
+              <h2>Strategic Plan</h2>
+            </div>
+            <div class="fundpress-product-text-content">
+              <p>Learn more about our vision, mission and our goals for the next years</p>
+            </div>
+            <div class="xs-btn-wrapre">
+              <a href="<%= global.folderName %>assets/documents/pw-plan-estrategico.pdf" class="xs-btn btn xs-box-shadow btn-primary btn-lg">Download</a>
+            </div>
+          </div><!-- .fundpress-product-hover-content-v2 END -->
+          <div class="xs-solid-overlay xs-bg-navy-blue-light"></div>
+        </div><!-- .fundpress-full-width-wraper-v2 END -->
+      </div>
+      <div class="col-md-12 col-lg-6 xs-padding-0">
+        <div class="fundpress-full-width-wraper-v2 small" style="background-image: url(<%= global.folderName %>assets/images/background/stellrweb-djb1whucfBY-unsplash.jpg)">
+          <div class="fundpress-product-hover-content-v2">
+            <div class="fundpress-sub-title">
+              <h2>Transparency</h2>
+            </div>
+            <div class="fundpress-product-text-content">
+              <p>Learn more about what we do, here you can revise our accounts</p>
+            </div>
+            <div class="xs-btn-wrapre">
+              <a href="<%= global.folderName %>transparency" class="xs-btn xs-box-shadow btn btn-primary btn-lg">Visit</a>
+            </div>
+          </div><!-- .fundpress-product-hover-content-v2 END -->
+          <div class="xs-solid-overlay xs-bg-navy-blue-light"></div>
+        </div><!-- .fundpress-full-width-wraper-v2 END -->
+      </div>
     </div>
   </div>
-</section>	<!-- End square service -->
+</section>
 
 <% if (data.team.length > 0) { %>
 <!-- team section -->
@@ -183,6 +199,28 @@
   </div>
 </section>	<!-- team section end -->
 <% } %>
+
+<!-- square service -->
+<section  class="xs-square-service-section xs-navy-blue-bg fundpress-square-service-section">
+  <div class="container">
+    <div class="fundpress-section-heading fundpress-heading-title fundpress-heading-title-v2 content-left">
+      <h2 class="color-white">Some of our highlights</h2>
+    </div><!-- .xs-heading-title .fundpress-heading-title-v2 .fundpress-heading-title END -->
+    <div class="row">
+      <% for (var highlightindex=0; highlightindex<data.highlights_en.length; highlightindex++) { %>
+        <div class="col-md-6 col-sm-12 col-lg-3 highlight">
+          <div class="fundpress-icon-with-square-service">
+            <i class="fa fa-<%= data.highlights_en[highlightindex].icon %> fa-4x"></i>
+            <br/>
+            <h6 class="color-green"><%= data.highlights_en[highlightindex].date %></h6>
+            <h6 class="color-white"><%= data.highlights_en[highlightindex].title %></h6>
+            <p></p>
+          </div><!-- .fundpress-icon-with-square-service END -->
+        </div>
+      <% } %>
+    </div>
+  </div>
+</section>	<!-- End square service -->
 
 <!-- contact details section -->
 <section class="xs-content-section-padding fundpress-contact-details-section xs-contact-details-section">

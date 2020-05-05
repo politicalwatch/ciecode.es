@@ -102,6 +102,20 @@
       {"src/data/data.json": "about"}
     ]
   },
+  "transparencia": {
+    "path_to_layout": "src/layouts/transparencia.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "transparencia"}
+    ]
+  },
+  "transparency": {
+    "path_to_layout": "src/layouts/transparency.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "transparency"}
+    ]
+  },
   "creditos": {
     "path_to_layout": "src/layouts/credits.ejs",
     "path_to_data": [

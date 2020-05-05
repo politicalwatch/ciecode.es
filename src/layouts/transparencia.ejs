@@ -1,0 +1,41 @@
+<% include common/start %>
+
+<% include common/header %>
+
+<!-- welcome section -->
+<!--breadcumb start here-->
+<section class="xs-inner-welcome-section fundpress-inner-welcome-section fundpress-inner-bg-1 parallax-window" data-parallax="scroll" data-image-src="<%= global.folderName %>assets/images/background/stellrweb-djb1whucfBY-unsplash.jpg">
+  <div class="xs-solid-overlay xs-bg-navy-blue"></div>
+  <div class="container">
+    <div class="fundpress-inner-welcome-content">
+      <h2 class="color-white">Transparencia</h2>
+      <ul class="xs-breadcumb fundpress-breadcumb">
+        <li><a href="<%= global.folderName %>" class="color-white">Inicio /</a> <strong>Transparencia</strong></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!--breadcumb end here--><!-- End welcome section -->
+
+<main id="transparency" class="xs-all-content-wrapper">
+  <section class="xs-about-us-promo-section xs-content-section-padding fundpress-about-us-promo-section">
+    <div class="xs-tab-wraper fundpress-tab-wraper">
+      <div class="fundpress-tab-nav xs-tab-nav">
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item"><a class="nav-link active" href="#2019" role="tab" data-toggle="tab">2019</a></li>
+        </ul>
+      </div><!-- .xs-isotope-nav .fundpress-isotope-nav END -->
+      <div class="tab-content">
+        <div id="2019" role="tabpanel" class="tab-pane fade in show active">
+          <% include transparency-data/2019-es %>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<% include common/footer %>
+
+<% include common/end %>
+

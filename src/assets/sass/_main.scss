@@ -869,6 +869,12 @@
 			color: $color-green;
 		}
 	}
+        .btn-primary {
+          color: white;
+          &:hover {
+            color: white;
+          }
+        }
 }
 
 // fundpress image with text side by side 1
@@ -1963,6 +1969,9 @@
 }
 
 // fundpress big thumb
+.fundpress-full-width-wraper-v2.small {
+	padding: 50px 30px !important;
+}
 .fundpress-full-width-wraper-v2 {
 	position: relative;
 	padding: 130px 30px;

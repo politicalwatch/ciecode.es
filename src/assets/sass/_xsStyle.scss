@@ -611,6 +611,12 @@
 	}
 }
 
+.padding-top-40 {
+  padding-top: 40px;
+}
+.padding-bottom-40 {
+  padding-bottom: 40px;
+}
 // xs padding right
 .padding-right-100 {
 	padding-right: 100px;
@@ -2390,7 +2396,6 @@
 	}
 }
 
-
 .xs-social-list {
   a:hover {
     text-decoration: none !important;
@@ -2404,9 +2409,6 @@
   }
   a {
     color: $color-green;
-  }
-  .btn-primary {
-    color: white;
   }
   .year {
     text-align: center;

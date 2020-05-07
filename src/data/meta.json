@@ -104,6 +104,12 @@
     "description": "Political Watch es la plataforma de CIECODE para la innovación tecnológica en la monitorización y vigilancia ciudadana de la política",
     "keywords": "Política, innovación, monitorización, Congreso de los Diputados, pobreza, factcheking, big data, CIECODE"
   },
+  "political-watch/covid-19": {
+    "title": "Political Watch | COVID-19",
+    "description": "Political Watch COVID-19 es un proyecto que facilita el acceso a la información generada en la comisión destinada a elaborar el Plan de Reconstrucción Social y Económica  a través del acceso en tiempo real a todos los compromisos y propuestas de cada unos de los partidos y de las temáticas que se abordan.",
+    "keywords": "Estado de alarma, Coronavirus, COVID-19, Plan de Reconstrucción Social y Económica, Transparencia, Congreso de los Diputados, Desarrollo sostenible",
+    "id": "covid-19"
+  },
   "political-watch/parlamento2030": {
     "title": "Parlamento2030",
     "description": "Herramienta de monitorización y vigilancia de la actividad del Congreso relacionada con la Agenda 2030 y los ODS ",

@@ -146,6 +146,20 @@
       {"src/data/data.json": "political-watch"}
     ]
   },
+  "political-watch/covid-19": {
+    "path_to_layout": "src/layouts/covid-19.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "political-watch/covid-19"}
+    ]
+  },
+  "political-watch/covid-19/s1": {
+    "path_to_layout": "src/layouts/covid-19_session.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "political-watch/covid-19"}
+    ]
+  },
   "political-watch/parlamento2030": {
     "path_to_layout": "src/layouts/project.ejs",
     "path_to_data": [

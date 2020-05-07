@@ -417,6 +417,7 @@
 	@extend .transition;
 	position: relative;
 	z-index: 9;
+        margin-bottom: 20px;
 	&:hover {
 		border-color: $color-green-light;
 	}
@@ -429,7 +430,7 @@
             margin: 0 0 15px;
         }
 	a {
-		font-size: em(20px);
+		font-size: em(14px);
 		@extend .semi-bold;
 		margin: 0 0 15px;
 		@extend .transition;

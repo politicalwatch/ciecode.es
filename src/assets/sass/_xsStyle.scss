@@ -2419,3 +2419,24 @@
     }
   }
 }
+
+.not-active {
+  cursor: help !important;
+  text-decoration: none;
+  color: black !important;
+  background-color: #ddd !important;
+}
+.working {
+  color: #aaa !important;
+}
+
+
+.parties {
+  .row {
+    padding-bottom: 40px;
+    li {
+      font-size: 1.1em;
+      padding-bottom: 5px;
+    }
+  }
+}

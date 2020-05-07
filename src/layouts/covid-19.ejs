@@ -82,6 +82,46 @@
   </div>
 </section>
 
+<!-- team section -->
+<section class="xs-gray-bg xs-team-section fundpress-team-section xs-section-padding">
+  <div class="container">
+    <div class="xs-section-heading row xs-margin-0">
+      <div class="fundpress-heading-title xs-padding-0 col-md-9 col-xl-9">
+        <h2 class="color-navy-blue">Las caras de la comisión</h2>
+        <p>Estas son las figuras más relevantes de la comisión no permanente. ¡Conoce mejor sus perfiles!</p>
+      </div>
+    </div>
+    <div class="row">
+      <% for (var teamindex=0; teamindex<data.team.length; teamindex++) { %>
+      <div class="col-md-3 people-item">
+        <div class="xs-box-shadow  fundpress-single-team-member">
+          <div class="fundpress-item-header text-center">
+            <img class="team-member-photo-alt hide" src="<%= data.team[teamindex].photo %>">
+            <img class="team-member-photo" src="<%= data.team[teamindex].photo %>" alt="Foto de <%= data.team[teamindex].name %>">
+            <div class="xs-hover-content fundpress-hover-content text-center">
+              <ul class="xs-social-list fundpress-social-list xs-social-list-v2">
+                <li><a href="https://tipiciudadano.es/deputies/<%= data.team[teamindex].id_deputy %>" class="color-linkedin full-round" target="_blank"><i class="fa fa-user"></i></a></li>
+                <li><a href="https://tipiciudadano.es/parliamentarygroups/<%= data.team[teamindex].id_party %>" class="color-linkedin full-round" target="_blank"><i class="fa fa-group"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <!--fundpress-item-header-->
+          <div class="xs-item-footer xs-content-padding bg-color-white  fundpress-team-details text-center">
+            <a href="https://tipiciudadano.es/deputies/<%= data.team[teamindex].id_deputy %>" class="color-navy-blue" target="_blank" title="Accede al perfil de <%= data.team[teamindex].name %>">
+              <%= data.team[teamindex].name %>
+            </a>
+            <p><%= data.team[teamindex].party %></p>
+            <h5 class="color-green"><%= data.team[teamindex].title %></h5>
+          </div>
+        </div>
+      </div>
+      <% } %>
+    </div>
+  </div>
+</section>	<!-- team section end -->
+
+
+
 <section class="xs-about-us-promo-section xs-content-section-padding fundpress-about-us-promo-section">
   <div class="container">
     <div class="fundpress-section-heading fundpress-heading-title fundpress-heading-title-v2 content-left">

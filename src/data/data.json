@@ -516,17 +516,43 @@
       {"name": "Guillermo Mariscal Anaya", "title": "Vicepresidente Segundo", "party": "Partido Popular", "id_deputy": "436ed44c0f8491e6a5b9a926fb37ebfca2a604e1", "id_party": "557f41175c492eb5e899d899caa18cf07c911cb8", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/339_14.jpg"},
       {"name": "María Luz Martínez Seijo", "title": "Secretaria Primera", "party": "Partido Socialista", "id_deputy": "baf10798e5ea9460f124574471ee9573de287258", "id_party": "0df277dbb4535e3dde92a4c058d9e924bd770ff2", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/251_14.jpg"},
       {"name": "Isabel María Borrego Cortés", "title": "Secretaria Segunda", "party": "Partido Popular", "id_deputy": "2dc2aab89f095bdc82b248635e5547e85df894b1", "id_party": "557f41175c492eb5e899d899caa18cf07c911cb8", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/130_14.jpg"},
+      {"name": "Mertxe Aizpurua Arzallus", "title": "Portavoz", "party": "EH Bildu", "id_deputy": "ff77804fd4765ca01aa66361482645db5f85bd49", "id_party": "6bce7e44918019972b4cf48995ca4c6ad2a4a6f9", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/69_14.jpg"},
       {"name": "Edmundo Bal Francés", "title": "Portavoz", "party": "Ciudadanos", "id_deputy": "4b95528c879bc5105d67fc86ce97c09bd7569975", "id_party": "f28ca8b1a77760d5d44fc5203b1eff91a6bda38f", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/211_14.jpg"},
-      {"name": "Gabriel Rufián Romero", "title": "Portavoz", "party": "Esquerra republicana", "id_deputy": "87f7e77cf8b7a385a2db4d101795597c8ae90848", "id_party": "69d7c2688ac636e463188c00e4fcd22731176218", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/187_14.jpg"},
+      {"name": "Joan Baldoví Roda", "title": "Portavoz", "party": "Compromís", "id_deputy":"9cabc5be0c2ce1a8ce202d7072d0fbfc8b1d5c1a", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/247_14.jpg"},
+      {"name": "Laura Borras Castanyer", "title": "Portavoz", "party":"Junts per Cat", "id_deputy":"4b83087cde413c185e05bbab5a51ea2f7c32f0c4", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/25_14.jpg"},
+      {"name": "Íñigo Errejón Galván", "title": "Portavoz", "party":"Más País", "id_deputy":"bd71e24fb10dc4493bdfe5b4359625f1e3b86282", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/233_14.jpg"},
+      {"name": "Iván Espinosa de los Monteros", "title": "Portavoz", "party":"VOX", "id_deputy":"657d36b086fbacd9668363a9b099ac09748fe8e3", "id_party":"fc464404da6a44463d7e76db08761fd75a42b2eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/83_14.jpg"},
       {"name": "Aitor Esteban Bravo", "title": "Portavoz", "party": "PNV", "id_deputy": "5c511ff8d592cf74d1c71569f290d02e510e795b", "id_party": "8f3bfa6463e256d4f2bc9084c5d0149931f11060", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/94_14.jpg"},
-      {"name": "Mertxe Aizpurua Arzallus", "title": "Portavoz", "party": "EH Bildu", "id_deputy": "ff77804fd4765ca01aa66361482645db5f85bd49", "id_party": "6bce7e44918019972b4cf48995ca4c6ad2a4a6f9", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/69_14.jpg"}
+      {"name": "Carlos García Adanero",  "title": "Portavoz", "party":"UPN", "id_deputy":"1a18c5f9a2d63e7653f08b68432da0bdd1c71d7a", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/127_14.jpg"},
+      {"name": "Tomás Guitarte Gimeno", "title": "Portavoz", "party":"Teruel Existe", "id_deputy":"a2d873f2b32861a10c392b53e3749b9150c00007", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/306_14.jpg"},
+      {"name": "Adriana Lastra Fernández", "title": "Portavoz", "party": "Partido Socialista", "id_deputy": "1dd4acb97d218e511c8adc9c172f97b8addee787", "id_party": "0df277dbb4535e3dde92a4c058d9e924bd770ff2", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/109_14.jpg"},
+      {"name": "Isidro Manuel Martínez Oblanca", "title": "Portavoz", "party": "Foro Asturias", "id_deputy": "ba794deb9f0d089d7e0de319b95630de41bbd38a", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/20_14.jpg"},
+      {"name": "José María Mazón Ramos", "title": "Portavoz", "party": "PRC", "id_deputy": "373f17770177ab616cc4b26bcd21c329da6e4d0a", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/349_14.jpg"},
+      {"name": "Ana María Oramas González-Moro", "title": "Portavoz", "party": "Coalición Canaria", "id_deputy": "7b48fbac9f711fdc495b3eb1c1882dce70319875", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/161_14.jpg"},
+      {"name": "Ana María Pastor Julián", "title": "Portavoz", "party": "Partido Popular", "id_deputy": "e0a551e3174d717a00daf3a4162c3e4b208cec85", "id_party": "557f41175c492eb5e899d899caa18cf07c911cb8", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/31_14.jpg"},
+      {"name": "Pedro Quevedo Iturbe", "title": "Portavoz", "party": "Coalición Canaria", "id_deputy": "1e3c840a2db10e83e8188ed6e7e1e563bf4373ec", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/351_14.jpg"},
+      {"name": "Néstor Rego Candamil", "title": "Portavoz", "party": "BNG", "id_deputy": "5f3cd0bf781767733229739282514035a1def851", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/40_14.jpg"},
+      {"name": "Gabriel Rufián Romero", "title": "Portavoz", "party": "Esquerra republicana", "id_deputy": "87f7e77cf8b7a385a2db4d101795597c8ae90848", "id_party": "69d7c2688ac636e463188c00e4fcd22731176218", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/187_14.jpg"},
+      {"name": "Mireia  Vehí Cantenys", "title": "Portavoz", "party": "CUP", "id_deputy": "3ae295824158e82c39693dc71a48eb0461b5eefa", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/86_14.jpg"}
     ]
   },
+  "political-watch/covid-19/sesion1": {
+    "title": "Sesión del 7 de mayo",
+    "analysis": "https://docs.google.com/document/d/1Hbhl7E7gTgB5w_V4r2_80ukr9FQTYhPdKnLf0F6CnO4",
+    "transcription": "https://docs.google.com/document/d/1nxFT-tOf4t024sxBKBeE2lM1_cwie-0NqCCFIGWsZQI",
+    "headline": "La Comisión para la Reconstrucción Social y Económica post-COVID nace con un llamamiento de su presidente, Patxi López, al espíritu constructivo y con la negativa de Vox a ceñirse a las reglas de transparencia previamente pactadas entre todos los partidos. ",
+    "vizz_primary": "S1_NUBE_lista.png",
+    "vizzs_tipi": [
+    ],
+    "vizzs_p2030": [
+    ],
+    "parties": []
+  },
   "investigacion": {
-    "reports": {
-      "tags": [
-        "Coherencia de Políticas",
-        "Political Watch",
+        "reports": {
+          "tags": [
+            "Coherencia de Políticas",
+            "Political Watch",
         "Agenda 2030",
         "Ciudadanía Activa",
         "Congreso de los Diputados",

@@ -8,9 +8,9 @@
   <div class="xs-solid-overlay xs-bg-navy-blue"></div>
   <div class="container">
     <div class="fundpress-inner-welcome-content">
-      <h2 class="color-white">Sesión del 7 de mayo <br/>Political Watch COVID-19</h2>
+      <h2 class="color-white"><%= data.title %> <br/>Political Watch COVID-19</h2>
       <ul class="xs-breadcumb fundpress-breadcumb">
-        <li><a href="<%= global.folderName %>" class="color-white">Inicio /</a> <a href="<%= global.folderName %>political-watch" class="color-white">Political Watch /</a> <a href="<%= global.folderName %>political-watch/covid-19" class="color-white">COVID-19 /</a> <strong>7 de mayo</strong></li>
+        <li><a href="<%= global.folderName %>" class="color-white">Inicio /</a> <a href="<%= global.folderName %>political-watch" class="color-white">Political Watch /</a> <a href="<%= global.folderName %>political-watch/covid-19" class="color-white">COVID-19 /</a> <strong><%= data.title %></strong></li>
       </ul>
     </div>
   </div>
@@ -40,12 +40,22 @@
           </div>
         </div>
         <div class="col-sm-6 text-center">
-          <!-- <a href="#" class="xs&#45;btn btn btn&#45;primary not&#45;active" title="No disponible aun">Resumen de la sesión</a> -->
-          <a href="https://docs.google.com/document/d/1Hbhl7E7gTgB5w_V4r2_80ukr9FQTYhPdKnLf0F6CnO4" target="_blank" class="xs-btn btn btn-primary">Resumen de la sesión</a>
+
+          <% if (data.analysis == "") { %>
+            <a href="#" class="xs-btn btn btn-primary not-active" title="No disponible aun">Resumen de la sesión</a>
+          <% } else { %>
+            <a href="<%= data.analysis %>" target="_blank" class="xs-btn btn btn-primary">Resumen de la sesión</a>
+          <% } %>
+
           <br>
           <br>
-          <!-- <a href="#" class="xs&#45;btn btn btn&#45;primary not&#45;active" title="No disponible aun">Transcripción completa *</a> -->
-          <a href="https://docs.google.com/document/d/1nxFT-tOf4t024sxBKBeE2lM1_cwie-0NqCCFIGWsZQI" target="_blank" class="xs-btn btn btn-primary">Transcripción completa *</a>
+
+          <% if (data.transcription == "") { %>
+          <a href="#" class="xs-btn btn btn-primary not-active" title="No disponible aun">Transcripción completa *</a>
+          <% } else { %>
+            <a href="<%= data.transcription %>" target="_blank" class="xs-btn btn btn-primary">Transcripción completa *</a>
+          <% } %>
+
           <br>
           <br>
           <a class="color-navy-blue bold" href="<%= global.folderName %>political-watch/covid-19" class="color-white">Consulta otra sesión</a>
@@ -64,6 +74,7 @@
         <div class="col-sm-12">
           <p style="font-size: 1.5em;" class="bold">
           <i class="fa fa-quote-left"></i>&nbsp;&nbsp;&nbsp;
+          <%= data.headline %>
           La Comisión para la Reconstrucción Social y Económica post-COVID nace con un llamamiento de su presidente, Patxi López, al espíritu constructivo y con la negativa de Vox a ceñirse a las reglas de transparencia previamente pactadas entre todos los partidos.
           &nbsp;&nbsp;&nbsp;<i class="fa fa-quote-right"></i>
           </p>
@@ -80,7 +91,15 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="xs-info-card">
-            <img class="img-responsive" src="<%= global.folderName %>assets/images/covidwatch/S1_NUBE_lista.png" alt="Resumen visual de la sesión">
+
+            <% if (data.vizz_primary == "") { %>
+            <div class="xs-info-card">
+              <div class="alert alert-warning" role="alert">Lo debatido hoy no da para más. Esperamos mostrarte más información en otras sesiones.</div>
+            </div>
+            <% } else { %>
+            <img class="img-responsive" src="<%= global.folderName %>assets/images/covidwatch/<%= data.vizz_primary %>" alt="Resumen visual de la sesión">
+            <% } %>
+
           </div>
         </div>
       </div>
@@ -96,158 +115,28 @@
       <div class="row">
         <div class="col-sm-12">
 
-          <div class="xs-info-card">
-            <div class="alert alert-warning" role="alert">Lo debatido hoy no da para más. Esperamos mostrarte más información en otras sesiones.</div>
-          </div>
-
-          <!-- <div class="xs&#45;info&#45;card parties"> -->
-            <!--   <div class="col&#45;sm&#45;1"> -->
-            <!--     <img src="<%= global.folderName %>assets/images/covidwatch/parties/PSOE.png" alt="Logo de PSOE"> -->
-            <!--   </div> -->
-            <!--   <div class="col&#45;sm&#45;11"> -->
-            <!--     <ul> -->
-            <!--       <li><i class="fa fa&#45;check&#45;circle"></i> Lorem fistrum al ataquerl papaar papaar apetecan no puedor. Quietooor pecador diodenoo te voy a borrar el cerito. Se calle ustée pupita llevame al sircoo qué dise usteer ese que llega caballo blanco caballo negroorl. Ese hombree mamaar diodeno llevame al sircoo. Va usté muy cargadoo me cago en tus muelas papaar papaar qué dise usteer.</li> -->
-            <!--       <li><i class="fa fa&#45;check&#45;circle"></i> Lorem fistrum al ataquerl papaar papaar apetecan no puedor. Quietooor pecador diodenoo te voy a borrar el cerito. Se calle ustée pupita llevame al sircoo qué dise usteer ese que llega caballo blanco caballo negroorl. Ese hombree mamaar diodeno llevame al sircoo. Va usté muy cargadoo me cago en tus muelas papaar papaar qué dise usteer.</li> -->
-            <!--     </ul> -->
-            <!--   </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <!--   <div class="col&#45;sm&#45;1"> -->
-            <!--     <img src="<%= global.folderName %>assets/images/covidwatch/parties/pp.png" alt="Logo de PP"> -->
-            <!--   </div> -->
-            <!--   <div class="col&#45;sm&#45;11"> -->
-            <!--     <ul> -->
-            <!--       <li><i class="fa fa&#45;check&#45;circle"></i> Lorem fistrum al ataquerl papaar papaar apetecan no puedor. Quietooor pecador diodenoo te voy a borrar el cerito. Se calle ustée pupita llevame al sircoo qué dise usteer ese que llega caballo blanco caballo negroorl. Ese hombree mamaar diodeno llevame al sircoo. Va usté muy cargadoo me cago en tus muelas papaar papaar qué dise usteer.</li> -->
-            <!--     </ul> -->
-            <!--   </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <!--   <div class="col&#45;sm&#45;1"> -->
-            <!--     <img src="<%= global.folderName %>assets/images/covidwatch/parties/vox.png" alt="Logo de VOX"> -->
-            <!--   </div> -->
-            <!--   <div class="col&#45;sm&#45;11"> -->
-            <!--     <ul> -->
-            <!--     </ul> -->
-            <!--   </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <!--   <div class="col&#45;sm&#45;1"> -->
-            <!--     <img src="<%= global.folderName %>assets/images/covidwatch/parties/unidaspodemos.png" alt="Logo de Unidas Podemos"> -->
-            <!--   </div> -->
-            <!--   <div class="col&#45;sm&#45;11"> -->
-            <!--     <ul> -->
-            <!--     </ul> -->
-            <!--   </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <!--   <div class="col&#45;sm&#45;1"> -->
-            <!--     <img src="<%= global.folderName %>assets/images/covidwatch/parties/erc.png" alt="Logo de Esquerra Republicana de Catalunya"> -->
-            <!--   </div> -->
-            <!--   <div class="col&#45;sm&#45;11"> -->
-            <!--     <ul> -->
-            <!--     </ul> -->
-            <!--   </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <!--   <div class="col&#45;sm&#45;1"> -->
-            <!--     <img src="<%= global.folderName %>assets/images/covidwatch/parties/Cs.jpeg" alt="Logo de Ciudadanos"> -->
-            <!--   </div> -->
-            <!--   <div class="col&#45;sm&#45;11"> -->
-            <!--     <ul> -->
-            <!--     </ul> -->
-            <!--   </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <!--   <div class="col&#45;sm&#45;1"> -->
-            <!--     <img src="<%= global.folderName %>assets/images/covidwatch/parties/Junts.png" alt="Logo de Junts per Catalunya"> -->
-            <!--   </div> -->
-            <!--   <div class="col&#45;sm&#45;11"> -->
-            <!--     <ul> -->
-            <!--     </ul> -->
-            <!--   </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <!--   <div class="col&#45;sm&#45;1"> -->
-            <!--     <img src="<%= global.folderName %>assets/images/covidwatch/parties/PNV.png" alt="Logo de PNV"> -->
-            <!--   </div> -->
-            <!--   <div class="col&#45;sm&#45;11"> -->
-            <!--     <ul> -->
-            <!--     </ul> -->
-            <!--   </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <!--   <div class="col&#45;sm&#45;1"> -->
-            <!--     <img src="<%= global.folderName %>assets/images/covidwatch/parties/EHBILDU.png" alt="Logo de BILDU"> -->
-            <!--   </div> -->
-            <!--   <div class="col&#45;sm&#45;11"> -->
-            <!--     <ul> -->
-            <!--     </ul> -->
-            <!--   </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <!--   <div class="col&#45;sm&#45;1"> -->
-            <!--     <img src="<%= global.folderName %>assets/images/covidwatch/parties/MásPaís.png" alt="Logo de Más País"> -->
-            <!--   </div> -->
-            <!--   <div class="col&#45;sm&#45;11"> -->
-            <!--     <ul> -->
-            <!--     </ul> -->
-            <!--   </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <!--   <div class="col&#45;sm&#45;1"> -->
-            <!--     <img src="<%= global.folderName %>assets/images/covidwatch/parties/cup.png" alt="Logo de las CUP"> -->
-            <!--   </div> -->
-            <!--   <div class="col&#45;sm&#45;11"> -->
-            <!--     <ul> -->
-            <!--     </ul> -->
-            <!--   </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <!--   <div class="col&#45;sm&#45;1"> -->
-            <!--     <img src="<%= global.folderName %>assets/images/covidwatch/parties/CoaliciónCanaria.png" alt="Logo de Coalición Canaria"> -->
-            <!--   </div> -->
-            <!--   <div class="col&#45;sm&#45;11"> -->
-            <!--     <ul> -->
-            <!--     </ul> -->
-            <!--   </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <!--   <div class="col&#45;sm&#45;1"> -->
-            <!--     <img src="<%= global.folderName %>assets/images/covidwatch/parties/UPN.png" alt="Logo de UPN"> -->
-            <!--   </div> -->
-            <!--   <div class="col&#45;sm&#45;11"> -->
-            <!--     <ul> -->
-            <!--     </ul> -->
-            <!--   </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <!--   <div class="col&#45;sm&#45;1"> -->
-            <!--     <img src="<%= global.folderName %>assets/images/covidwatch/parties/bng.png" alt="Logo del Bloque Nacionalista Galego"> -->
-            <!--   </div> -->
-            <!--   <div class="col&#45;sm&#45;11"> -->
-            <!--     <ul> -->
-            <!--     </ul> -->
-            <!--   </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <!--   <div class="col&#45;sm&#45;1"> -->
-            <!--     <img src="<%= global.folderName %>assets/images/covidwatch/parties/PRC.png" alt="Logo de PRC"> -->
-            <!--   </div> -->
-            <!--   <div class="col&#45;sm&#45;11"> -->
-            <!--     <ul> -->
-            <!--     </ul> -->
-            <!--   </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <!--   <div class="col&#45;sm&#45;1"> -->
-            <!--     <img src="<%= global.folderName %>assets/images/covidwatch/parties/Teruelexiste.png" alt="Logo de Teruel Existe"> -->
-            <!--   </div> -->
-            <!--   <div class="col&#45;sm&#45;11"> -->
-            <!--     <ul> -->
-            <!--     </ul> -->
-            <!--   </div> -->
-            <!-- </div> -->
-          <!-- </div> -->
+            <% if (data.parties.length == 0) { %>
+            <div class="xs-info-card">
+              <div class="alert alert-warning" role="alert">Lo debatido hoy no da para más. Esperamos mostrarte más información en otras sesiones.</div>
+            </div>
+            <% } else { %>
+            <div class="xs-info-card parties">
+              <% for (var i=0; i<data.parties.length; i++) { %>
+                <div class="row">
+                  <div class="col-md-1 col-sm-2">
+                    <img src="<%= global.folderName %>assets/images/covidwatch/parties/<%= data.parties[i].name %>.png" alt="Logo de <%= data.parties[i].name %>" class="img-responsive">
+                  </div>
+                  <div class="col-md-11 col-sm-10">
+                    <ul>
+                      <% for (var j=0; j<data.parties[i].proposals.length; j++) { %>
+                        <li><i class="fa fa-check-circle"></i> <%= data.parties[i].proposals[j] %></li>
+                        <% } %>
+                    </ul>
+                  </div>
+                </div>
+                <% } %>
+            </div>
+            <% } %>
         </div>
       </div>
     </div>
@@ -262,34 +151,22 @@
       <div class="row">
         <div class="col-sm-12">
 
-          <div class="xs-info-card">
-            <div class="alert alert-warning" role="alert">Lo debatido hoy no da para más. Esperamos mostrarte más información en otras sesiones.</div>
-          </div>
+            <% if (data.vizzs_tipi.length == 0) { %>
+            <div class="xs-info-card">
+              <div class="alert alert-warning" role="alert">Lo debatido hoy no da para más. Esperamos mostrarte más información en otras sesiones.</div>
+            </div>
+            <% } else { %>
+            <div class="row">
+              <% for (var i=0; i<data.vizzs_tipi.length; i++) { %>
+              <div class="col-sm-6">
+                <div class="xs-info-card">
+                  <img class="img-responsive" src="<%= global.folderName %>assets/images/covidwatch/<%= data.vizzs_tipi[i] %>" alt="Visualización de datos en base a TIPI Ciudadano">
+                </div>
+              </div>
+              <% } %>
+            </div>
+            <% } %>
 
-          <!-- <br> <br> <h5 class="xs&#45;font&#45;italic working">En breve estarán los datos...</h5> -->
-
-          <!-- <div class="row"> -->
-          <!--   <div class="col&#45;sm&#45;6"> -->
-          <!--     <div class="xs&#45;info&#45;card"> -->
-          <!--       <img class="img&#45;responsive" src="https://via.placeholder.com/800x300" alt="Logo de ..."> -->
-          <!--     </div> -->
-          <!--   </div> -->
-          <!--   <div class="col&#45;sm&#45;6"> -->
-          <!--     <div class="xs&#45;info&#45;card"> -->
-          <!--       <img class="img&#45;responsive" src="https://via.placeholder.com/800x300" alt="Logo de ..."> -->
-          <!--     </div> -->
-          <!--   </div> -->
-          <!--   <div class="col&#45;sm&#45;6"> -->
-          <!--     <div class="xs&#45;info&#45;card"> -->
-          <!--       <img class="img&#45;responsive" src="https://via.placeholder.com/800x300" alt="Logo de ..."> -->
-          <!--     </div> -->
-          <!--   </div> -->
-          <!--   <div class="col&#45;sm&#45;6"> -->
-          <!--     <div class="xs&#45;info&#45;card"> -->
-          <!--       <img class="img&#45;responsive" src="https://via.placeholder.com/800x300" alt="Logo de ..."> -->
-          <!--     </div> -->
-          <!--   </div> -->
-          <!-- </div> -->
         </div>
       </div>
     </div>
@@ -304,34 +181,22 @@
       <div class="row">
         <div class="col-sm-12">
 
-          <div class="xs-info-card">
-            <div class="alert alert-warning" role="alert">Lo debatido hoy no da para más. Esperamos mostrarte más información en otras sesiones.</div>
-          </div>
+            <% if (data.vizzs_p2030.length == 0) { %>
+            <div class="xs-info-card">
+              <div class="alert alert-warning" role="alert">Lo debatido hoy no da para más. Esperamos mostrarte más información en otras sesiones.</div>
+            </div>
+            <% } else { %>
+            <div class="row">
+              <% for (var i=0; i<data.vizzs_p2030.length; i++) { %>
+              <div class="col-sm-6">
+                <div class="xs-info-card">
+                  <img class="img-responsive" src="<%= global.folderName %>assets/images/covidwatch/<%= data.vizzs_p2030[i] %>" alt="Visualización de datos en base a Parlamento 2030">
+                </div>
+              </div>
+              <% } %>
+            </div>
+            <% } %>
 
-          <!-- <br> <br> <h5 class="xs&#45;font&#45;italic working">En breve estarán los datos...</h5> -->
-
-          <!-- <div class="row"> -->
-          <!--   <div class="col&#45;sm&#45;6"> -->
-          <!--     <div class="xs&#45;info&#45;card"> -->
-          <!--       <img class="img&#45;responsive" src="https://via.placeholder.com/800x300" alt="Logo de ..."> -->
-          <!--     </div> -->
-          <!--   </div> -->
-          <!--   <div class="col&#45;sm&#45;6"> -->
-          <!--     <div class="xs&#45;info&#45;card"> -->
-          <!--       <img class="img&#45;responsive" src="https://via.placeholder.com/800x300" alt="Logo de ..."> -->
-          <!--     </div> -->
-          <!--   </div> -->
-          <!--   <div class="col&#45;sm&#45;6"> -->
-          <!--     <div class="xs&#45;info&#45;card"> -->
-          <!--       <img class="img&#45;responsive" src="https://via.placeholder.com/800x300" alt="Logo de ..."> -->
-          <!--     </div> -->
-          <!--   </div> -->
-          <!--   <div class="col&#45;sm&#45;6"> -->
-          <!--     <div class="xs&#45;info&#45;card"> -->
-          <!--       <img class="img&#45;responsive" src="https://via.placeholder.com/800x300" alt="Logo de ..."> -->
-          <!--     </div> -->
-          <!--   </div> -->
-          <!-- </div> -->
         </div>
       </div>
     </div>

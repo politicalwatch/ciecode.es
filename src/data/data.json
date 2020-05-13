@@ -510,8 +510,9 @@
     ]
   },
   "political-watch/covid-19": {
-    "next_session_date": "13 de mayo",
+    "next_session_date": "",
     "sessions": [
+      {"id": "sesion2", "date": "13 de mayo",  "title": "La Comisión aprueba su Plan de Trabajo"},
       {"id": "sesion1", "date": "7 de mayo",  "title": "Se pone en marcha la Comisión de Reconstrucción Social y Económica"}
     ],
     "team": [
@@ -552,6 +553,134 @@
     "vizzs_p2030": [
     ],
     "parties": []
+  },
+  "political-watch/covid-19/sesion2": {
+    "title": "Sesión del 13 de mayo",
+    "analysis": "https://docs.google.com/document/d/1CU-IJYSeLRP4zLaLKeuBYvuIKBYLlMzbKFwZbZZ236Y/",
+    "transcription": "https://docs.google.com/document/d/1XI2E82u4VeM1l1pKLgrotKIWjX52r0h7KLu_fJuIFcs",
+    "video": "http://www.congreso.es/wc/wc/audiovisualdetalledisponible?codSesion=2&codOrgano=390&fechaSesion=13/05/2020&mp4=mp4&idLegislaturaElegida=14",
+    "headline": "La Comisión para la Reconstrucción Social y Económica ha aprobado hoy el Plan de Trabajo propuesto por el Grupo Socialista, centrado en cuatro grandes bloques: la sanidad y salud pública; la reactivación económica, las políticas sociales y el sistema de cuidados y la Unión Europea. En cuanto a las dinámicas de trabajo lo más relevante es que el centro de gravedad de la Comisión se traslada a cuatro grupos de trabajo temáticos, donde los partidos contarán con la asistencia de organizaciones o personas expertas pero que se celebrarán sin los estándares de transparencia y acceso a información habituales en el Congreso.",
+    "vizz_primary": "S2_NUBE_PlanTrabajo.png",
+    "vizzs_tipi": [
+      "S2_TIPI_Alluvial.png"
+    ],
+    "vizzs_p2030": [
+      "S2_ODS_Barras.png"
+    ],
+    "parties": [
+      {
+        "name": "psoe",
+        "proposals": [
+          "Ha presentado un Plan  de Trabajo completo.",
+          "Cuatro áreas de trabajo: sanidad y salud pública, reactivación económica, política social y sistema de cuidados y Unión Europea.",
+          "Expertos que acompañen y asesores a los diputados y diputadas."
+        ]
+      },
+      {
+        "name": "pp",
+        "proposals": [
+          "Ha presentado un Plan  de Trabajo completo.",
+          "Toda la actividad debería llevarse a cabo en el plenario de la Comisión y no hacer grupos de trabajo.",
+          "Principio de proporcionalidad en la organización de los grupos de trabajo."
+        ]
+      },
+      {
+        "name": "vox",
+        "proposals": [
+          "Ha retirado su Plan de Trabajo."
+        ]
+      },
+      {
+        "name": "unidaspodemos",
+        "proposals": [
+          "Transversalizar el tema sobre política fiscal en el bloque de protección social y en el de Unión Europea."
+        ]
+      },
+      {
+        "name": "cs",
+        "proposals": [
+          "Añadir  un bloque sobre politica fiscal y presupuetaria dandole más importancia de la que te tiene dentro del bloque de política social (propuesta ERC)."
+        ]
+      },
+      {
+        "name": "erc",
+        "proposals": [
+          "Ha presentado un Plan de Trabajo completo.",
+          "Añadir  un bloque sobre politica fiscal y presupuetaria dandole más importancia de la que te tiene dentro del bloque de política social.",
+          "Poner acento en los derechos laborales, conciliación y trabajo, reforma agraria, teletrabajo e I+D+I."
+        ]
+      },
+      {
+        "name": "junts",
+        "proposals": [
+          "Nada que mencionar"
+        ]
+      },
+      {
+        "name": "pnv",
+        "proposals": [
+          "En la Comisión sólo debería abordarse el tema de la reactivación ecónomica."
+        ]
+      },
+      {
+        "name": "ehbildu",
+        "proposals": [
+          "Nada que mencionar."
+        ]
+      },
+      {
+        "name": "maspais",
+        "proposals": [
+          "Tener en cuenta la conciliación y transición ecológica en las medidas de reactivación económica.",
+          "Añadir bloque relacionado politica fiscal y presupuetaria, dándole más importancia de la que te tiene dentro del bloque de política social. (propuesta ERC).",
+          "Incluir las consecuencias  sociales, ambientales y económicas de las ayudas de la comisión en el bloque de Unión Europea."
+        ]
+      },
+      {
+        "name": "cup",
+        "proposals": [
+          "Añadir  bloque relacionado politica fiscal y presupuetaria dandole más importancia de la que te tiene dentro del bloque de política social (propuesta ERC)."
+        ]
+      },
+      {
+        "name": "cc",
+        "proposals": [
+          "Añadir  un bloque sobre politica fiscal y presupuetaria dandole más importancia de la que te tiene dentro del bloque de política social (propuesta ERC).",
+          "Inclusión del tema de la conciliación dentro de las medidas de reactivación ecómica (propues de MásPaís)."
+        ]
+      },
+      {
+        "name": "upn",
+        "proposals": [
+          "Nada que mencionar"
+        ]
+      },
+      {
+        "name": "compromis",
+        "proposals": [
+          "Creación de bloque \"Cambio político\" que permita  modificar cuestiones básicas relacionadas con el derecho de las naciones."
+        ]
+      },
+      {
+        "name": "bng",
+        "proposals": [
+          "Creación de bloque \"Cambio político\" incluyendo cambios que mejoren engranaje Gobierno-Comunidades Autónomas."
+        ]
+      },
+      {
+        "name": "prc",
+        "proposals": [
+          "Nada que mencionar"
+        ]
+      },
+      {
+        "name": "teruelexiste",
+        "proposals": [
+          "Presenta enmienda al Plan de Trabajo.",
+          "Propone la reactivación económica bajo los principios del Pacto Verde para la Unión Europea."
+        ]
+      }
+    ]
   },
   "investigacion": {
         "reports": {

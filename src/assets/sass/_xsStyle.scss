@@ -2430,6 +2430,14 @@
   color: #aaa !important;
 }
 
+#sesiones {
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+
+  }
+}
 
 .parties {
   .row {

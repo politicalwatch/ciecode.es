@@ -60,24 +60,38 @@
   </div>
 </section>
 
-<section  class="xs-square-service-section-alt fundpress-square-service-section">
+<section id="sesiones" class="xs-square-service-section-alt fundpress-square-service-section">
   <div class="container">
     <div class="fundpress-section-heading fundpress-heading-title fundpress-heading-title-v2 content-left">
       <h2 class="color-navy-blue">Contenido de las sesiones</h2>
     </div>
     <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-12 highlight">
-          <a href="<%= global.folderName %>political-watch/covid-19/sesion1" class="color-green bold">
-            <div class="fundpress-icon-with-square-service">
-              <i class="fa fa-calendar fa-4x"></i>
-              <br/>
-              <h6 class="color-green">7 de mayo</h6>
-              <h6 class="color-navy-blue">
-                Comienza la Comisión de Reconstrucción Social y Económica
-              </h6>
-            </div>
-          </a>
+      <% if (data.next_session_date != "") { %>
+      <div class="col-lg-3 col-md-6 col-sm-12 highlight">
+        <div class="fundpress-icon-with-square-service">
+          <i class="fa fa-clock-o fa-4x color-green"></i>
+          <br/>
+          <h6 class="color-green"><%= data.next_session_date %></h6>
+          <h6 class="color-navy-blue">
+            En breve te ofreceremos toda la información
+          </h6>
         </div>
+      </div>
+      <% } %>
+      <% for (var index=0; index<data.sessions.length; index++) { %>
+      <div class="col-lg-3 col-md-6 col-sm-12 highlight">
+        <a href="<%= global.folderName %>political-watch/covid-19/<%= data.sessions[index].id %>" class="color-green bold">
+          <div class="fundpress-icon-with-square-service">
+            <i class="fa fa-calendar fa-4x"></i>
+            <br/>
+            <h6 class="color-green"><%= data.sessions[index].date %></h6>
+            <h6 class="color-navy-blue">
+              <%= data.sessions[index].title %>
+            </h6>
+          </div>
+        </a>
+      </div>
+      <% } %>
     </div>
   </div>
 </section>

@@ -42,7 +42,7 @@
         <div class="col-sm-6 text-center">
 
           <% if (data.analysis == "") { %>
-            <a href="#" class="xs-btn btn btn-primary not-active" title="No disponible aun">Resumen de la sesión</a>
+            <a href="#" class="xs-btn btn btn-primary not-active" title="No disponible aun">Análisis</a>
           <% } else { %>
             <a href="<%= data.analysis %>" target="_blank" class="xs-btn btn btn-primary">Resumen de la sesión</a>
           <% } %>
@@ -58,10 +58,20 @@
 
           <br>
           <br>
-          <a class="color-navy-blue bold" href="<%= global.folderName %>political-watch/covid-19" class="color-white">Consulta otra sesión</a>
+
+          <% if (data.video == "") { %>
+          <a href="#" class="not-active" title="No disponible aun"><i class="fa fa-play-circle-o"></i> Ver el vídeo</a>
+          <% } else { %>
+            <a href="<%= data.video %>" target="_blank" class="color-navy-blue bold"><i class="fa fa-play-circle-o"></i> Ver el vídeo</a>
+          <% } %>
+
+          <br>
+
+          <a class="color-navy-blue bold" href="<%= global.folderName %>political-watch/covid-19" class="color-white"><i class="fa fa-th-list"></i> Consulta otra sesión</a>
+
           <br>
           <br>
-          <br>
+
           <small>* Esta transcripción es ofrecida a meros efectos informativos.<br/> La oficial estará disponible en <a href="http://www.congreso.es" target="_blank">Congreso.es</a>.</small>
         </div>
       </div>

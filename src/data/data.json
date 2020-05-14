@@ -510,8 +510,9 @@
     ]
   },
   "political-watch/covid-19": {
-    "next_session_date": "14 de mayo",
+    "next_session_date": "",
     "sessions": [
+      {"id": "sesion3", "date": "14 de mayo",  "title": "Todo listo para comenzar el trabajo de la Comisión"},
       {"id": "sesion2", "date": "13 de mayo",  "title": "La Comisión aprueba su Plan de Trabajo"},
       {"id": "sesion1", "date": "7 de mayo",  "title": "Se pone en marcha la Comisión de Reconstrucción Social y Económica"}
     ],
@@ -547,6 +548,7 @@
     "transcription": "https://docs.google.com/document/d/1nxFT-tOf4t024sxBKBeE2lM1_cwie-0NqCCFIGWsZQI",
     "video": "http://www.congreso.es/wc/wc/audiovisualdetalledisponible?codSesion=1&codOrgano=390&fechaSesion=07/05/2020&mp4=mp4&idLegislaturaElegida=14",
     "headline": "La Comisión para la Reconstrucción Social y Económica post-COVID nace con un llamamiento de su presidente, Patxi López, al espíritu constructivo y con la negativa de Vox a ceñirse a las reglas de transparencia previamente pactadas entre todos los partidos. ",
+    "documents": [],
     "vizz_primary": "S1_NUBE_lista.png",
     "vizzs_tipi": [
     ],
@@ -560,6 +562,9 @@
     "transcription": "https://docs.google.com/document/d/1XI2E82u4VeM1l1pKLgrotKIWjX52r0h7KLu_fJuIFcs",
     "video": "http://www.congreso.es/wc/wc/audiovisualdetalledisponible?codSesion=2&codOrgano=390&fechaSesion=13/05/2020&mp4=mp4&idLegislaturaElegida=14",
     "headline": "La Comisión para la Reconstrucción Social y Económica ha aprobado hoy el Plan de Trabajo propuesto por el Grupo Socialista, centrado en cuatro grandes bloques: la sanidad y salud pública; la reactivación económica, las políticas sociales y el sistema de cuidados y la Unión Europea. En cuanto a las dinámicas de trabajo lo más relevante es que el centro de gravedad de la Comisión se traslada a cuatro grupos de trabajo temáticos, donde los partidos contarán con la asistencia de organizaciones o personas expertas pero que se celebrarán sin los estándares de transparencia y acceso a información habituales en el Congreso.",
+    "documents": [
+      {"name": "Plan de trabajo para la Comisión de Reconstrucción Social y Económica", "url": "http://www.congreso.es/backoffice_doc/prensa/notas_prensa/73998_1589389388804.pdf"}
+    ],
     "vizz_primary": "S2_NUBE_PlanTrabajo.png",
     "vizzs_tipi": [
       "S2_TIPI_Alluvial.png"
@@ -680,6 +685,23 @@
           "Propone la reactivación económica bajo los principios del Pacto Verde para la Unión Europea."
         ]
       }
+    ]
+  },
+  "political-watch/covid-19/sesion3": {
+    "title": "Sesión del 14 de mayo",
+    "analysis": "https://docs.google.com/document/d/1HwJHcp53wTpwyNyrwZ-A4HSk7QRoAyh2cJX9Z2M8zWc/",
+    "transcription": "https://docs.google.com/document/d/1WFW05rgtyp_KCbEdT5otGt0LcswyLgbiOEcXTNHcxB8/",
+    "video": "http://www.congreso.es/wc/wc/audiovisualdetalledisponible?codSesion=3&codOrgano=390&fechaSesion=14/05/2020&mp4=mp4&idLegislaturaElegida=14",
+    "headline": "La Comisión para la Reconstrucción Social y Económica ya está preparada para echar a andar. En un sorprendente ejercicio de entendimiento, los representantes de PSOE, PP, Vox, Unidas Podemos, Esquerra Republicana, Junts per Catalunya y Ciudadanos han presentado un listado consensuado de 41 comparecientes que, obviamente, ha resultado aprobada. Las sesiones de los grupos de trabajo comenzarán la semana del 18 de mayo. Finalmente las comparecencias se podrán celebrar en los grupos de trabajo, por lo que todo apunta a que se realizarán sin que la ciudadanía tenga acceso, a pesar de existir medios materiales y técnicos para garantizar el acceso a dicha información.",
+    "documents": [
+      {"name": "Listado de comparecientes de la Comisión de Reconstrucción Social y Económica", "url": "http://www.congreso.es/backoffice_doc/prensa/notas_prensa/74013_1589461674218.pdf"}
+    ],
+    "vizz_primary": "S3_Dendogram_comparecientes.png",
+    "vizzs_tipi": [
+    ],
+    "vizzs_p2030": [
+    ],
+    "parties": [
     ]
   },
   "investigacion": {

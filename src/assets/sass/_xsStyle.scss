@@ -2448,3 +2448,12 @@
     }
   }
 }
+
+.documents {
+  a {
+    color: $color-navy-blue;
+    &:hover {
+      color: $color-green;
+    }
+  }
+}

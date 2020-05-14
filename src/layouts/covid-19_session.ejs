@@ -42,7 +42,7 @@
         <div class="col-sm-6 text-center">
 
           <% if (data.analysis == "") { %>
-            <a href="#" class="xs-btn btn btn-primary not-active" title="No disponible aun">Análisis</a>
+            <a href="#" class="xs-btn btn btn-primary not-active" title="No disponible aun">Resumen de la sesión</a>
           <% } else { %>
             <a href="<%= data.analysis %>" target="_blank" class="xs-btn btn btn-primary">Resumen de la sesión</a>
           <% } %>
@@ -85,7 +85,6 @@
           <p style="font-size: 1.5em;" class="bold">
           <i class="fa fa-quote-left"></i>&nbsp;&nbsp;&nbsp;
           <%= data.headline %>
-          La Comisión para la Reconstrucción Social y Económica post-COVID nace con un llamamiento de su presidente, Patxi López, al espíritu constructivo y con la negativa de Vox a ceñirse a las reglas de transparencia previamente pactadas entre todos los partidos.
           &nbsp;&nbsp;&nbsp;<i class="fa fa-quote-right"></i>
           </p>
         </div>
@@ -115,6 +114,29 @@
       </div>
     </div>
   </section>
+
+  <% if (data.documents.length > 0) { %>
+  <section class="xs-about-us-promo-section xs-content-section-padding fundpress-about-us-promo-section">
+    <div class="container">
+      <div class="fundpress-section-heading fundpress-heading-title fundpress-heading-title-v2 content-left" style="width:100%;">
+        <h2 class="color-navy-blue">Documentación relevante</h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="xs-info-card documents">
+            <div class="row">
+              <% for (var i=0; i<data.documents.length; i++) { %>
+                <div class="col-sm-4 text-center">
+                  <a href="<%= data.documents[i].url %>" target="_blank"><i class="fa fa-file-o fa-3x"></i><br/><%= data.documents[i].name %></a></li>
+                </div>
+                <% } %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <% } %>
 
   <section class="xs-about-us-promo-section xs-content-section-padding fundpress-about-us-promo-section">
     <div class="container">

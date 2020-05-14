@@ -510,7 +510,7 @@
     ]
   },
   "political-watch/covid-19": {
-    "next_session_date": "",
+    "next_session_date": "14 de mayo",
     "sessions": [
       {"id": "sesion2", "date": "13 de mayo",  "title": "La Comisión aprueba su Plan de Trabajo"},
       {"id": "sesion1", "date": "7 de mayo",  "title": "Se pone en marcha la Comisión de Reconstrucción Social y Económica"}

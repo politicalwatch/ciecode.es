@@ -1,0 +1,167 @@
+<% include common/start %>
+
+<% include common/header %>
+
+<!-- welcome section -->
+<!--breadcumb start here-->
+<section class="xs-inner-welcome-section fundpress-inner-welcome-section fundpress-inner-bg-1 parallax-window" data-parallax="scroll" data-image-src="<%= global.folderName %>assets/images/background/comision-covid-19.jpg">
+  <div class="xs-solid-overlay xs-bg-navy-blue"></div>
+  <div class="container">
+    <div class="fundpress-inner-welcome-content">
+      <h2 class="color-white"><%= data.title %> <br/>Political Watch COVID-19</h2>
+      <ul class="xs-breadcumb fundpress-breadcumb">
+        <li><a href="<%= global.folderName %>" class="color-white">Inicio /</a> <a href="<%= global.folderName %>political-watch" class="color-white">Political Watch /</a> <a href="<%= global.folderName %>political-watch/covid-19" class="color-white">COVID-19 /</a> <strong><%= data.title %></strong></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!--breadcumb end here--><!-- End welcome section -->
+
+<main id="covid-19" class="xs-all-content-wrapper">
+
+  <section class="xs-about-us-promo-section xs-content-section-padding fundpress-about-us-promo-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <h3>Political Watch COVID-19</h3>
+          <p>Political Watch COVID-19 es un proyecto que facilita el acceso a toda la información generada en la Comisión para la Reconstrucción Social y Económica. Te ofrecemos a tiempo real los compromisos y propuestas que en ella se propongan y el análisis de sus principales consecuencias.</p>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="row">
+                <div class="col-sm-6">
+                  Un proyecto de: <br/> <br/> <div class="text-center"> <img src="<%= global.folderName %>assets/images/politicalwatch.png" alt="Logo de Political Watch" class="img-responsive" style="width:50%;"> </div>
+                </div>
+                <div class="col-sm-6">
+                  En colaboración con: <br> <br> <div class="text-center"> <img src="<%= global.folderName %>assets/images/porCausa.png" alt="Logo de porCausa" class="img-responsive" style="width:50%;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 text-center">
+          <!-- <a href="<%= data.oficial_website %>" target="_blank" class="xs&#45;btn btn btn&#45;primary"><i class="fa fa&#45;institution"></i> Ver en el Congreso</a> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="xs-about-us-promo-section xs-content-section-padding fundpress-about-us-promo-section">
+    <div class="container">
+      <div class="fundpress-section-heading fundpress-heading-title fundpress-heading-title-v2 content-left" style="width:100%;">
+        <h2 class="color-navy-blue">Documentación relevante</h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <% if (data.documents.length == 0) { %>
+          <div class="xs-info-card">
+            <div class="alert alert-warning" role="alert">Aún no tenemos ningún documento relevante para ofrecerte.</div>
+          </div>
+          <% } else { %>
+          <div class="xs-info-card documents">
+            <div class="row">
+              <% for (var i=0; i<data.documents.length; i++) { %>
+                <div class="col-sm-4 text-center">
+                  <a href="<%= data.documents[i].url %>" target="_blank"><i class="fa fa-<%= data.documents[i].icon %> fa-3x"></i><br/><%= data.documents[i].name %></a></li>
+                </div>
+                <% } %>
+            </div>
+          </div>
+          <% } %>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="xs-about-us-promo-section xs-content-section-padding fundpress-about-us-promo-section">
+    <div class="container">
+      <div class="fundpress-section-heading fundpress-heading-title fundpress-heading-title-v2 content-left" style="width:100%;">
+        <h2 class="color-navy-blue">Aportaciones de los partidos</h2>
+        <p>De todo el bla, bla, bla... esto es lo más destacable de las sesiones de este grupo de trabajo.</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+
+          <% if (data.parties.length == 0) { %>
+          <div class="xs-info-card">
+            <div class="alert alert-warning" role="alert">Lo debatido hasta ahora no da para más. Esperamos mostrarte más información en otras sesiones.</div>
+          </div>
+          <% } else { %>
+          <div class="xs-info-card parties">
+            <% for (var i=0; i<data.parties.length; i++) { %>
+              <div class="row">
+                <div class="col-md-1 col-sm-2">
+                  <img src="<%= global.folderName %>assets/images/covidwatch/parties/<%= data.parties[i].name %>.png" alt="Logo de <%= data.parties[i].name %>" class="img-responsive">
+                </div>
+                <div class="col-md-11 col-sm-10">
+                  <ul>
+                    <% for (var j=0; j<data.parties[i].proposals.length; j++) { %>
+                      <li><i class="fa fa-check-circle"></i> <%= data.parties[i].proposals[j] %></li>
+                      <% } %>
+                  </ul>
+                </div>
+              </div>
+              <% } %>
+          </div>
+          <% } %>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="xs-gray-bg xs-team-section fundpress-team-section xs-section-padding">
+    <div class="container">
+      <div class="xs-section-heading row xs-margin-0">
+        <div class="fundpress-heading-title xs-padding-0 col-md-9 col-xl-9">
+          <h2 class="color-navy-blue">Los miembros del Grupo de trabajo</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <% if (data.team.length == 0) { %>
+          <div class="xs-info-card">
+            <div class="alert alert-warning" role="alert">Aún no se conoce públicamente la composición de este Grupo de trabajo.</div>
+          </div>
+          <% } else { %>
+          <div class="row">
+            <% for (var teamindex=0; teamindex<data.team.length; teamindex++) { %>
+              <div class="col-md-3 people-item">
+                <div class="xs-box-shadow  fundpress-single-team-member">
+                  <div class="fundpress-item-header text-center">
+                    <img class="team-member-photo-alt hide" src="<%= data.team[teamindex].photo %>">
+                    <img class="team-member-photo" src="<%= data.team[teamindex].photo %>" alt="Foto de <%= data.team[teamindex].name %>">
+                    <div class="xs-hover-content fundpress-hover-content text-center">
+                      <ul class="xs-social-list fundpress-social-list xs-social-list-v2">
+                        <li><a href="https://tipiciudadano.es/deputies/<%= data.team[teamindex].id_deputy %>" class="color-linkedin full-round" target="_blank"><i class="fa fa-user"></i></a></li>
+                        <li><a href="https://tipiciudadano.es/parliamentarygroups/<%= data.team[teamindex].id_party %>" class="color-linkedin full-round" target="_blank"><i class="fa fa-group"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!--fundpress-item-header-->
+                  <div class="xs-item-footer xs-content-padding bg-color-white  fundpress-team-details text-center">
+                    <a href="https://tipiciudadano.es/deputies/<%= data.team[teamindex].id_deputy %>" class="color-navy-blue" target="_blank" title="Accede al perfil de <%= data.team[teamindex].name %>">
+                      <%= data.team[teamindex].name %>
+                    </a>
+                    <p><%= data.team[teamindex].party %></p>
+                    <h5 class="color-green"><%= data.team[teamindex].title %></h5>
+                  </div>
+                </div>
+              </div>
+              <% } %>
+          </div>
+          <% } %>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <% include common/subscribe-to-newsletter %>
+
+</main>
+
+
+<% include common/footer %>
+
+<% include common/end %>
+
+

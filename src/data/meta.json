@@ -107,8 +107,27 @@
   "political-watch/covid-19": {
     "title": "Political Watch | COVID-19",
     "description": "Political Watch COVID-19 es un proyecto que facilita el acceso a la información generada en la comisión destinada a elaborar el Plan de Reconstrucción Social y Económica  a través del acceso en tiempo real a todos los compromisos y propuestas de cada unos de los partidos y de las temáticas que se abordan.",
-    "keywords": "Estado de alarma, Coronavirus, COVID-19, Plan de Reconstrucción Social y Económica, Transparencia, Congreso de los Diputados, Desarrollo sostenible",
-    "id": "covid-19"
+    "keywords": "Estado de alarma, Coronavirus, COVID-19, Plan de Reconstrucción Social y Económica, Transparencia, Congreso de los Diputados, Desarrollo sostenible"
+  },
+  "political-watch/covid-19/grupo-union-europea": {
+    "title": "Political Watch | COVID-19 | Grupo de trabajo: Unión Europea",
+    "description": "El Grupo de Trabajo para la Unión Europea forma parte de la Comisión para la Reconstrucción Social y Económica. A través del proyecto Political Watch-COVID se dará seguimiento en tiempo real a todos los compromisos y propuestas de cada uno de los partidos políticos y las temáticas que se abordan.",
+    "keywords": "Coronavirus, COVID-19, Plan de Reconstrucción Social y Económica, Congreso de los Diputados, Unión Europea, Europa"
+  },
+  "political-watch/covid-19/grupo-sanidad": {
+    "title": "Political Watch | COVID-19 | Grupo de trabajo: Sanidad",
+    "description": "El Grupo de Trabajo de Sanidad y Salud Pública forma parte de la Comisión para la Reconstrucción Social y Económica. A través del proyecto Political Watch-COVID se dará seguimiento en tiempo real a todos los compromisos y propuestas de cada uno de los partidos políticos y las temáticas que se abordan.",
+    "keywords": "Coronavirus, COVID-19, Plan de Reconstrucción Social y Económica, Congreso de los Diputados, Salud, Sanidad Pública"
+  },
+  "political-watch/covid-19/grupo-politicas-sociales": {
+    "title": "Political Watch | COVID-19 | Grupo de trabajo: Políticas Sociales y Sistema de Cuidados",
+    "description": "El Grupo de Trabajo de Políticas Sociales y Sistema de Cuidados forma parte de la Comisión para la Reconstrucción Social y Económica. A través del proyecto Political Watch-COVID se dará seguimiento en tiempo real a todos los compromisos y propuestas de cada uno de los partidos políticos y las temáticas que se abordan.",
+    "keywords": "Coronavirus, COVID-19, Congreso de los Diputados, Política Social, Cuidados, Protección Social, Igualdad de Género"
+  },
+  "political-watch/covid-19/grupo-reactivacion-economica": {
+    "title": "Political Watch | COVID-19 | Grupo de trabajo: Reactivación Económica",
+    "description": "El Grupo de Trabajo de Reactivación Económica forma parte de la Comisión para la Reconstrucción Social y Económica. A través del proyecto Political Watch-COVID se dará seguimiento en tiempo real a todos los compromisos y propuestas de cada uno de los partidos políticos y las temáticas que se abordan.",
+    "keywords": "Coronavirus, COVID-19, Plan de Reconstrucción Social y Económica, Congreso de los Diputados, Economía, Reactivación, Empleo"
   },
   "political-watch/parlamento2030": {
     "title": "Parlamento2030",

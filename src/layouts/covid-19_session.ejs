@@ -127,7 +127,7 @@
             <div class="row">
               <% for (var i=0; i<data.documents.length; i++) { %>
                 <div class="col-sm-4 text-center">
-                  <a href="<%= data.documents[i].url %>" target="_blank"><i class="fa fa-file-o fa-3x"></i><br/><%= data.documents[i].name %></a></li>
+                  <a href="<%= data.documents[i].url %>" target="_blank"><i class="fa fa-<%= data.documents[i].icon %> fa-3x"></i><br/><%= data.documents[i].name %></a></li>
                 </div>
                 <% } %>
             </div>

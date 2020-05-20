@@ -35,7 +35,7 @@
 
           <h3 class="color-green xs-post-title fundpress-post-title xs-mb-20">Apostamos por la vigilancia ciudadana</h3>
 
-          <p class="xs-content-description fundpress-content-description xs-mb-30">Political Watch COVID-19 es un proyecto que facilita el acceso a la información generada en la Comisión para la Reconstrucción Social y Económica. Te ofrecemos a tiempo real los compromisos y propuestas que en ella se propongan y el análisis de sus principales consecuencias.</p>
+          <p class="xs-content-description fundpress-content-description xs-mb-30">Political Watch COVID-19 es un proyecto que facilita el acceso a la información generada en la <b>Comisión para la Reconstrucción Social y Económica</b>. Te ofrecemos a tiempo real los compromisos y propuestas que en ella se propongan y el análisis de sus principales consecuencias.</p>
         </div>
       </div>
     </div>
@@ -64,6 +64,7 @@
   <div class="container">
     <div class="fundpress-section-heading fundpress-heading-title fundpress-heading-title-v2 content-left">
       <h2 class="color-navy-blue">Contenido de las sesiones</h2>
+        <p>Toda la información de las sesiones plenarias de la Comisión</p>
     </div>
     <div class="row">
       <% if (data.next_session_date != "") { %>
@@ -96,7 +97,31 @@
   </div>
 </section>
 
-<!-- team section -->
+<section id="grupos" class="xs-square-service-section xs-navy-blue-bg fundpress-square-service-section">
+  <div class="container">
+    <div class="fundpress-section-heading fundpress-heading-title fundpress-heading-title-v2 content-left color-white">
+      <h2>Grupos de trabajo</h2>
+      <p>Toda la información de cada uno de los grupos de trabajo de la Comisión</p>
+    </div><!-- .xs-heading-title .fundpress-heading-title-v2 .fundpress-heading-title END -->
+    <div class="row">
+      <% for (var index=0; index<data.groups.length; index++) { %>
+      <div class="col-lg-3 col-md-6 col-sm-12 highlight">
+        <a href="<%= global.folderName %>political-watch/covid-19/<%= data.groups[index].id %>" class="color-white bold">
+          <div class="fundpress-icon-with-square-service xs-navy-blue-bg">
+            <br/>
+            <i class="fa fa-<%= data.groups[index].icon %> fa-4x"></i>
+            <br/>
+            <h6 class="color-white">
+              <%= data.groups[index].title %>
+            </h6>
+          </div>
+        </a>
+      </div>
+      <% } %>
+    </div>
+  </div>
+</section>
+
 <section class="xs-gray-bg xs-team-section fundpress-team-section xs-section-padding">
   <div class="container">
     <div class="xs-section-heading row xs-margin-0">
@@ -132,7 +157,7 @@
       <% } %>
     </div>
   </div>
-</section>	<!-- team section end -->
+</section>
 
 
 

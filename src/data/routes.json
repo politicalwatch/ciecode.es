@@ -154,6 +154,39 @@
       {"src/data/data.json": "political-watch/covid-19"}
     ]
   },
+  "political-watch/covid-19/grupo-union-europea": {
+    "path_to_layout": "src/layouts/covid-19_group.ejs",
+
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "political-watch/covid-19/grupo-union-europea"},
+      {"src/data/data.json": "political-watch/covid-19/grupo-union-europea"}
+    ]
+  },
+  "political-watch/covid-19/grupo-sanidad": {
+    "path_to_layout": "src/layouts/covid-19_group.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "political-watch/covid-19/grupo-sanidad"},
+      {"src/data/data.json": "political-watch/covid-19/grupo-sanidad"}
+    ]
+  },
+  "political-watch/covid-19/grupo-politicas-sociales": {
+    "path_to_layout": "src/layouts/covid-19_group.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "political-watch/covid-19/grupo-politicas-sociales"},
+      {"src/data/data.json": "political-watch/covid-19/grupo-politicas-sociales"}
+    ]
+  },
+  "political-watch/covid-19/grupo-reactivacion-economica": {
+    "path_to_layout": "src/layouts/covid-19_group.ejs",
+    "path_to_data": [
+      "src/data/global.json",
+      {"src/data/meta.json": "political-watch/covid-19/grupo-reactivacion-economica"},
+      {"src/data/data.json": "political-watch/covid-19/grupo-reactivacion-economica"}
+    ]
+  },
   "political-watch/covid-19/sesion1": {
     "path_to_layout": "src/layouts/covid-19_session.ejs",
     "path_to_data": [

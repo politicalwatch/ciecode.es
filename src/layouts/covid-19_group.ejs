@@ -40,7 +40,9 @@
           </div>
         </div>
         <div class="col-sm-6 text-center">
-          <!-- <a href="<%= data.oficial_website %>" target="_blank" class="xs&#45;btn btn btn&#45;primary"><i class="fa fa&#45;institution"></i> Ver en el Congreso</a> -->
+          <% if (data.official_website != '') { %>
+          <a href="<%= data.official_website %>" target="_blank" class="xs-btn btn btn-primary"><i class="fa fa-institution"></i> Ver en el Congreso</a>
+          <% } %>
         </div>
       </div>
     </div>

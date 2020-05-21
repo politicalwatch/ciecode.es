@@ -510,7 +510,7 @@
     ]
   },
   "political-watch/covid-19": {
-    "next_session_date": "",
+    "next_session_date": "26 de mayo",
     "sessions": [
       {"id": "sesion3", "date": "14 de mayo",  "title": "Todo listo para comenzar el trabajo de la Comisión"},
       {"id": "sesion2", "date": "13 de mayo",  "title": "La Comisión aprueba su Plan de Trabajo"},

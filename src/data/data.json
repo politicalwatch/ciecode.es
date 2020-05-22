@@ -551,7 +551,10 @@
   "political-watch/covid-19/grupo-union-europea": {
     "title": "Grupo de trabajo Unión Europea",
     "official_website": "http://www.congreso.es/portal/page/portal/Congreso/Congreso/Organos/SubPon?_piref73_1339276_73_1339269_1339269.next_page=/wc/detalleInformComisiones&subComi=S&idOrgano=390304&idLegislatura=14",
-    "documents": [],
+    "documents": [
+      {"name": "Breve análisis de los primeros encuentros  de los grupos de trabajo", "url": "https://docs.google.com/document/d/15b2N_g35HomLtldGaZJAQQxSHBs_dqh0eLdMhMw1IXA", "icon": "file-text"}
+
+    ],
     "parties": [],
     "team": [
       {"name": "Guillermo Mariscal Anaya", "title": "Presidente", "party": "Partido Popular", "id_deputy": "436ed44c0f8491e6a5b9a926fb37ebfca2a604e1", "id_party": "557f41175c492eb5e899d899caa18cf07c911cb8", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/339_14.jpg"},
@@ -584,6 +587,7 @@
     "title": "Grupo de trabajo Sanidad y Salud Pública",
     "official_website": "http://www.congreso.es/portal/page/portal/Congreso/Congreso/Organos/SubPon?_piref73_1339276_73_1339269_1339269.next_page=/wc/detalleInformComisiones&subComi=S&idOrgano=390301&idLegislatura=14",
     "documents": [
+      {"name": "Breve análisis de los primeros encuentros  de los grupos de trabajo", "url": "https://docs.google.com/document/d/15b2N_g35HomLtldGaZJAQQxSHBs_dqh0eLdMhMw1IXA", "icon": "file-text"},
       {"name": "Temas Grupo de trabajo Sanidad", "url": "https://drive.google.com/file/d/1s_rCiTZZhOpnR06GmW5Wo7xGDjiW4Bfk/view?usp=sharing", "icon": "picture-o"}
     ],
     "parties": [],
@@ -619,6 +623,7 @@
     "title": "Grupo de trabajo Políticas Sociales y Sistema de Cuidados",
     "official_website": "http://www.congreso.es/portal/page/portal/Congreso/Congreso/Organos/SubPon?_piref73_1339276_73_1339269_1339269.next_page=/wc/detalleInformComisiones&subComi=S&idOrgano=390303&idLegislatura=14",
     "documents": [
+      {"name": "Breve análisis de los primeros encuentros  de los grupos de trabajo", "url": "https://docs.google.com/document/d/15b2N_g35HomLtldGaZJAQQxSHBs_dqh0eLdMhMw1IXA", "icon": "file-text"},
       {"name": "Temas Grupo de trabajo Políticas sociales", "url": "https://drive.google.com/file/d/1JkiQU7_LKnQUFCNOWJE_C_MQ9OkROssQ/view?usp=sharing", "icon": "picture-o"}
     ],
     "parties": [],
@@ -654,6 +659,7 @@
     "title": "Grupo de trabajo Reactivación económica",
     "official_website": "http://www.congreso.es/portal/page/portal/Congreso/Congreso/Organos/SubPon?_piref73_1339276_73_1339269_1339269.next_page=/wc/detalleInformComisiones&subComi=S&idOrgano=390302&idLegislatura=14",
     "documents": [
+      {"name": "Breve análisis de los primeros encuentros  de los grupos de trabajo", "url": "https://docs.google.com/document/d/15b2N_g35HomLtldGaZJAQQxSHBs_dqh0eLdMhMw1IXA", "icon": "file-text"},
       {"name": "Temas Grupo de trabajo Reactivación económica", "url": "https://drive.google.com/file/d/1K1WOuIDLLrMBQc_OpV5fXQrlonrgi2gm/view?usp=sharing", "icon": "picture-o"}
     ],
     "parties": [],

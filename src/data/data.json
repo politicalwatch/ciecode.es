@@ -553,21 +553,98 @@
     "official_website": "http://www.congreso.es/portal/page/portal/Congreso/Congreso/Organos/SubPon?_piref73_1339276_73_1339269_1339269.next_page=/wc/detalleInformComisiones&subComi=S&idOrgano=390304&idLegislatura=14",
     "documents": [],
     "parties": [],
-    "team": []
+    "team": [
+      {"name": "Guillermo Mariscal Anaya", "title": "Presidente", "party": "Partido Popular", "id_deputy": "436ed44c0f8491e6a5b9a926fb37ebfca2a604e1", "id_party": "557f41175c492eb5e899d899caa18cf07c911cb8", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/339_14.jpg"},
+      {"name": "Jaume Asens Llodrà", "title": "Vocal", "party": "Unidas Podemos", "id_deputy": "86a912a75c536fd13ee96fe9b3fb2cd393cbf834", "id_party": "e72bb241c992b53c1b8d62cb4947852174c64bcc", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/291_14.jpg"},
+      {"name": "Joan Baldoví Roda", "title": "Vocal", "party": "Compromís", "id_deputy":"9cabc5be0c2ce1a8ce202d7072d0fbfc8b1d5c1a", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/247_14.jpg"},
+      {"name": "José Ignacio Echániz Salgado", "title": "Vocal", "party": "Partido Popular", "id_deputy": "deputies/d2e3b27d5fb6a3216d668d7d2c23b552319f588a", "id_party": "557f41175c492eb5e899d899caa18cf07c911cb8", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/89_14.jpg"},
+      {"name": "Iván Espinosa de los Monteros", "title": "Vocal", "party":"VOX", "id_deputy":"657d36b086fbacd9668363a9b099ac09748fe8e3", "id_party":"fc464404da6a44463d7e76db08761fd75a42b2eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/83_14.jpg"},
+      {"name": "Carlos Hugo Fernández-Roca Suárez", "title": "Vocal", "party":"VOX", "id_deputy":"9d1b770847d740d555cb40946ba8d46b38a1d7be", "id_party":"fc464404da6a44463d7e76db08761fd75a42b2eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/298_14.jpg"},
+      {"name": "Mario Garcés Sanagustín", "title": "Vocal", "party": "Partido Popular", "id_deputy": "0905b886a0d9057818d140435438bd778d401ef6", "id_party": "557f41175c492eb5e899d899caa18cf07c911cb8", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/219_14.jpg"},
+      {"name": "Carlos García Adanero",  "title": "Vocal", "party":"UPN", "id_deputy":"1a18c5f9a2d63e7653f08b68432da0bdd1c71d7a", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/127_14.jpg"},
+      {"name": "Héctor Gómez Hernández", "title": "Vocal", "party": "Partido Socialista", "id_deputy": "d25a68f686f5ecd91273c1362f45143999c69320", "id_party": "0df277dbb4535e3dde92a4c058d9e924bd770ff2", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/104_14.jpg"},
+      {"name": "Tomás Guitarte Gimeno", "title": "Vocal", "party":"Teruel Existe", "id_deputy":"a2d873f2b32861a10c392b53e3749b9150c00007", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/306_14.jpg"},
+      {"name": "Mariona Illamola Dausà", "title": "Vocal", "party":"Junts per Cat", "id_deputy":"da96184f21525cbc0965cd1f15d8b181f03a1232", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/22_14.jpg"},
+      {"name": "Jon Iñarritu García", "title": "Vocal", "party": "EH Bildu", "id_deputy": "eb96055535355e4415803d503b5e0e563276adc3", "id_party": "6bce7e44918019972b4cf48995ca4c6ad2a4a6f9", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/62_14.jpg"},
+      {"name": "Mikel Legarda Uriarte", "title": "Vocal", "party": "PNV", "id_deputy": "4e7426f259aefce1eb0cc12542073ec0943dfc44", "id_party": "8f3bfa6463e256d4f2bc9084c5d0149931f11060", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/95_14.jpg"},
+      {"name": "Marta Martín Llaguno", "title": "Vocal", "party": "Ciudadanos", "id_deputy": "5f12277a7bcec07405dde0c85cf88861704f6d43", "id_party": "f28ca8b1a77760d5d44fc5203b1eff91a6bda38f", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/155_14.jpg"},
+      {"name": "María Carmen Martínez Granados", "title": "Vocal", "party": "Ciudadanos", "id_deputy": "3e456fb9a0d55bb2ac81041ec758a2df41123065", "id_party": "f28ca8b1a77760d5d44fc5203b1eff91a6bda38f", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/60_14.jpg"},
+      {"name": "Isidro Manuel Martínez Oblanca", "title": "Vocal", "party": "Foro Asturias", "id_deputy": "ba794deb9f0d089d7e0de319b95630de41bbd38a", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/20_14.jpg"},
+      {"name": "José María Mazón Ramos", "title": "Vocal", "party": "PRC", "id_deputy": "373f17770177ab616cc4b26bcd21c329da6e4d0a", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/349_14.jpg"},
+      {"name": "Joan Josep Nuet Pujals", "title": "Vocal", "party": "Esquerra republicana", "id_deputy": "cea1e696a8679a101602a6f351bce7862a86148a", "id_party": "69d7c2688ac636e463188c00e4fcd22731176218", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/189_14.jpg"},
+      {"name": "Ana María Oramas González-Moro", "title": "Vocal", "party": "Coalición Canaria", "id_deputy": "7b48fbac9f711fdc495b3eb1c1882dce70319875", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/161_14.jpg"},
+      {"name": "Pedro Quevedo Iturbe", "title": "Vocal", "party": "Coalición Canaria", "id_deputy": "1e3c840a2db10e83e8188ed6e7e1e563bf4373ec", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/351_14.jpg"},
+      {"name": "Néstor Rego Candamil", "title": "Vocal", "party": "BNG", "id_deputy": "5f3cd0bf781767733229739282514035a1def851", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/40_14.jpg"},
+      {"name": "Inés Sabanés Nadal", "title": "Vocal", "party":"Más País", "id_deputy":"e13843f6b5f767718338ef07ef0828efbca19f2a", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/234_14.jpg"},
+      {"name": "Mireia  Vehí Cantenys", "title": "Vocal", "party": "CUP", "id_deputy": "3ae295824158e82c39693dc71a48eb0461b5eefa", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/86_14.jpg"},
+      {"name": "Laura Castel Fort", "title": "Vocal", "party": "Esquerra Republicana (Senado)", "id_deputy": "", "id_party": "69d7c2688ac636e463188c00e4fcd22731176218", "photo": "http://www.senado.es/legis14/senadores/fotos/S14207.jpg"}
+    ]
   },
   "political-watch/covid-19/grupo-sanidad": {
     "title": "Grupo de trabajo Sanidad y Salud Pública",
     "official_website": "http://www.congreso.es/portal/page/portal/Congreso/Congreso/Organos/SubPon?_piref73_1339276_73_1339269_1339269.next_page=/wc/detalleInformComisiones&subComi=S&idOrgano=390301&idLegislatura=14",
     "documents": [],
     "parties": [],
-    "team": []
+    "team": [
+      {"name": "Isabel María Borrego Cortés", "title": "Presidenta", "party": "Partido Popular", "id_deputy": "2dc2aab89f095bdc82b248635e5547e85df894b1", "id_party": "557f41175c492eb5e899d899caa18cf07c911cb8", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/130_14.jpg"},
+      {"name": "Joan Baldoví Roda", "title": "Vocal", "party": "Compromís", "id_deputy":"9cabc5be0c2ce1a8ce202d7072d0fbfc8b1d5c1a", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/247_14.jpg"},
+      {"name": "Pablo Cambronero Piqueras", "title": "Vocal", "party": "Ciudadanos", "id_deputy":"4b4ef59f639ca9087e30b15bd249ec648bbd3766", "id_party": "f28ca8b1a77760d5d44fc5203b1eff91a6bda38f", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/58_14.jpg"},
+      {"name": "Concep Cañadell Salvia", "title": "Vocal", "party":"Junts per Cat", "id_deputy":"0bfbcedb0da9bc0f12c62010639014baad759e80", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/21_14.jpg"},
+      {"name": "Guillermo Díaz Gómez", "title": "Vocal", "party": "Ciudadanos", "id_deputy": "f6cc8b0faed20d2169d044a689ebeff9a44be637", "id_party": "f28ca8b1a77760d5d44fc5203b1eff91a6bda38f", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/122_14.jpg"},
+      {"name": "Francesc Xavier Eritja Ciuró", "title": "Vocal", "party": "Esquerra Republicana", "id_deputy": "f4854d4d7774673bc521ae3166277233c12df8d9", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/186_14.jpg"},
+      {"name": "Íñigo Errejón Galván", "title": "Vocal", "party": "Más País", "id_deputy": "bd71e24fb10dc4493bdfe5b4359625f1e3b86282", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/233_14.jpg"},
+      {"name": "Concepción Gamarra Ruiz-Clavijo", "title": "Vocal", "party": "Partido Popular", "id_deputy": "0cd8a4ad8f1dc5136656cd6f63e75ae7d360642f", "id_party": "557f41175c492eb5e899d899caa18cf07c911cb8", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/261_14.jpg"},
+      {"name": "Carlos García Adanero", "title": "Vocal", "party": "UPN", "id_deputy": "1a18c5f9a2d63e7653f08b68432da0bdd1c71d7a", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/127_14.jpg"},
+      {"name": "Luis Gestoso de Miguel", "title": "Vocal", "party": "VOX", "id_deputy": "031596deb0a8c31dd282e2cd1a89ad602d0ca417", "id_party": "fc464404da6a44463d7e76db08761fd75a42b2eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/131_14.jpg"},
+      {"name": "Josune Gorospe Elezcano", "title": "Vocal", "party": "PNV", "id_deputy": "7292fd4659e68376edc1ee2e1204b280e6ea4f8e", "id_party": "8f3bfa6463e256d4f2bc9084c5d0149931f11060", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/96_14.jpg"},
+      {"name": "Tomás Guitarte Gimeno", "title": "Vocal", "party":"Teruel Existe", "id_deputy":"a2d873f2b32861a10c392b53e3749b9150c00007", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/306_14.jpg"},
+      {"name": "Isidro Manuel Martínez Oblanca", "title": "Vocal", "party": "Foro Asturias", "id_deputy": "ba794deb9f0d089d7e0de319b95630de41bbd38a", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/20_14.jpg"},
+      {"name": "Rafael Mayoral Perales", "title": "Vocal", "party": "Unidas Podemos", "id_deputy": "ac456588c85fdca6642d67c711812c56f29d4fe1", "id_party": "e72bb241c992b53c1b8d62cb4947852174c64bcc", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/336_14.jpg"},
+      {"name": "José María Mazón Ramos", "title": "Vocal", "party": "PRC", "id_deputy": "373f17770177ab616cc4b26bcd21c329da6e4d0a", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/349_14.jpg"},
+      {"name": "Rosa María Medel Pérez", "title": "Vocal", "party": "Unidas Podemos", "id_deputy": "e51560f777d98efd7fa0b56097b530352052bcac", "id_party": "e72bb241c992b53c1b8d62cb49478521", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/355_14.jpg"},
+      {"name": "Ana María Oramas González-Moro", "title": "Vocal", "party": "Coalición Canaria", "id_deputy": "7b48fbac9f711fdc495b3eb1c1882dce70319875", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/161_14.jpg"},
+      {"name": "Ana María Pastor Julián", "title": "Vocal", "party": "Partido Popular", "id_deputy": "e0a551e3174d717a00daf3a4162c3e4b208cec85", "id_party": "557f41175c492eb5e899d899caa18cf07c911cb8", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/31_14.jpg"},
+      {"name": "Ana Prieto Nieto", "title": "Vocal", "party": "Grupo Socialista",  "id_deputy": "bacd5ce83d094213219e1b31a7eed5476019b31b", "id_party": "0df277dbb4535e3dde92a4c058d9e924bd770ff2", "photo":"http://www.congreso.es/wc/htdocs/web/img/diputados/81_14.jpg"},
+      {"name": "Pedro Quevedo Iturbe", "title": "Vocal", "party": "Coalición Canaria", "id_deputy": "1e3c840a2db10e83e8188ed6e7e1e563bf4373ec", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/351_14.jpg"},
+      {"name": "Néstor Rego Candamil", "title": "Vocal", "party": "BNG", "id_deputy": "5f3cd0bf781767733229739282514035a1def851", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/40_14.jpg"},
+      {"name": "Iñaki Ruiz de Pinedo Undiano", "title": "Vocal", "party": "EH Bildu", "id_deputy": "cd48e5a786c0a15dc61bc64cae63c49c9c5b3517", "id_party": "6bce7e44918019972b4cf48995ca4c6ad", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/64_14.jpg"},
+      {"name": "Juan Luis Steegmann Olmedillas", "title": "Vocal", "party": "VOX", "id_deputy": "c96f29f4660cc5c9b8170311b3a3bc4a05ced99f", "id_party": "fc464404da6a44463d7e76db08761fd75a42b2eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/135_14.jpg"},
+      {"name": "Pilar  Vallugera Balañà", "title": "Vocal", "party": "Esquerra Republicana", "id_deputy": "a0ddd50e79cdf8f51ee9f82a9a5a8387a92489b7", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/88_14.jpg"},
+      {"name": "Mireia  Vehí Cantenys", "title": "Portavoz", "party": "CUP", "id_deputy": "3ae295824158e82c39693dc71a48eb0461b5eefa", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/86_14.jpg"}
+    ]
   },
   "political-watch/covid-19/grupo-politicas-sociales": {
     "title": "Grupo de trabajo Políticas Sociales y Sistema de Cuidados",
     "official_website": "http://www.congreso.es/portal/page/portal/Congreso/Congreso/Organos/SubPon?_piref73_1339276_73_1339269_1339269.next_page=/wc/detalleInformComisiones&subComi=S&idOrgano=390303&idLegislatura=14",
     "documents": [],
     "parties": [],
-    "team": []
+    "team": [
+      {"name": "Enrique Fernando Santiago Romero", "title": "Presidente", "party": "Unidas Podemos", "id_deputy": "b1e758cde467eb2d2cc4f59b1b9ba533a91ce774", "id_party": "e72bb241c992b53c1b8d62cb4947852174c64bcc", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/45_14.jpg"},
+      {"name": "Joan Baldoví Roda", "title": "Vocal", "party": "Compromís", "id_deputy":"9cabc5be0c2ce1a8ce202d7072d0fbfc8b1d5c1a", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/247_14.jpg"},
+      {"name": "Íñigo Barandiaran Benito", "title": "Vocal", "party": "PNV", "id_deputy": "71a424ed848ae83e777f6f58cc1692b37e9c02e8", "id_party": "8f3bfa6463e256d4f2bc9084c5d0149931f11060", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/97_14.jpg"},
+      {"name": "Montserrat Bassa Coll", "title": "Vocal", "party": "Esquerra republicana", "id_deputy": "49ea530e644ad2298f41733f541480cfee4fb36c", "id_party": "69d7c2688ac636e463188c00e4fcd22731176218", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/192_14.jpg"},
+      {"name": "María Luisa Carcedo Roces", "title": "Vocal", "party": "Partido Socialista", "id_deputy": "cb3fd3abcc5564dd9e0ec2d483991d7d722d5d4d", "id_party": "0df277dbb4535e3dde92a4c058d9e924bd770ff2", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/270_14.jpg"},
+      {"name": "Carlos García Adanero", "title": "Vocal", "party":"UPN", "id_deputy": "1a18c5f9a2d63e7653f08b68432da0bdd1c71d7a", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/127_14.jpg"},
+      {"name": "Pilar Garrido Gutiérrez", "title": "Vocal", "party": "CUP", "id_deputy": "72a6f1404b455b74aadf74be4f54695e44095cea", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/210_14.jpg"},
+      {"name": "Ignacio Gil Lázaro", "title": "Vocal", "party": "VOX", "id_deputy": "3885500e01dbc56fad2d41f24a4932de551308a6", "id_party": "fc464404da6a44463d7e76db08761fd75a42b2eb", "photo":"http://www.congreso.es/wc/htdocs/web/img/diputados/295_14.jpg"},
+      {"name": "Sara Giménez Giménez", "title": "Vocal", "party": "Ciudadanos", "id_deputy":"afc67bf3591d662a2bfacacb3cd99aa7d3e83f73", "id_party": "f28ca8b1a77760d5d44fc5203b1eff91a6bda38f", "photo":"http://www.congreso.es/wc/htdocs/web/img/diputados/169_14.jpg"},
+      {"name": "Tomás Guitarte Gimeno", "title": "Vocal", "party":"Teruel Existe", "id_deputy":"a2d873f2b32861a10c392b53e3749b9150c00007", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/306_14.jpg"},
+      {"name": "Pau Marí Klose", "title": "Vocal", "party": "Partido Socialista", "id_deputy": "30213f224ae2b571c624895ae589f287147d6e4f", "id_party": "0df277dbb4535e3dde92a4c058d9e924bd770ff2", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/73_14.jpg"},
+      {"name": "Isidro Manuel Martínez Oblanca", "title": "Vocal", "party": "Foro Asturias", "id_deputy": "ba794deb9f0d089d7e0de319b95630de41bbd38a", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/20_14.jpg"},
+      {"name": "José María Mazón Ramos", "title": "Vocal", "party": "PRC", "id_deputy": "373f17770177ab616cc4b26bcd21c329da6e4d0a", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/349_14.jpg"},
+      {"name": "Sergi Miquel i Valentí", "title": "Vocal", "party": "Junts per Cat", "id_deputy": "04edac3d77e06224f6231a35c780fc921e84413d", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/23_14.jpg"},
+      {"name": "Ana María Oramas González-Moro", "title": "Vocal", "party": "Coalición Canaria", "id_deputy": "7b48fbac9f711fdc495b3eb1c1882dce70319875", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/161_14.jpg"},
+      {"name": "Isabel Pozueta Fernández", "title": "Vocal", "party": "CUP", "id_deputy": "2b018a21707e61779ecf5766e0e9a5eef1fb75fb", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo":"http://www.congreso.es/wc/htdocs/web/img/diputados/65_14.jpg"},
+      {"name": "Pedro Quevedo Iturbe", "title": "Vocal", "party": "Coalición Canaria", "id_deputy": "1e3c840a2db10e83e8188ed6e7e1e563bf4373ec", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/351_14.jpg"},
+      {"name": "Néstor Rego Candamil", "title": "Vocal", "party": "BNG", "id_deputy": "5f3cd0bf781767733229739282514035a1def851", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/40_14.jpg"},
+      {"name": "María Elvira Rodríguez Herrer", "title": "Vocal", "party": "Partido Popular", "id_deputy": "b792389cf2efe4f24929e234080d22fa9de6a663", "id_party": "557f41175c492eb5e899d899caa18cf07c911cb8", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/123_14.jpg"},
+      {"name": "Rosa María Romero Sánchez", "title": "Vocal", "party": "Partido Popular", "id_deputy": "539b309072e95e448ddc3ecfc9b81f9358a5ecb2", "id_party": "557f41175c492eb5e899d899caa18cf07c911cb8", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/36_14.jpg"},
+      {"name": "Marta Rosique i Saltor", "title": "Vocal", "party": "Esquerra Republicana", "id_deputy": "9685e537dc976c5518b4ae197cc2a315b57b5372", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/185_14.jpg"},
+      {"name": "Inés Sabanés Nadal", "title": "Vocal", "party": "Más País", "id_deputy": "e13843f6b5f767718338ef07ef0828efbca19f2a", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/234_14.jpg"},
+      {"name": "Pablo Sáez Alonso-Muñumer", "title": "Vocal", "party": "VOX", "id_deputy": "315479ceaef7cd6f8ca744052691b55e7e22ddc2", "id_party": "fc464404da6a44463d7e76db08761fd75a42b2eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/278_14.jpg"},
+      {"name": "Mireia  Vehí Cantenys", "title": "Portavoz", "party": "CUP", "id_deputy": "3ae295824158e82c39693dc71a48eb0461b5eefa", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/86_14.jpg"},
+      {"name": "Tomás Marcos Arias", "title": "Vocal", "party": "Ciudadanos Senado)", "id_deputy": "", "id_party": "f28ca8b1a77760d5d44fc5203b1eff91a6bda38f", "photo": "http://www.senado.es/legis14/senadores/fotos/S14018.jpg"}
+    ]
   },
   "political-watch/covid-19/grupo-reactivacion-economica": {
     "title": "Grupo de trabajo Reactivación económica",
@@ -739,10 +816,10 @@
     ]
   },
   "investigacion": {
-        "reports": {
-          "tags": [
-            "Coherencia de Políticas",
-            "Political Watch",
+    "reports": {
+      "tags": [
+        "Coherencia de Políticas",
+        "Political Watch",
         "Agenda 2030",
         "Ciudadanía Activa",
         "Congreso de los Diputados",

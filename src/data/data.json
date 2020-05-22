@@ -583,7 +583,9 @@
   "political-watch/covid-19/grupo-sanidad": {
     "title": "Grupo de trabajo Sanidad y Salud Pública",
     "official_website": "http://www.congreso.es/portal/page/portal/Congreso/Congreso/Organos/SubPon?_piref73_1339276_73_1339269_1339269.next_page=/wc/detalleInformComisiones&subComi=S&idOrgano=390301&idLegislatura=14",
-    "documents": [],
+    "documents": [
+      {"name": "Temas Grupo de trabajo Sanidad", "url": "https://drive.google.com/file/d/1s_rCiTZZhOpnR06GmW5Wo7xGDjiW4Bfk/view?usp=sharing", "icon": "picture-o"}
+    ],
     "parties": [],
     "team": [
       {"name": "Isabel María Borrego Cortés", "title": "Presidenta", "party": "Partido Popular", "id_deputy": "2dc2aab89f095bdc82b248635e5547e85df894b1", "id_party": "557f41175c492eb5e899d899caa18cf07c911cb8", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/130_14.jpg"},
@@ -616,7 +618,9 @@
   "political-watch/covid-19/grupo-politicas-sociales": {
     "title": "Grupo de trabajo Políticas Sociales y Sistema de Cuidados",
     "official_website": "http://www.congreso.es/portal/page/portal/Congreso/Congreso/Organos/SubPon?_piref73_1339276_73_1339269_1339269.next_page=/wc/detalleInformComisiones&subComi=S&idOrgano=390303&idLegislatura=14",
-    "documents": [],
+    "documents": [
+      {"name": "Temas Grupo de trabajo Políticas sociales", "url": "https://drive.google.com/file/d/1JkiQU7_LKnQUFCNOWJE_C_MQ9OkROssQ/view?usp=sharing", "icon": "picture-o"}
+    ],
     "parties": [],
     "team": [
       {"name": "Enrique Fernando Santiago Romero", "title": "Presidente", "party": "Unidas Podemos", "id_deputy": "b1e758cde467eb2d2cc4f59b1b9ba533a91ce774", "id_party": "e72bb241c992b53c1b8d62cb4947852174c64bcc", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/45_14.jpg"},
@@ -649,7 +653,9 @@
   "political-watch/covid-19/grupo-reactivacion-economica": {
     "title": "Grupo de trabajo Reactivación económica",
     "official_website": "",
-    "documents": [],
+    "documents": [
+      {"name": "Temas Grupo de trabajo Reactivación económica", "url": "https://drive.google.com/file/d/1K1WOuIDLLrMBQc_OpV5fXQrlonrgi2gm/view?usp=sharing", "icon": "picture-o"}
+    ],
     "parties": [],
     "team": []
   },

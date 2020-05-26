@@ -523,7 +523,7 @@
       {"id": "grupo-reactivacion-economica", "title": "Reactivación Económica", "icon": "eur"}
     ],
     "team": [
-      {"name": "Patxi López Ávarez", "title": "Presidente", "party": "Partido Socialista", "id_deputy": "0fcc8b7ade25b1f6320b6b91fc21a92d0443c9bb", "id_party": "0df277dbb4535e3dde92a4c058d9e924bd770ff2", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/61_14.jpg"},
+      {"name": "Patxi López Álvarez", "title": "Presidente", "party": "Partido Socialista", "id_deputy": "0fcc8b7ade25b1f6320b6b91fc21a92d0443c9bb", "id_party": "0df277dbb4535e3dde92a4c058d9e924bd770ff2", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/61_14.jpg"},
       {"name": "Enrique Fernando Santiago Romero", "title": "Vicepresidente Primero", "party": "Unidas Podemos", "id_deputy": "b1e758cde467eb2d2cc4f59b1b9ba533a91ce774", "id_party": "e72bb241c992b53c1b8d62cb4947852174c64bcc", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/45_14.jpg"},
       {"name": "Guillermo Mariscal Anaya", "title": "Vicepresidente Segundo", "party": "Partido Popular", "id_deputy": "436ed44c0f8491e6a5b9a926fb37ebfca2a604e1", "id_party": "557f41175c492eb5e899d899caa18cf07c911cb8", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/339_14.jpg"},
       {"name": "María Luz Martínez Seijo", "title": "Secretaria Primera", "party": "Partido Socialista", "id_deputy": "baf10798e5ea9460f124574471ee9573de287258", "id_party": "0df277dbb4535e3dde92a4c058d9e924bd770ff2", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/251_14.jpg"},

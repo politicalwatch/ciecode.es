@@ -2461,4 +2461,6 @@
 .photo-mp {
   height: 165px !important;
   width: auto;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }

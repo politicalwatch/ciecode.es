@@ -289,7 +289,7 @@
 	.modal-backdrop {
 		position: fixed;
 		background-color: transparent;
-		z-index: 9999;
+		// z-index: 9999;
 		&:before {
 			content: '';
 			position: absolute;

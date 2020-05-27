@@ -510,8 +510,9 @@
     ]
   },
   "political-watch/covid-19": {
-    "next_session_date": "26 de mayo",
+    "next_session_date": "28 de mayo",
     "sessions": [
+      {"id": "sesion4", "date": "26 de mayo",  "title": "Primera comparecencia: Vicepresidenta Carmen Calvo"},
       {"id": "sesion3", "date": "14 de mayo",  "title": "Todo listo para comenzar el trabajo de la Comisión"},
       {"id": "sesion2", "date": "13 de mayo",  "title": "La Comisión aprueba su Plan de Trabajo"},
       {"id": "sesion1", "date": "7 de mayo",  "title": "Se pone en marcha la Comisión de Reconstrucción Social y Económica"}
@@ -766,7 +767,6 @@
       {
         "name": "junts",
         "proposals": [
-          "Nada que mencionar."
         ]
       },
       {
@@ -778,7 +778,6 @@
       {
         "name": "ehbildu",
         "proposals": [
-          "Nada que mencionar."
         ]
       },
       {
@@ -805,7 +804,6 @@
       {
         "name": "upn",
         "proposals": [
-          "Nada que mencionar."
         ]
       },
       {
@@ -823,7 +821,6 @@
       {
         "name": "prc",
         "proposals": [
-          "Nada que mencionar."
         ]
       },
       {
@@ -850,6 +847,150 @@
     "vizzs_p2030": [
     ],
     "parties": [
+    ]
+  },
+  "political-watch/covid-19/sesion4": {
+    "title": "Sesión del 26 de mayo",
+    "analysis": "https://docs.google.com/document/d/1dztQ5RhJZgHcbtqUcOS-orRcPzKx8iynfiRkAHqNlLw/",
+    "transcription": "https://docs.google.com/document/d/1zFGYmDURVdol21qHGckRB1p3sEgkFTfDj_OMVnRy13Y/",
+    "video": "http://www.congreso.es/wc/wc/audiovisualdetalledisponible?codSesion=4&codOrgano=390&fechaSesion=26/05/2020&mp4=mp4&idLegislaturaElegida=14",
+    "headline": "Primera comparecencia de esta Comisión para la Reconstrucción Social y Económica  protagonizada por Carmen Calvo. A pesar de que continúan las críticas acerca de la gestión de la crisis sanitaria y la desconfianza de la eficacia de esta Comisión, los partidos han interpelado a  la Vicepresidenta fundamentalmente acerca de cuestiones que consideran relevantes  para afrontar las consecuencias como el modelo territorial, las desigualdades y las medidas económicas.  Carmen Calvo ha resaltado la efectividad de la coordinación con las Comunidades Autónomas para afrontar tanto la crisis sanitaria y apela a su lealtad para afrontar  las consecuencias derivadas de la crisis sanitaria.",
+    "documents": [
+    ],
+    "vizz_primary": "S4_ComparecenciaCarmenCalvo_26-05.png",
+    "vizzs_tipi": [
+      "S4_ResumenTIPI.png",
+      "S4_ResumenTIPI_Calvo_26-05.png"
+    ],
+    "vizzs_p2030": [
+      "S4_ResumenODS.png",
+      "S4_Sunburst_P2030_Calvo_26-05.png"
+    ],
+    "parties": [
+      {
+        "name": "psoe",
+        "proposals": [
+          "Reforzar el ámbito público.",
+          "Mejorar el funcionamiento de nuestro estado de las autonomías.",
+          "Apuesta por el cambio en nuestro modelo productivo,  transición ecológica justa,transformación digital, construir un verdadero sistema de cuidados que no deje a nadie fuera y  afrontar las transformaciones en relación a la conciliación de la vida personal.",
+          "Fortalecer la atención primaria.",
+          "Creación de un escudo social."
+        ]
+      },
+      {
+        "name": "pp",
+        "proposals": [
+          "Desacuerdo con el pacto con EH Bildu para derogar la refora laboral.",
+          "Pacto de Estado por la sanidad."
+        ]
+      },
+      {
+        "name": "vox",
+        "proposals": [
+          "Recentralizar la sanidad."
+        ]
+      },
+      {
+        "name": "unidaspodemos",
+        "proposals": [
+          "Creación de un escudo social:  los ERTES, medidas de apoyo a  desempleados, medidas de prórroga del seguro de desempleo, las coberturas a contingencias no previstas por reducción de actividad de los autónomos;  las moratorias de alquileres, cuotas hipotecarias, suspensión de cortes de suministros básicos en las viviendas en las familias mejor dicho; medidas contra la violencia de género; ingreso mínimo vital...",
+          "Pacto de la defensa y el fortalecimiento de  la sanidad pública apostando por la investigación.",
+          "Acuerdo para elevar la protección, la garantía y la exigibilidad constitucional de los derechos económicos y sociales: marco de cuidados.",
+          "Gran pacto para recuperar nuestra soberanía, económica, productiva e industrial."
+        ]
+      },
+      {
+        "name": "cs",
+        "proposals": [
+        ]
+      },
+      {
+        "name": "erc",
+        "proposals": [
+          "Reforzar el escudo social: Atención a las medidas en materia de derechos laborales (ERTEs).",
+          "Atención a las malas prácticas en torno a los ICOs.",
+          "UE:  Conformar un eje del sur de Europa  junto con Portugal e Italia para defender los derechos de los trabajadores, fiscalidad europea justa, dignificar los derechos de las personas migrantes.",
+          "Reforzar la sanidad pública."
+        ]
+      },
+      {
+        "name": "junts",
+        "proposals": [
+        ]
+      },
+      {
+        "name": "pnv",
+        "proposals": [
+          "Reestablecer la confianza de la ciudadanía y seguridad de las instituciones.",
+          "Apuesta por  transformación energética, lucha por la igualdad y transformación digital para mejorar la competitividad.",
+          "Potenciar  nuevos procesos productivos, fundamentalmente industriales  que garantice una economía menos dependiente del exterior.",
+          "Reforzar modelos de cogobernanza."
+        ]
+      },
+      {
+        "name": "ehbildu",
+        "proposals": [
+          "Necesidad de una transformación económica.",
+          "Apuesta por una fiscalidad justa que  refurece la lucha contra las desigualdades.",
+          "Abordar la cuestión territorial aceptando la plurinacionalidad."
+        ]
+      },
+      {
+        "name": "maspais",
+        "proposals": [
+          "Mantener el compromiso con la transición energética, ecológica y compromiso de lucha cambio climático.",
+          "Apuesta unificada por los partidos para garantizar que los fondos de la UE se materialicen en subsidios."
+        ]
+      },
+      {
+        "name": "cup",
+        "proposals": [
+          "Lucha contra la desigualdad a través de una transformación del sistema: cambios económicos en torno a  la fiscalidad, derechos laborales, derecho a vivienda.",
+          "Regularización de de personas de procedencia extranjera."
+        ]
+      },
+      {
+        "name": "cc",
+        "proposals": [
+          "Queja  sobre la falta de consulta en información con el resto de grupos parlamentarios en la redación de los Reales Decretos.",
+          "Coordinación del Gobierno en dos temas principales: Importancia de la conciliación y concretamente  impulsar medidas sobre el tema de las escuelas infantiles y guarderías, controlar el tema de la migración y los contagios por  COVID-19."
+        ]
+      },
+      {
+        "name": "upn",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "compromis",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "bng",
+        "proposals": [
+          "Reconocimiento de  los derechos de las naciones para afrontar la crisis: Camino hacia un modelo federal.",
+          "Apuesta por una fiscalidad justa.",
+          "Recuperación de  fondos de rescate bancario.",
+          "Nacionalizar las grandes corporaciones de los sectores estratégicos."
+        ]
+      },
+      {
+        "name": "prc",
+        "proposals": [
+          "Plazos para la recuperación.",
+          "Medias para el sector privado.",
+          "Transferencias de la UE."
+        ]
+      },
+      {
+        "name": "teruelexiste",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      }
     ]
   },
   "investigacion": {

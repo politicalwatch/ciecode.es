@@ -99,7 +99,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12">
-          <div class="xs-info-card">
+          <div class="xs-info-card text-center">
 
             <% if (data.vizz_primary == "") { %>
             <div class="xs-info-card">
@@ -160,9 +160,17 @@
                   </div>
                   <div class="col-md-11 col-sm-10">
                     <ul>
-                      <% for (var j=0; j<data.parties[i].proposals.length; j++) { %>
-                        <li><i class="fa fa-check-circle"></i> <%= data.parties[i].proposals[j] %></li>
+                      <% if (data.parties[i].proposals.length == 0) { %>
+                      <li>
+                        <i class="fa fa-check-circle"></i>&nbsp;No han hecho propuestas.
+                      </li>
+                      <% } else { %>
+                        <% for (var j=0; j<data.parties[i].proposals.length; j++) { %>
+                          <li>
+                            <i class="fa fa-check-circle"></i>&nbsp;<%= data.parties[i].proposals[j] %>
+                          </li>
                         <% } %>
+                      <% } %>
                     </ul>
                   </div>
                 </div>
@@ -190,9 +198,11 @@
             <% } else { %>
             <div class="row">
               <% for (var i=0; i<data.vizzs_tipi.length; i++) { %>
-              <div class="col-sm-8">
+              <div class="col-sm-6">
                 <div class="xs-info-card">
-                  <img class="img-responsive" src="<%= global.folderName %>assets/images/covidwatch/<%= data.vizzs_tipi[i] %>" alt="Visualización de datos en base a TIPI Ciudadano">
+                  <a href="<%= global.folderName %>assets/images/covidwatch/<%= data.vizzs_tipi[i] %>" data-toggle="lightbox" data-gallery="gallery-tipi">
+                    <img class="img-responsive" src="<%= global.folderName %>assets/images/covidwatch/<%= data.vizzs_tipi[i] %>" alt="Visualización de datos en base a TIPI Ciudadano">
+                  </a>
                 </div>
               </div>
               <% } %>
@@ -220,9 +230,11 @@
             <% } else { %>
             <div class="row">
               <% for (var i=0; i<data.vizzs_p2030.length; i++) { %>
-              <div class="col-sm-12">
+              <div class="col-sm-6">
                 <div class="xs-info-card">
+                  <a href="<%= global.folderName %>assets/images/covidwatch/<%= data.vizzs_p2030[i] %>" data-toggle="lightbox" data-gallery="gallery-p2030">
                   <img class="img-responsive" src="<%= global.folderName %>assets/images/covidwatch/<%= data.vizzs_p2030[i] %>" alt="Visualización de datos en base a Parlamento 2030">
+                  </a>
                 </div>
               </div>
               <% } %>

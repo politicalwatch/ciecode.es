@@ -510,8 +510,9 @@
     ]
   },
   "political-watch/covid-19": {
-    "next_session_date": "28 de mayo",
+    "next_session_date": "2 de junio de 2020",
     "sessions": [
+      {"id": "sesion5", "date": "28 de mayo",  "title": "Comparecencias de Vicepresidencias: Pablo Iglesias y Nadia Calviño"},
       {"id": "sesion4", "date": "26 de mayo",  "title": "Primera comparecencia: Vicepresidenta Carmen Calvo"},
       {"id": "sesion3", "date": "14 de mayo",  "title": "Todo listo para comenzar el trabajo de la Comisión"},
       {"id": "sesion2", "date": "13 de mayo",  "title": "La Comisión aprueba su Plan de Trabajo"},
@@ -983,6 +984,159 @@
           "Plazos para la recuperación.",
           "Medias para el sector privado.",
           "Transferencias de la UE."
+        ]
+      },
+      {
+        "name": "teruelexiste",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      }
+    ]
+  },
+  "political-watch/covid-19/sesion5": {
+    "title": "Sesión del 28 de mayo",
+    "analysis": "",
+    "transcription": "https://docs.google.com/document/d/1PvsmDFvL606MR9R2AFwD2-kRscKV49ab03hiF0IMuaY/",
+    "video": "http://www.congreso.es/wc/wc/audiovisualEmisionSemiDirecto?codOrgano=390&codSesion=5&idLegislaturaElegida=14",
+    "headline": "Segunda ronda de comparecencias de esta Comisión para la Reconstrucción Social y Económica protagonizada por Pablo Iglesias y Nadia Calviño. Ambos vicepresidentes apostaron por la necesidad de la reconstrucción y los consensos para lograr afrontar la crisis. Mientras, los grupos políticos mantuvieron el tono crítico, interpelando a los vicepresidentes sobre diversos temas, como la nacionalización de industrias, impuesto a las grandes fortunas, reducción del gasto, entre otros temas.",
+    "documents": [
+    ],
+    "vizz_primary": "S5_nubes_Iglesias-Calvino.png",
+    "vizzs_tipi": [
+      "S5_PabloIglesias_tipi.png",
+      "S5_NADIACALVINO_TIPI.png"
+    ],
+    "vizzs_p2030": [
+      "S5_PABLOIGLESIAS_ODS.png",
+      "S5_NADIACALVINO_ODS.png"
+    ],
+    "parties": [
+      {
+        "name": "psoe",
+        "proposals": [
+          "Enfocar los servicios sociales a posibles nuevas pandemias.",
+          "Proteger a los jovenes y a la infancia que son los que han pagado las consecuencias de anteriores crisis.",
+          "Prepararnos y adecuar los sistemas prestacionales para ser más eficaces.",
+          "Pacto por la transformación digital, Pacto por el empleo, Pacto por la Ciencia, Pacto por el campo, Pacto por la transición ecológica y un Pacto por la defensa de los servicios públicos."
+        ]
+      },
+      {
+        "name": "pp",
+        "proposals": [
+          "Aboga por un replanteamiento de la propuesta  fiscal del gobierno."
+        ]
+      },
+      {
+        "name": "vox",
+        "proposals": [
+        ]
+      },
+      {
+        "name": "unidaspodemos",
+        "proposals": [
+          "Fiscalidad progresiva y justa, con un Impuesto a las Grandes Fortunas.",
+          "Reconocer constitucionalmente el derecho a ser cuidados con el reconocimiento formal (laboral, económico y social) de las personas que llevan a cabo los mismos.",
+          "Cambio de modelo económico y industrial: apuestar por un modelo productivo.",
+          "Fortalecimiento del sistema público."
+        ]
+      },
+      {
+        "name": "cs",
+        "proposals": [
+          "Reconsiderar la reducción del presupuesto del IRPF destinado a las entidades del Tercer Sector.",
+          "Generación de protocolos claros de actuación y coordinación en residencias de mayores en previsión de posibles rebrotes.",
+          "Medidas contra la pobreza estructural para dar respuesta a los problemas de exclusión social de los grupos vulnerables (dado que las medidas asistencialistas no son suficientes).",
+          "Priorizar a la infancia en las políticas y prestaciones sociales que se pongan en marcha en la reconstrucción."
+        ]
+      },
+      {
+        "name": "erc",
+        "proposals": [
+          "Parar el 'reloj del paro' (que no se contabilicen los días de paro durante la pandemia en el cómputo de la prestación).",
+          "Nacionalizar industrias.",
+          "Política de Estado en defensa de la economía productiva.",
+          "Exigir la devolución de fondos públicos recibidos por empresas transnacionales que deciden deslocalizar su producción."
+        ]
+      },
+      {
+        "name": "junts",
+        "proposals": [
+          "Transferir a las CC.AA la gestión del Ingreso Mínimo Vital.",
+          "Incluir la lucha contra al fraude fiscal en la agenda de justicia fiscal del Gobierno.",
+          "Apuesta por la senda de recuperación fiscal propuesta por Nadia Calviño."
+        ]
+      },
+      {
+        "name": "pnv",
+        "proposals": [
+          "Construir una 'posición de país' en el diseño de la reconstrucción en todos los ámbitis no sólo en las posiciones ante la Unión Europea.",
+          "Respeto a las competencias autonómicas (en políticas de cuidados, vivienda, sanidad o fiscalidad) y dar respuestas distintas a situaciones distintas."
+        ]
+      },
+      {
+        "name": "ehbildu",
+        "proposals": [
+          "Derogación de la Reforma Laboral",
+          "Aumentar los impuestos a los ricos y a las grandes empresas.",
+          "Mantener el 'escudo social' establecido durante la crisis sanitaria para que proteja también ante la crisis social posterior."
+        ]
+      },
+      {
+        "name": "maspais",
+        "proposals": [
+          "Trabajar por una Política Industrial Europea vinculado a la transición ecológica.",
+          "Introducir condicionantes ecológicos en las condiciones de los programas de reconstrucción y en los planes de rescate a empresas y sectores."
+        ]
+      },
+      {
+        "name": "cup",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "cc",
+        "proposals": [
+          "Que el Gobierno cumpla la Ley de Dependencia y pague la parte comprometida (50%).",
+          "Reponer el presupuesto de las Políticas Activas de Empleo.",
+          "Firmar el Plan de Empleo de Canarias (42 millones) para que los Ayuntamientos puedan contratar a las personas de difícil inserción laboral.",
+          "Atender la situación de las familias venezolanas en espera de la tramitación del permiso de residencia y de la solicitud de asilo.",
+          "Autorizar el endeudamiento de los ayuntamientos y cabildos con supéravit para poder financiar políticas de reconstrucción social y económica."
+        ]
+      },
+      {
+        "name": "upn",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "compromis",
+        "proposals": [
+          "Transferir a todas las CC.AA la gestión del Ingreso Mínimo Vital",
+          "Que el Gobierno cumpla la Ley de Dependencia y pague la parte comprometida (50%).",
+          "Aplicar criterios de necesidad de las distintas CC.AA en el reparto de los fondos estatales para la reconstrucción.",
+          "Acabar con el dumping fiscal de las CC.AA."
+        ]
+      },
+      {
+        "name": "bng",
+        "proposals": [
+          "Impuesto a las Grandes Fortunas.",
+          "Recuperar el Fondo de Rescate Bancario.",
+          "Reducir el gasto militar (los programas de compra de armamento).",
+          "Nacionalizar grandes corporaciones que fueron públicas en el pasado.",
+          "Establecer un Ingreso Mínimo Vital que sea compatible con el empleo, gestionado por las CC.AA y con un mínimo garantizado a nivel estatal.",
+          "No ahondar en la vía del endeudamiento para financiar las políticas de reconstrucción y tener precaución con la condicionalidad de ayudas y créditos."
+        ]
+      },
+      {
+        "name": "prc",
+        "proposals": [
+          "Abandonar la propuesta del Impuesto a las Grandes Fortunas y optar por el Impuesto sobre el Patrimonio (recuperarlo e igualarlo en todas las CCAA).",
+          "Optar por hacer universal y compatible con el empleo la Renta Mínima Vital.",
+          "Impulsar que los Ayuntamientos puedan contribuir a la reconstrucción económica a través de obras públicas."
         ]
       },
       {

@@ -510,7 +510,7 @@
     ]
   },
   "political-watch/covid-19": {
-    "next_session_date": "2 de junio de 2020",
+    "next_session_date": "2 de junio",
     "sessions": [
       {"id": "sesion5", "date": "28 de mayo",  "title": "Comparecencias de Vicepresidencias: Pablo Iglesias y Nadia Calviño"},
       {"id": "sesion4", "date": "26 de mayo",  "title": "Primera comparecencia: Vicepresidenta Carmen Calvo"},

@@ -548,6 +548,11 @@
       {"name": "Néstor Rego Candamil", "title": "Portavoz", "party": "BNG", "id_deputy": "5f3cd0bf781767733229739282514035a1def851", "id_party": "8c6821a7a439dc81f223a71ed19c61830d24a6eb", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/40_14.jpg"},
       {"name": "Gabriel Rufián Romero", "title": "Portavoz", "party": "Esquerra republicana", "id_deputy": "87f7e77cf8b7a385a2db4d101795597c8ae90848", "id_party": "69d7c2688ac636e463188c00e4fcd22731176218", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/187_14.jpg"},
       {"name": "Mireia  Vehí Cantenys", "title": "Portavoz", "party": "CUP", "id_deputy": "3ae295824158e82c39693dc71a48eb0461b5eefa", "id_party": "e45a2e5f67e2b5a57121d609f5e89b17f45bc6d0", "photo": "http://www.congreso.es/wc/htdocs/web/img/diputados/86_14.jpg"}
+    ],
+    "newspapers": [
+      {"logo": "eldiarioes.png", "url": "https://www.eldiario.es/tecnologia/Comision-Reconstruccion-accesible-ciudadania-tecnologia_0_1025048162.html"},
+      {"logo": "publico.jpg", "url": "https://www.publico.es/politica/reconstruccion-social-economica-congreso-habilita-primera-vez-buzon-participacion-ciudadana.html"},
+      {"logo": "lamarea.jpg", "url": "https://www.lamarea.com/2020/05/22/daniel-raventos-el-ingreso-minimo-vital-es-una-renta-para-pobres/"}
     ]
   },
   "political-watch/covid-19/grupo-union-europea": {

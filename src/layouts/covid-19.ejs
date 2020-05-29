@@ -223,6 +223,31 @@
   </div>
 </section>
 
+
+<section class="xs-about-us-promo-section xs-content-section-padding fundpress-about-us-promo-section">
+  <div class="container">
+    <div class="fundpress-section-heading fundpress-heading-title fundpress-heading-title-v2 content-left">
+      <h2 class="color-navy-blue">Aparición en medios</h2>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="xs-info-card">
+          <div class="row">
+          <% for (var index=0; index<data.newspapers.length; index++) { %>
+            <div class="col-sm-3" style="padding: 20px;">
+              <a href="<%= data.newspapers[index].url %>" target="_blank">
+                <img class="img-responsive" src="<%= global.folderName %>assets/images/covidwatch/newspapers/<%= data.newspapers[index].logo %>">
+              </a>
+            </div>
+          <% } %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <% include common/subscribe-to-newsletter %>
 
 </main>

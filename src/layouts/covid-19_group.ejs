@@ -75,6 +75,7 @@
     </div>
   </section>
 
+  <% if (data.parties.length > 0) { %>
   <section class="xs-about-us-promo-section xs-content-section-padding fundpress-about-us-promo-section">
     <div class="container">
       <div class="fundpress-section-heading fundpress-heading-title fundpress-heading-title-v2 content-left" style="width:100%;">
@@ -83,12 +84,6 @@
       </div>
       <div class="row">
         <div class="col-sm-12">
-
-          <% if (data.parties.length == 0) { %>
-          <div class="xs-info-card">
-            <div class="alert alert-warning" role="alert">Lo debatido hasta ahora no da para más. Esperamos mostrarte más información en otras sesiones.</div>
-          </div>
-          <% } else { %>
           <div class="xs-info-card parties">
             <% for (var i=0; i<data.parties.length; i++) { %>
               <div class="row">
@@ -105,11 +100,11 @@
               </div>
               <% } %>
           </div>
-          <% } %>
         </div>
       </div>
     </div>
   </section>
+  <% } %>
 
   <section class="xs-gray-bg xs-team-section fundpress-team-section xs-section-padding">
     <div class="container">

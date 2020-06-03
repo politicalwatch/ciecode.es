@@ -41,7 +41,12 @@
         </div>
         <div class="col-sm-6 text-center">
           <% if (data.official_website != '') { %>
-          <a href="<%= data.official_website %>" target="_blank" class="xs-btn btn btn-primary"><i class="fa fa-institution"></i> Ver en el Congreso</a>
+          <a href="<%= data.official_website %>" target="_blank" class="xs-btn btn btn-primary">Ver en el Congreso</a>
+          <% } %>
+          <br>
+          <br>
+          <% if (data.official_transcriptions != '') { %>
+          <a href="<%= data.official_transcriptions %>" target="_blank" class="xs-btn btn btn-primary">Transcripciones oficiales</a>
           <% } %>
         </div>
       </div>

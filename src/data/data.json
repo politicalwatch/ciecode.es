@@ -512,6 +512,7 @@
   "political-watch/covid-19": {
     "next_session_date": "",
     "sessions": [
+      {"id": "sesion7", "date": "4 de junio",  "title": "Comparecencia de la Vicepresidenta Teresa Ribera"},
       {"id": "sesion5", "date": "28 de mayo",  "title": "Comparecencias de Vicepresidencias: Pablo Iglesias y Nadia Calviño"},
       {"id": "sesion4", "date": "26 de mayo",  "title": "Primera comparecencia: Vicepresidenta Carmen Calvo"},
       {"id": "sesion3", "date": "14 de mayo",  "title": "Todo listo para comenzar el trabajo de la Comisión"},
@@ -1154,6 +1155,127 @@
         "name": "teruelexiste",
         "proposals": [
           "No estaban presentes."
+        ]
+      }
+    ]
+  },
+  "political-watch/covid-19/sesion7": {
+    "title": "Sesión del 4 de junio",
+    "analysis": "https://docs.google.com/document/d/1AMMjtCz8ArHqphUNx4C3ivcw66eR-20wMP6GE_PTQ_Q",
+    "transcription": "https://docs.google.com/document/d/1tQ2vTNQXtHrpkZEpR0rAefA8RpHaiuXeq6W1MEJYQ-k",
+    "video": "http://www.congreso.es/wc/wc/audiovisualEmisionSemiDirecto?codOrgano=390&codSesion=7&idLegislaturaElegida=14",
+    "headline": "Tercera ronda de comparecencias de vicepresidencias en la Comisión para la Reconstrucción protagonizada por Teresa Ribera, quien ha defendido la necesidad de continuar avanzando en la transición ecológica como herramienta para salir de la crisis. Advirtiendo a la vez los peligros de las soluciones de 'corto recorrido y alto coste medioambiental'",
+    "documents": [
+    ],
+    "vizz_primary": "S7_Nube_TeresaRibera.png",
+    "vizzs_tipi": [
+      "S7_ResumenTIPI_TeresaRibera.png"
+    ],
+    "vizzs_p2030": [
+      "S7_ResumenODS_TeresaRibera.png"
+    ],
+    "parties": [
+      {
+        "name": "psoe",
+        "proposals": [
+          "Mantener el protagonismo de la agenda verde en la recuperación española y europea, no como una amenaza sino como una oportunidad para movilidad sostenible, rehabilitación urbana, rehabilitación de viviendas, digitalización, eficiencia energética, energías renovables, transicción ecológica, transición energética, economía circular, reutilización de productos, reducción de residuos, de agricultura sostenible, turismo sostenible, reto demográfico, transformación industrial o desarrollo rural."
+        ]
+      },
+      {
+        "name": "pp",
+        "proposals": [
+          "Proteger a la industria básica española (acero, química, cemento...), como pre-requisito del desarrollo sostenible."
+        ]
+      },
+      {
+        "name": "vox",
+        "proposals": [
+        ]
+      },
+      {
+        "name": "unidaspodemos",
+        "proposals": [
+          "Impulsar el 'Green Deal': política industrial verde y una transformación del sector automóvilístico hacia un sector con futuro."
+        ]
+      },
+      {
+        "name": "cs",
+        "proposals": [
+          "Alcanzar un Pacto de Estado por la Reconstrucción Verde, consensuado entre todos y no decidido unilateralmente por el Gobierno."
+        ]
+      },
+      {
+        "name": "erc",
+        "proposals": [
+          "Impulsar los Planes de Desarrollo Rural.",
+          "Establecer Planes de Prevención ante el impacto del cambio climático.",
+          "Rehacer la legislación ambiental (Ley de Costas, Ley de Montes) para reintroducir la protección del medioambiente."
+        ]
+      },
+      {
+        "name": "junts",
+        "proposals": [
+          "Introducción de un IVA reducido a los materiales sanitarios reutilizables (como ya se ha hecho con los de un sólo uso)."
+        ]
+      },
+      {
+        "name": "pnv",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "ehbildu",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "maspais",
+        "proposals": [
+        ]
+      },
+      {
+        "name": "cup",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "cc",
+        "proposals": [
+          "Convertir a la economía circular en la gran oportunidad de diversificación de la economía canaria y de generación de empleo."
+        ]
+      },
+      {
+        "name": "upn",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "compromis",
+        "proposals": [
+          "Incrementar el presupuesto público destinado a la regeneración de las costas, como factor para defender el sector turístico en el contexto de la reconstrucción."
+        ]
+      },
+      {
+        "name": "bng",
+        "proposals": [
+          "Que el re-impulso económico se haga a partir de criterios de sostenibilidad, pero también con justicia social.",
+          "Reconsiderar la modificación que introduce la Ley de Transición Ecológica (art.18) sobre la gestión del dominio público marítimo terrestre."
+        ]
+      },
+      {
+        "name": "prc",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "teruelexiste",
+        "proposals": [
+          "Replanteamiento del modelo de desarrollo que no acumule recursos humanos y económicos en las grandes urbes y que exige después destinar recursos a solucionar los problemas que genera."
         ]
       }
     ]

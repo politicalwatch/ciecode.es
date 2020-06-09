@@ -512,6 +512,7 @@
   "political-watch/covid-19": {
     "next_session_date": "",
     "sessions": [
+      {"id": "sesion8", "date": "9 de junio",  "title": "Comparecencia de la Ministra Arancha González Laya"},
       {"id": "sesion7", "date": "4 de junio",  "title": "Comparecencia de la Vicepresidenta Teresa Ribera"},
       {"id": "sesion5", "date": "28 de mayo",  "title": "Comparecencias de Vicepresidencias: Pablo Iglesias y Nadia Calviño"},
       {"id": "sesion4", "date": "26 de mayo",  "title": "Primera comparecencia: Vicepresidenta Carmen Calvo"},
@@ -1276,6 +1277,132 @@
         "name": "teruelexiste",
         "proposals": [
           "Replanteamiento del modelo de desarrollo que no acumule recursos humanos y económicos en las grandes urbes y que exige después destinar recursos a solucionar los problemas que genera."
+        ]
+      }
+    ]
+  },
+  "political-watch/covid-19/sesion8": {
+    "title": "Sesión del 9 de junio",
+    "analysis": "https://docs.google.com/document/d/1XDX1N1oyPG59QWxAEHZKyboGRWz1fVYXgkUFYL_MOTo/",
+    "transcription": "https://drive.google.com/open?id=1t41e6xACNN_vGMGR_8oqqsL-ITWjg9hPF_fzzxAUL7g",
+    "video": "http://www.congreso.es/wc/wc/audiovisualEmisionSemiDirecto?codOrgano=390&codSesion=8&idLegislaturaElegida=14",
+    "headline": "Continúan las rondas de comparecencias en la Comisión de Reconstrucción, ahora ha tocado a la Ministra de Asuntos Exteriores, UE y Cooperación, además de representantes de SESPAS, Fundación Renovables y la Alianza de Organizaciones Ecologistas. La ministra González Laya ha insistido en la necesidad de una España fuerte en el contexto europeo, apostando a su vez por una reconstrucción verde.",
+    "documents": [
+    ],
+    "vizz_primary": "S8_NUBE_GonzalezLaya.png",
+    "vizzs_tipi": [
+      "S8_Resumen_TIPI_GonzalezLaya.png"
+    ],
+    "vizzs_p2030": [
+      "S8_ODS_GonzalezLaya.png"
+    ],
+    "parties": [
+      {
+        "name": "psoe",
+        "proposals": [
+        ]
+      },
+      {
+        "name": "pp",
+        "proposals": [
+        ]
+      },
+      {
+        "name": "vox",
+        "proposals": [
+          "Dedicar 'el poco dinero que tenemos' para pagar a los españoles y no a los inmigrantes que lleguen a España debido al efecto llamada del Ingreso Mínimo Vital.",
+          "Reducción del gasto político ineficaz, acabando con la financiación de los 'chiringuitos ideológicos' en Europa."
+        ]
+      },
+      {
+        "name": "unidaspodemos",
+        "proposals": [
+          "Reformar el Banco Central Europeo",
+          "Poner fin a los paraísos fiscales.",
+          "Creación de un sistema impositivo europeo",
+          "Reforzar la financiación de las ciudades (con un 14% de los fondos europeos para la reconstrucción)"
+        ]
+      },
+      {
+        "name": "cs",
+        "proposals": [
+          "Transparencia en la información sobre los contactos del Gobierno de España con la OMS y el Centro Europeo para la Prevención y Control de Enfermedades durante la gestión de la pandemia."
+        ]
+      },
+      {
+        "name": "erc",
+        "proposals": [
+          "Tomar ejemplo de las movilizaciones antiracistas y acabar con la violencia policial en la UE y en el estado español.",
+          "Apuesta clara por la Cooperación, con especial foco en Sanidad y Educación.",
+          "Garantizar que cuando esté disponible la vacuna, todos los países puedan tener acceso a ella.",
+          "Empoderar a las redes y entidades de cooperación europea para que sean ellas las que gestionen directamente los fondos europeos de reconstrucción, sin pasar por las autoridades centrales de los estados.",
+          "Remover los obstáculos jurídicos y técnicos para el movimiento de personas y mercancías en los espacios fronterizos entre estados."
+        ]
+      },
+      {
+        "name": "junts",
+        "proposals": [
+        ]
+      },
+      {
+        "name": "pnv",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "ehbildu",
+        "proposals": [
+          "Apertura de la frontera con Francia desde el País Vasco.",
+          "Establecer a nivel europeo un impuesto a las empresas tecnológicas y otro a las grandes fortunas, como fuente de ingresos propios del Fondo de Recuperación Europeo."
+        ]
+      },
+      {
+        "name": "maspais",
+        "proposals": [
+        ]
+      },
+      {
+        "name": "cup",
+        "proposals": [
+          "Lograr que Europa permita tomar control público de empresas como la planta de Nissan."
+        ]
+      },
+      {
+        "name": "cc",
+        "proposals": [
+          "Condiciones comunes a escala europea en materia de turismo y transporte aéreo.",
+          "Fondo de cooperación con latioamérica en materia de suministros sanitarios"
+        ]
+      },
+      {
+        "name": "upn",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "compromis",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "bng",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "prc",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "teruelexiste",
+        "proposals": [
+          "No estaban presentes."
         ]
       }
     ]

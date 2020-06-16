@@ -512,6 +512,7 @@
   "political-watch/covid-19": {
     "next_session_date": "",
     "sessions": [
+      {"id": "sesion9", "date": "11 de junio",  "title": "Comparecencia de la Ministra Yolanda Díaz"},
       {"id": "sesion8", "date": "9 de junio",  "title": "Comparecencia de la Ministra Arancha González Laya"},
       {"id": "sesion7", "date": "4 de junio",  "title": "Comparecencia de la Vicepresidenta Teresa Ribera"},
       {"id": "sesion5", "date": "28 de mayo",  "title": "Comparecencias de Vicepresidencias: Pablo Iglesias y Nadia Calviño"},
@@ -1385,6 +1386,135 @@
         "name": "compromis",
         "proposals": [
           "No estaban presentes."
+        ]
+      },
+      {
+        "name": "bng",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "prc",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "teruelexiste",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      }
+    ]
+  },
+  "political-watch/covid-19/sesion9": {
+    "title": "Sesión del 11 de junio",
+    "analysis": "https://docs.google.com/document/d/1KFAyrRnI6XPcqAj1c1QxCiqXtVTdmfUGctOWBnVwp4o",
+    "transcription": "https://docs.google.com/document/d/1MFW_y_hlh8uYDr_PQcReSgRVZ9cQ2xeUsm5z1tanTwA/",
+    "video": "http://www.congreso.es/wc/wc/audiovisualEmisionSemiDirecto?codOrgano=390&codSesion=9&idLegislaturaElegida=14",
+    "headline": "La comparecencia de la Ministra de Trabajo en la Comisión de Reconstrucción dio pie a un interesante debate en torno a ideas y propuestas en materia laboral. No sólo para recuperar el empleo destruido durante la pandemia, sino para abordar las debilidades endémicas del mercado laboral español, como son la precariedad y la temporalidad. Han surgido ideas en torno al potencial para el empleo de nuevos sectores relacionados con la transición energética y digital o al abordaje de la desigualdad en el reparto del sistema de cuidados. La prolongación de los ERTEs y los retos de la conciliación laboral y el teletrabajo también han sido objeto de debate.",
+    "documents": [
+    ],
+    "vizz_primary": "S9_Nube_YolandaDiaz.png",
+    "vizzs_tipi": [
+      "S9_Resumen_TIPI_YolandaDiaz.png"
+    ],
+    "vizzs_p2030": [
+      "S9_Resumen_ODS_YolandaDiaz.png"
+    ],
+    "parties": [
+      {
+        "name": "psoe",
+        "proposals": [
+          "Creación de empleos dignos  y estables.",
+          "Impulsar el nuevo estatuto de las trabajadores que aune crecimiento económico y empleo con derechos que afronte los problemas estrucuturales como la temporalidad, explotación, el teletrabajo, la profesionalidad de los cuidados, seguridad sanitaria, conciliación para alcanzar una igualdad real.",
+          "Mejorar las políticas activas de empleo."
+        ]
+      },
+      {
+        "name": "pp",
+        "proposals": [
+        ]
+      },
+      {
+        "name": "vox",
+        "proposals": [
+          "Prorrogar los ERTEs hasta que acabe la situación de pandemia RL 8/2020 más allá del 30 de junio."
+        ]
+      },
+      {
+        "name": "unidaspodemos",
+        "proposals": [
+          "Reforzar los servicios públicos: mejorar más empleos y dar calidad a los empleos que ya existen.",
+          "Profesionalizar los cuidados y desprivatizarlos de empresas multiservicios.",
+          "Apostar por la robotización en los puestos de empleo.",
+          "Mejorar la calidad del empleo."
+        ]
+      },
+      {
+        "name": "cs",
+        "proposals": [
+          "Extender los ERTEs hasta el 30 de septiembre o más allá en sectores productivos más afectados.",
+          "Modifcar el Plan MeCuida para ampliar su vigencia más alla de los tres meses inciales.",
+          "Dotar de una prestación y apoyo para familias con menos recursos que tienen obligaciones de cuidados."
+        ]
+      },
+      {
+        "name": "erc",
+        "proposals": [
+          "Cambios estructurales a nivel laboral para desmontar el dispositivo de legislación laboral creado entre 2008 y 2013."
+        ]
+      },
+      {
+        "name": "junts",
+        "proposals": [
+          "Publicación de los términos exactos de las prórrogas de los ERTEs.",
+          "Buscar acuerdos parlamentarios para la regulación del teletrabajo."
+        ]
+      },
+      {
+        "name": "pnv",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "ehbildu",
+        "proposals": [
+        ]
+      },
+      {
+        "name": "maspais",
+        "proposals": [
+        ]
+      },
+      {
+        "name": "cup",
+        "proposals": [
+          "Priorizar inspecciones de trabajo en el campo y mataderos y empresas tecnológicas para acabar con la explotación laboral.",
+          "Ampliar la dotación económica para poder llevar a cabo estas inspecciones."
+        ]
+      },
+      {
+        "name": "cc",
+        "proposals": [
+          "Publicación de los términos exactos de las prórrogas de los ERTEs.",
+          "Firma del plan de empleo de Canarias"
+        ]
+      },
+      {
+        "name": "upn",
+        "proposals": [
+        ]
+      },
+      {
+        "name": "compromis",
+        "proposals": [
+          "Prolongar las medidas de protección más allá del 30 de junio para sectores que no han podido avanzar.",
+          "Implementar medidas para sectores que se quedaron fuera de las medidas del 14 de junio y que no están incorporados (autónomos, vendedores ambulantes u hostelería, entre otros).",
+          "Incorporar la mirada de los consumidores de las empresas en las medidas que se plantean para la reconstrucción.",
+          "Seguir avanzando en los acuerdos de investidura con los partidos más allá de lo que se plantea en las nuevas medidas para la reconstrucción."
         ]
       },
       {

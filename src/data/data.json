@@ -512,6 +512,7 @@
   "political-watch/covid-19": {
     "next_session_date": "",
     "sessions": [
+      {"id": "sesion11", "date": "18 de junio",  "title": "Comparecencia de Ministerios: Irene Montero y Salvador Illa."},
       {"id": "sesion9", "date": "11 de junio",  "title": "Comparecencia de la Ministra Yolanda Díaz"},
       {"id": "sesion8", "date": "9 de junio",  "title": "Comparecencia de la Ministra Arancha González Laya"},
       {"id": "sesion7", "date": "4 de junio",  "title": "Comparecencia de la Vicepresidenta Teresa Ribera"},
@@ -1448,7 +1449,8 @@
         "proposals": [
           "Reforzar los servicios públicos: mejorar más empleos y dar calidad a los empleos que ya existen.",
           "Profesionalizar los cuidados y desprivatizarlos de empresas multiservicios.",
-          "Apostar por la robotización en los puestos de empleo.",
+          "Apostar por la digitalización y robotización y no quedarnos a cola en este ámbito.",
+          "Salarios dignos",
           "Mejorar la calidad del empleo."
         ]
       },
@@ -1515,6 +1517,157 @@
           "Implementar medidas para sectores que se quedaron fuera de las medidas del 14 de junio y que no están incorporados (autónomos, vendedores ambulantes u hostelería, entre otros).",
           "Incorporar la mirada de los consumidores de las empresas en las medidas que se plantean para la reconstrucción.",
           "Seguir avanzando en los acuerdos de investidura con los partidos más allá de lo que se plantea en las nuevas medidas para la reconstrucción."
+        ]
+      },
+      {
+        "name": "bng",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "prc",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "teruelexiste",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      }
+    ]
+  },
+  "political-watch/covid-19/sesion11": {
+    "title": "Sesión del 18 de junio",
+    "analysis": "https://docs.google.com/document/d/1ayH97FF7JNm-OmArWIvOs0tAAxCz52je5ayT4zxztYQ/",
+    "transcription": "https://docs.google.com/document/d/1qXJ8wmbQTvgsAE2xNmdyk71y6YsA6tgy_cl2w5B_wks/",
+    "video": "http://www.congreso.es/wc/wc/audiovisualEmisionSemiDirecto?codOrgano=390&codSesion=11&idLegislaturaElegida=14",
+    "headline": "Las comparecencias de la ministra de Igualdad y del ministro de Sanidad en la Comisión para la Reconstrucción han estado plagadas de propuestas de cambios a nivel estructural. Concretamente, la ministra Irene Montero apuesta por un Pacto de Estado por los cuidados desde la visión de los cuidados como vector de desarrollo económico y democrático de la sociedad española. Por su parte, el ministro Illa ha defendido la transformación del Sistema Nacional de Salud  que ponga el foco en la prevención de futuras pandemias, un sistema centrado en las personas, que proteja al personal sanitario y que afiance la sanidad pública como pilar del Estado de Bienestar. Para ello apela a la coordinación, la  cooperación y el impulso  de las Comunidades Autónomas en esta transformación y se ha comprometido a aumentar  los recursos destinados a sanidad hasta alcanzar un 7% del PIB .",
+    "documents": [
+    ],
+    "vizz_primary": "S11_NUBES_ILLA-MONTERO.png",
+    "vizzs_tipi": [
+      "S11_ResumenTIPI_IreneMontero.png",
+      "S11_RESUMEN_TIPI_ILLA.png"
+    ],
+    "vizzs_p2030": [
+      "S11_BarrasODS_IreneMontero.png",
+      "S11_RESUMEN_ODS_ILLA.png"
+    ],
+    "parties": [
+      {
+        "name": "psoe",
+        "proposals": [
+          "Profesionalización de los cuidados y otorgarle el reconocimiento social, laboral y económico que ello exige.",
+          "Combatir la violencia de género en la fase post Covid-19, concretamente reforzando los recursos de protección a las víctimas (servicios forenses de valoración integral) y reconociendo que el papel del ámbito sanitario como espacio para detectar casos de violencia."
+        ]
+      },
+      {
+        "name": "pp",
+        "proposals": [
+          "Dar mayor protección laboral y social al sector de las Kellys (camareras de piso).",
+          "Reformas estructurales en el sistema de Sanidad y Salud Pública para mejor gobernanza del sistema, impulsar un Sistema de Salud Pública que integre los diferentes órganos que forman parte del sistema de salud junto con todos los órganos de vigilancia epidemiológicas.",
+          "Crear una oficina de víctimas de la COVID-19 y se reconozca como enfermedad profesional de los sanitarios."
+        ]
+      },
+      {
+        "name": "vox",
+        "proposals": [
+          "Extensión de los PCR,multiplicar pruebas diagnósticas y aplicar una estrategia amplia  y dirigida incluyendo en la frontera.",
+          "Impulsar las vacunas."
+        ]
+      },
+      {
+        "name": "unidaspodemos",
+        "proposals": [
+          "Reconocer el valor educativo de 0-3 años y dignificar sus condiciones de trabajo.",
+          "Considerar las condiciones materiales que afectan a la salud mental de las personas como un problema sistémico de salud comunitaria que hay que abordar de forma colectiva.",
+          "Apostar a la sanidad desde una perspectiva de salud comunitaria.",
+          "Garantizar el acceso universal a la sanidad de  manera gratuita.",
+          "Compromisos en torno a la estabilidad de las plantillas de los profesionales del sistema sanitarios.",
+          "Reversión de la privatizaciones de centros sanitarios y trabajadores de los mismos.",
+          "Establecer de mecanismos de coordinación y cooperación entre todas las administraciones públicas para garantizar que la sanidad pública tiene excluido el lucro y se garantiza el acceso a la salud al conjunto de la población."
+        ]
+      },
+      {
+        "name": "cs",
+        "proposals": [
+          "Realizar un análisis desde la perspectiva de género del impacto de la crisis del Covid-19 (en términos de pérdida o reducción de empleo, en términos de acogimiento al teletrabajo o a personas acogidas al plan MeCuida).",
+          "Avanzar en la profesionalización de los cuidados.",
+          "Avanzar en el alcance y ambición de la Ley de Igualdad de Trato",
+          "Reforzar la vigilancia epidemiológica.",
+          "Priorizar el desarrollo de la Ley general de Salud Pública.",
+          "Mejorar la coordinación de la política Sanitaria de la mano de las Consejerías.",
+          "Apostar de forma decidida por la industria biomédica a nivel nacional."
+        ]
+      },
+      {
+        "name": "erc",
+        "proposals": [
+          "Impregnar a todo el proceso de reconstrucción de una perspectiva feminista.",
+          "Distinguir legalmente los casos de trata de los casos de prostitución 'libremente ejercida'",
+          "Garantizar el permiso retribuido para familias monomarentales o de dos adultos con personas dependientes a cargo.",
+          "Hacen suyas las pretensiones de las Kellys (camareras de piso)"
+        ]
+      },
+      {
+        "name": "junts",
+        "proposals": [
+          "Realizar las reformas legales necesarias para permitir la comparecencia telemática de las víctimas de violencia de género en los juicios.",
+          "Aumentar la financiación en sanidad."
+        ]
+      },
+      {
+        "name": "pnv",
+        "proposals": [
+          "Garantizar que las medidas que se adopten en el marco de la lucha contra la desigualdad sean eficaces, pero sobre todo eficientes para asegurar que son sostenibles y que pueden ser llevadas a la práctica.",
+          "Apostar  por una atención domiciliaria y personalizada.",
+          "Flexibilidad en la toma de decisiones impulsando políticas simplificadoras en el sistema de compras, flexibilización de la contratación de servicios y personal, flexibilización de moficiación organizativa y  reorganización de relaciones laborales.",
+          "Sectorización y coordinación europea.",
+          "Optimizar los sistemas de vigilancia epidemiológicas a nivel europeo.",
+          "Incorporación de nuevos profesionales en el sistema sanitario como biólogos o  epidemiólogos."
+        ]
+      },
+      {
+        "name": "ehbildu",
+        "proposals": [
+          "Ratificación por parte de España del Convenio 189 de la OIT sobre las trabajadoras y los trabajadores domésticos.",
+          "Apoyan la tramitación de una Ley de Tiempo Corresponsable.",
+          "Apoyan la conformación de un Pacto de Estado por los Cuidados."
+        ]
+      },
+      {
+        "name": "maspais",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "cup",
+        "proposals": [
+          "Ratificación por parte de España del Convenio 189 de la OIT sobre las trabajadoras y los trabajadores domésticos."
+        ]
+      },
+      {
+        "name": "cc",
+        "proposals": [
+          "Atender la situación de las mujeres migrantes (con o sin hijos) llegadas en patera a Canarias durante la pandemina y que tras el periodo de confinamiento quedan en situación de desamparo.",
+          "Que el Ministerio de Igualdad lidere el proceso de elaboración de un protocolo de seguridad sanitaria para las escuelas infantiles, que se calcule el coste por plaza de aplicar dicho protocolo y que se financie con fondos públicos el aumento de personal necesario para cumplir con el mismo por parte de las escuelas infantiles.",
+          "Donación de mascarillas a los sectores vulnerables que no pueden costearlos."
+        ]
+      },
+      {
+        "name": "upn",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "compromis",
+        "proposals": [
+          "No estaban presentes."
         ]
       },
       {

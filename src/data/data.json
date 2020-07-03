@@ -512,6 +512,7 @@
   "political-watch/covid-19": {
     "next_session_date": "",
     "sessions": [
+      {"id": "sesion15", "date": "3 de julio",  "title": "La Comisión de Reconstrucción no entusiasma, pero avanza"},
       {"id": "sesion11", "date": "18 de junio",  "title": "Comparecencia de Ministerios: Irene Montero y Salvador Illa."},
       {"id": "sesion9", "date": "11 de junio",  "title": "Comparecencia de la Ministra Yolanda Díaz"},
       {"id": "sesion8", "date": "9 de junio",  "title": "Comparecencia de la Ministra Arancha González Laya"},
@@ -1686,6 +1687,233 @@
         "name": "teruelexiste",
         "proposals": [
           "No estaban presentes."
+        ]
+      }
+    ]
+  },
+  "political-watch/covid-19/sesion15": {
+    "title": "Sesión del 3 de julio",
+    "analysis": "https://docs.google.com/document/d/1OS_0vjoHoff1u6dkSSojXN9m_HPiewIwIIY4CNiwpQo/",
+    "transcription": "https://docs.google.com/document/d/10hXgliUExeZDnikiSfYQc_M9FN_YVtkWcXT_AwQH0UA/",
+    "video": "http://www.congreso.es/wc/wc/audiovisualEmisionSemiDirecto?codOrgano=390&codSesion=15&idLegislaturaElegida=14",
+    "headline": "Tras dos interminables sesiones (1 y 3 de julio), la Comisión de Reconstrucción ha finalizado hoy los trámites de negociación y aprobación del Dictamen que será enviado al Pleno del Congreso para su tramitación el próximo 20 de julio. Mientras que ningún partido ha mostrado su entusiasmo con el resultado obtenido, la mayoría de los partidos han destacado aspectos positivos, que han resultado suficientes para aunar los apoyos necesarios para su aprobación. El ámbito que más consenso ha generado ha sido el relacionado con la UE, mientras que la derogación de la reforma laboral, la educación concertada, los impuestos a las grandes fortunas, la financiación de la Ley de Dependencia y la invasión competencial, se destacan como los asuntos más polémicos aún sobre la mesa.",
+    "documents": [
+    ],
+    "vizz_primary": "",
+    "vizzs_tipi": [
+    ],
+    "vizzs_p2030": [
+    ],
+    "parties": [
+      {
+        "name": "psoe",
+        "proposals": [
+          "No indicaron cuestiones pendientes"
+        ]
+      },
+      {
+        "name": "pp",
+        "proposals": [
+          "Creación de una Agencia de la Salud Pública y Calidad Asistencial.",
+          "Plan Actuación ante Pandemias.",
+          "Plan de contingencia en centros socio-sanitarias.",
+          "Red de laboratorios de micro-biología en todo el territorio.",
+          "Plan de innovación tecnológico para el sector sanitario",
+          "Extensión del plazo de los ERTE, sobre todo en los sectores económicos de temporada.",
+          "Marco flexible (flexi-seguridad) en el mercado laboral.",
+          "Política fiscal: enmienda a la totalidad del bloque. No usar la fiscalidad sólo como herramienta recaudatoria, sino como incentivo económico y aumento de competitividad.",
+          "Presentación de una senda de consolidación fiscal creíble por parte del Gobierno, informada por la AIREF.",
+          "Faltan medidas y propuestas a largo plazo.",
+          "Medidas para incentivar la creación de empleo.",
+          "Ley Básica de Servicios Sociales.",
+          "Reforzar plantillas de servicios sociales.",
+          "Eliminación de la brecha salarial de género.",
+          "Ataque a la libertad de los padres a elegir la educación de sus hijos.",
+          "Planificación estratégica a largo plazo de inversiones para absorver fondos europeos.",
+          "No desplazar a las haciendas públicas locales el posible aumento de los fondos propios disponibles.",
+          "Saneamiento de las finanzas públicas.",
+          "Suprimir cuanto antes la flexibilidad concedida por la UE para las ayudas de Estado.",
+          "Sacar a Gibraltar del texto de conclusiones."
+        ]
+      },
+      {
+        "name": "vox",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "unidaspodemos",
+        "proposals": [
+          "No indicaron cuestiones pendientes"
+        ]
+      },
+      {
+        "name": "cs",
+        "proposals": [
+          "Creación de un Cuerpo Sanitario de Reserva formado por voluntarios para suplir carencias de personal sanitario.",
+          "Creación de Agencia Española de Salud Pública.",
+          "No dejar fuera a la sanidad concertada (centros de gestión indirecta) de las medidas de reconstrucción.",
+          "Eficiencia del mercado laboral (flexi-seguridad).",
+          "Infraestructuras: colaboración público-privada para reducir el déficit público.",
+          "Eficiencia energética en edificios.",
+          "Uso del superavit de gasto de los Ayuntamientos.",
+          "Lucha contra el fraude fiscal.",
+          "Ley de Igualdad de Trato.",
+          "Protección de Feriantes.",
+          "Mujeres Empleadas del Hogar.",
+          "Critican la posición del texto sobre educación concertada.",
+          "Que el Gobierno traiga a las Cortes Generales el debate sobre la posición a llevar a las negociaciones europeas"
+        ]
+      },
+      {
+        "name": "erc",
+        "proposals": [
+          "Llaman la atención del enfoque re-centralizador de los documentos de la Comisión.",
+          "Mejora de las condiciones laborales del personal sanitario (aumento de recursos y plantillas).",
+          "Apuesta por la atención primaria y la investigación.",
+          "Dotación de recursos a la Ley de Dependencia.",
+          "Regularización exprés de los trabajadores sanitarios en situación laboral irregular.",
+          "Impuesto a las grandes fortunas.",
+          "Reducción del 40% del presupuesto de Defensa.",
+          "Liberar el superávit de los Ayuntamientos.",
+          "Banca pública real por parte de las CC.AA.",
+          "No se dice cómo se van a financiar las politicas propuestas.",
+          "Prestación remunerada para conciliación laboral para familias monoparentales.",
+          "Financiación de la Ley de Dependencia."
+        ]
+      },
+      {
+        "name": "junts",
+        "proposals": [
+          "Llaman la atención del enfoque re-centralizador de los documentos de la Comisión.",
+          "Necesidad de añadir memoria económica a las propuestas.",
+          "Régimen sancionador para la morosidad.",
+          "Políticas activas de ocupación.",
+          "I+D+i",
+          "Uso de remanente de gasto de los Ayuntamientos.",
+          "Modificación de la Reforma Laboral.",
+          "Critican la posición del texto sobre educación concertada.",
+          "Invasión competencial"
+        ]
+      },
+      {
+        "name": "pnv",
+        "proposals": [
+          "Llaman la atención del enfoque re-centralizador de los documentos de la Comisión.",
+          "Necesidad de añadir memoria económica a las propuestas",
+          "Echan en falta la visión de conjunto sobre cuáles deben los tractores de la recuperación económica y lo que hay son parches parciales útiles, pero necesitados de la visión de conjunto.",
+          "No hay memoria económica.",
+          "Liberar el déficit de gasto de las administraciones y aumentar el margen de endeudamiento de las CCAA.",
+          "Denuncia la invasión competencial de los temas abordados, lo cual les impide votar a favor del texto, aunque quedan abiertos a negociar.",
+          "Incorporar al documento a la UE como marco propio de actuación de las CC.AA."
+        ]
+      },
+      {
+        "name": "ehbildu",
+        "proposals": [
+          "Consideran que se han invadido competencias reforzando la centralidad del Estado que no mejoraría la gobernanza de la sanidad. Reconocen que se ha suavizado algo esto en el último borrador aprobado.",
+          "Protección a la gente que peor lo está pasando por la crisis: ayudas a autónomos, rescate de empresas e industrias estratégicas en riesgo, suspensión del pago de hipotecas y servicios básicos por parte de las familias en situación de vulnerabilidad.",
+          "Políticas de empleo: derogación de la reforma laboral, alargar ERTE hasta enero de 2021.",
+          "Política fiscal: impuesto a la banca; impuesto a las grandes fortunas; tasa Covid a las grandes empresas.",
+          "Denuncia la falta de concreción de las medidas.",
+          "Sector de los cuidados: deberá ser un eje central y apenas aparece en el texto.",
+          "Derechos sociales que impidan la pobreza y la exclusión social: pensiones mínimas de 1080 euros."
+        ]
+      },
+      {
+        "name": "maspais",
+        "proposals": [
+          "Protección de la Sanidad Pública en la Constitución.",
+          "Derogación de la Ley 15/97 por su efecto en la especulación y corrupción en la privatización de la sanidad.",
+          "Política farmaceútica, política bio-sanitaria y reservas estratégicas.",
+          "Lamenta que no haya condiciones climáticas y ambientales en la recepción de fondos y ayudas de reactivación económica en España como sí ocurre en Europa.",
+          "Más medidas de justicia fiscal para financiar los planes de reconstrucción (impuesto a las grandes fortunas).",
+          "Medidas de Derechos de la Infancia y Violencia contra la Infancia.",
+          "Protección de Trabajadoras del Hogar y asumir el Convenio 289 de OIT.",
+          "Igualar las prestaciones y derechos de las parejas de hecho."
+        ]
+      },
+      {
+        "name": "cup",
+        "proposals": [
+          "No estaban presentes."
+        ]
+      },
+      {
+        "name": "cc",
+        "proposals": [
+          "Votarán en contra del acuerdo de la Comisión por no recoger la realidad de Canarias y otras similares fuera de la península.",
+          "Lamentan la falta de apoyo del Gobierno a las políticas especiales necesarias para Canarias (políticas activas de empleo; régimen económico y fiscal de Canarias: bajada de tasas aeroportuarias para Baleares y Canarias).",
+          "Llaman la atención del incumplimiento de los compromismos de financiación del Estado a las CCAA y, en especial, Canarias.",
+          "Critica la posición contra la educación concertada del documento aprobado.",
+          "Incluir la singularidad canaria en el diseño, presupuesto e implementación de políticas.",
+          "Mantenimiento de los fondos POSEI.",
+          "Papel de Canarias en la relación de la UE con África y respecto al Brexit."
+        ]
+      },
+      {
+        "name": "nc",
+        "proposals": [
+          "Previene contra la tentación de recentralizar el sistema sanitario.",
+          "Indican su apoyo al texto, pero avisa que habrá que concretar las medidas para adaptar las medidas a las realidades territoriales.",
+          "Falta de perspectiva de distintos territorios.",
+          "Falta memoria económica de las medidas.",
+          "Ampliar ERTE de fuerza mayor para el sector turístico hasta la nueva temporada.",
+          "Singularidades canarias son un hecho diferencial a tener en cuenta al defender los intereses de España ante la UE."
+        ]
+      },
+      {
+        "name": "upn",
+        "proposals": [
+          "Muy críticos con el trabajo del GT de Sanidad porque no parte de un reconocimiento de los graves errores cometidos.",
+          "Educación concertada: su ataque es un ataque a la libertad y evidencia la falta de espíritu de acuerdo de la Comisión."
+        ]
+      },
+      {
+        "name": "compromis",
+        "proposals": [
+          "También lamentan la pulsión re-centralizadora de algunos aspectos del texto aprobado.",
+          "Derogación de Reforma Laboral.",
+          "Impuesto a las Grandes Fortunas.",
+          "Agricultura: recursos para investigación a plagas y exigencias fito-sanitarias a terceros países.",
+          "Cumplimiento por el Estado de la financiación del 50% de la Dependencia.",
+          "Tratado de Mercosur: si hay impacto desfavorable para productores españoles, votar en contra."
+        ]
+      },
+      {
+        "name": "bng",
+        "proposals": [
+          "Lamentan la gran pulsión re-centralizadora.",
+          "Lamentan que no se haya sido más tajante en contra del apoyo público a la gestión privada de la sanidad.",
+          "Medidas para que pague más a quien más tiene.",
+          "Derogación de la Reforma Laboral.",
+          "Impuesto a las Grandes Fortunas.",
+          "Recuperar el Fondo Rescate Bancario.",
+          "Nacionalización de sectores estratégicos.",
+          "Política sobre cuidados: Plan de Intervención Pública de las Residencias.",
+          "Financiación del 50% de la Dependencia por el Estado.",
+          "Condonación de hipotecas.",
+          "Salario de inserción laboral.",
+          "Faltan menciones a la condonación de la deuda de los Estados generada durante la pandemia.",
+          "Si hay rescate a los países que se haga sin condiciones en recortes sociales."
+        ]
+      },
+      {
+        "name": "prc",
+        "proposals": [
+          "Lamenta la ausencia en el texto de Construcción y Obra Pública.",
+          "Lamenta la ausencia de memoria económica.",
+          "Lamenta la poca presencia de reforma fiscal: no basta decir que paguen más los que más tienen, hay que detallar cuánto."
+        ]
+      },
+      {
+        "name": "teruelexiste",
+        "proposals": [
+          "Historia clínica electrónica compartida en todo el territorio",
+          "MIR para gestores sanitarios.",
+          "Echan en falta las menciones a carencia de servicios sociales en el mundo rural y mantienen propuestas específicas en este sentido, en materias como 'mujer rural'.",
+          "Vincular el marco financiero a la despoblación."
         ]
       }
     ]

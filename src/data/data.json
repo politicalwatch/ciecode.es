@@ -512,6 +512,7 @@
   "political-watch/covid-19": {
     "next_session_date": "",
     "sessions": [
+      {"id": "dictamen", "date": "9 de julio",  "title": "Se publica el dictamen final de la Comisión"},
       {"id": "sesion15", "date": "3 de julio",  "title": "La Comisión de Reconstrucción no entusiasma, pero avanza"},
       {"id": "sesion11", "date": "18 de junio",  "title": "Comparecencia de Ministerios: Irene Montero y Salvador Illa."},
       {"id": "sesion9", "date": "11 de junio",  "title": "Comparecencia de la Ministra Yolanda Díaz"},
@@ -1699,13 +1700,9 @@
     "headline": "Tras dos interminables sesiones (1 y 3 de julio), la Comisión de Reconstrucción ha finalizado hoy los trámites de negociación y aprobación del Dictamen que será enviado al Pleno del Congreso para su tramitación el próximo 20 de julio. Mientras que ningún partido ha mostrado su entusiasmo con el resultado obtenido, la mayoría de los partidos han destacado aspectos positivos, que han resultado suficientes para aunar los apoyos necesarios para su aprobación. El ámbito que más consenso ha generado ha sido el relacionado con la UE, mientras que la derogación de la reforma laboral, la educación concertada, los impuestos a las grandes fortunas, la financiación de la Ley de Dependencia y la invasión competencial, se destacan como los asuntos más polémicos aún sobre la mesa.",
     "documents": [
     ],
-    "vizz_primary": "S15_Nube_Dictamen.png",
-    "vizzs_tipi": [
-      "S15_TIPI_Dictamen.png"
-    ],
-    "vizzs_p2030": [
-      "S15_ODS_Dictamen.png"
-    ],
+    "vizz_primary": "",
+    "vizzs_tipi": [],
+    "vizzs_p2030": [],
     "parties": [
       {
         "name": "psoe",
@@ -1919,6 +1916,24 @@
         ]
       }
     ]
+  },
+  "political-watch/covid-19/dictamen": {
+    "title": "Dictamen final",
+    "analysis": "https://docs.google.com/document/d/15PYUuRtYY3RKEp07fsFarIUv4-ANMp-JRPw6nk3sA0M/",
+    "transcription": "",
+    "video": "",
+    "headline": "Buenas intenciones, propuestas abstractas y una resolución ambigua. Este es el balance que desde Political Watch hacemos del Dictamen de la Comisión de Reconstrucción Social y Económica cuya tramitación acabará en el Pleno del Congreso la semana del 20 de julio. La falta de concreción de muchas de las propuestas incluidas en el Dictamen rebajan las expectativas respecto de la relevancia real de los acuerdos alcanzados. Ello no nos impide reconocer la existencia de muchos aspectos positivos, especialmente los referidos a proteger a los colectivos más vulnerables (becas, brecha digital, vivienda pública, conciliación, copago sanitario). Deseamos que la presión ciudadana sea capaz de meter en el texto final cuestiones que no han entrado en el Dictamen, como la derogación de la Ley Mordaza, el acceso universal a la sanidad para las personas migrantes o la ratificación del convenio 189 de la OIT.",
+    "documents": [
+      {"name": "Dictamen final de la Comisión", "url": "http://www.congreso.es/docu/comisiones/reconstruccion/153_1_Dictamen.pdf", "icon": "file-o"}
+    ],
+    "vizz_primary": "DICTAMEN_Nube.png",
+    "vizzs_tipi": [
+      "DICTAMEN_TIPI.png"
+    ],
+    "vizzs_p2030": [
+      "DICTAMEN_ODS.png"
+    ],
+    "parties": []
   },
   "investigacion": {
     "reports": {

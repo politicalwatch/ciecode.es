@@ -41,38 +41,35 @@
         </div>
         <div class="col-sm-6 text-center">
 
-          <% if (data.analysis == "") { %>
-            <a href="#" class="xs-btn btn btn-primary not-active" title="No disponible aun">Resumen de la sesión</a>
-          <% } else { %>
-            <a href="<%= data.analysis %>" target="_blank" class="xs-btn btn btn-primary">Resumen de la sesión</a>
+          <% if (data.analysis != "") { %>
+            <a href="<%= data.analysis %>" target="_blank" class="xs-btn btn btn-primary">Resumen</a>
           <% } %>
 
           <br>
           <br>
 
-          <% if (data.transcription == "") { %>
-          <a href="#" class="xs-btn btn btn-primary not-active" title="No disponible aun">Transcripción completa *</a>
-          <% } else { %>
-            <a href="<%= data.transcription %>" target="_blank" class="xs-btn btn btn-primary">Transcripción completa *</a>
+          <% if (data.transcription != "") { %>
+            <a href="<%= data.transcription %>" target="_blank" class="xs-btn btn btn-primary">Transcripción *</a>
           <% } %>
 
           <br>
           <br>
 
-          <% if (data.video == "") { %>
-          <a href="#" class="not-active" title="No disponible aun"><i class="fa fa-play-circle-o"></i> Ver el vídeo</a>
-          <% } else { %>
+          <% if (data.video != "") { %>
             <a href="<%= data.video %>" target="_blank" class="color-navy-blue bold"><i class="fa fa-play-circle-o"></i> Ver el vídeo</a>
           <% } %>
 
           <br>
 
-          <a class="color-navy-blue bold" href="<%= global.folderName %>political-watch/covid-19" class="color-white"><i class="fa fa-th-list"></i> Consulta otra sesión</a>
+          <a class="color-navy-blue bold" href="<%= global.folderName %>political-watch/covid-19#sesiones" class="color-white"><i class="fa fa-th-list"></i> Consulta otra sesión</a>
 
           <br>
           <br>
 
-          <small>* Esta transcripción es ofrecida a meros efectos informativos.<br/> La oficial estará disponible en <a href="http://www.congreso.es" target="_blank" class="color-green">Congreso.es</a>.</small>
+          <% if (data.transcription != "") { %>
+            <small>* Esta transcripción es ofrecida a meros efectos informativos.<br/> La oficial estará disponible en <a href="http://www.congreso.es" target="_blank" class="color-green">Congreso.es</a>.</small>
+          <% } %>
+
         </div>
       </div>
     </div>
@@ -138,6 +135,7 @@
   </section>
   <% } %>
 
+  <% if (data.parties.length != 0) { %>
   <section class="xs-about-us-promo-section xs-content-section-padding fundpress-about-us-promo-section">
     <div class="container">
       <div class="fundpress-section-heading fundpress-heading-title fundpress-heading-title-v2 content-left" style="width:100%;">
@@ -147,46 +145,44 @@
       <div class="row">
         <div class="col-sm-12">
 
-            <% if (data.parties.length == 0) { %>
-            <div class="xs-info-card">
-              <div class="alert alert-warning" role="alert">Lo debatido hoy no da para más. Esperamos mostrarte más información en otras sesiones.</div>
-            </div>
-            <% } else { %>
-            <div class="xs-info-card parties">
-              <% for (var i=0; i<data.parties.length; i++) { %>
-                <div class="row">
-                  <div class="col-md-1 col-sm-2">
-                    <img src="<%= global.folderName %>assets/images/covidwatch/parties/<%= data.parties[i].name %>.png" alt="Logo de <%= data.parties[i].name %>" class="img-responsive">
-                  </div>
-                  <div class="col-md-11 col-sm-10">
-                    <ul>
-                      <% if (data.parties[i].proposals.length == 0) { %>
-                      <li>
-                        <i class="fa fa-check-circle"></i>&nbsp;No han hecho propuestas.
-                      </li>
-                      <% } else { %>
-                        <% for (var j=0; j<data.parties[i].proposals.length; j++) { %>
-                          <li>
-                            <i class="fa fa-check-circle"></i>&nbsp;<%= data.parties[i].proposals[j] %>
-                          </li>
-                        <% } %>
-                      <% } %>
-                    </ul>
-                  </div>
+          <!-- <div class="xs&#45;info&#45;card"> -->
+          <!--   <div class="alert alert&#45;warning" role="alert">Lo debatido hoy no da para más. Esperamos mostrarte más información en otras sesiones.</div> -->
+          <!-- </div> -->
+          <div class="xs-info-card parties">
+            <% for (var i=0; i<data.parties.length; i++) { %>
+              <div class="row">
+                <div class="col-md-1 col-sm-2">
+                  <img src="<%= global.folderName %>assets/images/covidwatch/parties/<%= data.parties[i].name %>.png" alt="Logo de <%= data.parties[i].name %>" class="img-responsive">
                 </div>
-                <% } %>
-            </div>
-            <% } %>
+                <div class="col-md-11 col-sm-10">
+                  <ul>
+                    <% if (data.parties[i].proposals.length == 0) { %>
+                    <li>
+                      <i class="fa fa-check-circle"></i>&nbsp;No han hecho propuestas.
+                    </li>
+                    <% } else { %>
+                    <% for (var j=0; j<data.parties[i].proposals.length; j++) { %>
+                      <li>
+                        <i class="fa fa-check-circle"></i>&nbsp;<%= data.parties[i].proposals[j] %>
+                      </li>
+                      <% } %>
+                      <% } %>
+                  </ul>
+                </div>
+              </div>
+          </div>
+          <% } %>
         </div>
       </div>
     </div>
   </section>
+  <% } %>
 
   <section class="xs-about-us-promo-section xs-content-section-padding fundpress-about-us-promo-section">
     <div class="container">
       <div class="fundpress-section-heading fundpress-heading-title fundpress-heading-title-v2 content-left" style="width:100%;">
         <h2 class="color-navy-blue">TIPI nos dice que...</h2>
-        <p>Analizamos las temáticas más abordadas en la sesión gracias a TIPI Ciudadano.</p>
+        <p>Analizamos las temáticas más abordadas gracias a TIPI Ciudadano.</p>
       </div>
       <div class="row">
         <div class="col-sm-12">
@@ -218,7 +214,7 @@
     <div class="container">
       <div class="fundpress-section-heading fundpress-heading-title fundpress-heading-title-v2 content-left" style="width:100%;">
         <h2 class="color-navy-blue">Los ODS abordados</h2>
-        <p>Analizamos el contenido de la sesión en clave Agenda 2030 de Desarrollo Sosteible.</p>
+        <p>Analizamos el contenido en clave Agenda 2030 de Desarrollo Sosteible.</p>
       </div>
       <div class="row">
         <div class="col-sm-12">

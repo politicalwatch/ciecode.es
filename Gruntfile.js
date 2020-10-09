@@ -20,9 +20,6 @@ module.exports = function(grunt) {
     },
     sass: {
       dist: {
-        options: {
-          sourceMap: true
-        },
         files: {
           "../ciecode.es/assets/css/style.css": "src/assets/sass/style.scss"
         }
